@@ -1,0 +1,1449 @@
+{
+  "bundle": "live",
+  "revalidate": 900,
+  "builtAt": "2026-09-09T13:41:58.622Z",
+  "resources": {
+    "bunker": {
+      "lastUpdated": "2026-09-08T20:17:30.184Z",
+      "brentBasis": 98.91,
+      "brentChange": 2.63,
+      "note": "Estimated from Brent crude benchmark. For exact market prices: Ship & Bunker, Platts.",
+      "ports": [
+        {
+          "name": "Rotterdam",
+          "code": "ARA",
+          "region": "NW Europe",
+          "relevance": "Primary EU/UK supply hub — leading indicator for diesel and gasoil",
+          "vlsfo": 653,
+          "mgo": 773,
+          "vlsfoChange": 17.1,
+          "mgoChange": 17.1
+        },
+        {
+          "name": "Fujairah",
+          "code": "FUJA",
+          "region": "Middle East",
+          "relevance": "Gulf supply stress indicator — rises under Hormuz/Red Sea disruption",
+          "vlsfo": 668,
+          "mgo": 788,
+          "vlsfoChange": 17.1,
+          "mgoChange": 17.1
+        },
+        {
+          "name": "Singapore",
+          "code": "SING",
+          "region": "Asia-Pacific",
+          "relevance": "Global benchmark — reflects competition between Asian and EU buyers",
+          "vlsfo": 661,
+          "mgo": 783,
+          "vlsfoChange": 17.1,
+          "mgoChange": 17.1
+        }
+      ]
+    },
+    "prices": {
+      "lastUpdated": "2026-09-08T20:17:19.291Z",
+      "dataSource": "DESNZ Weekly Road Fuel Prices (CMA Road Fuel Prices Scheme)",
+      "csvUrl": "https://assets.publishing.service.gov.uk/media/6a9ec4516beb5206555555d2/CSV__2018_-__.csv",
+      "latest": {
+        "date": "2026-09-07",
+        "petrolPpl": 164.4,
+        "dieselPpl": 186.36,
+        "petrolGbp": 1.64,
+        "dieselGbp": 1.86,
+        "dutyPetrol": 52.95,
+        "dutyDiesel": 52.95,
+        "vatRate": 20
+      },
+      "changes": {
+        "petrolWeekPpl": 2.79,
+        "dieselWeekPpl": 2.87
+      },
+      "stats": {
+        "petrol52wHigh": 164.4,
+        "petrol52wLow": 131.46,
+        "diesel52wHigh": 192.14,
+        "diesel52wLow": 140.72
+      },
+      "history": [
+        {
+          "date": "2025-09-15",
+          "petrolPpl": 133.81,
+          "dieselPpl": 141.69
+        },
+        {
+          "date": "2025-09-22",
+          "petrolPpl": 134.15,
+          "dieselPpl": 142.02
+        },
+        {
+          "date": "2025-09-29",
+          "petrolPpl": 134.36,
+          "dieselPpl": 142.24
+        },
+        {
+          "date": "2025-10-06",
+          "petrolPpl": 134.76,
+          "dieselPpl": 142.92
+        },
+        {
+          "date": "2025-10-13",
+          "petrolPpl": 134.81,
+          "dieselPpl": 142.99
+        },
+        {
+          "date": "2025-10-20",
+          "petrolPpl": 134.69,
+          "dieselPpl": 142.81
+        },
+        {
+          "date": "2025-10-27",
+          "petrolPpl": 134.4,
+          "dieselPpl": 142.38
+        },
+        {
+          "date": "2025-11-03",
+          "petrolPpl": 134.38,
+          "dieselPpl": 142.61
+        },
+        {
+          "date": "2025-11-10",
+          "petrolPpl": 134.65,
+          "dieselPpl": 143.31
+        },
+        {
+          "date": "2025-11-17",
+          "petrolPpl": 135.07,
+          "dieselPpl": 143.97
+        },
+        {
+          "date": "2025-11-24",
+          "petrolPpl": 136.07,
+          "dieselPpl": 145.4
+        },
+        {
+          "date": "2025-12-01",
+          "petrolPpl": 136.61,
+          "dieselPpl": 146.2
+        },
+        {
+          "date": "2025-12-08",
+          "petrolPpl": 136.68,
+          "dieselPpl": 146.23
+        },
+        {
+          "date": "2025-12-15",
+          "petrolPpl": 136.83,
+          "dieselPpl": 146.14
+        },
+        {
+          "date": "2025-12-22",
+          "petrolPpl": 136.23,
+          "dieselPpl": 145.45
+        },
+        {
+          "date": "2025-12-29",
+          "petrolPpl": 135.34,
+          "dieselPpl": 144.59
+        },
+        {
+          "date": "2026-01-05",
+          "petrolPpl": 134.9,
+          "dieselPpl": 144.19
+        },
+        {
+          "date": "2026-01-12",
+          "petrolPpl": 133.43,
+          "dieselPpl": 142.63
+        },
+        {
+          "date": "2026-01-19",
+          "petrolPpl": 132.64,
+          "dieselPpl": 141.82
+        },
+        {
+          "date": "2026-01-26",
+          "petrolPpl": 132,
+          "dieselPpl": 141.26
+        },
+        {
+          "date": "2026-02-02",
+          "petrolPpl": 131.62,
+          "dieselPpl": 140.82
+        },
+        {
+          "date": "2026-02-09",
+          "petrolPpl": 131.46,
+          "dieselPpl": 140.72
+        },
+        {
+          "date": "2026-02-16",
+          "petrolPpl": 131.6,
+          "dieselPpl": 141.46
+        },
+        {
+          "date": "2026-02-23",
+          "petrolPpl": 131.71,
+          "dieselPpl": 141.46
+        },
+        {
+          "date": "2026-03-02",
+          "petrolPpl": 132.14,
+          "dieselPpl": 142.15
+        },
+        {
+          "date": "2026-03-09",
+          "petrolPpl": 135.67,
+          "dieselPpl": 149.01
+        },
+        {
+          "date": "2026-03-16",
+          "petrolPpl": 140.28,
+          "dieselPpl": 158.78
+        },
+        {
+          "date": "2026-03-23",
+          "petrolPpl": 144.16,
+          "dieselPpl": 166.88
+        },
+        {
+          "date": "2026-03-30",
+          "petrolPpl": 148.78,
+          "dieselPpl": 176.52
+        },
+        {
+          "date": "2026-04-06",
+          "petrolPpl": 154.65,
+          "dieselPpl": 186.75
+        },
+        {
+          "date": "2026-04-13",
+          "petrolPpl": 158.17,
+          "dieselPpl": 192.14
+        },
+        {
+          "date": "2026-04-20",
+          "petrolPpl": 157.62,
+          "dieselPpl": 191.24
+        },
+        {
+          "date": "2026-04-27",
+          "petrolPpl": 156.99,
+          "dieselPpl": 189.81
+        },
+        {
+          "date": "2026-05-04",
+          "petrolPpl": 156.82,
+          "dieselPpl": 188.79
+        },
+        {
+          "date": "2026-05-11",
+          "petrolPpl": 156.81,
+          "dieselPpl": 188.14
+        },
+        {
+          "date": "2026-05-18",
+          "petrolPpl": 157.39,
+          "dieselPpl": 186.56
+        },
+        {
+          "date": "2026-05-25",
+          "petrolPpl": 158.78,
+          "dieselPpl": 185.07
+        },
+        {
+          "date": "2026-06-01",
+          "petrolPpl": 158.74,
+          "dieselPpl": 184.11
+        },
+        {
+          "date": "2026-06-08",
+          "petrolPpl": 157.95,
+          "dieselPpl": 181.79
+        },
+        {
+          "date": "2026-06-15",
+          "petrolPpl": 155.54,
+          "dieselPpl": 176.71
+        },
+        {
+          "date": "2026-06-22",
+          "petrolPpl": 153.26,
+          "dieselPpl": 172.47
+        },
+        {
+          "date": "2026-06-29",
+          "petrolPpl": 151.02,
+          "dieselPpl": 167.12
+        },
+        {
+          "date": "2026-07-06",
+          "petrolPpl": 149.8,
+          "dieselPpl": 164.77
+        },
+        {
+          "date": "2026-07-13",
+          "petrolPpl": 150.53,
+          "dieselPpl": 164.52
+        },
+        {
+          "date": "2026-07-20",
+          "petrolPpl": 152.29,
+          "dieselPpl": 167.08
+        },
+        {
+          "date": "2026-07-27",
+          "petrolPpl": 156.13,
+          "dieselPpl": 173.97
+        },
+        {
+          "date": "2026-08-03",
+          "petrolPpl": 159.89,
+          "dieselPpl": 179.19
+        },
+        {
+          "date": "2026-08-10",
+          "petrolPpl": 162.15,
+          "dieselPpl": 181.97
+        },
+        {
+          "date": "2026-08-17",
+          "petrolPpl": 161.8,
+          "dieselPpl": 182.45
+        },
+        {
+          "date": "2026-08-24",
+          "petrolPpl": 161.63,
+          "dieselPpl": 182.82
+        },
+        {
+          "date": "2026-08-31",
+          "petrolPpl": 161.61,
+          "dieselPpl": 183.49
+        },
+        {
+          "date": "2026-09-07",
+          "petrolPpl": 164.4,
+          "dieselPpl": 186.36
+        }
+      ]
+    },
+    "crack": {
+      "lastUpdated": "2026-09-08T20:17:24.422Z",
+      "latestDate": "2026-09-01",
+      "crackUsd": 59.8,
+      "crackChangeUsd": -10.12,
+      "crackVsYearAgoUsd": 31.98,
+      "components": {
+        "brentUsd": 96.02,
+        "gasolineUsdGal": 3.203,
+        "ulsdUsdGal": 4.724
+      },
+      "history": [
+        {
+          "date": "2026-03-09",
+          "crackUsd": 26.69
+        },
+        {
+          "date": "2026-03-10",
+          "crackUsd": 34.56
+        },
+        {
+          "date": "2026-03-11",
+          "crackUsd": 41.17
+        },
+        {
+          "date": "2026-03-12",
+          "crackUsd": 37.26
+        },
+        {
+          "date": "2026-03-13",
+          "crackUsd": 39.16
+        },
+        {
+          "date": "2026-03-16",
+          "crackUsd": 37.85
+        },
+        {
+          "date": "2026-03-17",
+          "crackUsd": 36.36
+        },
+        {
+          "date": "2026-03-18",
+          "crackUsd": 33.45
+        },
+        {
+          "date": "2026-03-19",
+          "crackUsd": 37.31
+        },
+        {
+          "date": "2026-03-20",
+          "crackUsd": 40.03
+        },
+        {
+          "date": "2026-03-23",
+          "crackUsd": 38.77
+        },
+        {
+          "date": "2026-03-24",
+          "crackUsd": 35.63
+        },
+        {
+          "date": "2026-03-25",
+          "crackUsd": 32.68
+        },
+        {
+          "date": "2026-03-26",
+          "crackUsd": 33.58
+        },
+        {
+          "date": "2026-03-27",
+          "crackUsd": 34.73
+        },
+        {
+          "date": "2026-03-30",
+          "crackUsd": 36.35
+        },
+        {
+          "date": "2026-03-31",
+          "crackUsd": 25.34
+        },
+        {
+          "date": "2026-04-01",
+          "crackUsd": 24.11
+        },
+        {
+          "date": "2026-04-02",
+          "crackUsd": 27.44
+        },
+        {
+          "date": "2026-04-07",
+          "crackUsd": 13.49
+        },
+        {
+          "date": "2026-04-08",
+          "crackUsd": 17.5
+        },
+        {
+          "date": "2026-04-09",
+          "crackUsd": 21.26
+        },
+        {
+          "date": "2026-04-10",
+          "crackUsd": 17.86
+        },
+        {
+          "date": "2026-04-13",
+          "crackUsd": 16.69
+        },
+        {
+          "date": "2026-04-14",
+          "crackUsd": 18.31
+        },
+        {
+          "date": "2026-04-15",
+          "crackUsd": 24.45
+        },
+        {
+          "date": "2026-04-16",
+          "crackUsd": 26.51
+        },
+        {
+          "date": "2026-04-17",
+          "crackUsd": 35.08
+        },
+        {
+          "date": "2026-04-20",
+          "crackUsd": 34.7
+        },
+        {
+          "date": "2026-04-21",
+          "crackUsd": 38.55
+        },
+        {
+          "date": "2026-04-22",
+          "crackUsd": 36.86
+        },
+        {
+          "date": "2026-04-23",
+          "crackUsd": 42.51
+        },
+        {
+          "date": "2026-04-24",
+          "crackUsd": 43.5
+        },
+        {
+          "date": "2026-04-27",
+          "crackUsd": 40.89
+        },
+        {
+          "date": "2026-04-28",
+          "crackUsd": 39.28
+        },
+        {
+          "date": "2026-04-29",
+          "crackUsd": 41.6
+        },
+        {
+          "date": "2026-04-30",
+          "crackUsd": 42.4
+        },
+        {
+          "date": "2026-05-01",
+          "crackUsd": 39.6
+        },
+        {
+          "date": "2026-05-05",
+          "crackUsd": 45.85
+        },
+        {
+          "date": "2026-05-06",
+          "crackUsd": 48.41
+        },
+        {
+          "date": "2026-05-07",
+          "crackUsd": 52.15
+        },
+        {
+          "date": "2026-05-08",
+          "crackUsd": 50.84
+        },
+        {
+          "date": "2026-05-11",
+          "crackUsd": 52.66
+        },
+        {
+          "date": "2026-05-12",
+          "crackUsd": 52.42
+        },
+        {
+          "date": "2026-05-13",
+          "crackUsd": 49.4
+        },
+        {
+          "date": "2026-05-14",
+          "crackUsd": 48.14
+        },
+        {
+          "date": "2026-05-15",
+          "crackUsd": 50.55
+        },
+        {
+          "date": "2026-05-18",
+          "crackUsd": 46.92
+        },
+        {
+          "date": "2026-05-19",
+          "crackUsd": 51.4
+        },
+        {
+          "date": "2026-05-20",
+          "crackUsd": 47.34
+        },
+        {
+          "date": "2026-05-21",
+          "crackUsd": 48.33
+        },
+        {
+          "date": "2026-05-22",
+          "crackUsd": 45.94
+        },
+        {
+          "date": "2026-05-26",
+          "crackUsd": 41.32
+        },
+        {
+          "date": "2026-05-27",
+          "crackUsd": 43.74
+        },
+        {
+          "date": "2026-05-28",
+          "crackUsd": 48.25
+        },
+        {
+          "date": "2026-05-29",
+          "crackUsd": 45.9
+        },
+        {
+          "date": "2026-06-01",
+          "crackUsd": 42.13
+        },
+        {
+          "date": "2026-06-02",
+          "crackUsd": 43.95
+        },
+        {
+          "date": "2026-06-03",
+          "crackUsd": 42.78
+        },
+        {
+          "date": "2026-06-04",
+          "crackUsd": 40.04
+        },
+        {
+          "date": "2026-06-05",
+          "crackUsd": 40.71
+        },
+        {
+          "date": "2026-06-08",
+          "crackUsd": 41.07
+        },
+        {
+          "date": "2026-06-09",
+          "crackUsd": 41.54
+        },
+        {
+          "date": "2026-06-10",
+          "crackUsd": 42.9
+        },
+        {
+          "date": "2026-06-11",
+          "crackUsd": 40.66
+        },
+        {
+          "date": "2026-06-12",
+          "crackUsd": 43.62
+        },
+        {
+          "date": "2026-06-15",
+          "crackUsd": 43.99
+        },
+        {
+          "date": "2026-06-16",
+          "crackUsd": 45.04
+        },
+        {
+          "date": "2026-06-17",
+          "crackUsd": 44.91
+        },
+        {
+          "date": "2026-06-18",
+          "crackUsd": 47.32
+        },
+        {
+          "date": "2026-06-22",
+          "crackUsd": 49.87
+        },
+        {
+          "date": "2026-06-23",
+          "crackUsd": 50.91
+        },
+        {
+          "date": "2026-06-24",
+          "crackUsd": 51.73
+        },
+        {
+          "date": "2026-06-25",
+          "crackUsd": 57.01
+        },
+        {
+          "date": "2026-06-26",
+          "crackUsd": 57.87
+        },
+        {
+          "date": "2026-06-29",
+          "crackUsd": 60.21
+        },
+        {
+          "date": "2026-06-30",
+          "crackUsd": 58.9
+        },
+        {
+          "date": "2026-07-01",
+          "crackUsd": 58.3
+        },
+        {
+          "date": "2026-07-02",
+          "crackUsd": 57.88
+        },
+        {
+          "date": "2026-07-06",
+          "crackUsd": 60.89
+        },
+        {
+          "date": "2026-07-07",
+          "crackUsd": 58.7
+        },
+        {
+          "date": "2026-07-08",
+          "crackUsd": 62.72
+        },
+        {
+          "date": "2026-07-09",
+          "crackUsd": 59.77
+        },
+        {
+          "date": "2026-07-10",
+          "crackUsd": 58.73
+        },
+        {
+          "date": "2026-07-13",
+          "crackUsd": 61.29
+        },
+        {
+          "date": "2026-07-14",
+          "crackUsd": 63.58
+        },
+        {
+          "date": "2026-07-15",
+          "crackUsd": 67.85
+        },
+        {
+          "date": "2026-07-16",
+          "crackUsd": 70.15
+        },
+        {
+          "date": "2026-07-17",
+          "crackUsd": 69.63
+        },
+        {
+          "date": "2026-07-20",
+          "crackUsd": 68.1
+        },
+        {
+          "date": "2026-07-21",
+          "crackUsd": 57.36
+        },
+        {
+          "date": "2026-07-22",
+          "crackUsd": 57.49
+        },
+        {
+          "date": "2026-07-23",
+          "crackUsd": 51.51
+        },
+        {
+          "date": "2026-07-24",
+          "crackUsd": 52.42
+        },
+        {
+          "date": "2026-07-27",
+          "crackUsd": 56.4
+        },
+        {
+          "date": "2026-07-28",
+          "crackUsd": 63.76
+        },
+        {
+          "date": "2026-07-29",
+          "crackUsd": 65.12
+        },
+        {
+          "date": "2026-07-30",
+          "crackUsd": 58.63
+        },
+        {
+          "date": "2026-07-31",
+          "crackUsd": 51.63
+        },
+        {
+          "date": "2026-08-03",
+          "crackUsd": 49.28
+        },
+        {
+          "date": "2026-08-04",
+          "crackUsd": 46.04
+        },
+        {
+          "date": "2026-08-05",
+          "crackUsd": 46.34
+        },
+        {
+          "date": "2026-08-06",
+          "crackUsd": 48.88
+        },
+        {
+          "date": "2026-08-07",
+          "crackUsd": 50.28
+        },
+        {
+          "date": "2026-08-10",
+          "crackUsd": 54.34
+        },
+        {
+          "date": "2026-08-11",
+          "crackUsd": 55.55
+        },
+        {
+          "date": "2026-08-12",
+          "crackUsd": 56.73
+        },
+        {
+          "date": "2026-08-13",
+          "crackUsd": 55.88
+        },
+        {
+          "date": "2026-08-14",
+          "crackUsd": 58
+        },
+        {
+          "date": "2026-08-17",
+          "crackUsd": 64.09
+        },
+        {
+          "date": "2026-08-18",
+          "crackUsd": 62.52
+        },
+        {
+          "date": "2026-08-19",
+          "crackUsd": 62.83
+        },
+        {
+          "date": "2026-08-20",
+          "crackUsd": 63.36
+        },
+        {
+          "date": "2026-08-21",
+          "crackUsd": 60.31
+        },
+        {
+          "date": "2026-08-24",
+          "crackUsd": 60.17
+        },
+        {
+          "date": "2026-08-25",
+          "crackUsd": 61.48
+        },
+        {
+          "date": "2026-08-26",
+          "crackUsd": 64.56
+        },
+        {
+          "date": "2026-08-27",
+          "crackUsd": 65.4
+        },
+        {
+          "date": "2026-08-28",
+          "crackUsd": 69.92
+        },
+        {
+          "date": "2026-09-01",
+          "crackUsd": 59.8
+        }
+      ],
+      "formula": "3-2-1: (2×gasoline$/gal×42 + 1×ULSD$/gal×42 − 3×Brent$/bbl) ÷ 3",
+      "legs": {
+        "crude": "Europe Brent spot (EIA RBRTE)",
+        "gasoline": "NY Harbor conventional regular gasoline spot (EIA) — Atlantic-Basin proxy",
+        "distillate": "NY Harbor ULSD spot (EIA) — Atlantic-Basin proxy"
+      },
+      "basis": "Brent crude vs NY Harbor products as an Atlantic-Basin proxy. EIA publishes no free NWE/Rotterdam product spot; light-product cracks arbitrage across the Atlantic, so NY Harbor tracks NWE within a few $/bbl. Proxy for European refining economics, not a traded NWE quote.",
+      "dataSource": "US Energy Information Administration (EIA), daily spot prices"
+    },
+    "divergence": {
+      "lastUpdated": "2026-09-08T20:17:26.166Z",
+      "latestDate": "2026-09-04",
+      "windowSessions": 7,
+      "spread": -1.53,
+      "dowRet7": -0.09,
+      "nasRet7": 1.44,
+      "dowClose": 53414.25,
+      "nasClose": 26506.99,
+      "threshold": 5.5,
+      "triggered": false,
+      "history": [
+        {
+          "date": "2026-03-17",
+          "spread": -1.48
+        },
+        {
+          "date": "2026-03-18",
+          "spread": -0.78
+        },
+        {
+          "date": "2026-03-19",
+          "spread": -0.86
+        },
+        {
+          "date": "2026-03-20",
+          "spread": 0.82
+        },
+        {
+          "date": "2026-03-23",
+          "spread": 0.63
+        },
+        {
+          "date": "2026-03-24",
+          "spread": 0.62
+        },
+        {
+          "date": "2026-03-25",
+          "spread": 0.88
+        },
+        {
+          "date": "2026-03-26",
+          "spread": 2.57
+        },
+        {
+          "date": "2026-03-27",
+          "spread": 3.15
+        },
+        {
+          "date": "2026-03-30",
+          "spread": 4.12
+        },
+        {
+          "date": "2026-03-31",
+          "spread": 1.94
+        },
+        {
+          "date": "2026-04-01",
+          "spread": 1.26
+        },
+        {
+          "date": "2026-04-02",
+          "spread": 0.29
+        },
+        {
+          "date": "2026-04-06",
+          "spread": 0.21
+        },
+        {
+          "date": "2026-04-07",
+          "spread": -1.49
+        },
+        {
+          "date": "2026-04-08",
+          "spread": -1.98
+        },
+        {
+          "date": "2026-04-09",
+          "spread": -3.18
+        },
+        {
+          "date": "2026-04-10",
+          "spread": -2.68
+        },
+        {
+          "date": "2026-04-13",
+          "spread": -2.6
+        },
+        {
+          "date": "2026-04-14",
+          "spread": -3.68
+        },
+        {
+          "date": "2026-04-15",
+          "spread": -5.34
+        },
+        {
+          "date": "2026-04-16",
+          "spread": -5.19
+        },
+        {
+          "date": "2026-04-17",
+          "spread": -4.89
+        },
+        {
+          "date": "2026-04-20",
+          "spread": -4.32
+        },
+        {
+          "date": "2026-04-21",
+          "spread": -3.35
+        },
+        {
+          "date": "2026-04-22",
+          "spread": -3.72
+        },
+        {
+          "date": "2026-04-23",
+          "spread": -1.79
+        },
+        {
+          "date": "2026-04-24",
+          "spread": -1.83
+        },
+        {
+          "date": "2026-04-27",
+          "spread": -2.04
+        },
+        {
+          "date": "2026-04-28",
+          "spread": -1.42
+        },
+        {
+          "date": "2026-04-29",
+          "spread": -2.28
+        },
+        {
+          "date": "2026-04-30",
+          "spread": -1.58
+        },
+        {
+          "date": "2026-05-01",
+          "spread": -1.83
+        },
+        {
+          "date": "2026-05-04",
+          "spread": -3.32
+        },
+        {
+          "date": "2026-05-05",
+          "spread": -1.83
+        },
+        {
+          "date": "2026-05-06",
+          "spread": -2.31
+        },
+        {
+          "date": "2026-05-07",
+          "spread": -3.71
+        },
+        {
+          "date": "2026-05-08",
+          "spread": -4.85
+        },
+        {
+          "date": "2026-05-11",
+          "spread": -5.45
+        },
+        {
+          "date": "2026-05-12",
+          "spread": -3.35
+        },
+        {
+          "date": "2026-05-13",
+          "spread": -3.79
+        },
+        {
+          "date": "2026-05-14",
+          "spread": -3.62
+        },
+        {
+          "date": "2026-05-15",
+          "spread": -2.26
+        },
+        {
+          "date": "2026-05-18",
+          "spread": -0.92
+        },
+        {
+          "date": "2026-05-19",
+          "spread": 0.94
+        },
+        {
+          "date": "2026-05-20",
+          "spread": 0.63
+        },
+        {
+          "date": "2026-05-21",
+          "spread": 0.27
+        },
+        {
+          "date": "2026-05-22",
+          "spread": 2.01
+        },
+        {
+          "date": "2026-05-26",
+          "spread": 0.72
+        },
+        {
+          "date": "2026-05-27",
+          "spread": 0.54
+        },
+        {
+          "date": "2026-05-28",
+          "spread": -1.19
+        },
+        {
+          "date": "2026-05-29",
+          "spread": -0.88
+        },
+        {
+          "date": "2026-06-01",
+          "spread": -0.97
+        },
+        {
+          "date": "2026-06-02",
+          "spread": -1.01
+        },
+        {
+          "date": "2026-06-03",
+          "spread": -1.72
+        },
+        {
+          "date": "2026-06-04",
+          "spread": 1.52
+        },
+        {
+          "date": "2026-06-05",
+          "spread": 4.06
+        },
+        {
+          "date": "2026-06-08",
+          "spread": 3.9
+        },
+        {
+          "date": "2026-06-09",
+          "spread": 4.48
+        },
+        {
+          "date": "2026-06-10",
+          "spread": 4.81
+        },
+        {
+          "date": "2026-06-11",
+          "spread": 3.85
+        },
+        {
+          "date": "2026-06-12",
+          "spread": 4.61
+        },
+        {
+          "date": "2026-06-15",
+          "spread": 0.76
+        },
+        {
+          "date": "2026-06-16",
+          "spread": -0.37
+        },
+        {
+          "date": "2026-06-17",
+          "spread": 1.04
+        },
+        {
+          "date": "2026-06-18",
+          "spread": -1.91
+        },
+        {
+          "date": "2026-06-22",
+          "spread": -0.37
+        },
+        {
+          "date": "2026-06-23",
+          "spread": 2.47
+        },
+        {
+          "date": "2026-06-24",
+          "spread": 2.86
+        },
+        {
+          "date": "2026-06-25",
+          "spread": 5.45
+        },
+        {
+          "date": "2026-06-26",
+          "spread": 3.85
+        },
+        {
+          "date": "2026-06-29",
+          "spread": 2.11
+        },
+        {
+          "date": "2026-06-30",
+          "spread": 2.61
+        },
+        {
+          "date": "2026-07-01",
+          "spread": 1.63
+        },
+        {
+          "date": "2026-07-02",
+          "spread": 1.43
+        },
+        {
+          "date": "2026-07-06",
+          "spread": -0.2
+        },
+        {
+          "date": "2026-07-07",
+          "spread": 0.12
+        },
+        {
+          "date": "2026-07-08",
+          "spread": -1.35
+        },
+        {
+          "date": "2026-07-09",
+          "spread": -0.91
+        },
+        {
+          "date": "2026-07-10",
+          "spread": 0.35
+        },
+        {
+          "date": "2026-07-13",
+          "spread": 1.01
+        },
+        {
+          "date": "2026-07-14",
+          "spread": -1.8
+        },
+        {
+          "date": "2026-07-15",
+          "spread": -1.32
+        },
+        {
+          "date": "2026-07-16",
+          "spread": -0.95
+        },
+        {
+          "date": "2026-07-17",
+          "spread": 0.97
+        },
+        {
+          "date": "2026-07-20",
+          "spread": 1.43
+        },
+        {
+          "date": "2026-07-21",
+          "spread": 0.91
+        },
+        {
+          "date": "2026-07-22",
+          "spread": 0.17
+        },
+        {
+          "date": "2026-07-23",
+          "spread": 2.2
+        },
+        {
+          "date": "2026-07-24",
+          "spread": 3.57
+        },
+        {
+          "date": "2026-07-27",
+          "spread": 3.02
+        },
+        {
+          "date": "2026-07-28",
+          "spread": 3.67
+        },
+        {
+          "date": "2026-07-29",
+          "spread": 3.7
+        },
+        {
+          "date": "2026-07-30",
+          "spread": 2.74
+        },
+        {
+          "date": "2026-07-31",
+          "spread": 1.74
+        },
+        {
+          "date": "2026-08-03",
+          "spread": -0.25
+        },
+        {
+          "date": "2026-08-04",
+          "spread": -2.33
+        },
+        {
+          "date": "2026-08-05",
+          "spread": -1.64
+        },
+        {
+          "date": "2026-08-06",
+          "spread": -3.76
+        },
+        {
+          "date": "2026-08-07",
+          "spread": -4.46
+        },
+        {
+          "date": "2026-08-10",
+          "spread": -2.52
+        },
+        {
+          "date": "2026-08-11",
+          "spread": -1.73
+        },
+        {
+          "date": "2026-08-12",
+          "spread": -1.49
+        },
+        {
+          "date": "2026-08-13",
+          "spread": -1.27
+        },
+        {
+          "date": "2026-08-14",
+          "spread": -2.52
+        },
+        {
+          "date": "2026-08-17",
+          "spread": -1.91
+        },
+        {
+          "date": "2026-08-18",
+          "spread": 0.22
+        },
+        {
+          "date": "2026-08-19",
+          "spread": 0.08
+        },
+        {
+          "date": "2026-08-20",
+          "spread": -0.49
+        },
+        {
+          "date": "2026-08-21",
+          "spread": 0.62
+        },
+        {
+          "date": "2026-08-24",
+          "spread": 2.28
+        },
+        {
+          "date": "2026-08-25",
+          "spread": 1.87
+        },
+        {
+          "date": "2026-08-26",
+          "spread": 1.94
+        },
+        {
+          "date": "2026-08-27",
+          "spread": -0.53
+        },
+        {
+          "date": "2026-08-28",
+          "spread": -0.09
+        },
+        {
+          "date": "2026-08-31",
+          "spread": -0.36
+        },
+        {
+          "date": "2026-09-01",
+          "spread": -0.65
+        },
+        {
+          "date": "2026-09-02",
+          "spread": -1.58
+        },
+        {
+          "date": "2026-09-03",
+          "spread": -1.45
+        },
+        {
+          "date": "2026-09-04",
+          "spread": -1.53
+        }
+      ],
+      "dataSource": "FRED — Dow Jones Industrial Average (DJIA) & Nasdaq Composite (NASDAQCOM), daily closes"
+    },
+    "sea-state": {
+      "lastUpdated": "2026-09-08T20:17:29.360Z",
+      "dataSource": "Open-Meteo Marine + Forecast APIs (sourced from European met agencies)",
+      "sourceUrl": "https://open-meteo.com",
+      "methodology": "Significant wave height (m), wave period (s), 10m wind speed (m/s). Risk band is the worst of wave/wind classifications (calm / moderate / rough / dangerous), using Douglas-style sea-state and Beaufort wind thresholds.",
+      "chokepoints": [
+        {
+          "id": "hormuz",
+          "name": "Strait of Hormuz",
+          "region": "Persian Gulf / Gulf of Oman",
+          "lat": 26.567,
+          "lon": 56.25,
+          "context": "~20% of world seaborne oil and LNG normally transits here.",
+          "waveHeightM": 0.64,
+          "wavePeriodS": 3.55,
+          "waveDirectionDeg": 226,
+          "windSpeedMs": 6.82,
+          "windGustsMs": 9.7,
+          "windDirectionDeg": 225,
+          "risk": "moderate",
+          "observedAt": "2026-09-08T20:15"
+        },
+        {
+          "id": "bab-el-mandeb",
+          "name": "Bab el-Mandeb",
+          "region": "Red Sea / Gulf of Aden",
+          "lat": 12.583,
+          "lon": 43.333,
+          "context": "Red Sea entry; routes for Suez-bound traffic from the Gulf and Asia.",
+          "waveHeightM": 0.4,
+          "wavePeriodS": 3.9,
+          "waveDirectionDeg": 100,
+          "windSpeedMs": 4.41,
+          "windGustsMs": 6.9,
+          "windDirectionDeg": 129,
+          "risk": "calm",
+          "observedAt": "2026-09-08T20:15"
+        },
+        {
+          "id": "suez-approaches",
+          "name": "Suez Approaches (Port Said)",
+          "region": "Eastern Mediterranean",
+          "lat": 31.25,
+          "lon": 32.3,
+          "context": "Northern entry to the Suez Canal; ~10% of seaborne crude.",
+          "waveHeightM": 0.28,
+          "wavePeriodS": 3.5,
+          "waveDirectionDeg": 352,
+          "windSpeedMs": 2.33,
+          "windGustsMs": 4,
+          "windDirectionDeg": 31,
+          "risk": "calm",
+          "observedAt": "2026-09-08T20:15"
+        },
+        {
+          "id": "english-channel",
+          "name": "English Channel (Dover Strait)",
+          "region": "NW Europe",
+          "lat": 50.95,
+          "lon": 1.367,
+          "context": "Busiest shipping lane in the world; critical for UK / NW European fuel imports.",
+          "waveHeightM": 1.02,
+          "wavePeriodS": 4.45,
+          "waveDirectionDeg": 252,
+          "windSpeedMs": 9.1,
+          "windGustsMs": 12,
+          "windDirectionDeg": 271,
+          "risk": "moderate",
+          "observedAt": "2026-09-08T20:15"
+        },
+        {
+          "id": "skagerrak",
+          "name": "Skagerrak",
+          "region": "North Sea / Baltic",
+          "lat": 57.75,
+          "lon": 9,
+          "context": "Connects North Sea to Baltic; route for Norwegian and Russian-origin crude.",
+          "waveHeightM": 1.24,
+          "wavePeriodS": 5.9,
+          "waveDirectionDeg": 243,
+          "windSpeedMs": 6,
+          "windGustsMs": 8.5,
+          "windDirectionDeg": 250,
+          "risk": "moderate",
+          "observedAt": "2026-09-08T20:15"
+        },
+        {
+          "id": "panama-caribbean",
+          "name": "Panama Canal (Caribbean approach)",
+          "region": "Caribbean",
+          "lat": 9.35,
+          "lon": -79.917,
+          "context": "Atlantic entry to Panama Canal; Pacific–Atlantic arbitrage route.",
+          "waveHeightM": 1.08,
+          "wavePeriodS": 6,
+          "waveDirectionDeg": 19,
+          "windSpeedMs": 4.87,
+          "windGustsMs": 10.9,
+          "windDirectionDeg": 320,
+          "risk": "calm",
+          "observedAt": "2026-09-08T20:15"
+        },
+        {
+          "id": "strait-of-florida",
+          "name": "Strait of Florida",
+          "region": "Gulf of Mexico / Atlantic",
+          "lat": 24.5,
+          "lon": -80.5,
+          "context": "Gulf of Mexico crude exports route to Atlantic basin.",
+          "waveHeightM": 0.2,
+          "wavePeriodS": 4,
+          "waveDirectionDeg": 107,
+          "windSpeedMs": 4.17,
+          "windGustsMs": 4.3,
+          "windDirectionDeg": 120,
+          "risk": "calm",
+          "observedAt": "2026-09-08T20:15"
+        }
+      ]
+    }
+  }
+}
