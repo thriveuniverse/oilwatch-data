@@ -10,10 +10,11 @@ a production deployment of the sites themselves.
 internals, evidence history and unpublished editorial analysis live in a private
 repository and never enter this one.
 
-| Bundle | Revalidate | Contents |
-|---|---|---|
-| `uk/live.json` | 900s | bunker, prices, crack, divergence, sea-state |
-| `uk/history.json` | 86400s | brent-history, bunker-history, brent-eia-daily |
+| Bundle | Revalidate | Class | Contents |
+|---|---|---|---|
+| `uk/live.json` | 900s | small + fast | bunker, prices, crack, divergence, sea-state |
+| `uk/market-history-live.json` | 3600s | large + frequently changing | bunker-history |
+| `uk/history.json` | 86400s | large + slow | brent-history, brent-eia-daily |
 
 Derived fields (for example sea-state risk bands) are recomputed from their raw
 observations by the publisher immediately before writing, so a stored band can
