@@ -1,7 +1,7 @@
 {
   "bundle": "market-history-live",
   "revalidate": 3600,
-  "builtAt": "2026-09-09T13:58:51.470Z",
+  "builtAt": "2026-09-09T14:24:02.557Z",
   "resources": {
     "bunker-history": {
       "lastUpdated": "2026-09-08T20:17:30.194Z",
@@ -2294,7 +2294,14 @@
             "mgo": 783
           }
         }
-      ]
+      ],
+      "provenance": {
+        "kind": "derived",
+        "derivedFrom": "brent.json",
+        "method": "brentUsd * 6.5 per tonne basis, per-port differentials applied",
+        "independentPriceDiscovery": false,
+        "cadence": "inherits Brent collection cadence (2-3x daily), not a market feed"
+      }
     }
   }
 }

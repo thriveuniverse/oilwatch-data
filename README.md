@@ -24,3 +24,11 @@ Live Brent is deliberately **not** here: it is served at request time by the
 sites' own API route, which is fresher than this publication cadence.
 
 Licensing follows each upstream source as published on the OilWatch sites.
+
+## Provenance
+
+`bunker` and `bunker-history` are **derived, not observed**. They are computed
+from Brent (`brentUsd * 6.5` plus per-port differentials), so they inherit
+Brent's collection cadence and involve no independent price discovery. Each
+record carries a `provenance` block saying so. Do not treat them as a bunker
+market feed; for transacted prices see Ship & Bunker or Platts.

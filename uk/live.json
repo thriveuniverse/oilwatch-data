@@ -1,7 +1,7 @@
 {
   "bundle": "live",
   "revalidate": 900,
-  "builtAt": "2026-09-09T13:58:51.464Z",
+  "builtAt": "2026-09-09T14:24:02.550Z",
   "resources": {
     "bunker": {
       "lastUpdated": "2026-09-08T20:17:30.184Z",
@@ -39,7 +39,14 @@
           "vlsfoChange": 17.1,
           "mgoChange": 17.1
         }
-      ]
+      ],
+      "provenance": {
+        "kind": "derived",
+        "derivedFrom": "brent.json",
+        "method": "brentUsd * 6.5 per tonne basis, per-port differentials applied",
+        "independentPriceDiscovery": false,
+        "cadence": "inherits Brent collection cadence (2-3x daily), not a market feed"
+      }
     },
     "prices": {
       "lastUpdated": "2026-09-08T20:17:19.291Z",
