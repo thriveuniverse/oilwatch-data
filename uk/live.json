@@ -1,7 +1,7 @@
 {
   "bundle": "live",
   "revalidate": 900,
-  "builtAt": "2026-09-09T13:44:52.450Z",
+  "builtAt": "2026-09-09T13:48:44.621Z",
   "resources": {
     "bunker": {
       "lastUpdated": "2026-09-08T20:17:30.184Z",
@@ -1326,7 +1326,7 @@
       "dataSource": "FRED — Dow Jones Industrial Average (DJIA) & Nasdaq Composite (NASDAQCOM), daily closes"
     },
     "sea-state": {
-      "lastUpdated": "2026-09-09T13:05:00.000Z",
+      "lastUpdated": "2026-09-08T20:17:29.360Z",
       "dataSource": "Open-Meteo Marine + Forecast APIs (sourced from European met agencies)",
       "sourceUrl": "https://open-meteo.com",
       "methodology": "Significant wave height (m), wave period (s), 10m wind speed (m/s). Risk band is the worst of wave/wind classifications (calm / moderate / rough / dangerous), using Douglas-style sea-state and Beaufort wind thresholds.",
@@ -1338,13 +1338,13 @@
           "lat": 26.567,
           "lon": 56.25,
           "context": "~20% of world seaborne oil and LNG normally transits here.",
-          "waveHeightM": 3.7,
+          "waveHeightM": 0.64,
           "wavePeriodS": 3.55,
           "waveDirectionDeg": 226,
           "windSpeedMs": 6.82,
           "windGustsMs": 9.7,
           "windDirectionDeg": 225,
-          "risk": "rough",
+          "risk": "moderate",
           "observedAt": "2026-09-08T20:15"
         },
         {
