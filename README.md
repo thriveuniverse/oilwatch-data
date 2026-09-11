@@ -32,3 +32,12 @@ from Brent (`brentUsd * 6.5` plus per-port differentials), so they inherit
 Brent's collection cadence and involve no independent price discovery. Each
 record carries a `provenance` block saying so. Do not treat them as a bunker
 market feed; for transacted prices see Ship & Bunker or Platts.
+
+## Pilot namespace (`uk/pilots/`)
+
+Objects under `uk/pilots/` are **non-canonical**. They exist to exercise the
+sites' runtime fetch path with test fixtures and are never read by production.
+`uk/pilots/analysis-parity.json` carries a parity fixture: already-published
+analysis prose migrated into the structured record format with no live fact
+dependencies. The sites' runtime refuses a parity fixture outside an explicit
+pilot context, and the canonical `uk/analysis.json` does not exist yet.

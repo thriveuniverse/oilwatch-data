@@ -1,0 +1,343 @@
+{
+  "bundle": "pilots/analysis-parity",
+  "revalidate": 900,
+  "builtAt": "2026-09-11T10:42:08.211Z",
+  "note": "NON-CANONICAL PILOT OBJECT. fixture_kind parity_fixture: a faithful migration of already-published legacy prose (kind fact, facts []). Proves renderer parity only. Not a live-capable analytical record; the runtime rejects it outside an explicit pilot context.",
+  "resources": {
+    "analysis.structured": {
+      "fixture_kind": "parity_fixture",
+      "record": {
+        "snapshot_id": "legacy:2026-09-08T20:18:20.221Z",
+        "effective_vintage": "2026-06",
+        "overallStatus": "critical",
+        "blocks": [
+          {
+            "id": "status_line",
+            "segments": [
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "status_line_1",
+                  "kind": "fact",
+                  "text": "UK fuel security is assessed as critical, driven by petrol stocks at their most stressed level relative to recent norms, while pump prices rise on the back of Brent crude approaching $99/barrel.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "analysis",
+            "segments": [
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p1_s1",
+                  "kind": "fact",
+                  "text": "As of the June 2026 DESNZ reporting period — reflecting a three-month lag behind today's date of 8 September 2026 — the UK's overall fuel security status is rated critical, with an average days-of-cover figure of 29.9 days across the four monitored products.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p1_s2",
+                  "kind": "fact",
+                  "text": "It is important to note that UK compliance with the IEA 90-day obligation is separately confirmed as met: DESNZ reported 10.2 million tonnes of total UK stock at end-Q1 2026, satisfying the operative 67.5-day domestic net consumption benchmark.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p1_s3",
+                  "kind": "fact",
+                  "text": "The figures discussed here are operational consumption-cover metrics for individual refined products, not components of that obligation assessment.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "paragraph_break"
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p2_s1",
+                  "kind": "fact",
+                  "text": "By status severity, petrol is the most stressed product relative to its own recent historical norms, rated critical at 22.6 days of cover (826 kt stock against 1,094 kt monthly consumption).",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p2_s2",
+                  "kind": "fact",
+                  "text": "Jet fuel is rated warning at 26 days (920 kt stock, 1,060 kt monthly consumption), and diesel is rated watch at 21.5 days (1,434 kt stock, 2,002 kt monthly consumption).",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p2_s3",
+                  "kind": "fact",
+                  "text": "Heating oil is the only product rated safe, at 49.6 days (208 kt stock, 126 kt monthly consumption).",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p2_s4",
+                  "kind": "fact",
+                  "text": "On days of cover alone, diesel carries the fewest days at 21.5 — but by status, diesel sits at watch while petrol is critical, reflecting that diesel habitually operates at lower buffer levels and its current figure is less anomalous relative to its own baseline.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p2_s5",
+                  "kind": "fact",
+                  "text": "Logistics operators and procurement teams should weight the status ranking, not just the raw days figure, when prioritising exposure.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "paragraph_break"
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p3_s1",
+                  "kind": "fact",
+                  "text": "On the demand side, pump prices recorded on 7 September 2026 stand at 164.4p/litre for petrol and 186.36p/litre for diesel, with week-on-week rises of 2.79p and 2.87p respectively.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p3_s2",
+                  "kind": "fact",
+                  "text": "Diesel's current pump price of 186.36p/litre sits 5.78p below its 52-week high of 192.14p/litre, and 45.64p above its 52-week low of 140.72p/litre, indicating prices remain elevated within the recent range.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p3_s3",
+                  "kind": "fact",
+                  "text": "Brent crude at $98.91/barrel, up 2.73% on its recent change, is a clear upstream driver of these movements.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p3_s4",
+                  "kind": "fact",
+                  "text": "Given that the UK imports approximately 40% of its diesel from Netherlands and Belgium refineries, procurement teams sourcing road diesel should factor in both the elevated crude environment and any supply-side developments from those key origin markets.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "paragraph_break"
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p4_s1",
+                  "kind": "fact",
+                  "text": "A data-limitation caveat is essential for all users of this analysis: the stock figures date from June 2026, three months before today.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p4_s2",
+                  "kind": "fact",
+                  "text": "Conditions may have shifted materially in that interval — positively or negatively — and the critical petrol status in particular warrants monitoring against any more recent trade, refinery, or port throughput data that becomes available.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "analysis_p4_s3",
+                  "kind": "fact",
+                  "text": "The next DESNZ quarterly release will be the primary source of updated visibility.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "key_1",
+            "segments": [
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "key_1_1",
+                  "kind": "fact",
+                  "text": "Overall UK fuel security status is rated critical (average 29.9 days of cover across four products), though UK compliance with the IEA 90-day obligation is separately confirmed as met based on DESNZ total stock data.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "key_2",
+            "segments": [
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "key_2_1",
+                  "kind": "fact",
+                  "text": "Petrol is the most stressed product by status — rated critical at 22.6 days of cover (826 kt stock) relative to its own recent norms; this is a worse status than diesel despite diesel carrying fewer raw days of cover (21.5 days).",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "key_3",
+            "segments": [
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "key_3_1",
+                  "kind": "fact",
+                  "text": "Diesel is rated watch at 21.5 days of cover (1,434 kt stock against 2,002 kt monthly consumption); with roughly 40% of UK diesel imported from Netherlands and Belgium refineries, supply-chain developments in those markets are a key variable to watch.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "key_4",
+            "segments": [
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "key_4_1",
+                  "kind": "fact",
+                  "text": "Pump prices rose week-on-week to 164.4p/litre (petrol, +2.79p) and 186.36p/litre (diesel, +2.87p), with Brent crude at $98.91/barrel (+2.73%) providing clear upstream pressure; diesel remains 5.78p below its 52-week high of 192.14p/litre.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "key_5",
+            "segments": [
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "key_5_1",
+                  "kind": "fact",
+                  "text": "All stock data reflects a three-month reporting lag (June 2026); conditions may have changed materially since then and this analysis should be updated as new DESNZ or trade data becomes available.",
+                  "facts": [],
+                  "guards": [],
+                  "provenance": [
+                    "legacy_migration"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "retired": []
+      },
+      "snapshot": {
+        "id": "legacy:2026-09-08T20:18:20.221Z",
+        "builtAt": "2026-09-08T20:18:20.221Z",
+        "facts": {}
+      },
+      "generatedAt": "2026-09-08T20:18:20.221Z",
+      "model": "claude-sonnet-4-6"
+    }
+  }
+}
