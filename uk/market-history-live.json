@@ -1,10 +1,10 @@
 {
   "bundle": "market-history-live",
   "revalidate": 3600,
-  "builtAt": "2026-09-09T14:24:02.557Z",
+  "builtAt": "2026-09-12T19:38:51.052Z",
   "resources": {
     "bunker-history": {
-      "lastUpdated": "2026-09-08T20:17:30.194Z",
+      "lastUpdated": "2026-09-12T19:38:36.038Z",
       "entries": [
         {
           "date": "2026-04-17",
@@ -2292,6 +2292,54 @@
           "singapore": {
             "vlsfo": 661,
             "mgo": 783
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "brentBasis": 101.45,
+          "rotterdam": {
+            "vlsfo": 669,
+            "mgo": 789
+          },
+          "fujairah": {
+            "vlsfo": 684,
+            "mgo": 804
+          },
+          "singapore": {
+            "vlsfo": 677,
+            "mgo": 799
+          }
+        },
+        {
+          "date": "2026-09-10",
+          "brentBasis": 102.11,
+          "rotterdam": {
+            "vlsfo": 674,
+            "mgo": 794
+          },
+          "fujairah": {
+            "vlsfo": 689,
+            "mgo": 809
+          },
+          "singapore": {
+            "vlsfo": 682,
+            "mgo": 804
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "brentBasis": 104.61,
+          "rotterdam": {
+            "vlsfo": 690,
+            "mgo": 810
+          },
+          "fujairah": {
+            "vlsfo": 705,
+            "mgo": 825
+          },
+          "singapore": {
+            "vlsfo": 698,
+            "mgo": 820
           }
         }
       ],
