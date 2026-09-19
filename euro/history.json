@@ -1,0 +1,5054 @@
+{
+  "bundle": "history",
+  "prefix": "euro",
+  "revalidate": 86400,
+  "builtAt": "2026-09-19T09:26:41.565Z",
+  "resources": {
+    "history": {
+      "lastUpdated": "2026-09-19T09:25:23.021Z",
+      "periods": [
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06"
+      ],
+      "countries": [
+        {
+          "countryCode": "AT",
+          "countryName": "Austria",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 107.6,
+              "dieselDays": 87.2,
+              "jetDays": 41.7
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 97.7,
+              "dieselDays": 77.1,
+              "jetDays": 40.4
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 91.2,
+              "dieselDays": 69.8,
+              "jetDays": 38.2
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 91.7,
+              "dieselDays": 68.9,
+              "jetDays": 37.2
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 78.7,
+              "dieselDays": 68.9,
+              "jetDays": 37
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 71.9,
+              "dieselDays": 65,
+              "jetDays": 40.4
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 65.7,
+              "dieselDays": 77.6,
+              "jetDays": 31.8
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 72.2,
+              "dieselDays": 66.7,
+              "jetDays": 35.8
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 72.2,
+              "dieselDays": 56.1,
+              "jetDays": 30.6
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 80.3,
+              "dieselDays": 67.5,
+              "jetDays": 41.5
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 73.3,
+              "dieselDays": 66.4,
+              "jetDays": 40.9
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 76.2,
+              "dieselDays": 76,
+              "jetDays": 40.5
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 83.8,
+              "dieselDays": 77.1,
+              "jetDays": 44.5
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 58.8,
+              "dieselDays": 55.2,
+              "jetDays": 31.9
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 60.6,
+              "dieselDays": 66.5,
+              "jetDays": 40.4
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 64.1,
+              "dieselDays": 77.4,
+              "jetDays": 48.6
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 57.1,
+              "dieselDays": 65.9,
+              "jetDays": 57.2
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": 50.3,
+              "dieselDays": 57.2,
+              "jetDays": 54.8
+            }
+          ]
+        },
+        {
+          "countryCode": "BE",
+          "countryName": "Belgium",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 62.1,
+              "dieselDays": 85.9,
+              "jetDays": 152.3
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 54.2,
+              "dieselDays": 91.9,
+              "jetDays": 105.1
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 54.7,
+              "dieselDays": 87,
+              "jetDays": 99.1
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 57.4,
+              "dieselDays": 94.8,
+              "jetDays": 96.1
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 57.9,
+              "dieselDays": 99,
+              "jetDays": 88.3
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 55.8,
+              "dieselDays": 112.7,
+              "jetDays": 86.5
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 64,
+              "dieselDays": 123.7,
+              "jetDays": 98.5
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 61.3,
+              "dieselDays": 89.3,
+              "jetDays": 96.3
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 57.3,
+              "dieselDays": 88.4,
+              "jetDays": 105
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 60.5,
+              "dieselDays": 97.6,
+              "jetDays": 100.8
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 53.8,
+              "dieselDays": 86.8,
+              "jetDays": 91.1
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 65.5,
+              "dieselDays": 83.7,
+              "jetDays": 97.6
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 69,
+              "dieselDays": 99.9,
+              "jetDays": 106.6
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 55.1,
+              "dieselDays": 91.6,
+              "jetDays": 89.9
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 55.7,
+              "dieselDays": 110.9,
+              "jetDays": 86.5
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 64,
+              "dieselDays": 134.4,
+              "jetDays": 84.3
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 52.3,
+              "dieselDays": 115.7,
+              "jetDays": 90.5
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": 45.6,
+              "dieselDays": 119.5,
+              "jetDays": 89.9
+            }
+          ]
+        },
+        {
+          "countryCode": "BG",
+          "countryName": "Bulgaria",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 97.7,
+              "dieselDays": 98.9,
+              "jetDays": 113.6
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 106.2,
+              "dieselDays": 78.6,
+              "jetDays": 90.1
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 64.6,
+              "dieselDays": 164.8,
+              "jetDays": 50.3
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 53.3,
+              "dieselDays": 74.4,
+              "jetDays": 59.7
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 188.2,
+              "dieselDays": 80.7,
+              "jetDays": 65.2
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 65.7,
+              "dieselDays": 71.8,
+              "jetDays": 35.1
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 68.2,
+              "dieselDays": 62.5,
+              "jetDays": 40.7
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 63.8,
+              "dieselDays": 79.9,
+              "jetDays": 29.6
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 76.9,
+              "dieselDays": 73.1,
+              "jetDays": 60.1
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 123.5,
+              "dieselDays": 83.3,
+              "jetDays": 87.8
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 88.9,
+              "dieselDays": 80.8,
+              "jetDays": 79.9
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 127.7,
+              "dieselDays": 99.4,
+              "jetDays": 82.2
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 123.6,
+              "dieselDays": 112.2,
+              "jetDays": 85.3
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 110.5,
+              "dieselDays": 74.9,
+              "jetDays": 50.8
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 91.2,
+              "dieselDays": 115.5,
+              "jetDays": 68.3
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 76.6,
+              "dieselDays": 84,
+              "jetDays": 68.5
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 75.1,
+              "dieselDays": 81.7,
+              "jetDays": 57.3
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": 53.3,
+              "dieselDays": 54.7,
+              "jetDays": 37.1
+            }
+          ]
+        },
+        {
+          "countryCode": "HR",
+          "countryName": "Croatia",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 98,
+              "dieselDays": 67,
+              "jetDays": 56.5
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 91.6,
+              "dieselDays": 59,
+              "jetDays": 51.2
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 64.2,
+              "dieselDays": 67.6,
+              "jetDays": 107.5
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 41,
+              "dieselDays": 53,
+              "jetDays": 18.6
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 49.5,
+              "dieselDays": 51.1,
+              "jetDays": 18.4
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 55.7,
+              "dieselDays": 62.4,
+              "jetDays": 17.5
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 41.4,
+              "dieselDays": 60.8,
+              "jetDays": 18
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 63,
+              "dieselDays": 60.6,
+              "jetDays": 10.7
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 62.4,
+              "dieselDays": 55.9,
+              "jetDays": 18.5
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 105,
+              "dieselDays": 81,
+              "jetDays": 15.1
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 97.2,
+              "dieselDays": 59.8,
+              "jetDays": 75
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 114,
+              "dieselDays": 66.5,
+              "jetDays": 44.8
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 106.8,
+              "dieselDays": 56.5,
+              "jetDays": 84.1
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 68.8,
+              "dieselDays": 56.2,
+              "jetDays": 140.5
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 68.7,
+              "dieselDays": 61.7,
+              "jetDays": 40.1
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 57.4,
+              "dieselDays": 59.2,
+              "jetDays": 27.7
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 48.3,
+              "dieselDays": 50.8,
+              "jetDays": 17.6
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "CY",
+          "countryName": "Cyprus",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 214.3,
+              "dieselDays": 96.8,
+              "jetDays": 139.7
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 185.4,
+              "dieselDays": 114.4,
+              "jetDays": 90
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 132.9,
+              "dieselDays": 131.4,
+              "jetDays": 53.7
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 113.9,
+              "dieselDays": 135.4,
+              "jetDays": 40.9
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 117.9,
+              "dieselDays": 124.1,
+              "jetDays": 22.2
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 130.5,
+              "dieselDays": 111.9,
+              "jetDays": 45.6
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 143,
+              "dieselDays": 115.4,
+              "jetDays": 34.6
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 134.3,
+              "dieselDays": 128.6,
+              "jetDays": 51.4
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 145.9,
+              "dieselDays": 130.5,
+              "jetDays": 46.6
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 169.6,
+              "dieselDays": 132.5,
+              "jetDays": 82.8
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 149.6,
+              "dieselDays": 121.1,
+              "jetDays": 95
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 192,
+              "dieselDays": 85.7,
+              "jetDays": 86.3
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 200.6,
+              "dieselDays": 132.3,
+              "jetDays": 83.2
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 174.3,
+              "dieselDays": 95.7,
+              "jetDays": 93.8
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 155.5,
+              "dieselDays": 119.1,
+              "jetDays": 64.3
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 152.1,
+              "dieselDays": 132.7,
+              "jetDays": 52.3
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 135.4,
+              "dieselDays": 100.5,
+              "jetDays": 57.6
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": 89.9,
+              "dieselDays": 77.5,
+              "jetDays": 50.8
+            }
+          ]
+        },
+        {
+          "countryCode": "CZ",
+          "countryName": "Czechia",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 103.5,
+              "dieselDays": 75,
+              "jetDays": 70.4
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 91.2,
+              "dieselDays": 66,
+              "jetDays": 57.2
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 90.2,
+              "dieselDays": 64,
+              "jetDays": 62.9
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 82.8,
+              "dieselDays": 64.6,
+              "jetDays": 65.1
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 77,
+              "dieselDays": 62.6,
+              "jetDays": 41.4
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 74.6,
+              "dieselDays": 58.4,
+              "jetDays": 37.6
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 72.7,
+              "dieselDays": 58.4,
+              "jetDays": 38
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 77.4,
+              "dieselDays": 60.1,
+              "jetDays": 35.2
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 86.6,
+              "dieselDays": 58.9,
+              "jetDays": 45
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 82.5,
+              "dieselDays": 58.3,
+              "jetDays": 58.2
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 85.5,
+              "dieselDays": 71.2,
+              "jetDays": 61.8
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 99.8,
+              "dieselDays": 73.5,
+              "jetDays": 69.4
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 105.3,
+              "dieselDays": 70.6,
+              "jetDays": 82.3
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 74.4,
+              "dieselDays": 56.2,
+              "jetDays": 77.6
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 72.2,
+              "dieselDays": 64.6,
+              "jetDays": 78.2
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 74.8,
+              "dieselDays": 64.5,
+              "jetDays": 60.7
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 70.5,
+              "dieselDays": 59.3,
+              "jetDays": 52.5
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": 64.5,
+              "dieselDays": 53.8,
+              "jetDays": 42.2
+            }
+          ]
+        },
+        {
+          "countryCode": "DK",
+          "countryName": "Denmark",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 140.7,
+              "dieselDays": 129,
+              "jetDays": 116.7
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 130.9,
+              "dieselDays": 99,
+              "jetDays": 63.1
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 116.2,
+              "dieselDays": 115.5,
+              "jetDays": 59.6
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 106,
+              "dieselDays": 127.2,
+              "jetDays": 59.3
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 118.8,
+              "dieselDays": 130.9,
+              "jetDays": 63
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 121.8,
+              "dieselDays": 126.1,
+              "jetDays": 51.9
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 125,
+              "dieselDays": 116.3,
+              "jetDays": 66.7
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 124.6,
+              "dieselDays": 125.1,
+              "jetDays": 58.2
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 128,
+              "dieselDays": 121.6,
+              "jetDays": 64.2
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 129.4,
+              "dieselDays": 128.8,
+              "jetDays": 62.1
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 132.5,
+              "dieselDays": 145.9,
+              "jetDays": 80.1
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 140.2,
+              "dieselDays": 156.1,
+              "jetDays": 67.6
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 156.1,
+              "dieselDays": 141.6,
+              "jetDays": 76.9
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 127.2,
+              "dieselDays": 107.1,
+              "jetDays": 77.6
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 130.3,
+              "dieselDays": 112.5,
+              "jetDays": 79.9
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 130.3,
+              "dieselDays": 131.6,
+              "jetDays": 59.7
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 123.4,
+              "dieselDays": 118,
+              "jetDays": 58
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": 111.7,
+              "dieselDays": 117.5,
+              "jetDays": 64.8
+            }
+          ]
+        },
+        {
+          "countryCode": "EE",
+          "countryName": "Estonia",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 364.3,
+              "dieselDays": 147.4,
+              "jetDays": null
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 324.4,
+              "dieselDays": 133.8,
+              "jetDays": null
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 308.8,
+              "dieselDays": 118.3,
+              "jetDays": null
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 281.1,
+              "dieselDays": 131.1,
+              "jetDays": null
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 271.5,
+              "dieselDays": 131.1,
+              "jetDays": null
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 262.9,
+              "dieselDays": 120.4,
+              "jetDays": null
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 282,
+              "dieselDays": 110,
+              "jetDays": null
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 316.7,
+              "dieselDays": 120,
+              "jetDays": null
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 300,
+              "dieselDays": 121.3,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 245.6,
+              "dieselDays": 112.5,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 218.8,
+              "dieselDays": 124.7,
+              "jetDays": 365
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 241.8,
+              "dieselDays": 123.5,
+              "jetDays": null
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 292,
+              "dieselDays": 135.7,
+              "jetDays": null
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 208.2,
+              "dieselDays": 124.3,
+              "jetDays": 320
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 176.5,
+              "dieselDays": 126.4,
+              "jetDays": null
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 159.5,
+              "dieselDays": 127.8,
+              "jetDays": 217.5
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 135,
+              "dieselDays": 125.9,
+              "jetDays": 174
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "FI",
+          "countryName": "Finland",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 120.3,
+              "dieselDays": 253.4,
+              "jetDays": 31
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 98.7,
+              "dieselDays": 232.7,
+              "jetDays": 23.3
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 94.1,
+              "dieselDays": 221.8,
+              "jetDays": 22.6
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 85.8,
+              "dieselDays": 207.3,
+              "jetDays": 27
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 78.8,
+              "dieselDays": 205,
+              "jetDays": 26.9
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 73.4,
+              "dieselDays": 239.7,
+              "jetDays": 25.7
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 83.4,
+              "dieselDays": 223.3,
+              "jetDays": 27
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 89.5,
+              "dieselDays": 210.5,
+              "jetDays": 38.1
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 92.8,
+              "dieselDays": 208.3,
+              "jetDays": 43.6
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 101.3,
+              "dieselDays": 243.6,
+              "jetDays": 52.7
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 99.3,
+              "dieselDays": 247,
+              "jetDays": 44.8
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 98.3,
+              "dieselDays": 199,
+              "jetDays": 45.9
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 105.6,
+              "dieselDays": 187.4,
+              "jetDays": 40.2
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 100.3,
+              "dieselDays": 197.7,
+              "jetDays": 31.9
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 104.4,
+              "dieselDays": 243.1,
+              "jetDays": 42.9
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 92.2,
+              "dieselDays": 263.8,
+              "jetDays": 28.3
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 84.9,
+              "dieselDays": 254.6,
+              "jetDays": 34.6
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": 88.3,
+              "dieselDays": 268.4,
+              "jetDays": 44.3
+            }
+          ]
+        },
+        {
+          "countryCode": "FR",
+          "countryName": "France",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 71.5,
+              "dieselDays": 94.3,
+              "jetDays": 78.9
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 65.7,
+              "dieselDays": 89.1,
+              "jetDays": 70.3
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 59.5,
+              "dieselDays": 81.5,
+              "jetDays": 61.6
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 64.5,
+              "dieselDays": 89.6,
+              "jetDays": 60
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 62.7,
+              "dieselDays": 81.8,
+              "jetDays": 55.6
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 57.9,
+              "dieselDays": 82.8,
+              "jetDays": 56.3
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 66.1,
+              "dieselDays": 101.5,
+              "jetDays": 53.9
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 68.8,
+              "dieselDays": 84,
+              "jetDays": 59.4
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 65.6,
+              "dieselDays": 78,
+              "jetDays": 54.7
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 80.9,
+              "dieselDays": 99.6,
+              "jetDays": 68.9
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 64.7,
+              "dieselDays": 83.4,
+              "jetDays": 59.6
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 81.9,
+              "dieselDays": 95.3,
+              "jetDays": 63.4
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 83.7,
+              "dieselDays": 97.7,
+              "jetDays": 67.5
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 69.3,
+              "dieselDays": 89.3,
+              "jetDays": 65
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 68.1,
+              "dieselDays": 95.5,
+              "jetDays": 61
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 79.4,
+              "dieselDays": 108.1,
+              "jetDays": 60.9
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 60.2,
+              "dieselDays": 88.2,
+              "jetDays": 60.1
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "DE",
+          "countryName": "Germany",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 62.6,
+              "dieselDays": 76.8,
+              "jetDays": 77.7
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 58.1,
+              "dieselDays": 64.7,
+              "jetDays": 61.2
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 54.6,
+              "dieselDays": 67.3,
+              "jetDays": 49.6
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 49.4,
+              "dieselDays": 68.3,
+              "jetDays": 48.7
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 64.6,
+              "dieselDays": 75.8,
+              "jetDays": 48.5
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 48.4,
+              "dieselDays": 65.1,
+              "jetDays": 43.2
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 51.9,
+              "dieselDays": 72.6,
+              "jetDays": 45.7
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 49.2,
+              "dieselDays": 62,
+              "jetDays": 48.6
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 48.7,
+              "dieselDays": 59.4,
+              "jetDays": 46.3
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 53.4,
+              "dieselDays": 66.5,
+              "jetDays": 55.4
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 51.9,
+              "dieselDays": 63.7,
+              "jetDays": 60.9
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 64.2,
+              "dieselDays": 90.4,
+              "jetDays": 68.6
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 63,
+              "dieselDays": 93.3,
+              "jetDays": 73.9
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 62.3,
+              "dieselDays": 94.3,
+              "jetDays": 60.7
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 56.1,
+              "dieselDays": 109.9,
+              "jetDays": 51.8
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 50.3,
+              "dieselDays": 97.4,
+              "jetDays": 49.7
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 43.2,
+              "dieselDays": 81.6,
+              "jetDays": 62.2
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "GR",
+          "countryName": "Greece",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 94.5,
+              "dieselDays": 55.8,
+              "jetDays": 152.3
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 111.8,
+              "dieselDays": 74.8,
+              "jetDays": 162.7
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 86.6,
+              "dieselDays": 69,
+              "jetDays": 88.8
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 60.9,
+              "dieselDays": 55.6,
+              "jetDays": 45.8
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 59.8,
+              "dieselDays": 55.4,
+              "jetDays": 45
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 62,
+              "dieselDays": 51.3,
+              "jetDays": 38.4
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 56,
+              "dieselDays": 62.8,
+              "jetDays": 37.8
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 58.7,
+              "dieselDays": 63.5,
+              "jetDays": 43
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 67.9,
+              "dieselDays": 57.8,
+              "jetDays": 42
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 80.6,
+              "dieselDays": 65.8,
+              "jetDays": 123.7
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 70.4,
+              "dieselDays": 50.5,
+              "jetDays": 105.9
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 102.4,
+              "dieselDays": 65.7,
+              "jetDays": 151.1
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 86.6,
+              "dieselDays": 70.8,
+              "jetDays": 143.3
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 81.6,
+              "dieselDays": 53.5,
+              "jetDays": 105.6
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 68.7,
+              "dieselDays": 69.3,
+              "jetDays": 86.4
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 71,
+              "dieselDays": 75.3,
+              "jetDays": 53.3
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 61.5,
+              "dieselDays": 62,
+              "jetDays": 45.9
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "HU",
+          "countryName": "Hungary",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 142.1,
+              "dieselDays": 77.7,
+              "jetDays": 36
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 126.1,
+              "dieselDays": 73.8,
+              "jetDays": 37.9
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 122.2,
+              "dieselDays": 72.4,
+              "jetDays": 37.8
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 128.4,
+              "dieselDays": 72.2,
+              "jetDays": 34.1
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 116.3,
+              "dieselDays": 63,
+              "jetDays": 43.2
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 117.6,
+              "dieselDays": 70.2,
+              "jetDays": 39.6
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 123.2,
+              "dieselDays": 66.4,
+              "jetDays": 36.1
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 119.6,
+              "dieselDays": 58.7,
+              "jetDays": 29
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 130,
+              "dieselDays": 68.3,
+              "jetDays": 41.4
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 123.6,
+              "dieselDays": 78.8,
+              "jetDays": 45
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 159.6,
+              "dieselDays": 92,
+              "jetDays": 43.3
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 167.9,
+              "dieselDays": 89.1,
+              "jetDays": 44.5
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 111.4,
+              "dieselDays": 62.4,
+              "jetDays": 31.2
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 109.3,
+              "dieselDays": 69.3,
+              "jetDays": 42.9
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 115.8,
+              "dieselDays": 69.1,
+              "jetDays": 38.8
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 101.9,
+              "dieselDays": 62.3,
+              "jetDays": 34.3
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "IE",
+          "countryName": "Ireland",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 140,
+              "dieselDays": 119.5,
+              "jetDays": 212.8
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 122.2,
+              "dieselDays": 109.1,
+              "jetDays": 155.9
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 104.6,
+              "dieselDays": 101,
+              "jetDays": 124.5
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 91.3,
+              "dieselDays": 98.7,
+              "jetDays": 95
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 105.4,
+              "dieselDays": 108.5,
+              "jetDays": 96
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 98.9,
+              "dieselDays": 112.1,
+              "jetDays": 87.6
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 99.6,
+              "dieselDays": 122.1,
+              "jetDays": 89.1
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 102.1,
+              "dieselDays": 114.1,
+              "jetDays": 99.2
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 105.4,
+              "dieselDays": 110.1,
+              "jetDays": 95
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 113.6,
+              "dieselDays": 118.6,
+              "jetDays": 140.2
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 103,
+              "dieselDays": 118.8,
+              "jetDays": 133.2
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 176.6,
+              "dieselDays": 128.3,
+              "jetDays": 139.7
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 182.4,
+              "dieselDays": 129.4,
+              "jetDays": 151.8
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 143.7,
+              "dieselDays": 114.6,
+              "jetDays": 127.4
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 94.8,
+              "dieselDays": 111.1,
+              "jetDays": 116.8
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 95.8,
+              "dieselDays": 115.9,
+              "jetDays": 89.1
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 94.7,
+              "dieselDays": 99.3,
+              "jetDays": 94.3
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "IT",
+          "countryName": "Italy",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 71.6,
+              "dieselDays": 66.6,
+              "jetDays": 81.4
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 62.1,
+              "dieselDays": 61.9,
+              "jetDays": 63.4
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 57.5,
+              "dieselDays": 60.3,
+              "jetDays": 53.2
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 58.1,
+              "dieselDays": 57.9,
+              "jetDays": 50.1
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 51.4,
+              "dieselDays": 55.6,
+              "jetDays": 42.1
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 50,
+              "dieselDays": 50.5,
+              "jetDays": 49.9
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 52.9,
+              "dieselDays": 65.1,
+              "jetDays": 38.9
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 58.7,
+              "dieselDays": 60.5,
+              "jetDays": 45.3
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 49,
+              "dieselDays": 51.3,
+              "jetDays": 39.8
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 62.9,
+              "dieselDays": 59.3,
+              "jetDays": 64.4
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 56.3,
+              "dieselDays": 57.1,
+              "jetDays": 55.2
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 69.5,
+              "dieselDays": 64.3,
+              "jetDays": 68.1
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 64.5,
+              "dieselDays": 74,
+              "jetDays": 76.7
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 62.4,
+              "dieselDays": 61.4,
+              "jetDays": 61.5
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 56.5,
+              "dieselDays": 61.3,
+              "jetDays": 43.5
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 54.1,
+              "dieselDays": 66.7,
+              "jetDays": 38.1
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 53.2,
+              "dieselDays": 56.9,
+              "jetDays": 45.4
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "LV",
+          "countryName": "Latvia",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 259.1,
+              "dieselDays": 140.7,
+              "jetDays": 70.3
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 190.1,
+              "dieselDays": 116.1,
+              "jetDays": 89.4
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 115.7,
+              "dieselDays": 110.3,
+              "jetDays": 94.1
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 23.4,
+              "dieselDays": 108.9,
+              "jetDays": 83.4
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 24.3,
+              "dieselDays": 112.8,
+              "jetDays": 80.3
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 36.9,
+              "dieselDays": 96.8,
+              "jetDays": 83.3
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 30.7,
+              "dieselDays": 100.1,
+              "jetDays": 77.1
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 32.8,
+              "dieselDays": 113,
+              "jetDays": 80.3
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 26.9,
+              "dieselDays": 105.8,
+              "jetDays": 71.8
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 29.8,
+              "dieselDays": 112.1,
+              "jetDays": 72.2
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 29.3,
+              "dieselDays": 113.9,
+              "jetDays": 56.2
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 76.3,
+              "dieselDays": 87.5,
+              "jetDays": 66
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 141.5,
+              "dieselDays": 113.9,
+              "jetDays": 62.3
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 250.6,
+              "dieselDays": 104.8,
+              "jetDays": 51.6
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 46.6,
+              "dieselDays": 115.2,
+              "jetDays": 48.8
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 32.8,
+              "dieselDays": 139,
+              "jetDays": 40.9
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 30.8,
+              "dieselDays": 104.2,
+              "jetDays": 36.4
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "LT",
+          "countryName": "Lithuania",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 209.3,
+              "dieselDays": 108.1,
+              "jetDays": 43.7
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 167.8,
+              "dieselDays": 88.9,
+              "jetDays": 35.4
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 147.9,
+              "dieselDays": 76,
+              "jetDays": 27.7
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 121.9,
+              "dieselDays": 81,
+              "jetDays": 31.9
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 130,
+              "dieselDays": 75.7,
+              "jetDays": 45.8
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 136.8,
+              "dieselDays": 78,
+              "jetDays": 54.3
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 39.4,
+              "dieselDays": 57.6,
+              "jetDays": null
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 37.3,
+              "dieselDays": 66.2,
+              "jetDays": null
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 36,
+              "dieselDays": 69.5,
+              "jetDays": null
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 41.8,
+              "dieselDays": 83.9,
+              "jetDays": null
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 39.3,
+              "dieselDays": 90.8,
+              "jetDays": null
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 38.2,
+              "dieselDays": 98.3,
+              "jetDays": null
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 52.3,
+              "dieselDays": 118,
+              "jetDays": null
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 47,
+              "dieselDays": 96.3,
+              "jetDays": null
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 43.6,
+              "dieselDays": 91.8,
+              "jetDays": null
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 43.8,
+              "dieselDays": 94.2,
+              "jetDays": null
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 32.6,
+              "dieselDays": 76,
+              "jetDays": null
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "LU",
+          "countryName": "Luxembourg",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 53.2,
+              "dieselDays": 69.4,
+              "jetDays": 58.1
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 41.2,
+              "dieselDays": 61,
+              "jetDays": 47.1
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 40.8,
+              "dieselDays": 61.5,
+              "jetDays": 48.1
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 39.4,
+              "dieselDays": 64.5,
+              "jetDays": 50.6
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 46.8,
+              "dieselDays": 62.5,
+              "jetDays": 47.8
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 39.6,
+              "dieselDays": 62.3,
+              "jetDays": 47.6
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 44.7,
+              "dieselDays": 75.3,
+              "jetDays": 48.3
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 45.3,
+              "dieselDays": 65.1,
+              "jetDays": 49.4
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 45.5,
+              "dieselDays": 63.1,
+              "jetDays": 48.7
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 53.1,
+              "dieselDays": 69.5,
+              "jetDays": 47.4
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 42.3,
+              "dieselDays": 66,
+              "jetDays": 46.8
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 50,
+              "dieselDays": 68.9,
+              "jetDays": 57.2
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 48.4,
+              "dieselDays": 72.3,
+              "jetDays": 57.5
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 38,
+              "dieselDays": 58.4,
+              "jetDays": 43.1
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 42.7,
+              "dieselDays": 67.2,
+              "jetDays": 50
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 50.6,
+              "dieselDays": 73.1,
+              "jetDays": 44.6
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 47.4,
+              "dieselDays": 72.5,
+              "jetDays": 43
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "MT",
+          "countryName": "Malta",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 330,
+              "dieselDays": 126.3,
+              "jetDays": 106.9
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 284.6,
+              "dieselDays": 122.7,
+              "jetDays": 80.7
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 277.2,
+              "dieselDays": 123.1,
+              "jetDays": 67.6
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 247.9,
+              "dieselDays": 119.5,
+              "jetDays": 58.5
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 250.5,
+              "dieselDays": 128.3,
+              "jetDays": 53
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 101.1,
+              "dieselDays": 146.5,
+              "jetDays": 64
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 131.3,
+              "dieselDays": 150.4,
+              "jetDays": 55.6
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 173.1,
+              "dieselDays": 147.2,
+              "jetDays": 55.5
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 146.4,
+              "dieselDays": 152.8,
+              "jetDays": 56.6
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 214.5,
+              "dieselDays": 164.4,
+              "jetDays": 68.2
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 164.7,
+              "dieselDays": 163.2,
+              "jetDays": 85.8
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 124,
+              "dieselDays": 152.8,
+              "jetDays": 93.8
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 163.7,
+              "dieselDays": 174.4,
+              "jetDays": 89.6
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 113.9,
+              "dieselDays": 147.7,
+              "jetDays": 68
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 138.2,
+              "dieselDays": 131.7,
+              "jetDays": 61.2
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 112.9,
+              "dieselDays": 156.1,
+              "jetDays": 70.2
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 122.1,
+              "dieselDays": 193.5,
+              "jetDays": 73.1
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "NL",
+          "countryName": "Netherlands",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 53.9,
+              "dieselDays": 207.6,
+              "jetDays": 65.8
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 49.2,
+              "dieselDays": 163.5,
+              "jetDays": 54.1
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 63.1,
+              "dieselDays": 165.9,
+              "jetDays": 56
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 60.2,
+              "dieselDays": 178.5,
+              "jetDays": 46.7
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 67.9,
+              "dieselDays": 174.7,
+              "jetDays": 53.3
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 35.2,
+              "dieselDays": 134.1,
+              "jetDays": 34.9
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 55.8,
+              "dieselDays": 197.3,
+              "jetDays": 42.5
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 35.6,
+              "dieselDays": 157.7,
+              "jetDays": 56.3
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 30.1,
+              "dieselDays": 178,
+              "jetDays": 46
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 20.5,
+              "dieselDays": 172.5,
+              "jetDays": 44.5
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 40.9,
+              "dieselDays": 165.1,
+              "jetDays": 52.9
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 86,
+              "dieselDays": 215.7,
+              "jetDays": 59
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 81.2,
+              "dieselDays": 216.3,
+              "jetDays": 51.1
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 69.9,
+              "dieselDays": 207.5,
+              "jetDays": 63.2
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 77.4,
+              "dieselDays": 194,
+              "jetDays": 56
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 60.9,
+              "dieselDays": 217.1,
+              "jetDays": 34.4
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 73.8,
+              "dieselDays": 192.7,
+              "jetDays": 51.1
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "PL",
+          "countryName": "Poland",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 66,
+              "dieselDays": 68.1,
+              "jetDays": 22.2
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 60.2,
+              "dieselDays": 58.9,
+              "jetDays": 22.6
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 51.5,
+              "dieselDays": 60.1,
+              "jetDays": 20.5
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 48.4,
+              "dieselDays": 60.3,
+              "jetDays": 17.6
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 51.3,
+              "dieselDays": 62.9,
+              "jetDays": 18
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 50.2,
+              "dieselDays": 62.7,
+              "jetDays": 15.7
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 50,
+              "dieselDays": 62.5,
+              "jetDays": 13.8
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 54.5,
+              "dieselDays": 58.7,
+              "jetDays": 15.1
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 48.8,
+              "dieselDays": 50.3,
+              "jetDays": 18.2
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 50.7,
+              "dieselDays": 55.6,
+              "jetDays": 20
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 55.6,
+              "dieselDays": 61.9,
+              "jetDays": 23.1
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 51.8,
+              "dieselDays": 71,
+              "jetDays": 21.3
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 66.6,
+              "dieselDays": 74.7,
+              "jetDays": 25.3
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 53.2,
+              "dieselDays": 65.1,
+              "jetDays": 22.5
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 46,
+              "dieselDays": 69.6,
+              "jetDays": 21.7
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 50.7,
+              "dieselDays": 70.5,
+              "jetDays": 16.5
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 46.8,
+              "dieselDays": 64.7,
+              "jetDays": 12.5
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "PT",
+          "countryName": "Portugal",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 82.9,
+              "dieselDays": 91.9,
+              "jetDays": 30.7
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 69,
+              "dieselDays": 85.6,
+              "jetDays": 25.7
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 68.1,
+              "dieselDays": 86.1,
+              "jetDays": 15.9
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 87.3,
+              "dieselDays": 71.5,
+              "jetDays": 16.5
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 54.9,
+              "dieselDays": 84.2,
+              "jetDays": 11.1
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 55,
+              "dieselDays": 76.8,
+              "jetDays": 12.9
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 64.5,
+              "dieselDays": 91,
+              "jetDays": 15.4
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 71.6,
+              "dieselDays": 93.5,
+              "jetDays": 17.6
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 62.5,
+              "dieselDays": 69.5,
+              "jetDays": 17.7
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 81.2,
+              "dieselDays": 78.2,
+              "jetDays": 19.7
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 68.8,
+              "dieselDays": 78.9,
+              "jetDays": 23.9
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 83.8,
+              "dieselDays": 78,
+              "jetDays": 23.1
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 81.2,
+              "dieselDays": 90.3,
+              "jetDays": 26.7
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 65.5,
+              "dieselDays": 67.5,
+              "jetDays": 21.2
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 72.3,
+              "dieselDays": 83.8,
+              "jetDays": 20.9
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 83.8,
+              "dieselDays": 90.3,
+              "jetDays": 18.9
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 68.7,
+              "dieselDays": 80.5,
+              "jetDays": 20
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "RO",
+          "countryName": "Romania",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 62,
+              "dieselDays": 30,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 47.2,
+              "dieselDays": 24,
+              "jetDays": 54.7
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 40.7,
+              "dieselDays": 23.6,
+              "jetDays": 195
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 42.6,
+              "dieselDays": 27.5,
+              "jetDays": 84
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 37.4,
+              "dieselDays": 18.5,
+              "jetDays": 180
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 45.3,
+              "dieselDays": 21.1,
+              "jetDays": 66.7
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 36.4,
+              "dieselDays": 26.7,
+              "jetDays": 32.1
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 40.9,
+              "dieselDays": 23.8,
+              "jetDays": 195
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 48.7,
+              "dieselDays": 27.2,
+              "jetDays": 42.5
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 45.7,
+              "dieselDays": 20.6,
+              "jetDays": 240
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 43.6,
+              "dieselDays": 20.2,
+              "jetDays": 60
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 33.2,
+              "dieselDays": 32.4,
+              "jetDays": null
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 40.4,
+              "dieselDays": 30.2,
+              "jetDays": null
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 40.3,
+              "dieselDays": 21.5,
+              "jetDays": 180
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 30.2,
+              "dieselDays": 19.5,
+              "jetDays": 43.8
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 30.2,
+              "dieselDays": 17.3,
+              "jetDays": 365
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 26,
+              "dieselDays": 19.4,
+              "jetDays": 39
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "SK",
+          "countryName": "Slovakia",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 98.7,
+              "dieselDays": 54.3,
+              "jetDays": 145.9
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 81.4,
+              "dieselDays": 51,
+              "jetDays": 157.5
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 83.3,
+              "dieselDays": 47.7,
+              "jetDays": 123.6
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 81.3,
+              "dieselDays": 43.4,
+              "jetDays": 118.8
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 72.6,
+              "dieselDays": 45.6,
+              "jetDays": 58.2
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 65.5,
+              "dieselDays": 43.1,
+              "jetDays": 61.1
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 76.1,
+              "dieselDays": 46.7,
+              "jetDays": 156.2
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 69.9,
+              "dieselDays": 44.2,
+              "jetDays": 71.3
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 66.6,
+              "dieselDays": 38.3,
+              "jetDays": 112.4
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 74.4,
+              "dieselDays": 39.8,
+              "jetDays": 153
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 77.9,
+              "dieselDays": 44.1,
+              "jetDays": 112.1
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 88.3,
+              "dieselDays": 55.1,
+              "jetDays": 53.4
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 90.5,
+              "dieselDays": 44.7,
+              "jetDays": 105.6
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 83.4,
+              "dieselDays": 33.5,
+              "jetDays": 84.6
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 98.1,
+              "dieselDays": 47.5,
+              "jetDays": 97.3
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 94.1,
+              "dieselDays": 52,
+              "jetDays": 364.8
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 89.2,
+              "dieselDays": 41.3,
+              "jetDays": 59.1
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "SI",
+          "countryName": "Slovenia",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 196.1,
+              "dieselDays": 119.3,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 177.1,
+              "dieselDays": 111.8,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 119.3,
+              "dieselDays": 104.9,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 126.3,
+              "dieselDays": 110.3,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 117,
+              "dieselDays": 100.9,
+              "jetDays": 337.5
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 100.2,
+              "dieselDays": 110.7,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 117.6,
+              "dieselDays": 116.9,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 108,
+              "dieselDays": 101.4,
+              "jetDays": 282
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 120,
+              "dieselDays": 94.1,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 142.5,
+              "dieselDays": 109.1,
+              "jetDays": 365
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 122.4,
+              "dieselDays": 114.9,
+              "jetDays": 365
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": null,
+              "dieselDays": 107.7,
+              "jetDays": 365
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 150,
+              "dieselDays": 122.7,
+              "jetDays": 365
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 105,
+              "dieselDays": 73.6,
+              "jetDays": 365
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 119.2,
+              "dieselDays": 83.3,
+              "jetDays": 365
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 116.8,
+              "dieselDays": 107.2,
+              "jetDays": 365
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 136.2,
+              "dieselDays": 109.9,
+              "jetDays": 365
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "ES",
+          "countryName": "Spain",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 97.2,
+              "dieselDays": 69.4,
+              "jetDays": 42.3
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 91,
+              "dieselDays": 65.4,
+              "jetDays": 35.3
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 73.3,
+              "dieselDays": 66.7,
+              "jetDays": 30.4
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 69.9,
+              "dieselDays": 62.9,
+              "jetDays": 31.7
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 61.3,
+              "dieselDays": 64,
+              "jetDays": 36.4
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 59.4,
+              "dieselDays": 62.3,
+              "jetDays": 28.4
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 59,
+              "dieselDays": 74.6,
+              "jetDays": 25.9
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 63.7,
+              "dieselDays": 69.8,
+              "jetDays": 34.6
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 66.8,
+              "dieselDays": 61.6,
+              "jetDays": 32.2
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 76,
+              "dieselDays": 65,
+              "jetDays": 39.7
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 67.1,
+              "dieselDays": 60.7,
+              "jetDays": 37.2
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 83.7,
+              "dieselDays": 64.7,
+              "jetDays": 43.4
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 95.3,
+              "dieselDays": 68.6,
+              "jetDays": 42.1
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 80.7,
+              "dieselDays": 64.4,
+              "jetDays": 35.6
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 77,
+              "dieselDays": 72.2,
+              "jetDays": 44.8
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 82.6,
+              "dieselDays": 74.5,
+              "jetDays": 43.2
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 59,
+              "dieselDays": 64,
+              "jetDays": 37.3
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        },
+        {
+          "countryCode": "SE",
+          "countryName": "Sweden",
+          "data": [
+            {
+              "period": "2025-02",
+              "petrolDays": 107.1,
+              "dieselDays": 125.3,
+              "jetDays": 146
+            },
+            {
+              "period": "2025-03",
+              "petrolDays": 103.4,
+              "dieselDays": 112.7,
+              "jetDays": 147.1
+            },
+            {
+              "period": "2025-04",
+              "petrolDays": 90.9,
+              "dieselDays": 102.8,
+              "jetDays": 118
+            },
+            {
+              "period": "2025-05",
+              "petrolDays": 87.4,
+              "dieselDays": 94.7,
+              "jetDays": 71.4
+            },
+            {
+              "period": "2025-06",
+              "petrolDays": 87,
+              "dieselDays": 97.5,
+              "jetDays": 87.8
+            },
+            {
+              "period": "2025-07",
+              "petrolDays": 71.4,
+              "dieselDays": 107.3,
+              "jetDays": 76.4
+            },
+            {
+              "period": "2025-08",
+              "petrolDays": 90.9,
+              "dieselDays": 121.1,
+              "jetDays": 74.5
+            },
+            {
+              "period": "2025-09",
+              "petrolDays": 77.1,
+              "dieselDays": 99.9,
+              "jetDays": 100.8
+            },
+            {
+              "period": "2025-10",
+              "petrolDays": 85.2,
+              "dieselDays": 99.7,
+              "jetDays": 93.7
+            },
+            {
+              "period": "2025-11",
+              "petrolDays": 90.6,
+              "dieselDays": 105.1,
+              "jetDays": 107.9
+            },
+            {
+              "period": "2025-12",
+              "petrolDays": 100.9,
+              "dieselDays": 113.8,
+              "jetDays": 108
+            },
+            {
+              "period": "2026-01",
+              "petrolDays": 109.8,
+              "dieselDays": 98.6,
+              "jetDays": 106.5
+            },
+            {
+              "period": "2026-02",
+              "petrolDays": 111.1,
+              "dieselDays": 93.2,
+              "jetDays": 142.9
+            },
+            {
+              "period": "2026-03",
+              "petrolDays": 91.5,
+              "dieselDays": 94.8,
+              "jetDays": 109.2
+            },
+            {
+              "period": "2026-04",
+              "petrolDays": 86.9,
+              "dieselDays": 94.2,
+              "jetDays": 113.7
+            },
+            {
+              "period": "2026-05",
+              "petrolDays": 72.3,
+              "dieselDays": 90.1,
+              "jetDays": 91.1
+            },
+            {
+              "period": "2026-06",
+              "petrolDays": 72,
+              "dieselDays": 91.7,
+              "jetDays": 83.4
+            },
+            {
+              "period": "2026-07",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
+            }
+          ]
+        }
+      ],
+      "euAverage": [
+        {
+          "period": "2025-02",
+          "petrolDays": 129.4,
+          "dieselDays": 102.5,
+          "jetDays": 111.5
+        },
+        {
+          "period": "2025-03",
+          "petrolDays": 115,
+          "dieselDays": 92.3,
+          "jetDays": 84
+        },
+        {
+          "period": "2025-04",
+          "petrolDays": 99.2,
+          "dieselDays": 93.4,
+          "jetDays": 79.7
+        },
+        {
+          "period": "2025-05",
+          "petrolDays": 88.7,
+          "dieselDays": 89.7,
+          "jetDays": 66.1
+        },
+        {
+          "period": "2025-06",
+          "petrolDays": 93,
+          "dieselDays": 90,
+          "jetDays": 65.1
+        },
+        {
+          "period": "2025-07",
+          "petrolDays": 79.3,
+          "dieselDays": 88.7,
+          "jetDays": 60.4
+        },
+        {
+          "period": "2025-08",
+          "petrolDays": 81,
+          "dieselDays": 94.9,
+          "jetDays": 62.7
+        },
+        {
+          "period": "2025-09",
+          "petrolDays": 84.2,
+          "dieselDays": 90.1,
+          "jetDays": 65.8
+        },
+        {
+          "period": "2025-10",
+          "petrolDays": 83.8,
+          "dieselDays": 86.6,
+          "jetDays": 76.5
+        },
+        {
+          "period": "2025-11",
+          "petrolDays": 94.1,
+          "dieselDays": 94.8,
+          "jetDays": 97.6
+        },
+        {
+          "period": "2025-12",
+          "petrolDays": 86,
+          "dieselDays": 94.4,
+          "jetDays": 90.9
+        },
+        {
+          "period": "2026-01",
+          "petrolDays": 101.3,
+          "dieselDays": 97.4,
+          "jetDays": 81.6
+        },
+        {
+          "period": "2026-02",
+          "petrolDays": 111.6,
+          "dieselDays": 103.2,
+          "jetDays": 88.7
+        },
+        {
+          "period": "2026-03",
+          "petrolDays": 94.3,
+          "dieselDays": 87.8,
+          "jetDays": 92.7
+        },
+        {
+          "period": "2026-04",
+          "petrolDays": 83.2,
+          "dieselDays": 96.5,
+          "jetDays": 73
+        },
+        {
+          "period": "2026-05",
+          "petrolDays": 80.3,
+          "dieselDays": 103.3,
+          "jetDays": 93.5
+        },
+        {
+          "period": "2026-06",
+          "petrolDays": 74.1,
+          "dieselDays": 93.8,
+          "jetDays": 67.7
+        }
+      ]
+    },
+    "brent-history": {
+      "lastUpdated": "2026-09-19T09:25:28.272Z",
+      "entries": [
+        {
+          "date": "2025-04-16",
+          "priceUsd": 65.85,
+          "priceEur": 57.78
+        },
+        {
+          "date": "2025-04-17",
+          "priceUsd": 67.96,
+          "priceEur": 59.63
+        },
+        {
+          "date": "2025-04-21",
+          "priceUsd": 66.26,
+          "priceEur": 57.55
+        },
+        {
+          "date": "2025-04-22",
+          "priceUsd": 67.44,
+          "priceEur": 59.41
+        },
+        {
+          "date": "2025-04-23",
+          "priceUsd": 66.12,
+          "priceEur": 58.37
+        },
+        {
+          "date": "2025-04-24",
+          "priceUsd": 66.55,
+          "priceEur": 58.52
+        },
+        {
+          "date": "2025-04-25",
+          "priceUsd": 66.87,
+          "priceEur": 58.8
+        },
+        {
+          "date": "2025-04-28",
+          "priceUsd": 65.86,
+          "priceEur": 57.73
+        },
+        {
+          "date": "2025-04-29",
+          "priceUsd": 64.25,
+          "priceEur": 56.41
+        },
+        {
+          "date": "2025-04-30",
+          "priceUsd": 63.12,
+          "priceEur": 55.74
+        },
+        {
+          "date": "2025-05-01",
+          "priceUsd": 62.13,
+          "priceEur": 55
+        },
+        {
+          "date": "2025-05-02",
+          "priceUsd": 61.29,
+          "priceEur": 54.26
+        },
+        {
+          "date": "2025-05-05",
+          "priceUsd": 60.23,
+          "priceEur": 53.24
+        },
+        {
+          "date": "2025-05-06",
+          "priceUsd": 62.15,
+          "priceEur": 54.79
+        },
+        {
+          "date": "2025-05-07",
+          "priceUsd": 61.12,
+          "priceEur": 54.06
+        },
+        {
+          "date": "2025-05-08",
+          "priceUsd": 62.84,
+          "priceEur": 55.99
+        },
+        {
+          "date": "2025-05-09",
+          "priceUsd": 63.91,
+          "priceEur": 56.94
+        },
+        {
+          "date": "2025-05-12",
+          "priceUsd": 64.96,
+          "priceEur": 58.55
+        },
+        {
+          "date": "2025-05-13",
+          "priceUsd": 66.63,
+          "priceEur": 59.57
+        },
+        {
+          "date": "2025-05-14",
+          "priceUsd": 66.09,
+          "priceEur": 59.1
+        },
+        {
+          "date": "2025-05-15",
+          "priceUsd": 64.53,
+          "priceEur": 57.65
+        },
+        {
+          "date": "2025-05-16",
+          "priceUsd": 65.41,
+          "priceEur": 58.44
+        },
+        {
+          "date": "2025-05-19",
+          "priceUsd": 65.54,
+          "priceEur": 58.34
+        },
+        {
+          "date": "2025-05-20",
+          "priceUsd": 65.38,
+          "priceEur": 57.92
+        },
+        {
+          "date": "2025-05-21",
+          "priceUsd": 64.91,
+          "priceEur": 57.28
+        },
+        {
+          "date": "2025-05-22",
+          "priceUsd": 64.44,
+          "priceEur": 57.12
+        },
+        {
+          "date": "2025-05-23",
+          "priceUsd": 64.78,
+          "priceEur": 57.42
+        },
+        {
+          "date": "2025-05-27",
+          "priceUsd": 64.09,
+          "priceEur": 56.53
+        },
+        {
+          "date": "2025-05-28",
+          "priceUsd": 64.9,
+          "priceEur": 57.77
+        },
+        {
+          "date": "2025-05-29",
+          "priceUsd": 64.15,
+          "priceEur": 56.38
+        },
+        {
+          "date": "2025-05-30",
+          "priceUsd": 63.9,
+          "priceEur": 56.16
+        },
+        {
+          "date": "2025-06-02",
+          "priceUsd": 64.63,
+          "priceEur": 56.43
+        },
+        {
+          "date": "2025-06-03",
+          "priceUsd": 65.63,
+          "priceEur": 57.65
+        },
+        {
+          "date": "2025-06-04",
+          "priceUsd": 64.86,
+          "priceEur": 56.78
+        },
+        {
+          "date": "2025-06-05",
+          "priceUsd": 65.34,
+          "priceEur": 57.05
+        },
+        {
+          "date": "2025-06-06",
+          "priceUsd": 66.47,
+          "priceEur": 58.03
+        },
+        {
+          "date": "2025-06-09",
+          "priceUsd": 67.04,
+          "priceEur": 58.66
+        },
+        {
+          "date": "2025-06-10",
+          "priceUsd": 66.87,
+          "priceEur": 58.47
+        },
+        {
+          "date": "2025-06-11",
+          "priceUsd": 69.77,
+          "priceEur": 60.62
+        },
+        {
+          "date": "2025-06-12",
+          "priceUsd": 69.36,
+          "priceEur": 59.79
+        },
+        {
+          "date": "2025-06-13",
+          "priceUsd": 74.23,
+          "priceEur": 63.99
+        },
+        {
+          "date": "2025-06-16",
+          "priceUsd": 73.23,
+          "priceEur": 63.4
+        },
+        {
+          "date": "2025-06-17",
+          "priceUsd": 76.45,
+          "priceEur": 66.58
+        },
+        {
+          "date": "2025-06-18",
+          "priceUsd": 76.7,
+          "priceEur": 66.83
+        },
+        {
+          "date": "2025-06-20",
+          "priceUsd": 77.01,
+          "priceEur": 66.89
+        },
+        {
+          "date": "2025-06-23",
+          "priceUsd": 71.48,
+          "priceEur": 61.63
+        },
+        {
+          "date": "2025-06-24",
+          "priceUsd": 67.14,
+          "priceEur": 57.82
+        },
+        {
+          "date": "2025-06-25",
+          "priceUsd": 67.68,
+          "priceEur": 57.93
+        },
+        {
+          "date": "2025-06-26",
+          "priceUsd": 67.73,
+          "priceEur": 57.93
+        },
+        {
+          "date": "2025-06-27",
+          "priceUsd": 67.77,
+          "priceEur": 57.96
+        },
+        {
+          "date": "2025-06-30",
+          "priceUsd": 67.61,
+          "priceEur": 57.36
+        },
+        {
+          "date": "2025-07-01",
+          "priceUsd": 67.11,
+          "priceEur": 56.85
+        },
+        {
+          "date": "2025-07-02",
+          "priceUsd": 69.11,
+          "priceEur": 58.57
+        },
+        {
+          "date": "2025-07-03",
+          "priceUsd": 68.8,
+          "priceEur": 58.45
+        },
+        {
+          "date": "2025-07-04",
+          "priceUsd": 68.29,
+          "priceEur": 58.01
+        },
+        {
+          "date": "2025-07-07",
+          "priceUsd": 69.58,
+          "priceEur": 59.28
+        },
+        {
+          "date": "2025-07-08",
+          "priceUsd": 70.15,
+          "priceEur": 59.83
+        },
+        {
+          "date": "2025-07-09",
+          "priceUsd": 70.19,
+          "priceEur": 59.83
+        },
+        {
+          "date": "2025-07-10",
+          "priceUsd": 68.64,
+          "priceEur": 58.65
+        },
+        {
+          "date": "2025-07-11",
+          "priceUsd": 70.36,
+          "priceEur": 60.12
+        },
+        {
+          "date": "2025-07-14",
+          "priceUsd": 69.21,
+          "priceEur": 59.32
+        },
+        {
+          "date": "2025-07-15",
+          "priceUsd": 68.71,
+          "priceEur": 59.2
+        },
+        {
+          "date": "2025-07-16",
+          "priceUsd": 68.52,
+          "priceEur": 58.89
+        },
+        {
+          "date": "2025-07-17",
+          "priceUsd": 69.52,
+          "priceEur": 59.85
+        },
+        {
+          "date": "2025-07-18",
+          "priceUsd": 69.28,
+          "priceEur": 59.64
+        },
+        {
+          "date": "2025-07-21",
+          "priceUsd": 69.21,
+          "priceEur": 59.18
+        },
+        {
+          "date": "2025-07-22",
+          "priceUsd": 68.59,
+          "priceEur": 58.43
+        },
+        {
+          "date": "2025-07-23",
+          "priceUsd": 68.51,
+          "priceEur": 58.19
+        },
+        {
+          "date": "2025-07-24",
+          "priceUsd": 69.18,
+          "priceEur": 58.85
+        },
+        {
+          "date": "2025-07-25",
+          "priceUsd": 68.44,
+          "priceEur": 58.22
+        },
+        {
+          "date": "2025-07-28",
+          "priceUsd": 70.04,
+          "priceEur": 60.4
+        },
+        {
+          "date": "2025-07-29",
+          "priceUsd": 72.51,
+          "priceEur": 62.77
+        },
+        {
+          "date": "2025-07-30",
+          "priceUsd": 73.24,
+          "priceEur": 64.08
+        },
+        {
+          "date": "2025-07-31",
+          "priceUsd": 72.53,
+          "priceEur": 63.49
+        },
+        {
+          "date": "2025-08-01",
+          "priceUsd": 69.67,
+          "priceEur": 60.99
+        },
+        {
+          "date": "2025-08-04",
+          "priceUsd": 68.76,
+          "priceEur": 59.36
+        },
+        {
+          "date": "2025-08-05",
+          "priceUsd": 67.64,
+          "priceEur": 58.42
+        },
+        {
+          "date": "2025-08-06",
+          "priceUsd": 66.89,
+          "priceEur": 57.35
+        },
+        {
+          "date": "2025-08-07",
+          "priceUsd": 66.43,
+          "priceEur": 56.89
+        },
+        {
+          "date": "2025-08-08",
+          "priceUsd": 66.59,
+          "priceEur": 57.03
+        },
+        {
+          "date": "2025-08-11",
+          "priceUsd": 66.63,
+          "priceEur": 57.35
+        },
+        {
+          "date": "2025-08-12",
+          "priceUsd": 66.12,
+          "priceEur": 56.62
+        },
+        {
+          "date": "2025-08-13",
+          "priceUsd": 65.63,
+          "priceEur": 56.03
+        },
+        {
+          "date": "2025-08-14",
+          "priceUsd": 66.84,
+          "priceEur": 57.37
+        },
+        {
+          "date": "2025-08-15",
+          "priceUsd": 65.85,
+          "priceEur": 56.52
+        },
+        {
+          "date": "2025-08-18",
+          "priceUsd": 66.6,
+          "priceEur": 57.08
+        },
+        {
+          "date": "2025-08-19",
+          "priceUsd": 65.79,
+          "priceEur": 56.51
+        },
+        {
+          "date": "2025-08-20",
+          "priceUsd": 66.84,
+          "priceEur": 57.36
+        },
+        {
+          "date": "2025-08-21",
+          "priceUsd": 67.67,
+          "priceEur": 58.27
+        },
+        {
+          "date": "2025-08-22",
+          "priceUsd": 67.73,
+          "priceEur": 58.32
+        },
+        {
+          "date": "2025-08-25",
+          "priceUsd": 68.8,
+          "priceEur": 59.22
+        },
+        {
+          "date": "2025-08-26",
+          "priceUsd": 67.22,
+          "priceEur": 57.75
+        },
+        {
+          "date": "2025-08-27",
+          "priceUsd": 68.05,
+          "priceEur": 58.42
+        },
+        {
+          "date": "2025-08-28",
+          "priceUsd": 68.62,
+          "priceEur": 58.74
+        },
+        {
+          "date": "2025-08-29",
+          "priceUsd": 68.12,
+          "priceEur": 58.31
+        },
+        {
+          "date": "2025-09-01",
+          "priceUsd": 65.5,
+          "priceEur": 60.26
+        },
+        {
+          "date": "2025-09-02",
+          "priceUsd": 69.14,
+          "priceEur": 59.42
+        },
+        {
+          "date": "2025-09-03",
+          "priceUsd": 67.6,
+          "priceEur": 57.97
+        },
+        {
+          "date": "2025-09-04",
+          "priceUsd": 66.99,
+          "priceEur": 57.47
+        },
+        {
+          "date": "2025-09-05",
+          "priceUsd": 65.5,
+          "priceEur": 56.19
+        },
+        {
+          "date": "2025-09-08",
+          "priceUsd": 66.02,
+          "priceEur": 56.1
+        },
+        {
+          "date": "2025-09-09",
+          "priceUsd": 66.39,
+          "priceEur": 56.73
+        },
+        {
+          "date": "2025-09-10",
+          "priceUsd": 67.49,
+          "priceEur": 57.67
+        },
+        {
+          "date": "2025-09-11",
+          "priceUsd": 66.37,
+          "priceEur": 56.56
+        },
+        {
+          "date": "2025-09-12",
+          "priceUsd": 66.99,
+          "priceEur": 57.09
+        },
+        {
+          "date": "2025-09-15",
+          "priceUsd": 67.44,
+          "priceEur": 57.33
+        },
+        {
+          "date": "2025-09-16",
+          "priceUsd": 68.47,
+          "priceEur": 57.68
+        },
+        {
+          "date": "2025-09-17",
+          "priceUsd": 67.95,
+          "priceEur": 57.46
+        },
+        {
+          "date": "2025-09-18",
+          "priceUsd": 67.44,
+          "priceEur": 57.2
+        },
+        {
+          "date": "2025-09-19",
+          "priceUsd": 66.68,
+          "priceEur": 56.55
+        },
+        {
+          "date": "2025-09-22",
+          "priceUsd": 66.57,
+          "priceEur": 56.41
+        },
+        {
+          "date": "2025-09-23",
+          "priceUsd": 67.63,
+          "priceEur": 57.24
+        },
+        {
+          "date": "2025-09-24",
+          "priceUsd": 69.31,
+          "priceEur": 59.01
+        },
+        {
+          "date": "2025-09-25",
+          "priceUsd": 69.42,
+          "priceEur": 59.52
+        },
+        {
+          "date": "2025-09-26",
+          "priceUsd": 70.13,
+          "priceEur": 60.13
+        },
+        {
+          "date": "2025-09-29",
+          "priceUsd": 67.97,
+          "priceEur": 57.94
+        },
+        {
+          "date": "2025-09-30",
+          "priceUsd": 67.02,
+          "priceEur": 57.11
+        },
+        {
+          "date": "2025-10-01",
+          "priceUsd": 65.35,
+          "priceEur": 55.69
+        },
+        {
+          "date": "2025-10-02",
+          "priceUsd": 64.11,
+          "priceEur": 54.68
+        },
+        {
+          "date": "2025-10-03",
+          "priceUsd": 64.53,
+          "priceEur": 55.04
+        },
+        {
+          "date": "2025-10-06",
+          "priceUsd": 65.47,
+          "priceEur": 55.91
+        },
+        {
+          "date": "2025-10-07",
+          "priceUsd": 65.45,
+          "priceEur": 56.16
+        },
+        {
+          "date": "2025-10-08",
+          "priceUsd": 66.25,
+          "priceEur": 56.96
+        },
+        {
+          "date": "2025-10-09",
+          "priceUsd": 65.22,
+          "priceEur": 56.39
+        },
+        {
+          "date": "2025-10-10",
+          "priceUsd": 62.73,
+          "priceEur": 54.23
+        },
+        {
+          "date": "2025-10-13",
+          "priceUsd": 63.32,
+          "priceEur": 54.74
+        },
+        {
+          "date": "2025-10-14",
+          "priceUsd": 62.39,
+          "priceEur": 53.77
+        },
+        {
+          "date": "2025-10-15",
+          "priceUsd": 61.91,
+          "priceEur": 53.16
+        },
+        {
+          "date": "2025-10-16",
+          "priceUsd": 61.06,
+          "priceEur": 52.19
+        },
+        {
+          "date": "2025-10-17",
+          "priceUsd": 61.29,
+          "priceEur": 52.39
+        },
+        {
+          "date": "2025-10-20",
+          "priceUsd": 61.01,
+          "priceEur": 52.39
+        },
+        {
+          "date": "2025-10-21",
+          "priceUsd": 61.32,
+          "priceEur": 52.86
+        },
+        {
+          "date": "2025-10-22",
+          "priceUsd": 62.59,
+          "priceEur": 53.92
+        },
+        {
+          "date": "2025-10-23",
+          "priceUsd": 65.99,
+          "priceEur": 56.8
+        },
+        {
+          "date": "2025-10-24",
+          "priceUsd": 65.94,
+          "priceEur": 56.76
+        },
+        {
+          "date": "2025-10-27",
+          "priceUsd": 65.62,
+          "priceEur": 56.41
+        },
+        {
+          "date": "2025-10-28",
+          "priceUsd": 64.4,
+          "priceEur": 55.27
+        },
+        {
+          "date": "2025-10-29",
+          "priceUsd": 64.92,
+          "priceEur": 55.69
+        },
+        {
+          "date": "2025-10-30",
+          "priceUsd": 65,
+          "priceEur": 56.02
+        },
+        {
+          "date": "2025-10-31",
+          "priceUsd": 65.07,
+          "priceEur": 56.23
+        },
+        {
+          "date": "2025-11-03",
+          "priceUsd": 64.89,
+          "priceEur": 56.29
+        },
+        {
+          "date": "2025-11-04",
+          "priceUsd": 64.44,
+          "priceEur": 55.94
+        },
+        {
+          "date": "2025-11-05",
+          "priceUsd": 63.52,
+          "priceEur": 55.3
+        },
+        {
+          "date": "2025-11-06",
+          "priceUsd": 63.38,
+          "priceEur": 55.13
+        },
+        {
+          "date": "2025-11-07",
+          "priceUsd": 63.63,
+          "priceEur": 55.09
+        },
+        {
+          "date": "2025-11-10",
+          "priceUsd": 64.06,
+          "priceEur": 55.49
+        },
+        {
+          "date": "2025-11-11",
+          "priceUsd": 65.16,
+          "priceEur": 56.38
+        },
+        {
+          "date": "2025-11-12",
+          "priceUsd": 62.71,
+          "priceEur": 54.12
+        },
+        {
+          "date": "2025-11-13",
+          "priceUsd": 63.01,
+          "priceEur": 54.36
+        },
+        {
+          "date": "2025-11-14",
+          "priceUsd": 64.39,
+          "priceEur": 55.36
+        },
+        {
+          "date": "2025-11-17",
+          "priceUsd": 64.2,
+          "priceEur": 55.27
+        },
+        {
+          "date": "2025-11-18",
+          "priceUsd": 64.89,
+          "priceEur": 55.99
+        },
+        {
+          "date": "2025-11-19",
+          "priceUsd": 63.51,
+          "priceEur": 54.84
+        },
+        {
+          "date": "2025-11-20",
+          "priceUsd": 63.38,
+          "priceEur": 54.92
+        },
+        {
+          "date": "2025-11-21",
+          "priceUsd": 62.56,
+          "priceEur": 54.24
+        },
+        {
+          "date": "2025-11-24",
+          "priceUsd": 63.37,
+          "priceEur": 55.07
+        },
+        {
+          "date": "2025-11-25",
+          "priceUsd": 62.48,
+          "priceEur": 54.24
+        },
+        {
+          "date": "2025-11-26",
+          "priceUsd": 63.13,
+          "priceEur": 54.59
+        },
+        {
+          "date": "2025-11-28",
+          "priceUsd": 63.2,
+          "priceEur": 54.48
+        },
+        {
+          "date": "2025-12-01",
+          "priceUsd": 63.17,
+          "priceEur": 54.45
+        },
+        {
+          "date": "2025-12-02",
+          "priceUsd": 62.45,
+          "priceEur": 53.8
+        },
+        {
+          "date": "2025-12-03",
+          "priceUsd": 62.67,
+          "priceEur": 53.9
+        },
+        {
+          "date": "2025-12-04",
+          "priceUsd": 63.26,
+          "priceEur": 54.22
+        },
+        {
+          "date": "2025-12-05",
+          "priceUsd": 63.75,
+          "priceEur": 54.75
+        },
+        {
+          "date": "2025-12-08",
+          "priceUsd": 62.49,
+          "priceEur": 53.68
+        },
+        {
+          "date": "2025-12-09",
+          "priceUsd": 61.94,
+          "priceEur": 53.21
+        },
+        {
+          "date": "2025-12-10",
+          "priceUsd": 62.21,
+          "priceEur": 53.5
+        },
+        {
+          "date": "2025-12-11",
+          "priceUsd": 61.28,
+          "priceEur": 52.37
+        },
+        {
+          "date": "2025-12-12",
+          "priceUsd": 61.12,
+          "priceEur": 52.06
+        },
+        {
+          "date": "2025-12-15",
+          "priceUsd": 60.56,
+          "priceEur": 51.59
+        },
+        {
+          "date": "2025-12-16",
+          "priceUsd": 58.92,
+          "priceEur": 50.13
+        },
+        {
+          "date": "2025-12-17",
+          "priceUsd": 59.68,
+          "priceEur": 50.79
+        },
+        {
+          "date": "2025-12-18",
+          "priceUsd": 59.82,
+          "priceEur": 50.94
+        },
+        {
+          "date": "2025-12-19",
+          "priceUsd": 60.47,
+          "priceEur": 51.57
+        },
+        {
+          "date": "2025-12-22",
+          "priceUsd": 62.07,
+          "priceEur": 53.01
+        },
+        {
+          "date": "2025-12-23",
+          "priceUsd": 62.38,
+          "priceEur": 53.02
+        },
+        {
+          "date": "2025-12-24",
+          "priceUsd": 62.24,
+          "priceEur": 52.77
+        },
+        {
+          "date": "2025-12-26",
+          "priceUsd": 60.64,
+          "priceEur": 51.45
+        },
+        {
+          "date": "2025-12-29",
+          "priceUsd": 61.94,
+          "priceEur": 52.61
+        },
+        {
+          "date": "2025-12-30",
+          "priceUsd": 61.92,
+          "priceEur": 52.6
+        },
+        {
+          "date": "2025-12-31",
+          "priceUsd": 60.85,
+          "priceEur": 51.8
+        },
+        {
+          "date": "2026-01-02",
+          "priceUsd": 60.75,
+          "priceEur": 51.7
+        },
+        {
+          "date": "2026-01-05",
+          "priceUsd": 61.76,
+          "priceEur": 52.77
+        },
+        {
+          "date": "2026-01-06",
+          "priceUsd": 60.7,
+          "priceEur": 51.81
+        },
+        {
+          "date": "2026-01-07",
+          "priceUsd": 59.96,
+          "priceEur": 51.3
+        },
+        {
+          "date": "2026-01-08",
+          "priceUsd": 61.99,
+          "priceEur": 53.09
+        },
+        {
+          "date": "2026-01-09",
+          "priceUsd": 63.34,
+          "priceEur": 54.33
+        },
+        {
+          "date": "2026-01-12",
+          "priceUsd": 63.87,
+          "priceEur": 54.95
+        },
+        {
+          "date": "2026-01-13",
+          "priceUsd": 65.47,
+          "priceEur": 56.12
+        },
+        {
+          "date": "2026-01-14",
+          "priceUsd": 66.52,
+          "priceEur": 57.14
+        },
+        {
+          "date": "2026-01-15",
+          "priceUsd": 63.76,
+          "priceEur": 54.75
+        },
+        {
+          "date": "2026-01-16",
+          "priceUsd": 64.13,
+          "priceEur": 55.24
+        },
+        {
+          "date": "2026-01-19",
+          "priceUsd": 65.88,
+          "priceEur": 60.61
+        },
+        {
+          "date": "2026-01-20",
+          "priceUsd": 64.92,
+          "priceEur": 55.78
+        },
+        {
+          "date": "2026-01-21",
+          "priceUsd": 65.24,
+          "priceEur": 55.63
+        },
+        {
+          "date": "2026-01-22",
+          "priceUsd": 64.06,
+          "priceEur": 54.88
+        },
+        {
+          "date": "2026-01-23",
+          "priceUsd": 65.88,
+          "priceEur": 56.05
+        },
+        {
+          "date": "2026-01-26",
+          "priceUsd": 65.59,
+          "priceEur": 55.31
+        },
+        {
+          "date": "2026-01-27",
+          "priceUsd": 67.57,
+          "priceEur": 56.89
+        },
+        {
+          "date": "2026-01-28",
+          "priceUsd": 68.4,
+          "priceEur": 56.92
+        },
+        {
+          "date": "2026-01-29",
+          "priceUsd": 70.71,
+          "priceEur": 59.03
+        },
+        {
+          "date": "2026-01-30",
+          "priceUsd": 70.69,
+          "priceEur": 59.08
+        },
+        {
+          "date": "2026-02-02",
+          "priceUsd": 66.3,
+          "priceEur": 55.95
+        },
+        {
+          "date": "2026-02-03",
+          "priceUsd": 67.33,
+          "priceEur": 57.07
+        },
+        {
+          "date": "2026-02-04",
+          "priceUsd": 69.46,
+          "priceEur": 58.78
+        },
+        {
+          "date": "2026-02-05",
+          "priceUsd": 67.55,
+          "priceEur": 57.24
+        },
+        {
+          "date": "2026-02-06",
+          "priceUsd": 68.05,
+          "priceEur": 57.78
+        },
+        {
+          "date": "2026-02-09",
+          "priceUsd": 69.04,
+          "priceEur": 58.38
+        },
+        {
+          "date": "2026-02-10",
+          "priceUsd": 68.8,
+          "priceEur": 57.8
+        },
+        {
+          "date": "2026-02-11",
+          "priceUsd": 69.4,
+          "priceEur": 58.37
+        },
+        {
+          "date": "2026-02-12",
+          "priceUsd": 67.52,
+          "priceEur": 56.85
+        },
+        {
+          "date": "2026-02-13",
+          "priceUsd": 67.75,
+          "priceEur": 57.08
+        },
+        {
+          "date": "2026-02-16",
+          "priceUsd": 71.76,
+          "priceEur": 66.02
+        },
+        {
+          "date": "2026-02-17",
+          "priceUsd": 67.42,
+          "priceEur": 56.9
+        },
+        {
+          "date": "2026-02-18",
+          "priceUsd": 70.35,
+          "priceEur": 59.36
+        },
+        {
+          "date": "2026-02-19",
+          "priceUsd": 71.66,
+          "priceEur": 60.79
+        },
+        {
+          "date": "2026-02-20",
+          "priceUsd": 71.76,
+          "priceEur": 60.97
+        },
+        {
+          "date": "2026-02-23",
+          "priceUsd": 71.49,
+          "priceEur": 60.41
+        },
+        {
+          "date": "2026-02-24",
+          "priceUsd": 70.77,
+          "priceEur": 60.01
+        },
+        {
+          "date": "2026-02-25",
+          "priceUsd": 70.85,
+          "priceEur": 60.17
+        },
+        {
+          "date": "2026-02-26",
+          "priceUsd": 70.75,
+          "priceEur": 59.88
+        },
+        {
+          "date": "2026-02-27",
+          "priceUsd": 72.48,
+          "priceEur": 61.41
+        },
+        {
+          "date": "2026-03-02",
+          "priceUsd": 77.74,
+          "priceEur": 66.11
+        },
+        {
+          "date": "2026-03-03",
+          "priceUsd": 81.4,
+          "priceEur": 69.59
+        },
+        {
+          "date": "2026-03-04",
+          "priceUsd": 81.4,
+          "priceEur": 70.1
+        },
+        {
+          "date": "2026-03-05",
+          "priceUsd": 85.41,
+          "priceEur": 73.4
+        },
+        {
+          "date": "2026-03-06",
+          "priceUsd": 92.69,
+          "priceEur": 79.85
+        },
+        {
+          "date": "2026-03-09",
+          "priceUsd": 98.96,
+          "priceEur": 85.88
+        },
+        {
+          "date": "2026-03-10",
+          "priceUsd": 87.8,
+          "priceEur": 75.58
+        },
+        {
+          "date": "2026-03-11",
+          "priceUsd": 91.98,
+          "priceEur": 79.22
+        },
+        {
+          "date": "2026-03-12",
+          "priceUsd": 100.46,
+          "priceEur": 87.03
+        },
+        {
+          "date": "2026-03-13",
+          "priceUsd": 103.14,
+          "priceEur": 89.52
+        },
+        {
+          "date": "2026-03-16",
+          "priceUsd": 100.21,
+          "priceEur": 87.63
+        },
+        {
+          "date": "2026-03-17",
+          "priceUsd": 103.42,
+          "priceEur": 89.93
+        },
+        {
+          "date": "2026-03-18",
+          "priceUsd": 107.38,
+          "priceEur": 93.05
+        },
+        {
+          "date": "2026-03-19",
+          "priceUsd": 108.65,
+          "priceEur": 94.77
+        },
+        {
+          "date": "2026-03-20",
+          "priceUsd": 112.19,
+          "priceEur": 96.9
+        },
+        {
+          "date": "2026-03-23",
+          "priceUsd": 99.94,
+          "priceEur": 86.45
+        },
+        {
+          "date": "2026-03-24",
+          "priceUsd": 104.49,
+          "priceEur": 90.02
+        },
+        {
+          "date": "2026-03-25",
+          "priceUsd": 102.22,
+          "priceEur": 88.01
+        },
+        {
+          "date": "2026-03-26",
+          "priceUsd": 108.01,
+          "priceEur": 93.42
+        },
+        {
+          "date": "2026-03-27",
+          "priceUsd": 112.57,
+          "priceEur": 97.59
+        },
+        {
+          "date": "2026-03-30",
+          "priceUsd": 112.78,
+          "priceEur": 98.41
+        },
+        {
+          "date": "2026-03-31",
+          "priceUsd": 118.35,
+          "priceEur": 102.25
+        },
+        {
+          "date": "2026-04-01",
+          "priceUsd": 101.16,
+          "priceEur": 87.28
+        },
+        {
+          "date": "2026-04-02",
+          "priceUsd": 109.03,
+          "priceEur": 94.47
+        },
+        {
+          "date": "2026-04-06",
+          "priceUsd": 109.77,
+          "priceEur": 95.11
+        },
+        {
+          "date": "2026-04-07",
+          "priceUsd": 109.27,
+          "priceEur": 93.5
+        },
+        {
+          "date": "2026-04-08",
+          "priceUsd": 94.75,
+          "priceEur": 81.27
+        },
+        {
+          "date": "2026-04-09",
+          "priceUsd": 95.92,
+          "priceEur": 82.04
+        },
+        {
+          "date": "2026-04-10",
+          "priceUsd": 95.2,
+          "priceEur": 81.43
+        },
+        {
+          "date": "2026-04-13",
+          "priceUsd": 99.36,
+          "priceEur": 84.43
+        },
+        {
+          "date": "2026-04-14",
+          "priceUsd": 94.79,
+          "priceEur": 80.33
+        },
+        {
+          "date": "2026-04-15",
+          "priceUsd": 94.93,
+          "priceEur": 80.39
+        },
+        {
+          "date": "2026-04-16",
+          "priceUsd": 99.39,
+          "priceEur": 84.35
+        },
+        {
+          "date": "2026-04-17",
+          "priceUsd": 90.38,
+          "priceEur": 76.71
+        },
+        {
+          "date": "2026-04-20",
+          "priceUsd": 95.48,
+          "priceEur": 81.02
+        },
+        {
+          "date": "2026-04-21",
+          "priceUsd": 98.48,
+          "priceEur": 83.85
+        },
+        {
+          "date": "2026-04-22",
+          "priceUsd": 101.91,
+          "priceEur": 87.06
+        },
+        {
+          "date": "2026-04-23",
+          "priceUsd": 105.07,
+          "priceEur": 89.93
+        },
+        {
+          "date": "2026-04-24",
+          "priceUsd": 105.33,
+          "priceEur": 90.15
+        },
+        {
+          "date": "2026-04-27",
+          "priceUsd": 108.23,
+          "priceEur": 92.32
+        },
+        {
+          "date": "2026-04-28",
+          "priceUsd": 111.26,
+          "priceEur": 94.95
+        },
+        {
+          "date": "2026-04-29",
+          "priceUsd": 118.03,
+          "priceEur": 101.01
+        },
+        {
+          "date": "2026-04-30",
+          "priceUsd": 114.01,
+          "priceEur": 97.2
+        },
+        {
+          "date": "2026-05-01",
+          "priceUsd": 108.17,
+          "priceEur": 92.22
+        },
+        {
+          "date": "2026-05-04",
+          "priceUsd": 114.44,
+          "priceEur": 97.88
+        },
+        {
+          "date": "2026-05-05",
+          "priceUsd": 109.87,
+          "priceEur": 93.78
+        },
+        {
+          "date": "2026-05-06",
+          "priceUsd": 101.27,
+          "priceEur": 86.21
+        },
+        {
+          "date": "2026-05-07",
+          "priceUsd": 100.06,
+          "priceEur": 85.29
+        },
+        {
+          "date": "2026-05-08",
+          "priceUsd": 101.29,
+          "priceEur": 86.34
+        },
+        {
+          "date": "2026-05-11",
+          "priceUsd": 104.21,
+          "priceEur": 88.46
+        },
+        {
+          "date": "2026-05-12",
+          "priceUsd": 107.77,
+          "priceEur": 91.83
+        },
+        {
+          "date": "2026-05-13",
+          "priceUsd": 105.63,
+          "priceEur": 90.16
+        },
+        {
+          "date": "2026-05-14",
+          "priceUsd": 105.72,
+          "priceEur": 90.65
+        },
+        {
+          "date": "2026-05-15",
+          "priceUsd": 109.26,
+          "priceEur": 93.69
+        },
+        {
+          "date": "2026-05-18",
+          "priceUsd": 112.1,
+          "priceEur": 96.18
+        },
+        {
+          "date": "2026-05-19",
+          "priceUsd": 111.28,
+          "priceEur": 95.87
+        },
+        {
+          "date": "2026-05-20",
+          "priceUsd": 105.02,
+          "priceEur": 90.34
+        },
+        {
+          "date": "2026-05-21",
+          "priceUsd": 102.58,
+          "priceEur": 88.27
+        },
+        {
+          "date": "2026-05-22",
+          "priceUsd": 103.54,
+          "priceEur": 89.1
+        },
+        {
+          "date": "2026-05-25",
+          "priceUsd": 95.63,
+          "priceEur": 87.98
+        },
+        {
+          "date": "2026-05-26",
+          "priceUsd": 99.58,
+          "priceEur": 85.57
+        },
+        {
+          "date": "2026-05-27",
+          "priceUsd": 94.29,
+          "priceEur": 81.16
+        },
+        {
+          "date": "2026-05-28",
+          "priceUsd": 93.71,
+          "priceEur": 80.42
+        },
+        {
+          "date": "2026-05-29",
+          "priceUsd": 92.05,
+          "priceEur": 78.99
+        },
+        {
+          "date": "2026-06-01",
+          "priceUsd": 94.98,
+          "priceEur": 81.63
+        },
+        {
+          "date": "2026-06-02",
+          "priceUsd": 96,
+          "priceEur": 82.6
+        },
+        {
+          "date": "2026-06-03",
+          "priceUsd": 97.81,
+          "priceEur": 84.25
+        },
+        {
+          "date": "2026-06-04",
+          "priceUsd": 95.03,
+          "priceEur": 81.83
+        },
+        {
+          "date": "2026-06-05",
+          "priceUsd": 93.09,
+          "priceEur": 80.16
+        },
+        {
+          "date": "2026-06-08",
+          "priceUsd": 94.25,
+          "priceEur": 81.75
+        },
+        {
+          "date": "2026-06-09",
+          "priceUsd": 91.45,
+          "priceEur": 79.28
+        },
+        {
+          "date": "2026-06-10",
+          "priceUsd": 93.1,
+          "priceEur": 80.71
+        },
+        {
+          "date": "2026-06-11",
+          "priceUsd": 90.38,
+          "priceEur": 78.08
+        },
+        {
+          "date": "2026-06-12",
+          "priceUsd": 87.33,
+          "priceEur": 75.44
+        },
+        {
+          "date": "2026-06-15",
+          "priceUsd": 83.17,
+          "priceEur": 71.73
+        },
+        {
+          "date": "2026-06-16",
+          "priceUsd": 78.96,
+          "priceEur": 68.01
+        },
+        {
+          "date": "2026-06-17",
+          "priceUsd": 79.55,
+          "priceEur": 69.13
+        },
+        {
+          "date": "2026-06-18",
+          "priceUsd": 79.85,
+          "priceEur": 69.69
+        },
+        {
+          "date": "2026-06-19",
+          "priceUsd": 80.59,
+          "priceEur": 74.14
+        },
+        {
+          "date": "2026-06-22",
+          "priceUsd": 77.9,
+          "priceEur": 68.17
+        },
+        {
+          "date": "2026-06-23",
+          "priceUsd": 77.08,
+          "priceEur": 67.74
+        },
+        {
+          "date": "2026-06-24",
+          "priceUsd": 73.74,
+          "priceEur": 64.95
+        },
+        {
+          "date": "2026-06-25",
+          "priceUsd": 75.26,
+          "priceEur": 66.24
+        },
+        {
+          "date": "2026-06-26",
+          "priceUsd": 71.99,
+          "priceEur": 63.36
+        },
+        {
+          "date": "2026-06-29",
+          "priceUsd": 73.15,
+          "priceEur": 64.04
+        },
+        {
+          "date": "2026-06-30",
+          "priceUsd": 72.92,
+          "priceEur": 63.89
+        },
+        {
+          "date": "2026-07-01",
+          "priceUsd": 71.57,
+          "priceEur": 62.9
+        },
+        {
+          "date": "2026-07-02",
+          "priceUsd": 71.8,
+          "priceEur": 62.86
+        },
+        {
+          "date": "2026-07-03",
+          "priceUsd": 72.13,
+          "priceEur": 66.36
+        },
+        {
+          "date": "2026-07-06",
+          "priceUsd": 71.99,
+          "priceEur": 62.92
+        },
+        {
+          "date": "2026-07-07",
+          "priceUsd": 74.16,
+          "priceEur": 65.03
+        },
+        {
+          "date": "2026-07-08",
+          "priceUsd": 78.02,
+          "priceEur": 68.31
+        },
+        {
+          "date": "2026-07-09",
+          "priceUsd": 76.3,
+          "priceEur": 66.73
+        },
+        {
+          "date": "2026-07-10",
+          "priceUsd": 76.01,
+          "priceEur": 66.48
+        },
+        {
+          "date": "2026-07-13",
+          "priceUsd": 83.3,
+          "priceEur": 73.17
+        },
+        {
+          "date": "2026-07-14",
+          "priceUsd": 84.73,
+          "priceEur": 74.16
+        },
+        {
+          "date": "2026-07-15",
+          "priceUsd": 84.95,
+          "priceEur": 74.06
+        },
+        {
+          "date": "2026-07-16",
+          "priceUsd": 84.23,
+          "priceEur": 73.6
+        },
+        {
+          "date": "2026-07-17",
+          "priceUsd": 88.1,
+          "priceEur": 76.98
+        },
+        {
+          "date": "2026-07-20",
+          "priceUsd": 89.22,
+          "priceEur": 78.14
+        },
+        {
+          "date": "2026-07-21",
+          "priceUsd": 91.01,
+          "priceEur": 79.81
+        },
+        {
+          "date": "2026-07-22",
+          "priceUsd": 94.07,
+          "priceEur": 82.43
+        },
+        {
+          "date": "2026-07-23",
+          "priceUsd": 100.69,
+          "priceEur": 88.5
+        },
+        {
+          "date": "2026-07-24",
+          "priceUsd": 96.78,
+          "priceEur": 85.07
+        },
+        {
+          "date": "2026-07-27",
+          "priceUsd": 88.36,
+          "priceEur": 77.72
+        },
+        {
+          "date": "2026-07-28",
+          "priceUsd": 84.09,
+          "priceEur": 73.85
+        },
+        {
+          "date": "2026-07-29",
+          "priceUsd": 90.74,
+          "priceEur": 79.13
+        },
+        {
+          "date": "2026-07-30",
+          "priceUsd": 89.03,
+          "priceEur": 77.26
+        },
+        {
+          "date": "2026-07-31",
+          "priceUsd": 90.12,
+          "priceEur": 78.21
+        },
+        {
+          "date": "2026-08-03",
+          "priceUsd": 83.77,
+          "priceEur": 72.8
+        },
+        {
+          "date": "2026-08-04",
+          "priceUsd": 79.36,
+          "priceEur": 68.81
+        },
+        {
+          "date": "2026-08-05",
+          "priceUsd": 79.45,
+          "priceEur": 68.74
+        },
+        {
+          "date": "2026-08-06",
+          "priceUsd": 82.49,
+          "priceEur": 71.58
+        },
+        {
+          "date": "2026-08-07",
+          "priceUsd": 83.55,
+          "priceEur": 72.5
+        },
+        {
+          "date": "2026-08-10",
+          "priceUsd": 87.72,
+          "priceEur": 75.97
+        },
+        {
+          "date": "2026-08-11",
+          "priceUsd": 88.91,
+          "priceEur": 77.02
+        },
+        {
+          "date": "2026-08-12",
+          "priceUsd": 88.98,
+          "priceEur": 77.17
+        },
+        {
+          "date": "2026-08-13",
+          "priceUsd": 87.07,
+          "priceEur": 75.48
+        },
+        {
+          "date": "2026-08-14",
+          "priceUsd": 88.52,
+          "priceEur": 76.74
+        },
+        {
+          "date": "2026-08-17",
+          "priceUsd": 90.87,
+          "priceEur": 78.45
+        },
+        {
+          "date": "2026-08-18",
+          "priceUsd": 91.02,
+          "priceEur": 78.6
+        },
+        {
+          "date": "2026-08-19",
+          "priceUsd": 91.62,
+          "priceEur": 78.48
+        },
+        {
+          "date": "2026-08-20",
+          "priceUsd": 93.78,
+          "priceEur": 80.24
+        },
+        {
+          "date": "2026-08-21",
+          "priceUsd": 94.39,
+          "priceEur": 80.76
+        },
+        {
+          "date": "2026-08-24",
+          "priceUsd": 92.17,
+          "priceEur": 78.99
+        },
+        {
+          "date": "2026-08-25",
+          "priceUsd": 88.58,
+          "priceEur": 75.87
+        },
+        {
+          "date": "2026-08-26",
+          "priceUsd": 87.84,
+          "priceEur": 75.37
+        },
+        {
+          "date": "2026-08-27",
+          "priceUsd": 89.7,
+          "priceEur": 76.95
+        },
+        {
+          "date": "2026-08-28",
+          "priceUsd": 89.31,
+          "priceEur": 76.62
+        },
+        {
+          "date": "2026-08-31",
+          "priceUsd": 90.49,
+          "priceEur": 78.06
+        },
+        {
+          "date": "2026-09-01",
+          "priceUsd": 94.65,
+          "priceEur": 81.74
+        },
+        {
+          "date": "2026-09-02",
+          "priceUsd": 95.63,
+          "priceEur": 82.39
+        },
+        {
+          "date": "2026-09-03",
+          "priceUsd": 95.52,
+          "priceEur": 82.18
+        },
+        {
+          "date": "2026-09-04",
+          "priceUsd": 96.28,
+          "priceEur": 82.85
+        },
+        {
+          "date": "2026-09-08",
+          "priceUsd": 97.92,
+          "priceEur": 84.16
+        },
+        {
+          "date": "2026-09-09",
+          "priceUsd": 101.21,
+          "priceEur": 86.97
+        },
+        {
+          "date": "2026-09-10",
+          "priceUsd": 107.63,
+          "priceEur": 92.76
+        },
+        {
+          "date": "2026-09-11",
+          "priceUsd": 104.61,
+          "priceEur": 90.16
+        },
+        {
+          "date": "2026-09-14",
+          "priceUsd": 105.68,
+          "priceEur": 91.57
+        },
+        {
+          "date": "2026-09-15",
+          "priceUsd": 108.75,
+          "priceEur": 94.21
+        },
+        {
+          "date": "2026-09-16",
+          "priceUsd": 105.83,
+          "priceEur": 92.21
+        },
+        {
+          "date": "2026-09-17",
+          "priceUsd": 104.82,
+          "priceEur": 91.24
+        },
+        {
+          "date": "2026-09-18",
+          "priceUsd": 103.87,
+          "priceEur": 90.41
+        }
+      ]
+    }
+  },
+  "publication": {
+    "id": "0714557b1b797494@2026-09-19T09:26:41.565Z",
+    "builtAt": "2026-09-19T09:26:41.565Z",
+    "inputHash": "0714557b1b797494",
+    "bundles": [
+      "live",
+      "snapshot",
+      "history"
+    ]
+  }
+}
