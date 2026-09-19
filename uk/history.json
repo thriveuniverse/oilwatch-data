@@ -1,16 +1,11 @@
 {
   "bundle": "history",
   "revalidate": 86400,
-  "builtAt": "2026-09-18T19:58:27.658Z",
+  "builtAt": "2026-09-19T09:24:16.143Z",
   "resources": {
     "brent-history": {
-      "lastUpdated": "2026-09-18T19:57:35.684Z",
+      "lastUpdated": "2026-09-19T09:23:27.466Z",
       "entries": [
-        {
-          "date": "2025-04-15",
-          "priceUsd": 64.67,
-          "priceEur": 57.27
-        },
         {
           "date": "2025-04-16",
           "priceUsd": 65.85,
@@ -1830,6 +1825,11 @@
           "date": "2026-09-17",
           "priceUsd": 104.82,
           "priceEur": 91.25
+        },
+        {
+          "date": "2026-09-18",
+          "priceUsd": 103.87,
+          "priceEur": 90.41
         }
       ]
     },
@@ -1839,7 +1839,7 @@
       "sourceUrl": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D",
       "unit": "USD per barrel",
       "frequency": "daily",
-      "lastUpdated": "2026-09-18T19:57:37.350Z",
+      "lastUpdated": "2026-09-19T09:23:29.033Z",
       "firstDate": "1987-05-20",
       "lastDate": "2026-09-15",
       "count": 9087,
