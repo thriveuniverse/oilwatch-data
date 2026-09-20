@@ -1,30 +1,29 @@
 {
   "prefix": "euro",
   "publication": {
-    "id": "0714557b1b797494@2026-09-20T16:45:30.766Z",
-    "builtAt": "2026-09-20T16:45:30.766Z",
+    "id": "0714557b1b797494@2026-09-20T19:44:27.198Z",
+    "builtAt": "2026-09-20T19:44:27.198Z",
     "inputHash": "0714557b1b797494",
     "bundles": [
       "live",
       "snapshot",
-      "history",
-      "analysis"
+      "history"
     ]
   },
   "bundles": {
     "live": {
       "contentHash": "c71745590fa89b4fdc5056e0c1dc55f38865e214df41d704d54a51ccfdeef803",
-      "fileSha256": "e9cdf73932dc1d0348942ab18b153247be227604711e81422e5bcb8f730b9e97",
-      "bytes": 23254,
+      "fileSha256": "cf536313d09a7f312dddba895a71c8086f2492cfd160212159dff4ccfd4014ab",
+      "bytes": 23236,
       "resources": [
         "analysis-facts"
       ],
       "revalidate": 900
     },
     "snapshot": {
-      "contentHash": "126047f10d1702348fb046fa5c9d96459dfc20a107ab5d70126fd2722a64f43d",
-      "fileSha256": "40865016770f96d988c5258698fa5b0328eef5fd004e567ba7fbe7ed4a6f908a",
-      "bytes": 76996,
+      "contentHash": "6c800cc6b85d026ffe0d17552918dc634f8f05118c5c50f7b06d0602332d3adc",
+      "fileSha256": "99f3a194667c483e3e87e94b79140b0356920aef1dae1192048eb69c97433fc9",
+      "bytes": 76978,
       "resources": [
         "stocks",
         "prices",
@@ -33,23 +32,14 @@
       "revalidate": 900
     },
     "history": {
-      "contentHash": "fa7bb11e50b49be82ac087e0b8f2b091e4bccfc66b57c13813cd077dc5a4a399",
-      "fileSha256": "c8f3873e5cf7d9aa2773b81dec236dc1bfbfd55990a77f5bd5289e5541976a82",
-      "bytes": 125416,
+      "contentHash": "599c2c4b062b2a75c4df042ff40dd340545a3a336a7bb7a396f0a7e121a15771",
+      "fileSha256": "246cb5cc1c243f5f456957d7a459dc678992610ba7f52912abbafc854224bce1",
+      "bytes": 125398,
       "resources": [
         "history",
         "brent-history"
       ],
       "revalidate": 86400
-    },
-    "analysis": {
-      "contentHash": "189e6a3cd3bbf3103e0e49d5dd536a571971d8a753bd8285ed05115b5d6658fb",
-      "fileSha256": "776f2b6ba014fda0ddbfb5a3456d3dc3ad37d47dea9b8c615459086a9d8949b1",
-      "bytes": 85002,
-      "resources": [
-        "analysis.structured"
-      ],
-      "revalidate": 900
     }
   }
 }
