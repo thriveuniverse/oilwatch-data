@@ -2,7 +2,7 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-20T09:46:20.853Z",
+  "builtAt": "2026-09-20T16:45:30.766Z",
   "resources": {
     "stocks": {
       "lastUpdated": "2026-09-20T09:44:17.280Z",
@@ -2178,13 +2178,14 @@
     }
   },
   "publication": {
-    "id": "0714557b1b797494@2026-09-20T09:46:20.853Z",
-    "builtAt": "2026-09-20T09:46:20.853Z",
+    "id": "0714557b1b797494@2026-09-20T16:45:30.766Z",
+    "builtAt": "2026-09-20T16:45:30.766Z",
     "inputHash": "0714557b1b797494",
     "bundles": [
       "live",
       "snapshot",
-      "history"
+      "history",
+      "analysis"
     ]
   }
 }
