@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-20T19:44:27.198Z",
+  "builtAt": "2026-09-21T21:16:01.669Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-09-20T19:43:03.968Z",
+      "lastUpdated": "2026-09-21T21:14:07.701Z",
       "dataPeriod": "2026-06",
       "countriesReporting": 27,
       "countriesTotal": 27,
@@ -1929,7 +1929,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-09-20T19:43:09.079Z",
+      "lastUpdated": "2026-09-21T21:14:13.521Z",
       "bulletinDate": "2026-09-14",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-09-14)",
@@ -2157,30 +2157,29 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-09-19T19:35:36.774Z",
-      "fetchedAt": "2026-09-20T19:43:10.636Z",
-      "observedAt": "2026-09-18T20:58:56.000Z",
-      "sessionDate": "2026-09-18",
-      "quoteType": "settled",
-      "quoteStatus": "last-available-close",
+      "lastUpdated": "2026-09-21T21:14:15.218Z",
+      "fetchedAt": "2026-09-21T21:14:15.218Z",
+      "observedAt": "2026-09-21T20:59:08.000Z",
+      "sessionDate": "2026-09-21",
+      "quoteType": "intraday",
+      "quoteStatus": "current",
       "provider": "Yahoo Finance (BZ=F)",
-      "priceUsd": 103.87,
-      "priceEur": 90.4,
-      "eurUsd": 1.149,
+      "priceUsd": 95.96,
+      "priceEur": 83.65,
+      "eurUsd": 1.1472,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-09-18T21:29:10.000Z",
-      "changeUsd": 0,
-      "changePct": 0,
+      "fxObservedAt": "2026-09-21T21:14:09.000Z",
+      "changeUsd": -7.91,
+      "changePct": -7.62,
       "dataSource": "Yahoo Finance (BZ=F)",
-      "rejectedQuotes": [],
-      "staleReason": "Yahoo Finance (BZ=F) returned the 2026-09-18 session while the current session is 2026-09-20 — that is a previous close, not a current quote"
+      "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "0714557b1b797494@2026-09-20T19:44:27.198Z",
-    "builtAt": "2026-09-20T19:44:27.198Z",
-    "inputHash": "0714557b1b797494",
+    "id": "89a9e93c63128c88@2026-09-21T21:16:01.669Z",
+    "builtAt": "2026-09-21T21:16:01.669Z",
+    "inputHash": "89a9e93c63128c88",
     "bundles": [
       "live",
       "snapshot",
