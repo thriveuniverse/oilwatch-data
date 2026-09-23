@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-22T20:30:25.669Z",
+  "builtAt": "2026-09-23T09:55:47.973Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-09-22T20:30:25.669Z",
-      "inputHash": "b85c610eba45f317",
+      "builtAt": "2026-09-23T09:55:47.973Z",
+      "inputHash": "ad5a94ef12ec2ed9",
       "effectiveVintage": "2026-06",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-09-22T20:18:18.000Z",
+          "observedAt": "2026-09-23T09:43:56.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -614,22 +614,22 @@
         "brent.quote_status": "current",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZ=F)",
-        "brent.session_date": "2026-09-22",
-        "brent.session_date_label": "22 September 2026",
-        "brent.observed_at": "2026-09-22T20:18:18.000Z",
-        "brent.price_usd": 98.55,
-        "brent.price_eur": 86.05,
+        "brent.session_date": "2026-09-23",
+        "brent.session_date_label": "23 September 2026",
+        "brent.observed_at": "2026-09-23T09:43:56.000Z",
+        "brent.price_usd": 95.75,
+        "brent.price_eur": 83.91,
         "brent.fx_status": "observed",
-        "brent.change_usd": -1.79,
-        "brent.change_pct": -1.78,
+        "brent.change_usd": -3.5,
+        "brent.change_pct": -3.53,
         "trend.brent_verb": "fell"
       }
     }
   },
   "publication": {
-    "id": "b85c610eba45f317@2026-09-22T20:30:25.669Z",
-    "builtAt": "2026-09-22T20:30:25.669Z",
-    "inputHash": "b85c610eba45f317",
+    "id": "ad5a94ef12ec2ed9@2026-09-23T09:55:47.973Z",
+    "builtAt": "2026-09-23T09:55:47.973Z",
+    "inputHash": "ad5a94ef12ec2ed9",
     "bundles": [
       "live",
       "snapshot",
