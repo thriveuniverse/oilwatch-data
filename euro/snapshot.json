@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-23T20:42:25.657Z",
+  "builtAt": "2026-09-24T09:57:30.519Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-09-23T20:40:39.575Z",
+      "lastUpdated": "2026-09-24T09:55:23.457Z",
       "dataPeriod": "2026-06",
       "countriesReporting": 27,
       "countriesTotal": 27,
@@ -1929,7 +1929,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-09-23T20:40:44.927Z",
+      "lastUpdated": "2026-09-24T09:55:29.353Z",
       "bulletinDate": "2026-09-21",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-09-21)",
@@ -2157,29 +2157,29 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-09-23T20:40:46.446Z",
-      "fetchedAt": "2026-09-23T20:40:46.446Z",
-      "observedAt": "2026-09-23T20:30:22.000Z",
-      "sessionDate": "2026-09-23",
+      "lastUpdated": "2026-09-24T09:55:31.281Z",
+      "fetchedAt": "2026-09-24T09:55:31.281Z",
+      "observedAt": "2026-09-24T09:44:49.000Z",
+      "sessionDate": "2026-09-24",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZ=F)",
-      "priceUsd": 98.6,
-      "priceEur": 86.6,
-      "eurUsd": 1.1386,
+      "priceUsd": 105.58,
+      "priceEur": 92.79,
+      "eurUsd": 1.1378,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-09-23T20:40:08.000Z",
-      "changeUsd": -0.65,
-      "changePct": -0.65,
+      "fxObservedAt": "2026-09-24T09:55:09.000Z",
+      "changeUsd": 2.5,
+      "changePct": 2.43,
       "dataSource": "Yahoo Finance (BZ=F)",
       "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "385b7ff029dd6ede@2026-09-23T20:42:25.657Z",
-    "builtAt": "2026-09-23T20:42:25.657Z",
-    "inputHash": "385b7ff029dd6ede",
+    "id": "ddce46596d548908@2026-09-24T09:57:30.519Z",
+    "builtAt": "2026-09-24T09:57:30.519Z",
+    "inputHash": "ddce46596d548908",
     "bundles": [
       "live",
       "snapshot",
