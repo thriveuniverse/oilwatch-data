@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-25T20:46:52.210Z",
+  "builtAt": "2026-09-26T09:51:35.365Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-09-25T20:45:02.750Z",
+      "lastUpdated": "2026-09-26T09:49:26.704Z",
       "dataPeriod": "2026-06",
       "countriesReporting": 27,
       "countriesTotal": 27,
@@ -718,7 +718,7 @@
             {
               "fuelType": "petrol",
               "stockKilotonnes": 291.383,
-              "consumptionKilotonnes": 153.184,
+              "consumptionKilotonnes": 153.113,
               "daysOfSupply": 57.1,
               "mandatoryMinimumDays": 90,
               "status": "critical",
@@ -737,9 +737,9 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 1077.426,
-              "consumptionKilotonnes": 490.681,
-              "daysOfSupply": 65.9,
+              "stockKilotonnes": 1077.427,
+              "consumptionKilotonnes": 489.292,
+              "daysOfSupply": 66.1,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
@@ -1929,7 +1929,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-09-25T20:45:08.646Z",
+      "lastUpdated": "2026-09-26T09:49:32.648Z",
       "bulletinDate": "2026-09-21",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-09-21)",
@@ -2157,31 +2157,30 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-09-25T10:08:50.268Z",
-      "fetchedAt": "2026-09-25T20:45:10.420Z",
-      "observedAt": null,
-      "sessionDate": "2026-09-24",
+      "lastUpdated": "2026-09-26T09:49:34.391Z",
+      "fetchedAt": "2026-09-26T09:49:34.391Z",
+      "observedAt": "2026-09-25T20:59:58.000Z",
+      "sessionDate": "2026-09-25",
       "quoteType": "settled",
-      "quoteStatus": "last-available-close",
-      "provider": "brent-history.json (stored settled close)",
-      "priceUsd": 106.6,
-      "priceEur": 93.53,
-      "eurUsd": 1.1397,
+      "quoteStatus": "current",
+      "provider": "Yahoo Finance (BZ=F)",
+      "priceUsd": 104.32,
+      "priceEur": 91.51,
+      "eurUsd": 1.14,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-09-25T10:08:08.000Z",
-      "changeUsd": 3.52,
-      "changePct": 3.41,
-      "dataSource": "brent-history.json (stored settled close)",
-      "rejectedQuotes": [],
-      "changeAgainst": "2026-09-23",
-      "staleReason": "uncorroborated -8.3% move from Yahoo Finance (BZ=F)"
+      "fxObservedAt": "2026-09-26T07:09:07.000Z",
+      "changeUsd": -2.28,
+      "changePct": -2.14,
+      "changeAgainst": "2026-09-24",
+      "dataSource": "Yahoo Finance (BZ=F)",
+      "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "bc3ac352f205da19@2026-09-25T20:46:52.210Z",
-    "builtAt": "2026-09-25T20:46:52.210Z",
-    "inputHash": "bc3ac352f205da19",
+    "id": "faae01a0527c9d89@2026-09-26T09:51:35.365Z",
+    "builtAt": "2026-09-26T09:51:35.365Z",
+    "inputHash": "faae01a0527c9d89",
     "bundles": [
       "live",
       "snapshot",
