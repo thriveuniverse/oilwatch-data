@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-27T10:34:07.656Z",
+  "builtAt": "2026-09-27T20:27:15.939Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-09-27T10:34:07.656Z",
-      "inputHash": "70f65c5963f45b51",
+      "builtAt": "2026-09-27T20:27:15.939Z",
+      "inputHash": "faae01a0527c9d89",
       "effectiveVintage": "2026-06",
       "factCount": 413,
       "sources": {
@@ -617,8 +617,8 @@
         "brent.session_date": "2026-09-25",
         "brent.session_date_label": "25 September 2026",
         "brent.observed_at": "2026-09-25T00:00:00Z",
-        "brent.price_usd": 97.44,
-        "brent.price_eur": 85.47,
+        "brent.price_usd": 104.32,
+        "brent.price_eur": 91.5,
         "brent.fx_status": "observed",
         "brent.change_usd": -2.28,
         "brent.change_pct": -2.14,
@@ -627,9 +627,9 @@
     }
   },
   "publication": {
-    "id": "70f65c5963f45b51@2026-09-27T10:34:07.656Z",
-    "builtAt": "2026-09-27T10:34:07.656Z",
-    "inputHash": "70f65c5963f45b51",
+    "id": "faae01a0527c9d89@2026-09-27T20:27:15.939Z",
+    "builtAt": "2026-09-27T20:27:15.939Z",
+    "inputHash": "faae01a0527c9d89",
     "bundles": [
       "live",
       "snapshot",
