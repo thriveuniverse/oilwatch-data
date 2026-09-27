@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-26T20:10:10.892Z",
+  "builtAt": "2026-09-27T10:34:07.656Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-09-26T20:07:36.662Z",
+      "lastUpdated": "2026-09-27T10:30:46.911Z",
       "dataPeriod": "2026-06",
       "countriesReporting": 27,
       "countriesTotal": 27,
@@ -1929,7 +1929,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-09-26T20:07:41.653Z",
+      "lastUpdated": "2026-09-27T10:30:51.756Z",
       "bulletinDate": "2026-09-21",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-09-21)",
@@ -2158,14 +2158,14 @@
     },
     "brent": {
       "lastUpdated": "2026-09-26T20:07:43.377Z",
-      "fetchedAt": "2026-09-26T20:07:43.377Z",
-      "observedAt": "2026-09-25T20:59:58.000Z",
+      "fetchedAt": "2026-09-27T10:30:53.291Z",
+      "observedAt": null,
       "sessionDate": "2026-09-25",
       "quoteType": "settled",
-      "quoteStatus": "current",
-      "provider": "Yahoo Finance (BZ=F)",
-      "priceUsd": 104.32,
-      "priceEur": 91.5,
+      "quoteStatus": "last-available-close",
+      "provider": "brent-history.json (stored settled close)",
+      "priceUsd": 97.44,
+      "priceEur": 85.47,
       "eurUsd": 1.1401,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
@@ -2173,14 +2173,15 @@
       "changeUsd": -2.28,
       "changePct": -2.14,
       "changeAgainst": "2026-09-24",
-      "dataSource": "Yahoo Finance (BZ=F)",
-      "rejectedQuotes": []
+      "dataSource": "brent-history.json (stored settled close)",
+      "rejectedQuotes": [],
+      "staleReason": "Yahoo Finance (BZ=F) returned the 2026-09-25 session while the current session is 2026-09-27 — that is a previous close, not a current quote; the retained observation ($104.32) was itself 7.1% from the last settled close, so it was discarded in favour of the 2026-09-25 settled close, changed $-2.28 against 2026-09-24"
     }
   },
   "publication": {
-    "id": "faae01a0527c9d89@2026-09-26T20:10:10.892Z",
-    "builtAt": "2026-09-26T20:10:10.892Z",
-    "inputHash": "faae01a0527c9d89",
+    "id": "70f65c5963f45b51@2026-09-27T10:34:07.656Z",
+    "builtAt": "2026-09-27T10:34:07.656Z",
+    "inputHash": "70f65c5963f45b51",
     "bundles": [
       "live",
       "snapshot",
