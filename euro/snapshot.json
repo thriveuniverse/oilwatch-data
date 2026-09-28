@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-28T11:41:43.587Z",
+  "builtAt": "2026-09-28T22:42:46.250Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-09-28T11:38:09.873Z",
+      "lastUpdated": "2026-09-28T22:38:12.961Z",
       "dataPeriod": "2026-06",
       "countriesReporting": 27,
       "countriesTotal": 27,
@@ -1929,7 +1929,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-09-28T11:38:14.288Z",
+      "lastUpdated": "2026-09-28T22:38:18.775Z",
       "bulletinDate": "2026-09-21",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-09-21)",
@@ -2157,30 +2157,30 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-09-28T11:38:15.718Z",
-      "fetchedAt": "2026-09-28T11:38:15.718Z",
-      "observedAt": "2026-09-28T11:27:53.000Z",
+      "lastUpdated": "2026-09-28T22:38:20.781Z",
+      "fetchedAt": "2026-09-28T22:38:20.781Z",
+      "observedAt": "2026-09-28T22:26:21.000Z",
       "sessionDate": "2026-09-28",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZ=F)",
-      "priceUsd": 100.54,
-      "priceEur": 88.35,
-      "eurUsd": 1.1379,
+      "priceUsd": 98.57,
+      "priceEur": 86.65,
+      "eurUsd": 1.1375,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-09-28T11:37:56.000Z",
-      "changeUsd": -3.78,
-      "changePct": -3.62,
+      "fxObservedAt": "2026-09-28T22:38:00.000Z",
+      "changeUsd": -5.75,
+      "changePct": -5.51,
       "changeAgainst": "2026-09-25",
       "dataSource": "Yahoo Finance (BZ=F)",
       "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "277cce3b84a9e559@2026-09-28T11:41:43.587Z",
-    "builtAt": "2026-09-28T11:41:43.587Z",
-    "inputHash": "277cce3b84a9e559",
+    "id": "26216ff5f2cfa88b@2026-09-28T22:42:46.250Z",
+    "builtAt": "2026-09-28T22:42:46.250Z",
+    "inputHash": "26216ff5f2cfa88b",
     "bundles": [
       "live",
       "snapshot",
