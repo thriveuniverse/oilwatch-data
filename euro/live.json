@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-27T20:27:15.939Z",
+  "builtAt": "2026-09-28T11:41:43.587Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-09-27T20:27:15.939Z",
-      "inputHash": "faae01a0527c9d89",
+      "builtAt": "2026-09-28T11:41:43.587Z",
+      "inputHash": "277cce3b84a9e559",
       "effectiveVintage": "2026-06",
       "factCount": 413,
       "sources": {
@@ -25,11 +25,11 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-09-25T00:00:00Z",
+          "observedAt": "2026-09-28T11:27:53.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
-          "note": "stale after 4 days (FRESHNESS.brent); quoteStatus last-available-close, provider brent-history.json (stored settled close)"
+          "note": "stale after 4 days (FRESHNESS.brent); quoteStatus current, provider Yahoo Finance (BZ=F)"
         }
       },
       "facts": {
@@ -611,25 +611,25 @@
           "MT"
         ],
         "count.diesel_price.reporting": 27,
-        "brent.quote_status": "last-available-close",
-        "brent.quote_type": "settled",
-        "brent.provider": "brent-history.json (stored settled close)",
-        "brent.session_date": "2026-09-25",
-        "brent.session_date_label": "25 September 2026",
-        "brent.observed_at": "2026-09-25T00:00:00Z",
-        "brent.price_usd": 104.32,
-        "brent.price_eur": 91.5,
+        "brent.quote_status": "current",
+        "brent.quote_type": "intraday",
+        "brent.provider": "Yahoo Finance (BZ=F)",
+        "brent.session_date": "2026-09-28",
+        "brent.session_date_label": "28 September 2026",
+        "brent.observed_at": "2026-09-28T11:27:53.000Z",
+        "brent.price_usd": 100.54,
+        "brent.price_eur": 88.35,
         "brent.fx_status": "observed",
-        "brent.change_usd": -2.28,
-        "brent.change_pct": -2.14,
+        "brent.change_usd": -3.78,
+        "brent.change_pct": -3.62,
         "trend.brent_verb": "fell"
       }
     }
   },
   "publication": {
-    "id": "faae01a0527c9d89@2026-09-27T20:27:15.939Z",
-    "builtAt": "2026-09-27T20:27:15.939Z",
-    "inputHash": "faae01a0527c9d89",
+    "id": "277cce3b84a9e559@2026-09-28T11:41:43.587Z",
+    "builtAt": "2026-09-28T11:41:43.587Z",
+    "inputHash": "277cce3b84a9e559",
     "bundles": [
       "live",
       "snapshot",

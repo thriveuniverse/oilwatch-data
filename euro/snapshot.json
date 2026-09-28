@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-09-27T20:27:15.939Z",
+  "builtAt": "2026-09-28T11:41:43.587Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-09-27T20:23:00.823Z",
+      "lastUpdated": "2026-09-28T11:38:09.873Z",
       "dataPeriod": "2026-06",
       "countriesReporting": 27,
       "countriesTotal": 27,
@@ -1929,7 +1929,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-09-27T20:23:07.361Z",
+      "lastUpdated": "2026-09-28T11:38:14.288Z",
       "bulletinDate": "2026-09-21",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-09-21)",
@@ -2157,31 +2157,30 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-09-26T20:07:43.377Z",
-      "fetchedAt": "2026-09-27T20:23:09.111Z",
-      "observedAt": null,
-      "sessionDate": "2026-09-25",
-      "quoteType": "settled",
-      "quoteStatus": "last-available-close",
-      "provider": "brent-history.json (stored settled close)",
-      "priceUsd": 104.32,
-      "priceEur": 91.5,
-      "eurUsd": 1.1401,
+      "lastUpdated": "2026-09-28T11:38:15.718Z",
+      "fetchedAt": "2026-09-28T11:38:15.718Z",
+      "observedAt": "2026-09-28T11:27:53.000Z",
+      "sessionDate": "2026-09-28",
+      "quoteType": "intraday",
+      "quoteStatus": "current",
+      "provider": "Yahoo Finance (BZ=F)",
+      "priceUsd": 100.54,
+      "priceEur": 88.35,
+      "eurUsd": 1.1379,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-09-26T19:04:57.000Z",
-      "changeUsd": -2.28,
-      "changePct": -2.14,
-      "changeAgainst": "2026-09-24",
-      "dataSource": "brent-history.json (stored settled close)",
-      "rejectedQuotes": [],
-      "staleReason": "Yahoo Finance (BZ=F) returned the 2026-09-25 session while the current session is 2026-09-27 — that is a previous close, not a current quote"
+      "fxObservedAt": "2026-09-28T11:37:56.000Z",
+      "changeUsd": -3.78,
+      "changePct": -3.62,
+      "changeAgainst": "2026-09-25",
+      "dataSource": "Yahoo Finance (BZ=F)",
+      "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "faae01a0527c9d89@2026-09-27T20:27:15.939Z",
-    "builtAt": "2026-09-27T20:27:15.939Z",
-    "inputHash": "faae01a0527c9d89",
+    "id": "277cce3b84a9e559@2026-09-28T11:41:43.587Z",
+    "builtAt": "2026-09-28T11:41:43.587Z",
+    "inputHash": "277cce3b84a9e559",
     "bundles": [
       "live",
       "snapshot",
