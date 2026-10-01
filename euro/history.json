@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-09-28T22:42:46.250Z",
+  "builtAt": "2026-10-01T09:58:48.125Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-09-28T22:38:15.231Z",
+      "lastUpdated": "2026-10-01T09:55:12.924Z",
       "periods": [
         "2025-03",
         "2025-04",
@@ -22,7 +22,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "countries": [
         {
@@ -247,9 +248,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 46,
+              "dieselDays": 124.4,
+              "jetDays": 92.9
             }
           ]
         },
@@ -355,15 +356,15 @@
             },
             {
               "period": "2026-07",
-              "petrolDays": 53.3,
-              "dieselDays": 54.7,
-              "jetDays": 37.1
+              "petrolDays": 60.4,
+              "dieselDays": 53.6,
+              "jetDays": 30.3
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 44.5,
+              "dieselDays": 55.5,
+              "jetDays": 21.1
             }
           ]
         },
@@ -2407,9 +2408,9 @@
             },
             {
               "period": "2026-07",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 50,
+              "dieselDays": 58.7,
+              "jetDays": 17.9
             },
             {
               "period": "2026-08",
@@ -2521,9 +2522,9 @@
             },
             {
               "period": "2026-07",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 61.3,
+              "dieselDays": 75.8,
+              "jetDays": 22.4
             },
             {
               "period": "2026-08",
@@ -2749,9 +2750,9 @@
             },
             {
               "period": "2026-07",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 94.8,
+              "dieselDays": 43.8,
+              "jetDays": 48.7
             },
             {
               "period": "2026-08",
@@ -2863,9 +2864,9 @@
             },
             {
               "period": "2026-07",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 111.6,
+              "dieselDays": 102.1,
+              "jetDays": 365
             },
             {
               "period": "2026-08",
@@ -3091,9 +3092,9 @@
             },
             {
               "period": "2026-07",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 57.7,
+              "dieselDays": 79.2,
+              "jetDays": 89.7
             },
             {
               "period": "2026-08",
@@ -3200,27 +3201,18 @@
           "petrolDays": 74.1,
           "dieselDays": 93.8,
           "jetDays": 67.7
+        },
+        {
+          "period": "2026-07",
+          "petrolDays": 64.5,
+          "dieselDays": 91.4,
+          "jetDays": 64.7
         }
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-09-28T22:38:20.782Z",
+      "lastUpdated": "2026-10-01T09:55:18.097Z",
       "entries": [
-        {
-          "date": "2025-04-24",
-          "priceUsd": 66.55,
-          "priceEur": 58.52
-        },
-        {
-          "date": "2025-04-25",
-          "priceUsd": 66.87,
-          "priceEur": 58.8
-        },
-        {
-          "date": "2025-04-28",
-          "priceUsd": 65.86,
-          "priceEur": 57.73
-        },
         {
           "date": "2025-04-29",
           "priceUsd": 64.25,
@@ -5030,14 +5022,32 @@
           "date": "2026-09-25",
           "priceUsd": 104.32,
           "priceEur": 91.51
+        },
+        {
+          "date": "2026-09-28",
+          "priceUsd": 105.28,
+          "priceEur": 93.3,
+          "contract": "BZX26.NYM"
+        },
+        {
+          "date": "2026-09-29",
+          "priceUsd": 102.59,
+          "priceEur": 90.92,
+          "contract": "BZX26.NYM"
+        },
+        {
+          "date": "2026-09-30",
+          "priceUsd": 103.53,
+          "priceEur": 91.75,
+          "contract": "BZX26.NYM"
         }
       ]
     }
   },
   "publication": {
-    "id": "26216ff5f2cfa88b@2026-09-28T22:42:46.250Z",
-    "builtAt": "2026-09-28T22:42:46.250Z",
-    "inputHash": "26216ff5f2cfa88b",
+    "id": "790e16a1460d5539@2026-10-01T09:58:48.125Z",
+    "builtAt": "2026-10-01T09:58:48.125Z",
+    "inputHash": "790e16a1460d5539",
     "bundles": [
       "live",
       "snapshot",
