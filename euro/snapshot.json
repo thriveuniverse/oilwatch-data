@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-01T22:04:01.713Z",
+  "builtAt": "2026-10-02T21:30:06.886Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-01T21:59:57.502Z",
+      "lastUpdated": "2026-10-02T21:26:32.619Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 25,
       "countriesTotal": 27,
@@ -1988,7 +1988,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-01T22:00:03.809Z",
+      "lastUpdated": "2026-10-02T21:26:36.758Z",
       "bulletinDate": "2026-09-28",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-09-28)",
@@ -2216,36 +2216,34 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-10-01T22:00:05.704Z",
-      "fetchedAt": "2026-10-01T22:00:05.704Z",
-      "observedAt": "2026-10-01T20:59:31.000Z",
-      "sessionDate": "2026-10-01",
+      "lastUpdated": "2026-10-02T21:26:38.265Z",
+      "fetchedAt": "2026-10-02T21:26:38.265Z",
+      "observedAt": "2026-10-02T20:59:52.000Z",
+      "sessionDate": "2026-10-02",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZZ26.NYM)",
-      "priceUsd": 102.21,
-      "priceEur": 90.9,
-      "eurUsd": 1.1245,
+      "priceUsd": 102.7,
+      "priceEur": 91.23,
+      "eurUsd": 1.1257,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-10-01T21:59:56.000Z",
-      "changeUsd": 0,
-      "changePct": 0,
-      "changeAgainst": null,
-      "rolledFrom": "BZX26.NYM",
+      "fxObservedAt": "2026-10-02T21:26:05.000Z",
+      "changeUsd": 0.39,
+      "changePct": 0.38,
+      "changeAgainst": "2026-10-01",
+      "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZZ26.NYM)",
       "contract": "BZZ26.NYM",
       "contractLabel": "December 2026",
       "contractExpiry": "2026-10-30",
-      "rejectedQuotes": [
-        "front month rolled BZX26.NYM → BZZ26.NYM; no day-change published, because the 2026-09-30 settle is a different contract and the gap between them is the spread, not a move"
-      ]
+      "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "b1f51c07ece5d6cf@2026-10-01T22:04:01.713Z",
-    "builtAt": "2026-10-01T22:04:01.713Z",
-    "inputHash": "b1f51c07ece5d6cf",
+    "id": "2faa14cf230bdffa@2026-10-02T21:30:06.886Z",
+    "builtAt": "2026-10-02T21:30:06.886Z",
+    "inputHash": "2faa14cf230bdffa",
     "bundles": [
       "live",
       "snapshot",

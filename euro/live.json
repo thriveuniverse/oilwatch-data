@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-01T22:04:01.713Z",
+  "builtAt": "2026-10-02T21:30:06.886Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-01T22:04:01.713Z",
-      "inputHash": "b1f51c07ece5d6cf",
+      "builtAt": "2026-10-02T21:30:06.886Z",
+      "inputHash": "2faa14cf230bdffa",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-10-01T20:59:31.000Z",
+          "observedAt": "2026-10-02T20:59:52.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -612,22 +612,22 @@
         "brent.quote_status": "current",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
-        "brent.session_date": "2026-10-01",
-        "brent.session_date_label": "1 October 2026",
-        "brent.observed_at": "2026-10-01T20:59:31.000Z",
-        "brent.price_usd": 102.21,
-        "brent.price_eur": 90.9,
+        "brent.session_date": "2026-10-02",
+        "brent.session_date_label": "2 October 2026",
+        "brent.observed_at": "2026-10-02T20:59:52.000Z",
+        "brent.price_usd": 102.7,
+        "brent.price_eur": 91.23,
         "brent.fx_status": "observed",
-        "brent.change_usd": 0,
-        "brent.change_pct": 0,
-        "trend.brent_verb": "was unchanged"
+        "brent.change_usd": 0.39,
+        "brent.change_pct": 0.38,
+        "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "b1f51c07ece5d6cf@2026-10-01T22:04:01.713Z",
-    "builtAt": "2026-10-01T22:04:01.713Z",
-    "inputHash": "b1f51c07ece5d6cf",
+    "id": "2faa14cf230bdffa@2026-10-02T21:30:06.886Z",
+    "builtAt": "2026-10-02T21:30:06.886Z",
+    "inputHash": "2faa14cf230bdffa",
     "bundles": [
       "live",
       "snapshot",
