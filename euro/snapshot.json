@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-02T21:30:06.886Z",
+  "builtAt": "2026-10-03T10:25:31.209Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-02T21:26:32.619Z",
+      "lastUpdated": "2026-10-03T10:21:30.302Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 25,
       "countriesTotal": 27,
@@ -1988,7 +1988,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-02T21:26:36.758Z",
+      "lastUpdated": "2026-10-03T10:21:36.849Z",
       "bulletinDate": "2026-09-28",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-09-28)",
@@ -2216,21 +2216,21 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-10-02T21:26:38.265Z",
-      "fetchedAt": "2026-10-02T21:26:38.265Z",
+      "lastUpdated": "2026-10-03T10:21:38.711Z",
+      "fetchedAt": "2026-10-03T10:21:38.711Z",
       "observedAt": "2026-10-02T20:59:52.000Z",
       "sessionDate": "2026-10-02",
-      "quoteType": "intraday",
+      "quoteType": "settled",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZZ26.NYM)",
-      "priceUsd": 102.7,
-      "priceEur": 91.23,
+      "priceUsd": 102.25,
+      "priceEur": 90.83,
       "eurUsd": 1.1257,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-10-02T21:26:05.000Z",
-      "changeUsd": 0.39,
-      "changePct": 0.38,
+      "fxObservedAt": "2026-10-02T21:29:05.000Z",
+      "changeUsd": -0.06,
+      "changePct": -0.06,
       "changeAgainst": "2026-10-01",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZZ26.NYM)",
@@ -2241,9 +2241,9 @@
     }
   },
   "publication": {
-    "id": "2faa14cf230bdffa@2026-10-02T21:30:06.886Z",
-    "builtAt": "2026-10-02T21:30:06.886Z",
-    "inputHash": "2faa14cf230bdffa",
+    "id": "0dbb50e3e4acd4a6@2026-10-03T10:25:31.209Z",
+    "builtAt": "2026-10-03T10:25:31.209Z",
+    "inputHash": "0dbb50e3e4acd4a6",
     "bundles": [
       "live",
       "snapshot",
