@@ -2,10 +2,10 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-03T10:25:31.209Z",
+  "builtAt": "2026-10-03T20:14:49.065Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-03T10:25:31.209Z",
+      "builtAt": "2026-10-03T20:14:49.065Z",
       "inputHash": "0dbb50e3e4acd4a6",
       "effectiveVintage": "2026-07",
       "factCount": 413,
@@ -625,8 +625,8 @@
     }
   },
   "publication": {
-    "id": "0dbb50e3e4acd4a6@2026-10-03T10:25:31.209Z",
-    "builtAt": "2026-10-03T10:25:31.209Z",
+    "id": "0dbb50e3e4acd4a6@2026-10-03T20:14:49.065Z",
+    "builtAt": "2026-10-03T20:14:49.065Z",
     "inputHash": "0dbb50e3e4acd4a6",
     "bundles": [
       "live",
