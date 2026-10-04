@@ -1,13 +1,13 @@
 {
   "bundle": "analysis",
   "revalidate": 900,
-  "builtAt": "2026-09-13T09:44:13.210Z",
+  "builtAt": "2026-10-04T12:44:52.793Z",
   "resources": {
     "analysis.structured": {
       "fixture_kind": "live_capable",
       "record": {
-        "snapshot_id": "f863c7ae35edf7ad",
-        "effective_vintage": "2026-06",
+        "snapshot_id": "292368d5e1a1e7e5",
+        "effective_vintage": "2026-07",
         "overallStatus": "critical",
         "blocks": [
           {
@@ -17,13 +17,19 @@
                 "type": "claim",
                 "claim": {
                   "id": "overall_critical_status",
-                  "kind": "fact",
-                  "text": "OilWatch's model rates UK fuel stocks {{state.overall}} overall on DESNZ's {{vintage.data_period_label}} data",
+                  "kind": "analytical",
+                  "text": "UK fuel stocks are at a critical overall level as of {{vintage.data_period_label}}",
                   "facts": [
                     "state.overall",
                     "vintage.data_period_label"
                   ],
-                  "guards": [],
+                  "guards": [
+                    {
+                      "type": "state_equals",
+                      "key": "state.overall",
+                      "value": "critical"
+                    }
+                  ],
                   "provenance": [
                     "desnz_stocks"
                   ],
@@ -38,42 +44,19 @@
               {
                 "type": "claim",
                 "claim": {
-                  "id": "petrol_most_stressed_status_line",
+                  "id": "diesel_most_severe",
                   "kind": "analytical",
-                  "text": "with petrol the most severely stressed product at {{fuel.petrol.days}} days of cover",
+                  "text": "with diesel the most severely stressed product at {{fuel.diesel.days}} days of cover",
                   "facts": [
                     "ranking.status_severity",
-                    "fuel.petrol.days"
+                    "fuel.diesel.days"
                   ],
                   "guards": [
                     {
                       "type": "ranking_equals",
                       "ranking": "status_severity",
                       "position": 0,
-                      "value": "petrol"
-                    }
-                  ],
-                  "provenance": [
-                    "desnz_stocks"
-                  ],
-                  "scope": "clause"
-                }
-              },
-              {
-                "type": "claim",
-                "claim": {
-                  "id": "heating_oil_safe_status_line",
-                  "kind": "analytical",
-                  "text": "and heating oil the only product rated safe at {{fuel.heating_oil.days}} days of cover",
-                  "facts": [
-                    "fuel.heating_oil.status",
-                    "fuel.heating_oil.days"
-                  ],
-                  "guards": [
-                    {
-                      "type": "state_equals",
-                      "key": "fuel.heating_oil.status",
-                      "value": "safe"
+                      "value": "diesel"
                     }
                   ],
                   "provenance": [
@@ -95,46 +78,36 @@
               {
                 "type": "claim",
                 "claim": {
-                  "id": "data_vintage_lag",
+                  "id": "data_vintage",
                   "kind": "fact",
-                  "text": "DESNZ's stock figures for {{vintage.data_period_label}}, published on {{vintage.release_date_label}}",
+                  "text": "Data published on {{vintage.release_date_label}} by DESNZ covers {{vintage.data_period_label}}, {{vintage.lag_phrase}} behind the current date.",
                   "facts": [
+                    "vintage.release_date_label",
                     "vintage.data_period_label",
-                    "vintage.release_date_label"
+                    "vintage.lag_phrase"
                   ],
                   "guards": [],
                   "provenance": [
                     "desnz_stocks"
                   ],
-                  "scope": "clause"
+                  "scope": "sentence"
                 }
-              },
-              {
-                "type": "connector",
-                "id": "conn_analysis_0",
-                "text": ","
               },
               {
                 "type": "claim",
                 "claim": {
-                  "id": "overall_critical_average",
+                  "id": "unweighted_average",
                   "kind": "fact",
-                  "text": "place the system at {{state.overall}} on OilWatch's classification, with a simple unweighted average of {{stocks.average_days}} days of cover across the four tracked products",
+                  "text": "The unweighted average days of cover across all four tracked products stands at {{stocks.average_days}} days, a figure that masks significant variation between fuels.",
                   "facts": [
-                    "state.overall",
                     "stocks.average_days"
                   ],
                   "guards": [],
                   "provenance": [
                     "desnz_stocks"
                   ],
-                  "scope": "clause"
+                  "scope": "sentence"
                 }
-              },
-              {
-                "type": "connector",
-                "id": "conn_analysis_1",
-                "text": "."
               },
               {
                 "type": "paragraph_break"
@@ -142,79 +115,58 @@
               {
                 "type": "claim",
                 "claim": {
-                  "id": "petrol_most_severe_analysis",
+                  "id": "diesel_critical_fewest_days",
                   "kind": "analytical",
-                  "text": "Petrol carries the most severe status designation",
+                  "text": "Diesel carries a critical status and has the fewest days of cover of any tracked product at {{fuel.diesel.days}} days, placing it at the top of both the status-severity and days-of-cover rankings.",
                   "facts": [
-                    "ranking.status_severity"
+                    "fuel.diesel.status",
+                    "fuel.diesel.days",
+                    "ranking.status_severity",
+                    "ranking.days_of_cover"
                   ],
                   "guards": [
                     {
                       "type": "ranking_equals",
                       "ranking": "status_severity",
                       "position": 0,
-                      "value": "petrol"
+                      "value": "diesel"
+                    },
+                    {
+                      "type": "ranking_equals",
+                      "ranking": "days_of_cover",
+                      "position": 0,
+                      "value": "diesel"
+                    },
+                    {
+                      "type": "state_equals",
+                      "key": "fuel.diesel.status",
+                      "value": "critical"
                     }
                   ],
                   "provenance": [
                     "desnz_stocks"
                   ],
-                  "scope": "clause"
+                  "scope": "sentence"
                 }
               },
               {
                 "type": "claim",
                 "claim": {
-                  "id": "diesel_volume_vs_petrol_volume",
-                  "kind": "fact",
-                  "text": "and diesel, despite holding more stock by volume at about {{fuel.diesel.stock_kt}} kt against petrol's roughly {{fuel.petrol.stock_kt}} kt, is rated watch rather than critical",
-                  "facts": [
-                    "fuel.diesel.stock_kt",
-                    "fuel.petrol.stock_kt",
-                    "fuel.diesel.status"
-                  ],
-                  "guards": [],
-                  "provenance": [
-                    "desnz_stocks"
-                  ],
-                  "scope": "clause"
-                }
-              },
-              {
-                "type": "connector",
-                "id": "conn_analysis_2",
-                "text": "—"
-              },
-              {
-                "type": "claim",
-                "claim": {
-                  "id": "rankings_differ_methodology",
-                  "kind": "methodology",
-                  "text": "illustrating that status is judged against each fuel's own historical range, not simply by comparing days of cover between fuels",
-                  "facts": [],
-                  "guards": [],
-                  "provenance": [
-                    "desnz_stocks"
-                  ],
-                  "scope": "clause"
-                }
-              },
-              {
-                "type": "connector",
-                "id": "conn_analysis_3",
-                "text": "."
-              },
-              {
-                "type": "claim",
-                "claim": {
-                  "id": "jet_fuel_warning_days",
+                  "id": "petrol_warning",
                   "kind": "analytical",
-                  "text": "Jet fuel sits at warning status with {{fuel.jet_fuel.days}} days of cover",
+                  "text": "Petrol is rated warning at {{fuel.petrol.days}} days, and jet fuel also carries a warning status at {{fuel.jet_fuel.days}} days.",
                   "facts": [
+                    "fuel.petrol.status",
+                    "fuel.petrol.days",
                     "fuel.jet_fuel.status",
                     "fuel.jet_fuel.days"
                   ],
                   "guards": [
+                    {
+                      "type": "state_equals",
+                      "key": "fuel.petrol.status",
+                      "value": "warning"
+                    },
                     {
                       "type": "state_equals",
                       "key": "fuel.jet_fuel.status",
@@ -224,144 +176,174 @@
                   "provenance": [
                     "desnz_stocks"
                   ],
-                  "scope": "clause"
+                  "scope": "sentence"
                 }
-              },
-              {
-                "type": "connector",
-                "id": "conn_analysis_4",
-                "text": ","
               },
               {
                 "type": "claim",
                 "claim": {
-                  "id": "heating_oil_safe_analysis",
+                  "id": "heating_oil_safe",
                   "kind": "analytical",
-                  "text": "while heating oil remains the only product with a safe designation at {{fuel.heating_oil.days}} days of cover",
+                  "text": "Heating oil is the only product with a safe designation, at {{fuel.heating_oil.days}} days of cover, though its stock volume of {{fuel.heating_oil.stock_kt}} kt is the smallest of the four products; its long cover reflects low seasonal consumption relative to stock held rather than large absolute volumes.",
                   "facts": [
                     "fuel.heating_oil.status",
-                    "fuel.heating_oil.days"
+                    "fuel.heating_oil.days",
+                    "fuel.heating_oil.stock_kt",
+                    "ranking.status_severity"
                   ],
                   "guards": [
                     {
                       "type": "state_equals",
                       "key": "fuel.heating_oil.status",
                       "value": "safe"
+                    },
+                    {
+                      "type": "ranking_equals",
+                      "ranking": "status_severity",
+                      "position": 3,
+                      "value": "heating_oil"
                     }
                   ],
                   "provenance": [
                     "desnz_stocks"
                   ],
-                  "scope": "clause"
+                  "scope": "sentence"
                 }
               },
               {
-                "type": "connector",
-                "id": "conn_analysis_5",
-                "text": "."
+                "type": "paragraph_break"
               },
               {
-                "type": "paragraph_break"
+                "type": "connector",
+                "id": "conn_analysis_0",
+                "text": "On pump prices,"
               },
               {
                 "type": "claim",
                 "claim": {
                   "id": "pump_prices_trend",
                   "kind": "fact",
-                  "text": "Pump prices {{trend.pump_prices_phrase}} in the week ending {{prices.week_ending_label}}, with petrol at {{prices.petrol}}p per litre and diesel at {{prices.diesel}}p per litre",
+                  "text": "for the week ending {{prices.week_ending_label}}, {{trend.pump_prices_phrase}}",
                   "facts": [
-                    "trend.pump_prices_phrase",
                     "prices.week_ending_label",
+                    "trend.pump_prices_phrase"
+                  ],
+                  "guards": [],
+                  "provenance": [
+                    "desnz_pump_prices"
+                  ],
+                  "scope": "clause"
+                }
+              },
+              {
+                "type": "connector",
+                "id": "conn_analysis_1",
+                "text": ":"
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "pump_prices_values",
+                  "kind": "fact",
+                  "text": "petrol to {{prices.petrol}} pence per litre and diesel to {{prices.diesel}} pence per litre.",
+                  "facts": [
                     "prices.petrol",
                     "prices.diesel"
                   ],
                   "guards": [],
                   "provenance": [
-                    "pump_prices"
+                    "desnz_pump_prices"
                   ],
                   "scope": "clause"
                 }
-              },
-              {
-                "type": "connector",
-                "id": "conn_analysis_6",
-                "text": ","
               },
               {
                 "type": "claim",
                 "claim": {
-                  "id": "brent_trend_analysis",
-                  "kind": "fact",
-                  "text": "even as Brent crude {{trend.brent_verb}} to ${{brent.price}} per barrel in the {{brent.session_date_label}} session",
+                  "id": "prices_at_52w_high",
+                  "kind": "analytical",
+                  "text": "Both petrol and diesel prices are at their 52-week high.",
                   "facts": [
-                    "trend.brent_verb",
-                    "brent.price",
-                    "brent.session_date_label"
+                    "prices.petrol_below_52w_high",
+                    "prices.diesel_below_52w_high"
                   ],
-                  "guards": [],
+                  "guards": [
+                    {
+                      "type": "sign_equals",
+                      "fact": "prices.petrol_below_52w_high",
+                      "value": 0
+                    },
+                    {
+                      "type": "sign_equals",
+                      "fact": "prices.diesel_below_52w_high",
+                      "value": 0
+                    }
+                  ],
                   "provenance": [
-                    "brent_crude"
+                    "desnz_pump_prices"
                   ],
-                  "scope": "clause"
+                  "scope": "sentence"
                 }
               },
               {
-                "type": "connector",
-                "id": "conn_analysis_7",
-                "text": "."
+                "type": "claim",
+                "claim": {
+                  "id": "brent_direction_and_level",
+                  "kind": "fact",
+                  "text": "On the crude side, Brent {{trend.brent_verb}} in the session dated {{brent.session_date_label}}, trading at {{brent.price}} USD per barrel.",
+                  "facts": [
+                    "trend.brent_verb",
+                    "brent.session_date_label",
+                    "brent.price"
+                  ],
+                  "guards": [],
+                  "provenance": [
+                    "brent_spot"
+                  ],
+                  "scope": "sentence"
+                }
               },
               {
                 "type": "paragraph_break"
               },
               {
+                "type": "connector",
+                "id": "conn_analysis_2",
+                "text": "Diesel supply carries a structural import exposure that is relevant context for the current critical stock position."
+              },
+              {
                 "type": "claim",
                 "claim": {
-                  "id": "diesel_import_share_standing",
+                  "id": "diesel_import_dependency",
                   "kind": "standing",
-                  "text": "The Netherlands and Belgium were the origin of {{standing.uk_diesel_import_share_pct}}% of the UK's road-diesel imports in 2025, and imports met {{standing.uk_diesel_import_dependency_pct}}% of supply",
+                  "text": "Imports meet {{standing.uk_diesel_import_dependency_pct}}% of UK road-diesel supply, and {{standing.uk_diesel_import_share_pct}}% of those imports originate in the Netherlands and Belgium combined, meaning NL- and BE-origin fuel accounts for {{standing.uk_diesel_nl_be_supply_share_pct}}% of the diesel the UK uses.",
                   "facts": [
+                    "standing.uk_diesel_import_dependency_pct",
                     "standing.uk_diesel_import_share_pct",
+                    "standing.uk_diesel_nl_be_supply_share_pct"
+                  ],
+                  "guards": [],
+                  "provenance": [
+                    "dukes_3_7"
+                  ],
+                  "scope": "sentence"
+                }
+              },
+              {
+                "type": "claim",
+                "claim": {
+                  "id": "diesel_import_provenance_note",
+                  "kind": "standing",
+                  "text": "These figures are drawn from calendar 2025 DUKES data.",
+                  "facts": [
                     "standing.uk_diesel_import_dependency_pct"
                   ],
                   "guards": [],
                   "provenance": [
-                    "standing_uk_diesel_import"
+                    "dukes_3_7"
                   ],
-                  "scope": "clause"
+                  "scope": "sentence"
                 }
-              },
-              {
-                "type": "connector",
-                "id": "conn_analysis_8",
-                "text": ","
-              },
-              {
-                "type": "claim",
-                "claim": {
-                  "id": "diesel_arn_corridor_risk",
-                  "kind": "analytical",
-                  "text": "which leaves an already watch-rated product exposed to conditions in the Amsterdam-Rotterdam-Antwerp corridor should supply from there be disrupted",
-                  "facts": [
-                    "fuel.diesel.status"
-                  ],
-                  "guards": [
-                    {
-                      "type": "state_equals",
-                      "key": "fuel.diesel.status",
-                      "value": "watch"
-                    }
-                  ],
-                  "provenance": [
-                    "standing_uk_diesel_import",
-                    "desnz_stocks"
-                  ],
-                  "scope": "clause"
-                }
-              },
-              {
-                "type": "connector",
-                "id": "conn_analysis_9",
-                "text": "."
               }
             ]
           },
@@ -371,32 +353,38 @@
               {
                 "type": "claim",
                 "claim": {
-                  "id": "key1_petrol_critical_days",
+                  "id": "key1_diesel_critical_analytical",
                   "kind": "analytical",
-                  "text": "Petrol is rated critical by OilWatch's model at {{fuel.petrol.days}} days of cover, the most severe status of any product in the {{vintage.data_period_label}} data.",
+                  "text": "Diesel status is critical: at {{fuel.diesel.days}} days of cover, it is the most severely rated and most tightly supplied product in the monitored basket.",
                   "facts": [
-                    "fuel.petrol.status",
-                    "fuel.petrol.days",
+                    "fuel.diesel.status",
+                    "fuel.diesel.days",
                     "ranking.status_severity",
-                    "vintage.data_period_label"
+                    "ranking.days_of_cover"
                   ],
                   "guards": [
                     {
                       "type": "state_equals",
-                      "key": "fuel.petrol.status",
+                      "key": "fuel.diesel.status",
                       "value": "critical"
                     },
                     {
                       "type": "ranking_equals",
                       "ranking": "status_severity",
                       "position": 0,
-                      "value": "petrol"
+                      "value": "diesel"
+                    },
+                    {
+                      "type": "ranking_equals",
+                      "ranking": "days_of_cover",
+                      "position": 0,
+                      "value": "diesel"
                     }
                   ],
                   "provenance": [
                     "desnz_stocks"
                   ],
-                  "scope": "sentence"
+                  "scope": "block"
                 }
               }
             ]
@@ -407,58 +395,32 @@
               {
                 "type": "claim",
                 "claim": {
-                  "id": "key2_diesel_watch",
+                  "id": "key2_petrol_jet_warning",
                   "kind": "analytical",
-                  "text": "Diesel is rated watch at {{fuel.diesel.days}} days of cover",
+                  "text": "Petrol and jet fuel are both at warning status, at {{fuel.petrol.days}} and {{fuel.jet_fuel.days}} days of cover respectively.",
                   "facts": [
-                    "fuel.diesel.status",
-                    "fuel.diesel.days"
+                    "fuel.petrol.status",
+                    "fuel.jet_fuel.status",
+                    "fuel.petrol.days",
+                    "fuel.jet_fuel.days"
                   ],
                   "guards": [
                     {
                       "type": "state_equals",
-                      "key": "fuel.diesel.status",
-                      "value": "watch"
-                    }
-                  ],
-                  "provenance": [
-                    "desnz_stocks"
-                  ],
-                  "scope": "clause"
-                }
-              },
-              {
-                "type": "connector",
-                "id": "conn_key_2_0",
-                "text": ";"
-              },
-              {
-                "type": "claim",
-                "claim": {
-                  "id": "key2_diesel_ranking_methodology",
-                  "kind": "analytical",
-                  "text": "its lower status severity than petrol reflects that status is assessed relative to each fuel's own normal range",
-                  "facts": [
-                    "ranking.status_severity"
-                  ],
-                  "guards": [
+                      "key": "fuel.petrol.status",
+                      "value": "warning"
+                    },
                     {
-                      "type": "ranking_equals",
-                      "ranking": "status_severity",
-                      "position": 0,
-                      "value": "petrol"
+                      "type": "state_equals",
+                      "key": "fuel.jet_fuel.status",
+                      "value": "warning"
                     }
                   ],
                   "provenance": [
                     "desnz_stocks"
                   ],
-                  "scope": "clause"
+                  "scope": "block"
                 }
-              },
-              {
-                "type": "connector",
-                "id": "conn_key_2_1",
-                "text": "."
               }
             ]
           },
@@ -470,30 +432,23 @@
                 "claim": {
                   "id": "key3_heating_oil_safe",
                   "kind": "analytical",
-                  "text": "Heating oil is the only product at safe status, with {{fuel.heating_oil.days}} days of cover — well ahead of any other product in the {{vintage.data_period_label}} data.",
+                  "text": "Heating oil is safe at {{fuel.heating_oil.days}} days of cover, though it represents a small stock by volume at {{fuel.heating_oil.stock_kt}} kt.",
                   "facts": [
                     "fuel.heating_oil.status",
                     "fuel.heating_oil.days",
-                    "ranking.days_of_cover",
-                    "vintage.data_period_label"
+                    "fuel.heating_oil.stock_kt"
                   ],
                   "guards": [
                     {
                       "type": "state_equals",
                       "key": "fuel.heating_oil.status",
                       "value": "safe"
-                    },
-                    {
-                      "type": "ranking_equals",
-                      "ranking": "days_of_cover",
-                      "position": 3,
-                      "value": "heating_oil"
                     }
                   ],
                   "provenance": [
                     "desnz_stocks"
                   ],
-                  "scope": "sentence"
+                  "scope": "block"
                 }
               }
             ]
@@ -504,34 +459,16 @@
               {
                 "type": "claim",
                 "claim": {
-                  "id": "key4_petrol_price_trend",
+                  "id": "key4_pump_prices_trend",
                   "kind": "fact",
-                  "text": "Petrol pump prices {{trend.petrol_verb}} to {{prices.petrol}}p per litre",
+                  "text": "Pump prices {{trend.pump_prices_phrase}} in the week ending {{prices.week_ending_label}}",
                   "facts": [
-                    "trend.petrol_verb",
-                    "prices.petrol"
-                  ],
-                  "guards": [],
-                  "provenance": [
-                    "pump_prices"
-                  ],
-                  "scope": "clause"
-                }
-              },
-              {
-                "type": "claim",
-                "claim": {
-                  "id": "key4_diesel_price_trend",
-                  "kind": "fact",
-                  "text": "and diesel {{trend.diesel_verb}} to {{prices.diesel}}p per litre in the week ending {{prices.week_ending_label}}",
-                  "facts": [
-                    "trend.diesel_verb",
-                    "prices.diesel",
+                    "trend.pump_prices_phrase",
                     "prices.week_ending_label"
                   ],
                   "guards": [],
                   "provenance": [
-                    "pump_prices"
+                    "desnz_pump_prices"
                   ],
                   "scope": "clause"
                 }
@@ -544,25 +481,19 @@
               {
                 "type": "claim",
                 "claim": {
-                  "id": "key4_brent_trend",
+                  "id": "key4_pump_prices_levels",
                   "kind": "fact",
-                  "text": "while Brent crude {{trend.brent_verb}} to ${{brent.price}} per barrel in the {{brent.session_date_label}} session",
+                  "text": "with petrol at {{prices.petrol}} p/litre and diesel at {{prices.diesel}} p/litre.",
                   "facts": [
-                    "trend.brent_verb",
-                    "brent.price",
-                    "brent.session_date_label"
+                    "prices.petrol",
+                    "prices.diesel"
                   ],
                   "guards": [],
                   "provenance": [
-                    "brent_crude"
+                    "desnz_pump_prices"
                   ],
                   "scope": "clause"
                 }
-              },
-              {
-                "type": "connector",
-                "id": "conn_key_4_1",
-                "text": "."
               }
             ]
           },
@@ -570,59 +501,20 @@
             "id": "key_5",
             "segments": [
               {
-                "type": "connector",
-                "id": "conn_key_5_0",
-                "text": "Diesel supply carries an additional structural exposure:"
-              },
-              {
                 "type": "claim",
                 "claim": {
-                  "id": "key5_diesel_import_share",
+                  "id": "key5_diesel_import_exposure",
                   "kind": "standing",
-                  "text": "the Netherlands and Belgium were the origin of {{standing.uk_diesel_import_share_pct}}% of the UK's road-diesel imports in 2025, roughly a fifth of the diesel the UK uses",
+                  "text": "Diesel import exposure remains a structural factor: NL- and BE-origin imports account for {{standing.uk_diesel_nl_be_supply_share_pct}}% of total UK road-diesel supply, based on calendar 2025 DUKES data.",
                   "facts": [
-                    "standing.uk_diesel_import_share_pct",
                     "standing.uk_diesel_nl_be_supply_share_pct"
                   ],
                   "guards": [],
                   "provenance": [
-                    "standing_uk_diesel_import"
+                    "dukes_3_7"
                   ],
-                  "scope": "clause"
+                  "scope": "block"
                 }
-              },
-              {
-                "type": "connector",
-                "id": "conn_key_5_1",
-                "text": ","
-              },
-              {
-                "type": "claim",
-                "claim": {
-                  "id": "key5_diesel_watch_ara_risk",
-                  "kind": "analytical",
-                  "text": "leaving a watch-rated product exposed to Amsterdam-Rotterdam-Antwerp corridor conditions should supply from there be disrupted",
-                  "facts": [
-                    "fuel.diesel.status"
-                  ],
-                  "guards": [
-                    {
-                      "type": "state_equals",
-                      "key": "fuel.diesel.status",
-                      "value": "watch"
-                    }
-                  ],
-                  "provenance": [
-                    "standing_uk_diesel_import",
-                    "desnz_stocks"
-                  ],
-                  "scope": "clause"
-                }
-              },
-              {
-                "type": "connector",
-                "id": "conn_key_5_2",
-                "text": "."
               }
             ]
           }
@@ -630,104 +522,104 @@
         "retired": []
       },
       "snapshot": {
-        "id": "approved:f863c7ae35edf7ad",
-        "builtAt": "2026-09-13T09:38:01.853Z",
+        "id": "approved:292368d5e1a1e7e5",
+        "builtAt": "2026-10-03T16:46:31.737Z",
         "facts": {
           "vintage.data_period": {
-            "value": "2026-06",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "2026-07",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "vintage.data_period_label": {
-            "value": "June 2026",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "July 2026",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "vintage.lag_phrase": {
             "value": "about three months",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "vintage.release_date": {
-            "value": "2026-08-27",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "2026-09-24",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "vintage.release_date_label": {
-            "value": "27 August 2026",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "24 September 2026",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "standing.desnz_q1_2026_stock_mt": {
             "value": 10.2,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "standing.iea_obligation_days": {
             "value": 67.5,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "standing.uk_diesel_import_share_pct": {
             "value": 37.7,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "standing.uk_diesel_import_dependency_pct": {
             "value": 54.4,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "standing.uk_diesel_nl_be_supply_share_pct": {
             "value": 20.5,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "state.overall": {
             "value": "critical",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "stocks.average_days": {
-            "value": 29.9,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 29.2,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.petrol.status": {
-            "value": "critical",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "warning",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.petrol.days": {
-            "value": 22.6,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 23.5,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.petrol.stock_kt": {
-            "value": 826,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 798,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.diesel.status": {
-            "value": "watch",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "critical",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.diesel.days": {
-            "value": 21.5,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 18.9,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.diesel.stock_kt": {
-            "value": 1434,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 1279,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.jet_fuel.status": {
             "value": "warning",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.jet_fuel.days": {
-            "value": 26,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 24.7,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.jet_fuel.stock_kt": {
-            "value": 920,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 884,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.heating_oil.status": {
             "value": "safe",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.heating_oil.days": {
             "value": 49.6,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "fuel.heating_oil.stock_kt": {
-            "value": 208,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 176,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "ranking.days_of_cover": {
             "value": [
@@ -736,93 +628,93 @@
               "jet_fuel",
               "heating_oil"
             ],
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "ranking.status_severity": {
             "value": [
+              "diesel",
               "petrol",
               "jet_fuel",
-              "diesel",
               "heating_oil"
             ],
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "prices.week_ending": {
-            "value": "2026-09-07",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "2026-09-28",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "prices.week_ending_label": {
-            "value": "7 September 2026",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "28 September 2026",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "prices.petrol": {
-            "value": 164.4,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 173.46,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "prices.diesel": {
-            "value": 186.36,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 197.58,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "prices.petrol_below_52w_high": {
             "value": 0,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "prices.diesel_below_52w_high": {
-            "value": 5.78,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 0,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "prices.diesel_above_52w_low": {
-            "value": 45.64,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 56.86,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "brent.session_date": {
-            "value": "2026-09-11",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "2026-10-02",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "brent.session_date_label": {
-            "value": "11 September 2026",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "2 October 2026",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "brent.price": {
-            "value": 104.61,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": 102.25,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "brent.change_pct": {
-            "value": -2.81,
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": -0.06,
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "trend.petrol_verb": {
             "value": "rose",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "trend.diesel_verb": {
             "value": "rose",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "trend.brent_verb": {
-            "value": "fell",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "value": "was little changed",
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           },
           "trend.pump_prices_phrase": {
             "value": "both rose",
-            "snapshot_id": "approved:f863c7ae35edf7ad"
+            "snapshot_id": "approved:292368d5e1a1e7e5"
           }
         },
         "sources": {
           "brent": {
-            "observedAt": "2026-09-11T20:59:57.000Z",
+            "observedAt": "2026-10-02T20:59:52.000Z",
             "cadence": "daily",
             "maxAgeHours": 96,
-            "note": "Yahoo BZ=F observation time of the quoted price"
+            "note": "the provider observation time of the quoted price, or the settlement date of a stored settled close"
           },
           "prices": {
-            "observedAt": "2026-09-07T00:00:00Z",
+            "observedAt": "2026-09-28T00:00:00Z",
             "cadence": "weekly",
             "maxAgeHours": 288,
             "note": "DESNZ weekly pump-price observation (Monday)"
           },
           "stocks": {
-            "observedAt": "2026-08-27T00:00:00Z",
+            "observedAt": "2026-09-24T00:00:00Z",
             "cadence": "monthly",
             "maxAgeHours": 1008,
             "note": "DESNZ Energy Trends release date for the reference month (not the reference month itself)"
@@ -836,400 +728,24 @@
           "standing.uk_diesel_nl_be_supply_share_pct": "2027-07-29"
         }
       },
-      "generatedAt": "2026-09-12T15:19:39.608Z",
+      "generatedAt": "2026-10-03T16:32:53.000Z",
       "model": "claude-sonnet-4-6",
-      "review_edits": [
-        {
-          "paragraph_break_after": "overall_critical_average",
-          "reason": "Paragraph 1 = vintage, release date and the overall classification; paragraph 2 opens the per-product detail.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "paragraph_break_after": "heating_oil_safe_analysis",
-          "reason": "Paragraph 2 = the four products and the methodology note; paragraph 3 opens the price picture.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "paragraph_break_after": "brent_trend_analysis",
-          "reason": "Paragraph 3 = pump prices and Brent; paragraph 4 = diesel import exposure. Layout only — no claim changes.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key3_heating_oil_safe",
-          "field": "guards.1.position",
-          "from": 0,
-          "to": 3,
-          "reason": "ranking.days_of_cover is sorted ASCENDING (position 0 = fewest days = diesel). The prose says heating oil is 'well ahead of any other product', i.e. MOST cover, which is the last position (3 of 4). The claim's meaning is correct; only the guard's index was mis-encoded because the catalogue did not state the ranking's direction. Verified against ranking.days_of_cover = [diesel, petrol, jet_fuel, heating_oil].",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "overall_critical_status",
-          "field": "text",
-          "from": "UK fuel stocks are at a critical overall status as of {{vintage.data_period}}",
-          "to": "OilWatch's model rates UK fuel stocks {{state.overall}} overall on the {{vintage.data_period}} DESNZ data",
-          "reason": "critical/watch/warning/safe are OilWatch percentile classifications applied to DESNZ figures, not DESNZ's own labels. The original wording implied an official status and also froze the word 'critical' in prose; the edit attributes the classification and makes the status a resolving slot. Facts already declared: state.overall, vintage.data_period.",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "data_vintage_lag",
-          "field": "text",
-          "from": "The {{vintage.data_period}} DESNZ stock release, published {{vintage.lag_phrase}} behind today",
-          "to": "DESNZ's stock figures for {{vintage.data_period}}, published on {{vintage.release_date_label}}",
-          "reason": "The reference month is June 2026 but the Energy Trends tables carrying it were published on 27 August 2026 (gov.uk 'Last updated' date; last Thursday, two months in arrears). 'About three months behind today' described the reference period, not the release, and was approximate. The edit states the actual release date from the vintage.release_date_label fact.",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "data_vintage_lag",
-          "field": "facts",
-          "from": [
-            "vintage.data_period",
-            "vintage.lag_phrase"
-          ],
-          "to": [
-            "vintage.data_period",
-            "vintage.release_date_label"
-          ],
-          "reason": "The text edit above replaces the lag slot with the release-date slot; the declared fact dependencies must match the slots the claim now carries.",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "overall_critical_average",
-          "field": "text",
-          "from": "shows the overall system at critical status with an average of {{stocks.average_days}} days of cover across the four tracked products",
-          "to": "place the system at {{state.overall}} on OilWatch's classification, with an average of {{stocks.average_days}} days of cover across the four tracked products",
-          "reason": "Same attribution correction as the status line: the classification is the model's, and 'critical' becomes the state.overall slot the claim already declares.",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "key1_petrol_critical_days",
-          "field": "text",
-          "from": "Petrol is rated critical at {{fuel.petrol.days}} days of cover, the most severe status of any product in the current data.",
-          "to": "Petrol is rated critical by OilWatch's model at {{fuel.petrol.days}} days of cover, the most severe status of any product in the {{vintage.data_period}} data.",
-          "reason": "Attributes the classification and dates the reference period. 'critical' stays literal here because the claim is analytical and already guarded on state_equals(fuel.petrol.status=critical), so the word is protected by its guard rather than frozen. Adds vintage.data_period to the declared facts (see next edit).",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "key1_petrol_critical_days",
-          "field": "facts",
-          "from": [
-            "fuel.petrol.status",
-            "fuel.petrol.days",
-            "ranking.status_severity"
-          ],
-          "to": [
-            "fuel.petrol.status",
-            "fuel.petrol.days",
-            "ranking.status_severity",
-            "vintage.data_period"
-          ],
-          "reason": "The text edit adds the {{vintage.data_period}} slot; it must be declared.",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "diesel_import_share_standing",
-          "field": "text",
-          "from": "The UK imports approximately {{standing.uk_diesel_import_share_pct}}% of its diesel from Netherlands and Belgium refineries",
-          "to": "The Netherlands and Belgium were the origin of {{standing.uk_diesel_import_share_pct}}% of the UK's road-diesel imports in 2025, and imports met {{standing.uk_diesel_import_dependency_pct}}% of supply",
-          "reason": "Verified against DUKES 2026 tables 3.7 and 3.2 (published 30 July 2026, calendar 2025): NL 26.5% + BE 11.2% = 37.7% of DERV IMPORTS (12,523 kt), imports = 54.4% of DERV supply (23,027 kt). The original '40% of its diesel from ... refineries' conflated the diesel share of product imports with the NL/BE share, implied a share of supply that is roughly half the stated figure, and called country of origin 'refineries'. Denominator now stated.",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "diesel_import_share_standing",
-          "field": "facts",
-          "from": [
-            "standing.uk_diesel_import_share_pct"
-          ],
-          "to": [
-            "standing.uk_diesel_import_share_pct",
-            "standing.uk_diesel_import_dependency_pct"
-          ],
-          "reason": "The corrected text carries a second slot; it must be declared.",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "key5_diesel_import_share",
-          "field": "text",
-          "from": "the UK sources approximately {{standing.uk_diesel_import_share_pct}}% of its diesel from Netherlands and Belgium refineries",
-          "to": "the Netherlands and Belgium were the origin of {{standing.uk_diesel_import_share_pct}}% of the UK's road-diesel imports in 2025, roughly a fifth of the diesel the UK uses",
-          "reason": "Same correction as diesel_import_share_standing, for the key point. 'Roughly a fifth' reflects standing.uk_diesel_nl_be_supply_share_pct = 20.5% (NL+BE-origin imports over total supply, DUKES 3.2 + 3.7); expressed in words to avoid a frozen number, with the standing fact declared so its review date is enforced.",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "key5_diesel_import_share",
-          "field": "facts",
-          "from": [
-            "standing.uk_diesel_import_share_pct"
-          ],
-          "to": [
-            "standing.uk_diesel_import_share_pct",
-            "standing.uk_diesel_nl_be_supply_share_pct"
-          ],
-          "reason": "'Roughly a fifth' rests on the supply-share standing fact; declaring it binds the claim to that fact's review date.",
-          "applied_at": "2026-09-12T15:10:21Z"
-        },
-        {
-          "claim_id": "overall_critical_status",
-          "field": "text",
-          "from": "OilWatch's model rates UK fuel stocks {{state.overall}} overall on the {{vintage.data_period}} DESNZ data",
-          "to": "OilWatch's model rates UK fuel stocks {{state.overall}} overall on DESNZ's {{vintage.data_period_label}} data",
-          "reason": "Reference month written out ('June 2026') instead of the ISO label '2026-06'; new computed fact vintage.data_period_label.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "overall_critical_status",
-          "field": "facts",
-          "from": [
-            "state.overall",
-            "vintage.data_period"
-          ],
-          "to": [
-            "state.overall",
-            "vintage.data_period_label"
-          ],
-          "reason": "Declared facts follow the slot change.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "data_vintage_lag",
-          "field": "text",
-          "from": "DESNZ's stock figures for {{vintage.data_period}}, published on {{vintage.release_date_label}}",
-          "to": "DESNZ's stock figures for {{vintage.data_period_label}}, published on {{vintage.release_date_label}}",
-          "reason": "Month label instead of ISO period; release date unchanged (27 August 2026, verified on gov.uk).",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "data_vintage_lag",
-          "field": "facts",
-          "from": [
-            "vintage.data_period",
-            "vintage.release_date_label"
-          ],
-          "to": [
-            "vintage.data_period_label",
-            "vintage.release_date_label"
-          ],
-          "reason": "Declared facts follow the slot change.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "overall_critical_average",
-          "field": "text",
-          "from": "place the system at {{state.overall}} on OilWatch's classification, with an average of {{stocks.average_days}} days of cover across the four tracked products",
-          "to": "place the system at {{state.overall}} on OilWatch's classification, with a simple unweighted average of {{stocks.average_days}} days of cover across the four tracked products",
-          "reason": "Verified in fetch-desnz-stocks.ts: averageDays is the arithmetic mean of the four products' days of cover, not volume-weighted ((22.6+21.5+26+49.6)/4 = 29.9). Heating oil's long cover on a small stock pulls it up, so the figure must be labelled as unweighted.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "diesel_volume_vs_petrol_volume",
-          "field": "text",
-          "from": "and diesel, despite holding more stock by volume at {{fuel.diesel.stock_kt}} kt against petrol's {{fuel.petrol.stock_kt}} kt, is rated watch rather than critical",
-          "to": "and diesel, despite holding more stock by volume at about {{fuel.diesel.stock_kt}} kt against petrol's roughly {{fuel.petrol.stock_kt}} kt, is rated watch rather than critical",
-          "reason": "The stock_kt facts are now rounded to whole kilotonnes at the source (1434 / 826, not 1434.15 / 825.84); 'about' / 'roughly' signal the rounding. Slots unchanged.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "pump_prices_trend",
-          "field": "text",
-          "from": "Pump prices {{trend.petrol_verb}} for petrol and {{trend.diesel_verb}} for diesel week-on-week, with petrol at {{prices.petrol}} p/litre and diesel at {{prices.diesel}} p/litre",
-          "to": "Pump prices {{trend.pump_prices_phrase}} in the week ending {{prices.week_ending_label}}, with petrol at {{prices.petrol}} p/litre and diesel at {{prices.diesel}} p/litre",
-          "reason": "Replaces the repetitive two-verb construction with the engine-composed trend.pump_prices_phrase ('both rose' / 'rose for petrol while diesel fell'), and dates the observation explicitly (DESNZ week ending 7 September 2026) instead of 'week-on-week'.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "pump_prices_trend",
-          "field": "facts",
-          "from": [
-            "trend.petrol_verb",
-            "trend.diesel_verb",
-            "prices.petrol",
-            "prices.diesel"
-          ],
-          "to": [
-            "trend.pump_prices_phrase",
-            "prices.week_ending_label",
-            "prices.petrol",
-            "prices.diesel"
-          ],
-          "reason": "Declared facts follow the slots.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "brent_trend_analysis",
-          "field": "text",
-          "from": "even as Brent crude {{trend.brent_verb}} in the latest session to {{brent.price}} USD/barrel",
-          "to": "even as Brent crude {{trend.brent_verb}} to {{brent.price}} USD/barrel in the {{brent.session_date_label}} session",
-          "reason": "Explicit trading-session date from brent.sessionDate (11 September 2026) instead of 'the latest session', which goes stale the moment a newer session prints.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "brent_trend_analysis",
-          "field": "facts",
-          "from": [
-            "trend.brent_verb",
-            "brent.price"
-          ],
-          "to": [
-            "trend.brent_verb",
-            "brent.price",
-            "brent.session_date_label"
-          ],
-          "reason": "Declared facts follow the slot.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "diesel_arn_corridor_risk",
-          "field": "text",
-          "from": "meaning any supply disruption in the Amsterdam-Rotterdam-Antwerp corridor would affect an already watch-rated product",
-          "to": "which leaves an already watch-rated product exposed to conditions in the Amsterdam-Rotterdam-Antwerp corridor should supply from there be disrupted",
-          "reason": "Country-of-origin shares establish exposure, not the effect of every corridor disruption. The original asserted that any disruption would affect the product; the edit states exposure conditionally.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key1_petrol_critical_days",
-          "field": "text",
-          "from": "Petrol is rated critical by OilWatch's model at {{fuel.petrol.days}} days of cover, the most severe status of any product in the {{vintage.data_period}} data.",
-          "to": "Petrol is rated critical by OilWatch's model at {{fuel.petrol.days}} days of cover, the most severe status of any product in the {{vintage.data_period_label}} data.",
-          "reason": "Month label instead of ISO period.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key1_petrol_critical_days",
-          "field": "facts",
-          "from": [
-            "fuel.petrol.status",
-            "fuel.petrol.days",
-            "ranking.status_severity",
-            "vintage.data_period"
-          ],
-          "to": [
-            "fuel.petrol.status",
-            "fuel.petrol.days",
-            "ranking.status_severity",
-            "vintage.data_period_label"
-          ],
-          "reason": "Declared facts follow the slot change.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key3_heating_oil_safe",
-          "field": "text",
-          "from": "Heating oil is the only product at safe status, with {{fuel.heating_oil.days}} days of cover — well ahead of any other product in the current period.",
-          "to": "Heating oil is the only product at safe status, with {{fuel.heating_oil.days}} days of cover — well ahead of any other product in the {{vintage.data_period_label}} data.",
-          "reason": "'In the current period' is vague; the reference month is a slot.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key3_heating_oil_safe",
-          "field": "facts",
-          "from": [
-            "fuel.heating_oil.status",
-            "fuel.heating_oil.days",
-            "ranking.days_of_cover"
-          ],
-          "to": [
-            "fuel.heating_oil.status",
-            "fuel.heating_oil.days",
-            "ranking.days_of_cover",
-            "vintage.data_period_label"
-          ],
-          "reason": "Declared facts follow the slot.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key4_diesel_price_trend",
-          "field": "text",
-          "from": "and diesel {{trend.diesel_verb}} to {{prices.diesel}} p/litre this week",
-          "to": "and diesel {{trend.diesel_verb}} to {{prices.diesel}} p/litre in the week ending {{prices.week_ending_label}}",
-          "reason": "'This week' replaced by the explicit DESNZ observation date.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key4_diesel_price_trend",
-          "field": "facts",
-          "from": [
-            "trend.diesel_verb",
-            "prices.diesel"
-          ],
-          "to": [
-            "trend.diesel_verb",
-            "prices.diesel",
-            "prices.week_ending_label"
-          ],
-          "reason": "Declared facts follow the slot.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key4_brent_trend",
-          "field": "text",
-          "from": "while Brent crude {{trend.brent_verb}} to {{brent.price}} USD/barrel in the latest session",
-          "to": "while Brent crude {{trend.brent_verb}} to {{brent.price}} USD/barrel in the {{brent.session_date_label}} session",
-          "reason": "Explicit session date instead of 'the latest session'.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key4_brent_trend",
-          "field": "facts",
-          "from": [
-            "trend.brent_verb",
-            "brent.price"
-          ],
-          "to": [
-            "trend.brent_verb",
-            "brent.price",
-            "brent.session_date_label"
-          ],
-          "reason": "Declared facts follow the slot.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        },
-        {
-          "claim_id": "key5_diesel_watch_ara_risk",
-          "field": "text",
-          "from": "leaving a watch-rated product sensitive to ARA corridor conditions",
-          "to": "leaving a watch-rated product exposed to Amsterdam-Rotterdam-Antwerp corridor conditions should supply from there be disrupted",
-          "reason": "Same conditionality correction as diesel_arn_corridor_risk; ARA spelled out on first use in the key point.",
-          "applied_at": "2026-09-12T15:19:39Z"
-        }
-      ],
       "presentation_edits": [
         {
-          "claim_id": "pump_prices_trend",
+          "claim_id": "diesel_import_provenance_note",
           "field": "text",
-          "from": "Pump prices {{trend.pump_prices_phrase}} in the week ending {{prices.week_ending_label}}, with petrol at {{prices.petrol}} p/litre and diesel at {{prices.diesel}} p/litre",
-          "to": "Pump prices {{trend.pump_prices_phrase}} in the week ending {{prices.week_ending_label}}, with petrol at {{prices.petrol}}p per litre and diesel at {{prices.diesel}}p per litre",
-          "reason": "Pence written the way the rest of the site writes them (164.40p), not as the slashed unit 'p/litre'. Values and declared facts unchanged.",
-          "applied_at": "2026-09-13T08:19:11Z"
+          "from": "These figures are drawn from calendar 2025 DUKES data (provenance: dukes_3_7).",
+          "to": "These figures are drawn from calendar 2025 DUKES data.",
+          "reason": "Owner review 3 Oct 2026: the internal source key 'dukes_3_7' is not reader-facing; the DUKES attribution stays and provenance remains in the claim's provenance field.",
+          "applied_at": "2026-10-03T16:45:40Z"
         },
         {
-          "claim_id": "brent_trend_analysis",
+          "claim_id": "key5_diesel_import_exposure",
           "field": "text",
-          "from": "even as Brent crude {{trend.brent_verb}} to {{brent.price}} USD/barrel in the {{brent.session_date_label}} session",
-          "to": "even as Brent crude {{trend.brent_verb}} to ${{brent.price}} per barrel in the {{brent.session_date_label}} session",
-          "reason": "Dollar prices written as $104.61, matching every other Brent figure on the page, instead of '104.61 USD/barrel'. Value and declared facts unchanged.",
-          "applied_at": "2026-09-13T08:19:11Z"
-        },
-        {
-          "claim_id": "key4_petrol_price_trend",
-          "field": "text",
-          "from": "Petrol pump prices {{trend.petrol_verb}} to {{prices.petrol}} p/litre",
-          "to": "Petrol pump prices {{trend.petrol_verb}} to {{prices.petrol}}p per litre",
-          "reason": "Same pence convention as the analysis paragraph.",
-          "applied_at": "2026-09-13T08:19:11Z"
-        },
-        {
-          "claim_id": "key4_diesel_price_trend",
-          "field": "text",
-          "from": "and diesel {{trend.diesel_verb}} to {{prices.diesel}} p/litre in the week ending {{prices.week_ending_label}}",
-          "to": "and diesel {{trend.diesel_verb}} to {{prices.diesel}}p per litre in the week ending {{prices.week_ending_label}}",
-          "reason": "Same pence convention as the analysis paragraph.",
-          "applied_at": "2026-09-13T08:19:11Z"
-        },
-        {
-          "claim_id": "key4_brent_trend",
-          "field": "text",
-          "from": "while Brent crude {{trend.brent_verb}} to {{brent.price}} USD/barrel in the {{brent.session_date_label}} session",
-          "to": "while Brent crude {{trend.brent_verb}} to ${{brent.price}} per barrel in the {{brent.session_date_label}} session",
-          "reason": "Same dollar convention as the analysis paragraph.",
-          "applied_at": "2026-09-13T08:19:11Z"
+          "from": "Diesel import exposure remains a structural factor: NL- and BE-origin imports account for {{standing.uk_diesel_nl_be_supply_share_pct}}% of total UK road-diesel supply, based on calendar 2025 DUKES data (provenance: dukes_3_7).",
+          "to": "Diesel import exposure remains a structural factor: NL- and BE-origin imports account for {{standing.uk_diesel_nl_be_supply_share_pct}}% of total UK road-diesel supply, based on calendar 2025 DUKES data.",
+          "reason": "Owner review 3 Oct 2026: the internal source key 'dukes_3_7' is not reader-facing; the DUKES attribution stays and provenance remains in the claim's provenance field.",
+          "applied_at": "2026-10-03T16:45:40Z"
         }
       ]
     }

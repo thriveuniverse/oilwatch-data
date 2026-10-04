@@ -1,7 +1,7 @@
 {
   "bundle": "live",
   "revalidate": 900,
-  "builtAt": "2026-10-04T11:04:48.169Z",
+  "builtAt": "2026-10-04T12:44:52.671Z",
   "resources": {
     "bunker": {
       "lastUpdated": "2026-10-04T11:03:45.014Z",
@@ -1453,7 +1453,7 @@
       ]
     },
     "analysis-facts": {
-      "builtAt": "2026-10-04T11:04:48.177Z",
+      "builtAt": "2026-10-04T12:44:52.690Z",
       "inputHash": "292368d5e1a1e7e5",
       "effectiveVintage": "2026-07",
       "factCount": 41,
