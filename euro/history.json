@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-10-08T12:03:14.097Z",
+  "builtAt": "2026-10-08T21:27:12.187Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-10-08T11:58:11.056Z",
+      "lastUpdated": "2026-10-08T21:22:54.025Z",
       "periods": [
         "2025-03",
         "2025-04",
@@ -3211,13 +3211,8 @@
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-10-07T22:15:56.607Z",
+      "lastUpdated": "2026-10-08T21:22:59.350Z",
       "entries": [
-        {
-          "date": "2025-05-05",
-          "priceUsd": 60.23,
-          "priceEur": 53.24
-        },
         {
           "date": "2025-05-06",
           "priceUsd": 62.15,
@@ -5044,14 +5039,20 @@
           "priceUsd": 100.58,
           "priceEur": 89.95,
           "contract": "BZZ26.NYM"
+        },
+        {
+          "date": "2026-10-07",
+          "priceUsd": 100.2,
+          "priceEur": 89.34,
+          "contract": "BZZ26.NYM"
         }
       ]
     }
   },
   "publication": {
-    "id": "f91a28e6f1520341@2026-10-08T12:03:14.097Z",
-    "builtAt": "2026-10-08T12:03:14.097Z",
-    "inputHash": "f91a28e6f1520341",
+    "id": "74da5e288fc016af@2026-10-08T21:27:12.187Z",
+    "builtAt": "2026-10-08T21:27:12.187Z",
+    "inputHash": "74da5e288fc016af",
     "bundles": [
       "live",
       "snapshot",
