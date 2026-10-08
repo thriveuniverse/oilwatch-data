@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-07T22:19:37.598Z",
+  "builtAt": "2026-10-08T12:03:14.097Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-07T22:19:37.598Z",
-      "inputHash": "d5c1551d3a9fbdd3",
+      "builtAt": "2026-10-08T12:03:14.097Z",
+      "inputHash": "f91a28e6f1520341",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -29,7 +29,7 @@
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
-          "note": "stale after 4 days (FRESHNESS.brent); quoteStatus current, provider Yahoo Finance (BZZ26.NYM)"
+          "note": "stale after 4 days (FRESHNESS.brent); quoteStatus last-available-close, provider Yahoo Finance (BZZ26.NYM)"
         }
       },
       "facts": {
@@ -493,8 +493,8 @@
         "ranking.eu_unassessed": [],
         "prices.bulletin_date": "2026-10-05",
         "prices.bulletin_date_label": "5 October 2026",
-        "prices.eu.petrol": 1.941,
-        "prices.eu.diesel": 2.1,
+        "prices.eu.petrol": 1.935,
+        "prices.eu.diesel": 2.101,
         "prices.country.AT.petrol": 1.837,
         "prices.country.AT.diesel": 2.138,
         "prices.country.BE.petrol": 1.959,
@@ -515,8 +515,8 @@
         "prices.country.FI.diesel": 2.553,
         "prices.country.FR.petrol": 2.212,
         "prices.country.FR.diesel": 2.355,
-        "prices.country.DE.petrol": 2.137,
-        "prices.country.DE.diesel": 2.244,
+        "prices.country.DE.petrol": 2.196,
+        "prices.country.DE.diesel": 2.254,
         "prices.country.GR.petrol": 2.203,
         "prices.country.GR.diesel": 2.166,
         "prices.country.HU.petrol": 1.726,
@@ -539,7 +539,7 @@
         "prices.country.PL.diesel": 1.764,
         "prices.country.PT.petrol": 2.081,
         "prices.country.PT.diesel": 2.155,
-        "prices.country.RO.petrol": 2.117,
+        "prices.country.RO.petrol": 1.886,
         "prices.country.RO.diesel": 2.05,
         "prices.country.SK.petrol": 1.845,
         "prices.country.SK.diesel": 1.972,
@@ -556,7 +556,6 @@
           "FR",
           "GR",
           "DE",
-          "RO",
           "PT",
           "IT",
           "IE",
@@ -564,6 +563,7 @@
           "BE",
           "EE",
           "LT",
+          "RO",
           "ES",
           "CZ",
           "SK",
@@ -609,7 +609,7 @@
           "MT"
         ],
         "count.diesel_price.reporting": 27,
-        "brent.quote_status": "current",
+        "brent.quote_status": "last-available-close",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
         "brent.session_date": "2026-10-07",
@@ -618,16 +618,16 @@
         "brent.price_usd": 100.98,
         "brent.price_eur": 90.13,
         "brent.fx_status": "observed",
-        "brent.change_usd": 0.4,
-        "brent.change_pct": 0.4,
-        "trend.brent_verb": "rose"
+        "brent.change_usd": 0,
+        "brent.change_pct": 0,
+        "trend.brent_verb": "was unchanged"
       }
     }
   },
   "publication": {
-    "id": "d5c1551d3a9fbdd3@2026-10-07T22:19:37.598Z",
-    "builtAt": "2026-10-07T22:19:37.598Z",
-    "inputHash": "d5c1551d3a9fbdd3",
+    "id": "f91a28e6f1520341@2026-10-08T12:03:14.097Z",
+    "builtAt": "2026-10-08T12:03:14.097Z",
+    "inputHash": "f91a28e6f1520341",
     "bundles": [
       "live",
       "snapshot",
