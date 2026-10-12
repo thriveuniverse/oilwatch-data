@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-10-12T13:07:15.749Z",
+  "builtAt": "2026-10-12T23:50:30.867Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-10-12T13:03:09.077Z",
+      "lastUpdated": "2026-10-12T23:45:44.480Z",
       "periods": [
         "2025-03",
         "2025-04",
@@ -3211,7 +3211,7 @@
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-10-12T13:03:13.307Z",
+      "lastUpdated": "2026-10-12T23:45:50.522Z",
       "entries": [
         {
           "date": "2025-05-08",
@@ -5052,9 +5052,9 @@
     }
   },
   "publication": {
-    "id": "08161deae79d691f@2026-10-12T13:07:15.749Z",
-    "builtAt": "2026-10-12T13:07:15.749Z",
-    "inputHash": "08161deae79d691f",
+    "id": "d58ae50b55c74a3a@2026-10-12T23:50:30.867Z",
+    "builtAt": "2026-10-12T23:50:30.867Z",
+    "inputHash": "d58ae50b55c74a3a",
     "bundles": [
       "live",
       "snapshot",
