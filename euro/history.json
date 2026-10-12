@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-10-08T22:29:48.458Z",
+  "builtAt": "2026-10-12T13:07:15.749Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-10-08T22:26:21.225Z",
+      "lastUpdated": "2026-10-12T13:03:09.077Z",
       "periods": [
         "2025-03",
         "2025-04",
@@ -2636,9 +2636,9 @@
             },
             {
               "period": "2026-07",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 17.8,
+              "dieselDays": 20.1,
+              "jetDays": 20.6
             },
             {
               "period": "2026-08",
@@ -2847,7 +2847,7 @@
             {
               "period": "2026-04",
               "petrolDays": 119.2,
-              "dieselDays": 83.3,
+              "dieselDays": 94.8,
               "jetDays": 365
             },
             {
@@ -3187,7 +3187,7 @@
         {
           "period": "2026-04",
           "petrolDays": 83.2,
-          "dieselDays": 96.5,
+          "dieselDays": 97,
           "jetDays": 73
         },
         {
@@ -3204,25 +3204,15 @@
         },
         {
           "period": "2026-07",
-          "petrolDays": 66,
-          "dieselDays": 90,
-          "jetDays": 62
+          "petrolDays": 64.1,
+          "dieselDays": 87.3,
+          "jetDays": 60.3
         }
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-10-08T22:26:25.806Z",
+      "lastUpdated": "2026-10-12T13:03:13.307Z",
       "entries": [
-        {
-          "date": "2025-05-06",
-          "priceUsd": 62.15,
-          "priceEur": 54.79
-        },
-        {
-          "date": "2025-05-07",
-          "priceUsd": 61.12,
-          "priceEur": 54.06
-        },
         {
           "date": "2025-05-08",
           "priceUsd": 62.84,
@@ -5045,14 +5035,26 @@
           "priceUsd": 100.2,
           "priceEur": 89.34,
           "contract": "BZZ26.NYM"
+        },
+        {
+          "date": "2026-10-08",
+          "priceUsd": 104.28,
+          "priceEur": 93.27,
+          "contract": "BZZ26.NYM"
+        },
+        {
+          "date": "2026-10-09",
+          "priceUsd": 104.72,
+          "priceEur": 93.66,
+          "contract": "BZZ26.NYM"
         }
       ]
     }
   },
   "publication": {
-    "id": "cc121e27d14244b0@2026-10-08T22:29:48.458Z",
-    "builtAt": "2026-10-08T22:29:48.458Z",
-    "inputHash": "cc121e27d14244b0",
+    "id": "08161deae79d691f@2026-10-12T13:07:15.749Z",
+    "builtAt": "2026-10-12T13:07:15.749Z",
+    "inputHash": "08161deae79d691f",
     "bundles": [
       "live",
       "snapshot",
