@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-15T19:59:27.798Z",
+  "builtAt": "2026-10-15T20:37:05.516Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-15T19:55:26.918Z",
+      "lastUpdated": "2026-10-15T20:32:09.156Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-15T19:55:32.012Z",
+      "lastUpdated": "2026-10-15T20:32:14.382Z",
       "bulletinDate": "2026-10-12",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-12)",
@@ -2189,21 +2189,21 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-10-15T19:55:33.667Z",
-      "fetchedAt": "2026-10-15T19:55:33.667Z",
-      "observedAt": "2026-10-15T19:45:30.000Z",
+      "lastUpdated": "2026-10-15T20:32:16.026Z",
+      "fetchedAt": "2026-10-15T20:32:16.026Z",
+      "observedAt": "2026-10-15T20:22:13.000Z",
       "sessionDate": "2026-10-15",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZZ26.NYM)",
-      "priceUsd": 105.83,
-      "priceEur": 94.36,
-      "eurUsd": 1.1216,
+      "priceUsd": 105.77,
+      "priceEur": 94.28,
+      "eurUsd": 1.1218,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-10-15T19:55:26.000Z",
-      "changeUsd": -0.23,
-      "changePct": -0.22,
+      "fxObservedAt": "2026-10-15T20:31:27.000Z",
+      "changeUsd": -0.29,
+      "changePct": -0.27,
       "changeAgainst": "2026-10-14",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZZ26.NYM)",
@@ -2214,9 +2214,9 @@
     }
   },
   "publication": {
-    "id": "0c2635815a3ea0ae@2026-10-15T19:59:27.798Z",
-    "builtAt": "2026-10-15T19:59:27.798Z",
-    "inputHash": "0c2635815a3ea0ae",
+    "id": "c1717326b627c07c@2026-10-15T20:37:05.516Z",
+    "builtAt": "2026-10-15T20:37:05.516Z",
+    "inputHash": "c1717326b627c07c",
     "bundles": [
       "live",
       "snapshot",
