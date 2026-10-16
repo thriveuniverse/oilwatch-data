@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-15T20:37:05.516Z",
+  "builtAt": "2026-10-16T09:46:06.469Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-15T20:37:05.516Z",
-      "inputHash": "c1717326b627c07c",
+      "builtAt": "2026-10-16T09:46:06.469Z",
+      "inputHash": "acd9107be7318d03",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-10-15T20:22:13.000Z",
+          "observedAt": "2026-10-16T09:31:23.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -613,22 +613,22 @@
         "brent.quote_status": "current",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
-        "brent.session_date": "2026-10-15",
-        "brent.session_date_label": "15 October 2026",
-        "brent.observed_at": "2026-10-15T20:22:13.000Z",
-        "brent.price_usd": 105.77,
-        "brent.price_eur": 94.28,
+        "brent.session_date": "2026-10-16",
+        "brent.session_date_label": "16 October 2026",
+        "brent.observed_at": "2026-10-16T09:31:23.000Z",
+        "brent.price_usd": 105.11,
+        "brent.price_eur": 93.4,
         "brent.fx_status": "observed",
-        "brent.change_usd": -0.29,
-        "brent.change_pct": -0.27,
+        "brent.change_usd": -0.81,
+        "brent.change_pct": -0.76,
         "trend.brent_verb": "fell"
       }
     }
   },
   "publication": {
-    "id": "c1717326b627c07c@2026-10-15T20:37:05.516Z",
-    "builtAt": "2026-10-15T20:37:05.516Z",
-    "inputHash": "c1717326b627c07c",
+    "id": "acd9107be7318d03@2026-10-16T09:46:06.469Z",
+    "builtAt": "2026-10-16T09:46:06.469Z",
+    "inputHash": "acd9107be7318d03",
     "bundles": [
       "live",
       "snapshot",
