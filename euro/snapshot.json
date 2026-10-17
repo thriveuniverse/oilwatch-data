@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-17T14:53:55.797Z",
+  "builtAt": "2026-10-17T19:47:15.838Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-17T09:14:08.888Z",
+      "lastUpdated": "2026-10-17T19:42:52.397Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-17T09:14:13.850Z",
+      "lastUpdated": "2026-10-17T19:42:58.443Z",
       "bulletinDate": "2026-10-12",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-12)",
@@ -2189,19 +2189,19 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-10-17T09:14:15.501Z",
-      "fetchedAt": "2026-10-17T09:14:15.501Z",
+      "lastUpdated": "2026-10-17T19:43:00.250Z",
+      "fetchedAt": "2026-10-17T19:43:00.250Z",
       "observedAt": "2026-10-16T20:59:31.000Z",
       "sessionDate": "2026-10-16",
       "quoteType": "settled",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZZ26.NYM)",
       "priceUsd": 109.86,
-      "priceEur": 97.71,
-      "eurUsd": 1.1244,
+      "priceEur": 97.72,
+      "eurUsd": 1.1242,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-10-16T21:29:27.000Z",
+      "fxObservedAt": "2026-10-17T12:20:52.000Z",
       "changeUsd": 3.94,
       "changePct": 3.72,
       "changeAgainst": "2026-10-15",
@@ -2214,14 +2214,13 @@
     }
   },
   "publication": {
-    "id": "ae705c48c8caddfd@2026-10-17T14:53:55.797Z",
-    "builtAt": "2026-10-17T14:53:55.797Z",
+    "id": "ae705c48c8caddfd@2026-10-17T19:47:15.838Z",
+    "builtAt": "2026-10-17T19:47:15.838Z",
     "inputHash": "ae705c48c8caddfd",
     "bundles": [
       "live",
       "snapshot",
-      "history",
-      "analysis"
+      "history"
     ]
   }
 }
