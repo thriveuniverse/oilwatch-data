@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-16T20:08:57.000Z",
+  "builtAt": "2026-10-17T09:18:40.863Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-16T20:08:57.000Z",
-      "inputHash": "d0ae89ea50755e8b",
+      "builtAt": "2026-10-17T09:18:40.863Z",
+      "inputHash": "ae705c48c8caddfd",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-10-16T19:53:58.000Z",
+          "observedAt": "2026-10-16T20:59:31.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -611,24 +611,24 @@
         ],
         "count.diesel_price.reporting": 27,
         "brent.quote_status": "current",
-        "brent.quote_type": "intraday",
+        "brent.quote_type": "settled",
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
         "brent.session_date": "2026-10-16",
         "brent.session_date_label": "16 October 2026",
-        "brent.observed_at": "2026-10-16T19:53:58.000Z",
-        "brent.price_usd": 109.58,
-        "brent.price_eur": 97.46,
+        "brent.observed_at": "2026-10-16T20:59:31.000Z",
+        "brent.price_usd": 109.86,
+        "brent.price_eur": 97.71,
         "brent.fx_status": "observed",
-        "brent.change_usd": 3.66,
-        "brent.change_pct": 3.46,
+        "brent.change_usd": 3.94,
+        "brent.change_pct": 3.72,
         "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "d0ae89ea50755e8b@2026-10-16T20:08:57.000Z",
-    "builtAt": "2026-10-16T20:08:57.000Z",
-    "inputHash": "d0ae89ea50755e8b",
+    "id": "ae705c48c8caddfd@2026-10-17T09:18:40.863Z",
+    "builtAt": "2026-10-17T09:18:40.863Z",
+    "inputHash": "ae705c48c8caddfd",
     "bundles": [
       "live",
       "snapshot",
