@@ -1,10 +1,10 @@
 {
   "bundle": "market-history-live",
   "revalidate": 3600,
-  "builtAt": "2026-10-20T20:03:55.235Z",
+  "builtAt": "2026-10-20T20:53:56.754Z",
   "resources": {
     "bunker-history": {
-      "lastUpdated": "2026-10-20T20:01:45.140Z",
+      "lastUpdated": "2026-10-20T20:52:35.888Z",
       "entries": [
         {
           "date": "2026-04-17",
@@ -2936,7 +2936,7 @@
         },
         {
           "date": "2026-10-20",
-          "brentBasis": 109.06,
+          "brentBasis": 109.14,
           "rotterdam": {
             "vlsfo": 719,
             "mgo": 839
