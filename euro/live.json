@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-19T21:47:46.966Z",
+  "builtAt": "2026-10-20T10:03:20.193Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-19T21:47:46.966Z",
-      "inputHash": "5772400b163de90c",
+      "builtAt": "2026-10-20T10:03:20.193Z",
+      "inputHash": "8a30365dd44559bf",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-10-19T20:59:31.000Z",
+          "observedAt": "2026-10-20T09:48:21.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -613,22 +613,22 @@
         "brent.quote_status": "current",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
-        "brent.session_date": "2026-10-19",
-        "brent.session_date_label": "19 October 2026",
-        "brent.observed_at": "2026-10-19T20:59:31.000Z",
-        "brent.price_usd": 109.21,
-        "brent.price_eur": 97.37,
+        "brent.session_date": "2026-10-20",
+        "brent.session_date_label": "20 October 2026",
+        "brent.observed_at": "2026-10-20T09:48:21.000Z",
+        "brent.price_usd": 111.6,
+        "brent.price_eur": 99.48,
         "brent.fx_status": "observed",
-        "brent.change_usd": -0.65,
-        "brent.change_pct": -0.59,
-        "trend.brent_verb": "fell"
+        "brent.change_usd": 2.05,
+        "brent.change_pct": 1.87,
+        "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "5772400b163de90c@2026-10-19T21:47:46.966Z",
-    "builtAt": "2026-10-19T21:47:46.966Z",
-    "inputHash": "5772400b163de90c",
+    "id": "8a30365dd44559bf@2026-10-20T10:03:20.193Z",
+    "builtAt": "2026-10-20T10:03:20.193Z",
+    "inputHash": "8a30365dd44559bf",
     "bundles": [
       "live",
       "snapshot",
