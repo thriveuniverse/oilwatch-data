@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-22T10:09:08.399Z",
+  "builtAt": "2026-10-22T20:15:50.353Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-22T10:04:07.660Z",
+      "lastUpdated": "2026-10-22T20:11:53.503Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-22T10:04:13.878Z",
+      "lastUpdated": "2026-10-22T20:11:58.570Z",
       "bulletinDate": "2026-10-19",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-19)",
@@ -2190,11 +2190,11 @@
     },
     "brent": {
       "lastUpdated": "2026-10-22T10:04:15.675Z",
-      "fetchedAt": "2026-10-22T10:04:15.675Z",
+      "fetchedAt": "2026-10-22T20:11:59.638Z",
       "observedAt": "2026-10-22T09:54:14.000Z",
       "sessionDate": "2026-10-22",
       "quoteType": "intraday",
-      "quoteStatus": "current",
+      "quoteStatus": "last-available-close",
       "provider": "Yahoo Finance (BZZ26.NYM)",
       "priceUsd": 112.21,
       "priceEur": 100.01,
@@ -2202,20 +2202,21 @@
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-10-22T10:03:27.000Z",
-      "changeUsd": 3.39,
-      "changePct": 3.12,
-      "changeAgainst": "2026-10-21",
+      "changeUsd": 0,
+      "changePct": 0,
+      "changeAgainst": null,
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZZ26.NYM)",
       "contract": "BZZ26.NYM",
       "contractLabel": "December 2026",
       "contractExpiry": "2026-10-30",
-      "rejectedQuotes": []
+      "rejectedQuotes": [],
+      "staleReason": "uncorroborated 4.0% move from Yahoo Finance (BZZ26.NYM)"
     }
   },
   "publication": {
-    "id": "9411945659d9a6ff@2026-10-22T10:09:08.399Z",
-    "builtAt": "2026-10-22T10:09:08.399Z",
+    "id": "9411945659d9a6ff@2026-10-22T20:15:50.353Z",
+    "builtAt": "2026-10-22T20:15:50.353Z",
     "inputHash": "9411945659d9a6ff",
     "bundles": [
       "live",
