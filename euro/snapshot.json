@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-22T20:15:50.353Z",
+  "builtAt": "2026-10-22T20:50:36.667Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-22T20:11:53.503Z",
+      "lastUpdated": "2026-10-22T20:46:58.739Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-22T20:11:58.570Z",
+      "lastUpdated": "2026-10-22T20:47:03.954Z",
       "bulletinDate": "2026-10-19",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-19)",
@@ -2189,35 +2189,34 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-10-22T10:04:15.675Z",
-      "fetchedAt": "2026-10-22T20:11:59.638Z",
-      "observedAt": "2026-10-22T09:54:14.000Z",
+      "lastUpdated": "2026-10-22T20:47:05.269Z",
+      "fetchedAt": "2026-10-22T20:47:05.269Z",
+      "observedAt": "2026-10-22T20:36:46.000Z",
       "sessionDate": "2026-10-22",
       "quoteType": "intraday",
-      "quoteStatus": "last-available-close",
+      "quoteStatus": "current",
       "provider": "Yahoo Finance (BZZ26.NYM)",
-      "priceUsd": 112.21,
-      "priceEur": 100.01,
-      "eurUsd": 1.122,
+      "priceUsd": 112.79,
+      "priceEur": 100.55,
+      "eurUsd": 1.1217,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-10-22T10:03:27.000Z",
-      "changeUsd": 0,
-      "changePct": 0,
-      "changeAgainst": null,
+      "fxObservedAt": "2026-10-22T20:46:26.000Z",
+      "changeUsd": 3.97,
+      "changePct": 3.65,
+      "changeAgainst": "2026-10-21",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZZ26.NYM)",
       "contract": "BZZ26.NYM",
       "contractLabel": "December 2026",
       "contractExpiry": "2026-10-30",
-      "rejectedQuotes": [],
-      "staleReason": "uncorroborated 4.0% move from Yahoo Finance (BZZ26.NYM)"
+      "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "9411945659d9a6ff@2026-10-22T20:15:50.353Z",
-    "builtAt": "2026-10-22T20:15:50.353Z",
-    "inputHash": "9411945659d9a6ff",
+    "id": "f66d9544127b2079@2026-10-22T20:50:36.667Z",
+    "builtAt": "2026-10-22T20:50:36.667Z",
+    "inputHash": "f66d9544127b2079",
     "bundles": [
       "live",
       "snapshot",

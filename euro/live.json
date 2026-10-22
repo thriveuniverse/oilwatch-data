@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-22T20:15:50.353Z",
+  "builtAt": "2026-10-22T20:50:36.667Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-22T20:15:50.353Z",
-      "inputHash": "9411945659d9a6ff",
+      "builtAt": "2026-10-22T20:50:36.667Z",
+      "inputHash": "f66d9544127b2079",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -25,11 +25,11 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-10-22T09:54:14.000Z",
+          "observedAt": "2026-10-22T20:36:46.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
-          "note": "stale after 4 days (FRESHNESS.brent); quoteStatus last-available-close, provider Yahoo Finance (BZZ26.NYM)"
+          "note": "stale after 4 days (FRESHNESS.brent); quoteStatus current, provider Yahoo Finance (BZZ26.NYM)"
         }
       },
       "facts": {
@@ -610,25 +610,25 @@
           "MT"
         ],
         "count.diesel_price.reporting": 27,
-        "brent.quote_status": "last-available-close",
+        "brent.quote_status": "current",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
         "brent.session_date": "2026-10-22",
         "brent.session_date_label": "22 October 2026",
-        "brent.observed_at": "2026-10-22T09:54:14.000Z",
-        "brent.price_usd": 112.21,
-        "brent.price_eur": 100.01,
+        "brent.observed_at": "2026-10-22T20:36:46.000Z",
+        "brent.price_usd": 112.79,
+        "brent.price_eur": 100.55,
         "brent.fx_status": "observed",
-        "brent.change_usd": 0,
-        "brent.change_pct": 0,
-        "trend.brent_verb": "was unchanged"
+        "brent.change_usd": 3.97,
+        "brent.change_pct": 3.65,
+        "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "9411945659d9a6ff@2026-10-22T20:15:50.353Z",
-    "builtAt": "2026-10-22T20:15:50.353Z",
-    "inputHash": "9411945659d9a6ff",
+    "id": "f66d9544127b2079@2026-10-22T20:50:36.667Z",
+    "builtAt": "2026-10-22T20:50:36.667Z",
+    "inputHash": "f66d9544127b2079",
     "bundles": [
       "live",
       "snapshot",
