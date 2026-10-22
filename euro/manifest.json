@@ -1,9 +1,9 @@
 {
   "prefix": "euro",
   "publication": {
-    "id": "34caf7a8449751ba@2026-10-21T20:56:29.472Z",
-    "builtAt": "2026-10-21T20:56:29.472Z",
-    "inputHash": "34caf7a8449751ba",
+    "id": "9411945659d9a6ff@2026-10-22T10:09:08.399Z",
+    "builtAt": "2026-10-22T10:09:08.399Z",
+    "inputHash": "9411945659d9a6ff",
     "bundles": [
       "live",
       "snapshot",
@@ -12,18 +12,18 @@
   },
   "bundles": {
     "live": {
-      "contentHash": "9a618d61efaa40343102c56f22ef067aa6a7de5028f18a648157c98f00584c59",
-      "fileSha256": "31eb5ef88d036d2f90575bee8092c5f62ed985ffc42540241f2881015344519b",
-      "bytes": 23367,
+      "contentHash": "5ddaa1ab1dff9ff0bfcc63e8185007d528e9d488c809e73ff57622805663debd",
+      "fileSha256": "4eb63dda65bf49a7a6c7ea447a84e43e18b8b3fac1163dc3f89cff3715babe42",
+      "bytes": 23369,
       "resources": [
         "analysis-facts"
       ],
       "revalidate": 900
     },
     "snapshot": {
-      "contentHash": "cdfcd0aa89854b286c3d1b9cdef2eb61fd640031f9f6b282e3da432037e824c7",
-      "fileSha256": "a4329aa1715393527e71cfbe498a49b9b1216220e666ab193a172ebf4dc69f0d",
-      "bytes": 78293,
+      "contentHash": "bf5aa66e4488f38163d0af56f765e3e8d15353a36ce0d6db6b2d33f8a793f6bb",
+      "fileSha256": "3b2896621b5a50cc979b9e5f7683002423818596ee14b138fae0f07217bd13dc",
+      "bytes": 78294,
       "resources": [
         "stocks",
         "prices",
@@ -32,9 +32,9 @@
       "revalidate": 900
     },
     "history": {
-      "contentHash": "bd21b2034b00518ab972525f86f390feecc797551d3bebfa55d216292717a214",
-      "fileSha256": "2aed6693304a3fb24fcb01f99ac500fc0704abc71bb73f0508092c3dbca97e39",
-      "bytes": 126006,
+      "contentHash": "683c2f4189b65437613d020f5f5e1c4b0cd93616b6cd4328b033666c5d72ed9d",
+      "fileSha256": "f95305324ee6d79562b2459cf647c2a087bda657224d7850167aea2520adc9fb",
+      "bytes": 126042,
       "resources": [
         "history",
         "brent-history"
