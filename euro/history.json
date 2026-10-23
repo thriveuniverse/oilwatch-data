@@ -2,12 +2,11 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-10-22T20:50:36.667Z",
+  "builtAt": "2026-10-23T10:02:00.104Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-10-22T20:47:00.379Z",
+      "lastUpdated": "2026-10-23T09:58:07.424Z",
       "periods": [
-        "2025-03",
         "2025-04",
         "2025-05",
         "2025-06",
@@ -30,12 +29,6 @@
           "countryCode": "AT",
           "countryName": "Austria",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 97.7,
-              "dieselDays": 77.1,
-              "jetDays": 40.4
-            },
             {
               "period": "2025-04",
               "petrolDays": 91.2,
@@ -137,6 +130,12 @@
               "petrolDays": 49.6,
               "dieselDays": 68.2,
               "jetDays": 56.8
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -144,12 +143,6 @@
           "countryCode": "BE",
           "countryName": "Belgium",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 54.2,
-              "dieselDays": 91.9,
-              "jetDays": 105.1
-            },
             {
               "period": "2025-04",
               "petrolDays": 54.7,
@@ -251,6 +244,12 @@
               "petrolDays": 46,
               "dieselDays": 124.4,
               "jetDays": 92.9
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -258,12 +257,6 @@
           "countryCode": "BG",
           "countryName": "Bulgaria",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 106.2,
-              "dieselDays": 78.6,
-              "jetDays": 90.1
-            },
             {
               "period": "2025-04",
               "petrolDays": 64.6,
@@ -365,6 +358,12 @@
               "petrolDays": 44.5,
               "dieselDays": 55.5,
               "jetDays": 21.1
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -372,12 +371,6 @@
           "countryCode": "HR",
           "countryName": "Croatia",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 91.6,
-              "dieselDays": 59,
-              "jetDays": 51.2
-            },
             {
               "period": "2025-04",
               "petrolDays": 64.2,
@@ -476,6 +469,12 @@
             },
             {
               "period": "2026-08",
+              "petrolDays": 31.1,
+              "dieselDays": 37.6,
+              "jetDays": 15.1
+            },
+            {
+              "period": "2026-09",
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
@@ -486,12 +485,6 @@
           "countryCode": "CY",
           "countryName": "Cyprus",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 185.4,
-              "dieselDays": 114.4,
-              "jetDays": 90
-            },
             {
               "period": "2025-04",
               "petrolDays": 132.9,
@@ -590,6 +583,12 @@
             },
             {
               "period": "2026-08",
+              "petrolDays": 126.1,
+              "dieselDays": 95.9,
+              "jetDays": 52.8
+            },
+            {
+              "period": "2026-09",
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
@@ -600,12 +599,6 @@
           "countryCode": "CZ",
           "countryName": "Czechia",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 91.2,
-              "dieselDays": 66,
-              "jetDays": 57.2
-            },
             {
               "period": "2025-04",
               "petrolDays": 90.2,
@@ -707,6 +700,12 @@
               "petrolDays": 65.1,
               "dieselDays": 60.4,
               "jetDays": 40.4
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -714,12 +713,6 @@
           "countryCode": "DK",
           "countryName": "Denmark",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 130.9,
-              "dieselDays": 99,
-              "jetDays": 63.1
-            },
             {
               "period": "2025-04",
               "petrolDays": 116.2,
@@ -821,6 +814,12 @@
               "petrolDays": 117.2,
               "dieselDays": 105.9,
               "jetDays": 57.8
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": 122.5,
+              "dieselDays": 110.7,
+              "jetDays": 69.2
             }
           ]
         },
@@ -828,12 +827,6 @@
           "countryCode": "EE",
           "countryName": "Estonia",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 324.4,
-              "dieselDays": 133.8,
-              "jetDays": null
-            },
             {
               "period": "2025-04",
               "petrolDays": 308.8,
@@ -932,6 +925,12 @@
             },
             {
               "period": "2026-08",
+              "petrolDays": 123,
+              "dieselDays": 107.6,
+              "jetDays": null
+            },
+            {
+              "period": "2026-09",
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
@@ -942,12 +941,6 @@
           "countryCode": "FI",
           "countryName": "Finland",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 98.7,
-              "dieselDays": 232.7,
-              "jetDays": 23.3
-            },
             {
               "period": "2025-04",
               "petrolDays": 94.1,
@@ -1046,9 +1039,15 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": 106.4,
-              "dieselDays": 277.7,
-              "jetDays": 42.6
+              "petrolDays": 112.9,
+              "dieselDays": 262.6,
+              "jetDays": 40.8
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": 109.9,
+              "dieselDays": 224.6,
+              "jetDays": 37.4
             }
           ]
         },
@@ -1056,12 +1055,6 @@
           "countryCode": "FR",
           "countryName": "France",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 65.7,
-              "dieselDays": 89.1,
-              "jetDays": 70.3
-            },
             {
               "period": "2025-04",
               "petrolDays": 59.5,
@@ -1163,6 +1156,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -1170,12 +1169,6 @@
           "countryCode": "DE",
           "countryName": "Germany",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 58.1,
-              "dieselDays": 64.7,
-              "jetDays": 61.2
-            },
             {
               "period": "2025-04",
               "petrolDays": 54.6,
@@ -1277,6 +1270,12 @@
               "petrolDays": 57.8,
               "dieselDays": 119.3,
               "jetDays": 55.2
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -1284,12 +1283,6 @@
           "countryCode": "GR",
           "countryName": "Greece",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 111.8,
-              "dieselDays": 74.8,
-              "jetDays": 162.7
-            },
             {
               "period": "2025-04",
               "petrolDays": 86.6,
@@ -1391,6 +1384,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -1398,12 +1397,6 @@
           "countryCode": "HU",
           "countryName": "Hungary",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 142.1,
-              "dieselDays": 77.7,
-              "jetDays": 36
-            },
             {
               "period": "2025-04",
               "petrolDays": 126.1,
@@ -1505,6 +1498,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -1512,12 +1511,6 @@
           "countryCode": "IE",
           "countryName": "Ireland",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 122.2,
-              "dieselDays": 109.1,
-              "jetDays": 155.9
-            },
             {
               "period": "2025-04",
               "petrolDays": 104.6,
@@ -1619,6 +1612,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -1626,12 +1625,6 @@
           "countryCode": "IT",
           "countryName": "Italy",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 62.1,
-              "dieselDays": 61.9,
-              "jetDays": 63.4
-            },
             {
               "period": "2025-04",
               "petrolDays": 57.5,
@@ -1733,6 +1726,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -1740,12 +1739,6 @@
           "countryCode": "LV",
           "countryName": "Latvia",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 190.1,
-              "dieselDays": 116.1,
-              "jetDays": 89.4
-            },
             {
               "period": "2025-04",
               "petrolDays": 115.7,
@@ -1847,6 +1840,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -1854,12 +1853,6 @@
           "countryCode": "LT",
           "countryName": "Lithuania",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 167.8,
-              "dieselDays": 88.9,
-              "jetDays": 35.4
-            },
             {
               "period": "2025-04",
               "petrolDays": 147.9,
@@ -1961,6 +1954,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -1968,12 +1967,6 @@
           "countryCode": "LU",
           "countryName": "Luxembourg",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 41.2,
-              "dieselDays": 61,
-              "jetDays": 47.1
-            },
             {
               "period": "2025-04",
               "petrolDays": 40.8,
@@ -2075,6 +2068,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -2082,12 +2081,6 @@
           "countryCode": "MT",
           "countryName": "Malta",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 284.6,
-              "dieselDays": 122.7,
-              "jetDays": 80.7
-            },
             {
               "period": "2025-04",
               "petrolDays": 277.2,
@@ -2189,6 +2182,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -2196,12 +2195,6 @@
           "countryCode": "NL",
           "countryName": "Netherlands",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 49.2,
-              "dieselDays": 163.5,
-              "jetDays": 54.1
-            },
             {
               "period": "2025-04",
               "petrolDays": 63.1,
@@ -2303,6 +2296,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -2310,12 +2309,6 @@
           "countryCode": "PL",
           "countryName": "Poland",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 60.2,
-              "dieselDays": 58.9,
-              "jetDays": 22.6
-            },
             {
               "period": "2025-04",
               "petrolDays": 51.5,
@@ -2417,6 +2410,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -2424,12 +2423,6 @@
           "countryCode": "PT",
           "countryName": "Portugal",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 69,
-              "dieselDays": 85.6,
-              "jetDays": 25.7
-            },
             {
               "period": "2025-04",
               "petrolDays": 68.1,
@@ -2531,6 +2524,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -2538,12 +2537,6 @@
           "countryCode": "RO",
           "countryName": "Romania",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 47.2,
-              "dieselDays": 24,
-              "jetDays": 54.7
-            },
             {
               "period": "2025-04",
               "petrolDays": 40.7,
@@ -2645,6 +2638,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -2652,12 +2651,6 @@
           "countryCode": "SK",
           "countryName": "Slovakia",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 81.4,
-              "dieselDays": 51,
-              "jetDays": 157.5
-            },
             {
               "period": "2025-04",
               "petrolDays": 83.3,
@@ -2759,6 +2752,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -2766,12 +2765,6 @@
           "countryCode": "SI",
           "countryName": "Slovenia",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 177.1,
-              "dieselDays": 111.8,
-              "jetDays": 365
-            },
             {
               "period": "2025-04",
               "petrolDays": 119.3,
@@ -2873,6 +2866,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -2880,12 +2879,6 @@
           "countryCode": "ES",
           "countryName": "Spain",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 91,
-              "dieselDays": 65.4,
-              "jetDays": 35.3
-            },
             {
               "period": "2025-04",
               "petrolDays": 73.3,
@@ -2987,6 +2980,12 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         },
@@ -2994,12 +2993,6 @@
           "countryCode": "SE",
           "countryName": "Sweden",
           "data": [
-            {
-              "period": "2025-03",
-              "petrolDays": 103.4,
-              "dieselDays": 112.7,
-              "jetDays": 147.1
-            },
             {
               "period": "2025-04",
               "petrolDays": 90.9,
@@ -3101,17 +3094,17 @@
               "petrolDays": null,
               "dieselDays": null,
               "jetDays": null
+            },
+            {
+              "period": "2026-09",
+              "petrolDays": null,
+              "dieselDays": null,
+              "jetDays": null
             }
           ]
         }
       ],
       "euAverage": [
-        {
-          "period": "2025-03",
-          "petrolDays": 115,
-          "dieselDays": 92.3,
-          "jetDays": 84
-        },
         {
           "period": "2025-04",
           "petrolDays": 99.2,
@@ -3211,13 +3204,8 @@
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-10-22T20:47:05.270Z",
+      "lastUpdated": "2026-10-23T09:58:11.049Z",
       "entries": [
-        {
-          "date": "2025-05-20",
-          "priceUsd": 65.38,
-          "priceEur": 57.92
-        },
         {
           "date": "2025-05-21",
           "priceUsd": 64.91,
@@ -5055,14 +5043,20 @@
           "priceUsd": 108.82,
           "priceEur": 96.99,
           "contract": "BZZ26.NYM"
+        },
+        {
+          "date": "2026-10-22",
+          "priceUsd": 113.17,
+          "priceEur": 101.02,
+          "contract": "BZZ26.NYM"
         }
       ]
     }
   },
   "publication": {
-    "id": "f66d9544127b2079@2026-10-22T20:50:36.667Z",
-    "builtAt": "2026-10-22T20:50:36.667Z",
-    "inputHash": "f66d9544127b2079",
+    "id": "2ff3282e6a368932@2026-10-23T10:02:00.104Z",
+    "builtAt": "2026-10-23T10:02:00.104Z",
+    "inputHash": "2ff3282e6a368932",
     "bundles": [
       "live",
       "snapshot",

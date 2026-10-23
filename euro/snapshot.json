@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-22T20:50:36.667Z",
+  "builtAt": "2026-10-23T10:02:00.104Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-22T20:46:58.739Z",
+      "lastUpdated": "2026-10-23T09:58:05.751Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-22T20:47:03.954Z",
+      "lastUpdated": "2026-10-23T09:58:09.840Z",
       "bulletinDate": "2026-10-19",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-19)",
@@ -2189,34 +2189,36 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-10-22T20:47:05.269Z",
-      "fetchedAt": "2026-10-22T20:47:05.269Z",
-      "observedAt": "2026-10-22T20:36:46.000Z",
-      "sessionDate": "2026-10-22",
+      "lastUpdated": "2026-10-23T09:58:11.048Z",
+      "fetchedAt": "2026-10-23T09:58:11.048Z",
+      "observedAt": "2026-10-23T09:48:04.000Z",
+      "sessionDate": "2026-10-23",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZZ26.NYM)",
-      "priceUsd": 112.79,
-      "priceEur": 100.55,
-      "eurUsd": 1.1217,
+      "priceUsd": 114.3,
+      "priceEur": 102.02,
+      "eurUsd": 1.1203,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-10-22T20:46:26.000Z",
-      "changeUsd": 3.97,
-      "changePct": 3.65,
-      "changeAgainst": "2026-10-21",
+      "fxObservedAt": "2026-10-23T09:57:28.000Z",
+      "changeUsd": 1.13,
+      "changePct": 1,
+      "changeAgainst": "2026-10-22",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZZ26.NYM)",
       "contract": "BZZ26.NYM",
       "contractLabel": "December 2026",
       "contractExpiry": "2026-10-30",
-      "rejectedQuotes": []
+      "rejectedQuotes": [
+        "continuous BZ=F quoted $109.71 against BZZ26.NYM $114.30 (4.0% apart) — BZ=F has rolled into January 2027; the named contract was published"
+      ]
     }
   },
   "publication": {
-    "id": "f66d9544127b2079@2026-10-22T20:50:36.667Z",
-    "builtAt": "2026-10-22T20:50:36.667Z",
-    "inputHash": "f66d9544127b2079",
+    "id": "2ff3282e6a368932@2026-10-23T10:02:00.104Z",
+    "builtAt": "2026-10-23T10:02:00.104Z",
+    "inputHash": "2ff3282e6a368932",
     "bundles": [
       "live",
       "snapshot",
