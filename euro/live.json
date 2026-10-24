@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-23T20:42:28.537Z",
+  "builtAt": "2026-10-24T09:31:10.458Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-23T20:42:28.537Z",
-      "inputHash": "d4c9bcf9c2e1c179",
+      "builtAt": "2026-10-24T09:31:10.458Z",
+      "inputHash": "a705cb491add1ccc",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-10-23T20:27:37.000Z",
+          "observedAt": "2026-10-23T20:59:44.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -611,24 +611,24 @@
         ],
         "count.diesel_price.reporting": 27,
         "brent.quote_status": "current",
-        "brent.quote_type": "intraday",
+        "brent.quote_type": "settled",
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
         "brent.session_date": "2026-10-23",
         "brent.session_date_label": "23 October 2026",
-        "brent.observed_at": "2026-10-23T20:27:37.000Z",
-        "brent.price_usd": 116.62,
-        "brent.price_eur": 104.18,
+        "brent.observed_at": "2026-10-23T20:59:44.000Z",
+        "brent.price_usd": 116.72,
+        "brent.price_eur": 104.17,
         "brent.fx_status": "observed",
-        "brent.change_usd": 3.45,
-        "brent.change_pct": 3.05,
+        "brent.change_usd": 3.55,
+        "brent.change_pct": 3.14,
         "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "d4c9bcf9c2e1c179@2026-10-23T20:42:28.537Z",
-    "builtAt": "2026-10-23T20:42:28.537Z",
-    "inputHash": "d4c9bcf9c2e1c179",
+    "id": "a705cb491add1ccc@2026-10-24T09:31:10.458Z",
+    "builtAt": "2026-10-24T09:31:10.458Z",
+    "inputHash": "a705cb491add1ccc",
     "bundles": [
       "live",
       "snapshot",

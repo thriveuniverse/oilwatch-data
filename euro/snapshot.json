@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-23T20:42:28.537Z",
+  "builtAt": "2026-10-24T09:31:10.458Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-23T20:38:01.289Z",
+      "lastUpdated": "2026-10-24T09:27:11.767Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-23T20:38:07.296Z",
+      "lastUpdated": "2026-10-24T09:27:17.050Z",
       "bulletinDate": "2026-10-19",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-19)",
@@ -2189,36 +2189,34 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-10-23T20:38:08.517Z",
-      "fetchedAt": "2026-10-23T20:38:08.517Z",
-      "observedAt": "2026-10-23T20:27:37.000Z",
+      "lastUpdated": "2026-10-24T09:27:18.246Z",
+      "fetchedAt": "2026-10-24T09:27:18.246Z",
+      "observedAt": "2026-10-23T20:59:44.000Z",
       "sessionDate": "2026-10-23",
-      "quoteType": "intraday",
+      "quoteType": "settled",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZZ26.NYM)",
-      "priceUsd": 116.62,
-      "priceEur": 104.18,
-      "eurUsd": 1.1194,
+      "priceUsd": 116.72,
+      "priceEur": 104.17,
+      "eurUsd": 1.1204,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-10-23T20:37:26.000Z",
-      "changeUsd": 3.45,
-      "changePct": 3.05,
+      "fxObservedAt": "2026-10-23T21:29:27.000Z",
+      "changeUsd": 3.55,
+      "changePct": 3.14,
       "changeAgainst": "2026-10-22",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZZ26.NYM)",
       "contract": "BZZ26.NYM",
       "contractLabel": "December 2026",
       "contractExpiry": "2026-10-30",
-      "rejectedQuotes": [
-        "continuous BZ=F quoted $111.49 against BZZ26.NYM $116.62 (4.4% apart) — BZ=F has rolled into January 2027; the named contract was published"
-      ]
+      "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "d4c9bcf9c2e1c179@2026-10-23T20:42:28.537Z",
-    "builtAt": "2026-10-23T20:42:28.537Z",
-    "inputHash": "d4c9bcf9c2e1c179",
+    "id": "a705cb491add1ccc@2026-10-24T09:31:10.458Z",
+    "builtAt": "2026-10-24T09:31:10.458Z",
+    "inputHash": "a705cb491add1ccc",
     "bundles": [
       "live",
       "snapshot",

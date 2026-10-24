@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-10-23T20:42:28.537Z",
+  "builtAt": "2026-10-24T09:31:10.458Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-10-23T20:38:04.104Z",
+      "lastUpdated": "2026-10-24T09:27:13.837Z",
       "periods": [
         "2025-04",
         "2025-05",
@@ -697,9 +697,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": 65.1,
-              "dieselDays": 60.4,
-              "jetDays": 40.4
+              "petrolDays": 65.3,
+              "dieselDays": 60.5,
+              "jetDays": 41.7
             },
             {
               "period": "2026-09",
@@ -3204,13 +3204,8 @@
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-10-23T20:38:08.519Z",
+      "lastUpdated": "2026-10-24T09:27:18.248Z",
       "entries": [
-        {
-          "date": "2025-05-21",
-          "priceUsd": 64.91,
-          "priceEur": 57.28
-        },
         {
           "date": "2025-05-22",
           "priceUsd": 64.44,
@@ -5049,14 +5044,20 @@
           "priceUsd": 113.17,
           "priceEur": 101.02,
           "contract": "BZZ26.NYM"
+        },
+        {
+          "date": "2026-10-23",
+          "priceUsd": 116.72,
+          "priceEur": 104.17,
+          "contract": "BZZ26.NYM"
         }
       ]
     }
   },
   "publication": {
-    "id": "d4c9bcf9c2e1c179@2026-10-23T20:42:28.537Z",
-    "builtAt": "2026-10-23T20:42:28.537Z",
-    "inputHash": "d4c9bcf9c2e1c179",
+    "id": "a705cb491add1ccc@2026-10-24T09:31:10.458Z",
+    "builtAt": "2026-10-24T09:31:10.458Z",
+    "inputHash": "a705cb491add1ccc",
     "bundles": [
       "live",
       "snapshot",
