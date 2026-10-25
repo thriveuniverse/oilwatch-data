@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-10-25T09:49:02.165Z",
+  "builtAt": "2026-10-25T19:59:36.707Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-10-25T09:44:58.348Z",
+      "lastUpdated": "2026-10-25T19:56:26.651Z",
       "periods": [
         "2025-04",
         "2025-05",
@@ -5055,8 +5055,8 @@
     }
   },
   "publication": {
-    "id": "a705cb491add1ccc@2026-10-25T09:49:02.165Z",
-    "builtAt": "2026-10-25T09:49:02.165Z",
+    "id": "a705cb491add1ccc@2026-10-25T19:59:36.707Z",
+    "builtAt": "2026-10-25T19:59:36.707Z",
     "inputHash": "a705cb491add1ccc",
     "bundles": [
       "live",
