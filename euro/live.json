@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-26T11:03:55.273Z",
+  "builtAt": "2026-10-26T21:55:52.351Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-26T11:03:55.273Z",
-      "inputHash": "9ec4735109872efb",
+      "builtAt": "2026-10-26T21:55:52.351Z",
+      "inputHash": "579b548389a01dc7",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-10-26T10:49:12.000Z",
+          "observedAt": "2026-10-26T20:59:30.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -615,20 +615,20 @@
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
         "brent.session_date": "2026-10-26",
         "brent.session_date_label": "26 October 2026",
-        "brent.observed_at": "2026-10-26T10:49:12.000Z",
-        "brent.price_usd": 115.11,
-        "brent.price_eur": 102.76,
+        "brent.observed_at": "2026-10-26T20:59:30.000Z",
+        "brent.price_usd": 115.22,
+        "brent.price_eur": 103.06,
         "brent.fx_status": "observed",
-        "brent.change_usd": -1.61,
-        "brent.change_pct": -1.38,
+        "brent.change_usd": -1.5,
+        "brent.change_pct": -1.29,
         "trend.brent_verb": "fell"
       }
     }
   },
   "publication": {
-    "id": "9ec4735109872efb@2026-10-26T11:03:55.273Z",
-    "builtAt": "2026-10-26T11:03:55.273Z",
-    "inputHash": "9ec4735109872efb",
+    "id": "579b548389a01dc7@2026-10-26T21:55:52.351Z",
+    "builtAt": "2026-10-26T21:55:52.351Z",
+    "inputHash": "579b548389a01dc7",
     "bundles": [
       "live",
       "snapshot",

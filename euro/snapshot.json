@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-26T11:03:55.273Z",
+  "builtAt": "2026-10-26T21:55:52.351Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-26T10:59:14.690Z",
+      "lastUpdated": "2026-10-26T21:51:18.464Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-26T10:59:19.563Z",
+      "lastUpdated": "2026-10-26T21:51:23.922Z",
       "bulletinDate": "2026-10-19",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-19)",
@@ -2189,21 +2189,21 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-10-26T10:59:20.727Z",
-      "fetchedAt": "2026-10-26T10:59:20.727Z",
-      "observedAt": "2026-10-26T10:49:12.000Z",
+      "lastUpdated": "2026-10-26T21:51:25.171Z",
+      "fetchedAt": "2026-10-26T21:51:25.171Z",
+      "observedAt": "2026-10-26T20:59:30.000Z",
       "sessionDate": "2026-10-26",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZZ26.NYM)",
-      "priceUsd": 115.11,
-      "priceEur": 102.76,
-      "eurUsd": 1.1202,
+      "priceUsd": 115.22,
+      "priceEur": 103.06,
+      "eurUsd": 1.1179,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-10-26T10:58:43.000Z",
-      "changeUsd": -1.61,
-      "changePct": -1.38,
+      "fxObservedAt": "2026-10-26T00:00:00.000Z",
+      "changeUsd": -1.5,
+      "changePct": -1.29,
       "changeAgainst": "2026-10-23",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZZ26.NYM)",
@@ -2211,14 +2211,14 @@
       "contractLabel": "December 2026",
       "contractExpiry": "2026-10-30",
       "rejectedQuotes": [
-        "continuous BZ=F quoted $110.13 against BZZ26.NYM $115.11 (4.3% apart) — BZ=F has rolled into January 2027; the named contract was published"
+        "continuous BZ=F quoted $110.27 against BZZ26.NYM $115.22 (4.3% apart) — BZ=F has rolled into January 2027; the named contract was published"
       ]
     }
   },
   "publication": {
-    "id": "9ec4735109872efb@2026-10-26T11:03:55.273Z",
-    "builtAt": "2026-10-26T11:03:55.273Z",
-    "inputHash": "9ec4735109872efb",
+    "id": "579b548389a01dc7@2026-10-26T21:55:52.351Z",
+    "builtAt": "2026-10-26T21:55:52.351Z",
+    "inputHash": "579b548389a01dc7",
     "bundles": [
       "live",
       "snapshot",
