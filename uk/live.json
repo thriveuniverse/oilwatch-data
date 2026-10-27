@@ -1,12 +1,12 @@
 {
   "bundle": "live",
   "revalidate": 900,
-  "builtAt": "2026-10-26T21:53:30.012Z",
+  "builtAt": "2026-10-27T10:24:47.297Z",
   "resources": {
     "bunker": {
-      "lastUpdated": "2026-10-26T21:51:51.347Z",
-      "brentBasis": 115.22,
-      "brentChange": -1.5,
+      "lastUpdated": "2026-10-27T10:22:25.564Z",
+      "brentBasis": 116.01,
+      "brentChange": 0.2,
       "note": "Estimated from Brent crude benchmark. For exact market prices: Ship & Bunker, Platts.",
       "ports": [
         {
@@ -14,30 +14,30 @@
           "code": "ARA",
           "region": "NW Europe",
           "relevance": "Primary EU/UK supply hub — leading indicator for diesel and gasoil",
-          "vlsfo": 759,
-          "mgo": 879,
-          "vlsfoChange": -9.7,
-          "mgoChange": -9.7
+          "vlsfo": 764,
+          "mgo": 884,
+          "vlsfoChange": 1.3,
+          "mgoChange": 1.3
         },
         {
           "name": "Fujairah",
           "code": "FUJA",
           "region": "Middle East",
           "relevance": "Gulf supply stress indicator — rises under Hormuz/Red Sea disruption",
-          "vlsfo": 774,
-          "mgo": 894,
-          "vlsfoChange": -9.7,
-          "mgoChange": -9.7
+          "vlsfo": 779,
+          "mgo": 899,
+          "vlsfoChange": 1.3,
+          "mgoChange": 1.3
         },
         {
           "name": "Singapore",
           "code": "SING",
           "region": "Asia-Pacific",
           "relevance": "Global benchmark — reflects competition between Asian and EU buyers",
-          "vlsfo": 767,
-          "mgo": 889,
-          "vlsfoChange": -9.7,
-          "mgoChange": -9.7
+          "vlsfo": 772,
+          "mgo": 894,
+          "vlsfoChange": 1.3,
+          "mgoChange": 1.3
         }
       ],
       "provenance": {
@@ -49,22 +49,22 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-26T21:51:42.988Z",
+      "lastUpdated": "2026-10-27T10:22:18.773Z",
       "dataSource": "DESNZ Weekly Road Fuel Prices (CMA Road Fuel Prices Scheme)",
-      "csvUrl": "https://assets.publishing.service.gov.uk/media/6ad63e7d49ba86d6c953cc40/CSV__2018_-__.csv",
+      "csvUrl": "https://assets.publishing.service.gov.uk/media/6adf6252d798ae11e9bc5d07/CSV__2018_-__.csv",
       "latest": {
-        "date": "2026-10-19",
-        "petrolPpl": 174.57,
-        "dieselPpl": 199.33,
-        "petrolGbp": 1.75,
+        "date": "2026-10-26",
+        "petrolPpl": 174.07,
+        "dieselPpl": 199.22,
+        "petrolGbp": 1.74,
         "dieselGbp": 1.99,
         "dutyPetrol": 52.95,
         "dutyDiesel": 52.95,
         "vatRate": 20
       },
       "changes": {
-        "petrolWeekPpl": -0.71,
-        "dieselWeekPpl": -0.71
+        "petrolWeekPpl": -0.5,
+        "dieselWeekPpl": -0.11
       },
       "stats": {
         "petrol52wHigh": 175.28,
@@ -73,11 +73,6 @@
         "diesel52wLow": 140.72
       },
       "history": [
-        {
-          "date": "2025-10-27",
-          "petrolPpl": 134.4,
-          "dieselPpl": 142.38
-        },
         {
           "date": "2025-11-03",
           "petrolPpl": 134.38,
@@ -332,11 +327,16 @@
           "date": "2026-10-19",
           "petrolPpl": 174.57,
           "dieselPpl": 199.33
+        },
+        {
+          "date": "2026-10-26",
+          "petrolPpl": 174.07,
+          "dieselPpl": 199.22
         }
       ]
     },
     "crack": {
-      "lastUpdated": "2026-10-26T21:51:47.519Z",
+      "lastUpdated": "2026-10-27T10:22:22.474Z",
       "latestDate": "2026-10-20",
       "crackUsd": 39.61,
       "crackChangeUsd": 4.39,
@@ -838,21 +838,17 @@
       "dataSource": "US Energy Information Administration (EIA), daily spot prices"
     },
     "divergence": {
-      "lastUpdated": "2026-10-26T21:51:48.841Z",
-      "latestDate": "2026-10-23",
+      "lastUpdated": "2026-10-27T10:22:23.584Z",
+      "latestDate": "2026-10-26",
       "windowSessions": 7,
-      "spread": 3.91,
-      "dowRet7": 1.15,
-      "nasRet7": -2.76,
-      "dowClose": 52215.16,
-      "nasClose": 25955.34,
+      "spread": 2.39,
+      "dowRet7": 0.35,
+      "nasRet7": -2.04,
+      "dowClose": 52361.58,
+      "nasClose": 26169.38,
       "threshold": 5.5,
       "triggered": false,
       "history": [
-        {
-          "date": "2026-05-05",
-          "spread": -1.83
-        },
         {
           "date": "2026-05-06",
           "spread": -2.31
@@ -1328,12 +1324,16 @@
         {
           "date": "2026-10-23",
           "spread": 3.91
+        },
+        {
+          "date": "2026-10-26",
+          "spread": 2.39
         }
       ],
       "dataSource": "FRED — Dow Jones Industrial Average (DJIA) & Nasdaq Composite (NASDAQCOM), daily closes"
     },
     "sea-state": {
-      "lastUpdated": "2026-10-26T21:51:50.436Z",
+      "lastUpdated": "2026-10-27T10:22:24.906Z",
       "dataSource": "Open-Meteo Marine + Forecast APIs (sourced from European met agencies)",
       "sourceUrl": "https://open-meteo.com",
       "methodology": "Significant wave height (m), wave period (s), 10m wind speed (m/s). Risk band is the worst of wave/wind classifications (calm / moderate / rough / dangerous), using Douglas-style sea-state and Beaufort wind thresholds.",
@@ -1345,14 +1345,14 @@
           "lat": 26.567,
           "lon": 56.25,
           "context": "~20% of world seaborne oil and LNG normally transits here.",
-          "waveHeightM": 0.14,
-          "wavePeriodS": 4.7,
-          "waveDirectionDeg": 239,
-          "windSpeedMs": 1.63,
-          "windGustsMs": 2.8,
-          "windDirectionDeg": 169,
+          "waveHeightM": 0.28,
+          "wavePeriodS": 2.8,
+          "waveDirectionDeg": 136,
+          "windSpeedMs": 3.24,
+          "windGustsMs": 4.5,
+          "windDirectionDeg": 99,
           "risk": "calm",
-          "observedAt": "2026-10-26T21:45"
+          "observedAt": "2026-10-27T10:15"
         },
         {
           "id": "bab-el-mandeb",
@@ -1362,13 +1362,13 @@
           "lon": 43.333,
           "context": "Red Sea entry; routes for Suez-bound traffic from the Gulf and Asia.",
           "waveHeightM": 1.06,
-          "wavePeriodS": 4.35,
-          "waveDirectionDeg": 100,
-          "windSpeedMs": 7,
-          "windGustsMs": 10.1,
-          "windDirectionDeg": 136,
+          "wavePeriodS": 4.3,
+          "waveDirectionDeg": 107,
+          "windSpeedMs": 9.86,
+          "windGustsMs": 15.6,
+          "windDirectionDeg": 130,
           "risk": "moderate",
-          "observedAt": "2026-10-26T21:45"
+          "observedAt": "2026-10-27T10:15"
         },
         {
           "id": "suez-approaches",
@@ -1377,14 +1377,14 @@
           "lat": 31.25,
           "lon": 32.3,
           "context": "Northern entry to the Suez Canal; ~10% of seaborne crude.",
-          "waveHeightM": 0.18,
-          "wavePeriodS": 2.75,
-          "waveDirectionDeg": 8,
-          "windSpeedMs": 1.7,
-          "windGustsMs": 2.5,
-          "windDirectionDeg": 310,
+          "waveHeightM": 0.08,
+          "wavePeriodS": 3.9,
+          "waveDirectionDeg": 337,
+          "windSpeedMs": 2.47,
+          "windGustsMs": 5,
+          "windDirectionDeg": 346,
           "risk": "calm",
-          "observedAt": "2026-10-26T21:45"
+          "observedAt": "2026-10-27T10:15"
         },
         {
           "id": "english-channel",
@@ -1393,14 +1393,14 @@
           "lat": 50.95,
           "lon": 1.367,
           "context": "Busiest shipping lane in the world; critical for UK / NW European fuel imports.",
-          "waveHeightM": 1.82,
-          "wavePeriodS": 5.25,
-          "waveDirectionDeg": 222,
-          "windSpeedMs": 12.9,
-          "windGustsMs": 17.7,
-          "windDirectionDeg": 207,
-          "risk": "rough",
-          "observedAt": "2026-10-26T21:45"
+          "waveHeightM": 1.94,
+          "wavePeriodS": 5.55,
+          "waveDirectionDeg": 214,
+          "windSpeedMs": 10.6,
+          "windGustsMs": 14.1,
+          "windDirectionDeg": 246,
+          "risk": "moderate",
+          "observedAt": "2026-10-27T10:15"
         },
         {
           "id": "skagerrak",
@@ -1409,14 +1409,14 @@
           "lat": 57.75,
           "lon": 9,
           "context": "Connects North Sea to Baltic; route for Norwegian and Russian-origin crude.",
-          "waveHeightM": 2.3,
-          "wavePeriodS": 7.8,
-          "waveDirectionDeg": 246,
-          "windSpeedMs": 9,
-          "windGustsMs": 11.4,
-          "windDirectionDeg": 193,
-          "risk": "moderate",
-          "observedAt": "2026-10-26T21:45"
+          "waveHeightM": 2.46,
+          "wavePeriodS": 6.25,
+          "waveDirectionDeg": 216,
+          "windSpeedMs": 13.8,
+          "windGustsMs": 17.6,
+          "windDirectionDeg": 177,
+          "risk": "rough",
+          "observedAt": "2026-10-27T10:15"
         },
         {
           "id": "panama-caribbean",
@@ -1425,14 +1425,14 @@
           "lat": 9.35,
           "lon": -79.917,
           "context": "Atlantic entry to Panama Canal; Pacific–Atlantic arbitrage route.",
-          "waveHeightM": 1.14,
-          "wavePeriodS": 5.2,
-          "waveDirectionDeg": 327,
-          "windSpeedMs": 5.19,
-          "windGustsMs": 12.3,
-          "windDirectionDeg": 309,
+          "waveHeightM": 0.84,
+          "wavePeriodS": 5.4,
+          "waveDirectionDeg": 347,
+          "windSpeedMs": 3.07,
+          "windGustsMs": 5.7,
+          "windDirectionDeg": 341,
           "risk": "calm",
-          "observedAt": "2026-10-26T21:45"
+          "observedAt": "2026-10-27T10:15"
         },
         {
           "id": "strait-of-florida",
@@ -1441,31 +1441,31 @@
           "lat": 24.5,
           "lon": -80.5,
           "context": "Gulf of Mexico crude exports route to Atlantic basin.",
-          "waveHeightM": 2.68,
-          "wavePeriodS": 7.1,
-          "waveDirectionDeg": 38,
-          "windSpeedMs": 12.04,
-          "windGustsMs": 16.4,
-          "windDirectionDeg": 44,
+          "waveHeightM": 2.48,
+          "wavePeriodS": 6.9,
+          "waveDirectionDeg": 32,
+          "windSpeedMs": 14.05,
+          "windGustsMs": 17.5,
+          "windDirectionDeg": 40,
           "risk": "rough",
-          "observedAt": "2026-10-26T21:45"
+          "observedAt": "2026-10-27T10:15"
         }
       ]
     },
     "analysis-facts": {
-      "builtAt": "2026-10-26T21:53:30.029Z",
-      "inputHash": "ff319ef3bfda26a6",
+      "builtAt": "2026-10-27T10:24:47.308Z",
+      "inputHash": "b1d5bca1018e0123",
       "effectiveVintage": "2026-07",
       "factCount": 41,
       "sources": {
         "brent": {
-          "observedAt": "2026-10-26T20:59:30.000Z",
+          "observedAt": "2026-10-27T10:10:34.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "note": "the provider observation time of the quoted price, or the settlement date of a stored settled close"
         },
         "prices": {
-          "observedAt": "2026-10-19T00:00:00Z",
+          "observedAt": "2026-10-26T00:00:00Z",
           "cadence": "weekly",
           "maxAgeHours": 288,
           "note": "DESNZ weekly pump-price observation (Monday)"
@@ -1521,20 +1521,20 @@
           "jet_fuel",
           "heating_oil"
         ],
-        "prices.week_ending": "2026-10-19",
-        "prices.week_ending_label": "19 October 2026",
-        "prices.petrol": 174.57,
-        "prices.diesel": 199.33,
-        "prices.petrol_below_52w_high": 0.71,
-        "prices.diesel_below_52w_high": 0.71,
-        "prices.diesel_above_52w_low": 58.61,
-        "brent.session_date": "2026-10-26",
-        "brent.session_date_label": "26 October 2026",
-        "brent.price": 115.22,
-        "brent.change_pct": -1.29,
+        "prices.week_ending": "2026-10-26",
+        "prices.week_ending_label": "26 October 2026",
+        "prices.petrol": 174.07,
+        "prices.diesel": 199.22,
+        "prices.petrol_below_52w_high": 1.21,
+        "prices.diesel_below_52w_high": 0.82,
+        "prices.diesel_above_52w_low": 58.5,
+        "brent.session_date": "2026-10-27",
+        "brent.session_date_label": "27 October 2026",
+        "brent.price": 116.01,
+        "brent.change_pct": 0.17,
         "trend.petrol_verb": "fell",
         "trend.diesel_verb": "fell",
-        "trend.brent_verb": "fell",
+        "trend.brent_verb": "was little changed",
         "trend.pump_prices_phrase": "both fell"
       }
     }
