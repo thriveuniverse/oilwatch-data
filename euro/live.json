@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-26T21:55:52.351Z",
+  "builtAt": "2026-10-27T10:31:12.601Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-26T21:55:52.351Z",
-      "inputHash": "579b548389a01dc7",
+      "builtAt": "2026-10-27T10:31:12.601Z",
+      "inputHash": "b94d68b060bd9891",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-10-26T20:59:30.000Z",
+          "observedAt": "2026-10-27T10:16:08.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -613,22 +613,22 @@
         "brent.quote_status": "current",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
-        "brent.session_date": "2026-10-26",
-        "brent.session_date_label": "26 October 2026",
-        "brent.observed_at": "2026-10-26T20:59:30.000Z",
-        "brent.price_usd": 115.22,
-        "brent.price_eur": 103.06,
+        "brent.session_date": "2026-10-27",
+        "brent.session_date_label": "27 October 2026",
+        "brent.observed_at": "2026-10-27T10:16:08.000Z",
+        "brent.price_usd": 116.16,
+        "brent.price_eur": 104.24,
         "brent.fx_status": "observed",
-        "brent.change_usd": -1.5,
-        "brent.change_pct": -1.29,
-        "trend.brent_verb": "fell"
+        "brent.change_usd": 0.35,
+        "brent.change_pct": 0.3,
+        "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "579b548389a01dc7@2026-10-26T21:55:52.351Z",
-    "builtAt": "2026-10-26T21:55:52.351Z",
-    "inputHash": "579b548389a01dc7",
+    "id": "b94d68b060bd9891@2026-10-27T10:31:12.601Z",
+    "builtAt": "2026-10-27T10:31:12.601Z",
+    "inputHash": "b94d68b060bd9891",
     "bundles": [
       "live",
       "snapshot",
