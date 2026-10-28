@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-27T21:34:37.386Z",
+  "builtAt": "2026-10-28T11:19:31.456Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-10-27T21:34:37.386Z",
-      "inputHash": "0fe5b44e6c6c99e1",
+      "builtAt": "2026-10-28T11:19:31.456Z",
+      "inputHash": "057543499e7071d6",
       "effectiveVintage": "2026-07",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-10-27T20:59:30.000Z",
+          "observedAt": "2026-10-28T11:00:41.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -613,22 +613,22 @@
         "brent.quote_status": "current",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZZ26.NYM)",
-        "brent.session_date": "2026-10-27",
-        "brent.session_date_label": "27 October 2026",
-        "brent.observed_at": "2026-10-27T20:59:30.000Z",
-        "brent.price_usd": 114.22,
-        "brent.price_eur": 102.62,
+        "brent.session_date": "2026-10-28",
+        "brent.session_date_label": "28 October 2026",
+        "brent.observed_at": "2026-10-28T11:00:41.000Z",
+        "brent.price_usd": 114.96,
+        "brent.price_eur": 103.29,
         "brent.fx_status": "observed",
-        "brent.change_usd": -1.59,
-        "brent.change_pct": -1.37,
-        "trend.brent_verb": "fell"
+        "brent.change_usd": 1.08,
+        "brent.change_pct": 0.95,
+        "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "0fe5b44e6c6c99e1@2026-10-27T21:34:37.386Z",
-    "builtAt": "2026-10-27T21:34:37.386Z",
-    "inputHash": "0fe5b44e6c6c99e1",
+    "id": "057543499e7071d6@2026-10-28T11:19:31.456Z",
+    "builtAt": "2026-10-28T11:19:31.456Z",
+    "inputHash": "057543499e7071d6",
     "bundles": [
       "live",
       "snapshot",
