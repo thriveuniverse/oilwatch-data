@@ -1,13 +1,13 @@
 {
   "bundle": "analysis",
   "revalidate": 900,
-  "builtAt": "2026-10-04T12:44:52.793Z",
+  "builtAt": "2026-10-30T12:11:58.275Z",
   "resources": {
     "analysis.structured": {
       "fixture_kind": "live_capable",
       "record": {
-        "snapshot_id": "292368d5e1a1e7e5",
-        "effective_vintage": "2026-07",
+        "snapshot_id": "113ecccce95defc4",
+        "effective_vintage": "2026-08",
         "overallStatus": "critical",
         "blocks": [
           {
@@ -46,17 +46,17 @@
                 "claim": {
                   "id": "diesel_most_severe",
                   "kind": "analytical",
-                  "text": "with diesel the most severely stressed product at {{fuel.diesel.days}} days of cover",
+                  "text": "with jet fuel the most severely stressed product at {{fuel.jet_fuel.days}} days of cover",
                   "facts": [
                     "ranking.status_severity",
-                    "fuel.diesel.days"
+                    "fuel.jet_fuel.days"
                   ],
                   "guards": [
                     {
                       "type": "ranking_equals",
                       "ranking": "status_severity",
                       "position": 0,
-                      "value": "diesel"
+                      "value": "jet_fuel"
                     }
                   ],
                   "provenance": [
@@ -117,10 +117,10 @@
                 "claim": {
                   "id": "diesel_critical_fewest_days",
                   "kind": "analytical",
-                  "text": "Diesel carries a critical status and has the fewest days of cover of any tracked product at {{fuel.diesel.days}} days, placing it at the top of both the status-severity and days-of-cover rankings.",
+                  "text": "Jet fuel carries a critical status and has the fewest days of cover of any tracked product at {{fuel.jet_fuel.days}} days, placing it at the top of both the status-severity and days-of-cover rankings.",
                   "facts": [
-                    "fuel.diesel.status",
-                    "fuel.diesel.days",
+                    "fuel.jet_fuel.status",
+                    "fuel.jet_fuel.days",
                     "ranking.status_severity",
                     "ranking.days_of_cover"
                   ],
@@ -129,17 +129,17 @@
                       "type": "ranking_equals",
                       "ranking": "status_severity",
                       "position": 0,
-                      "value": "diesel"
+                      "value": "jet_fuel"
                     },
                     {
                       "type": "ranking_equals",
                       "ranking": "days_of_cover",
                       "position": 0,
-                      "value": "diesel"
+                      "value": "jet_fuel"
                     },
                     {
                       "type": "state_equals",
-                      "key": "fuel.diesel.status",
+                      "key": "fuel.jet_fuel.status",
                       "value": "critical"
                     }
                   ],
@@ -154,23 +154,23 @@
                 "claim": {
                   "id": "petrol_warning",
                   "kind": "analytical",
-                  "text": "Petrol is rated warning at {{fuel.petrol.days}} days, and jet fuel also carries a warning status at {{fuel.jet_fuel.days}} days.",
+                  "text": "Petrol is rated watch at {{fuel.petrol.days}} days, and diesel is rated safe at {{fuel.diesel.days}} days; each rating compares a fuel with its own recent history, not with an absolute level.",
                   "facts": [
                     "fuel.petrol.status",
                     "fuel.petrol.days",
-                    "fuel.jet_fuel.status",
-                    "fuel.jet_fuel.days"
+                    "fuel.diesel.status",
+                    "fuel.diesel.days"
                   ],
                   "guards": [
                     {
                       "type": "state_equals",
                       "key": "fuel.petrol.status",
-                      "value": "warning"
+                      "value": "watch"
                     },
                     {
                       "type": "state_equals",
-                      "key": "fuel.jet_fuel.status",
-                      "value": "warning"
+                      "key": "fuel.diesel.status",
+                      "value": "safe"
                     }
                   ],
                   "provenance": [
@@ -184,7 +184,7 @@
                 "claim": {
                   "id": "heating_oil_safe",
                   "kind": "analytical",
-                  "text": "Heating oil is the only product with a safe designation, at {{fuel.heating_oil.days}} days of cover, though its stock volume of {{fuel.heating_oil.stock_kt}} kt is the smallest of the four products; its long cover reflects low seasonal consumption relative to stock held rather than large absolute volumes.",
+                  "text": "Heating oil is also rated safe, at {{fuel.heating_oil.days}} days of cover, though its stock volume of {{fuel.heating_oil.stock_kt}} kt is the smallest of the four products; its long cover reflects low seasonal consumption relative to stock held rather than large absolute volumes.",
                   "facts": [
                     "fuel.heating_oil.status",
                     "fuel.heating_oil.days",
@@ -262,21 +262,25 @@
                 "claim": {
                   "id": "prices_at_52w_high",
                   "kind": "analytical",
-                  "text": "Both petrol and diesel prices are at their 52-week high.",
+                  "text": "Both petrol and diesel prices are within 1.5p a litre of their 52-week high.",
                   "facts": [
                     "prices.petrol_below_52w_high",
                     "prices.diesel_below_52w_high"
                   ],
                   "guards": [
                     {
-                      "type": "sign_equals",
+                      "type": "threshold",
                       "fact": "prices.petrol_below_52w_high",
-                      "value": 0
+                      "relation": "at_or_below",
+                      "value": 1.5,
+                      "unit": "pence_per_litre"
                     },
                     {
-                      "type": "sign_equals",
+                      "type": "threshold",
                       "fact": "prices.diesel_below_52w_high",
-                      "value": 0
+                      "relation": "at_or_below",
+                      "value": 1.5,
+                      "unit": "pence_per_litre"
                     }
                   ],
                   "provenance": [
@@ -355,30 +359,30 @@
                 "claim": {
                   "id": "key1_diesel_critical_analytical",
                   "kind": "analytical",
-                  "text": "Diesel status is critical: at {{fuel.diesel.days}} days of cover, it is the most severely rated and most tightly supplied product in the monitored basket.",
+                  "text": "Jet fuel status is critical: at {{fuel.jet_fuel.days}} days of cover, it is the most severely rated and most tightly supplied product in the monitored basket.",
                   "facts": [
-                    "fuel.diesel.status",
-                    "fuel.diesel.days",
+                    "fuel.jet_fuel.status",
+                    "fuel.jet_fuel.days",
                     "ranking.status_severity",
                     "ranking.days_of_cover"
                   ],
                   "guards": [
                     {
                       "type": "state_equals",
-                      "key": "fuel.diesel.status",
+                      "key": "fuel.jet_fuel.status",
                       "value": "critical"
                     },
                     {
                       "type": "ranking_equals",
                       "ranking": "status_severity",
                       "position": 0,
-                      "value": "diesel"
+                      "value": "jet_fuel"
                     },
                     {
                       "type": "ranking_equals",
                       "ranking": "days_of_cover",
                       "position": 0,
-                      "value": "diesel"
+                      "value": "jet_fuel"
                     }
                   ],
                   "provenance": [
@@ -397,23 +401,23 @@
                 "claim": {
                   "id": "key2_petrol_jet_warning",
                   "kind": "analytical",
-                  "text": "Petrol and jet fuel are both at warning status, at {{fuel.petrol.days}} and {{fuel.jet_fuel.days}} days of cover respectively.",
+                  "text": "Petrol is at watch status at {{fuel.petrol.days}} days of cover, while diesel reads safe at {{fuel.diesel.days}} days against its own history.",
                   "facts": [
                     "fuel.petrol.status",
-                    "fuel.jet_fuel.status",
+                    "fuel.diesel.status",
                     "fuel.petrol.days",
-                    "fuel.jet_fuel.days"
+                    "fuel.diesel.days"
                   ],
                   "guards": [
                     {
                       "type": "state_equals",
                       "key": "fuel.petrol.status",
-                      "value": "warning"
+                      "value": "watch"
                     },
                     {
                       "type": "state_equals",
-                      "key": "fuel.jet_fuel.status",
-                      "value": "warning"
+                      "key": "fuel.diesel.status",
+                      "value": "safe"
                     }
                   ],
                   "provenance": [
@@ -522,199 +526,199 @@
         "retired": []
       },
       "snapshot": {
-        "id": "approved:292368d5e1a1e7e5",
-        "builtAt": "2026-10-03T16:46:31.737Z",
+        "id": "approved:113ecccce95defc4",
+        "builtAt": "2026-10-30T09:06:38.761Z",
         "facts": {
           "vintage.data_period": {
-            "value": "2026-07",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "2026-08",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "vintage.data_period_label": {
-            "value": "July 2026",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "August 2026",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "vintage.lag_phrase": {
             "value": "about three months",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "vintage.release_date": {
-            "value": "2026-09-24",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "2026-10-29",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "vintage.release_date_label": {
-            "value": "24 September 2026",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "29 October 2026",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "standing.desnz_q1_2026_stock_mt": {
             "value": 10.2,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "standing.iea_obligation_days": {
             "value": 67.5,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "standing.uk_diesel_import_share_pct": {
             "value": 37.7,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "standing.uk_diesel_import_dependency_pct": {
             "value": 54.4,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "standing.uk_diesel_nl_be_supply_share_pct": {
             "value": 20.5,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "state.overall": {
             "value": "critical",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "stocks.average_days": {
-            "value": 29.2,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 33.7,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.petrol.status": {
-            "value": "warning",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "watch",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.petrol.days": {
-            "value": 23.5,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 24.7,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.petrol.stock_kt": {
-            "value": 798,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 883,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.diesel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "safe",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.diesel.days": {
-            "value": 18.9,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 22.5,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.diesel.stock_kt": {
-            "value": 1279,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 1444,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.jet_fuel.status": {
-            "value": "warning",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "critical",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.jet_fuel.days": {
-            "value": 24.7,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 22,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.jet_fuel.stock_kt": {
-            "value": 884,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 848,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.heating_oil.status": {
             "value": "safe",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.heating_oil.days": {
-            "value": 49.6,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 65.7,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "fuel.heating_oil.stock_kt": {
-            "value": 176,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 198,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "ranking.days_of_cover": {
             "value": [
+              "jet_fuel",
               "diesel",
               "petrol",
-              "jet_fuel",
               "heating_oil"
             ],
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "ranking.status_severity": {
             "value": [
-              "diesel",
-              "petrol",
               "jet_fuel",
+              "petrol",
+              "diesel",
               "heating_oil"
             ],
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "prices.week_ending": {
-            "value": "2026-09-28",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "2026-10-26",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "prices.week_ending_label": {
-            "value": "28 September 2026",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "26 October 2026",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "prices.petrol": {
-            "value": 173.46,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 174.07,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "prices.diesel": {
-            "value": 197.58,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 199.22,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "prices.petrol_below_52w_high": {
-            "value": 0,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 1.21,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "prices.diesel_below_52w_high": {
-            "value": 0,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 0.82,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "prices.diesel_above_52w_low": {
-            "value": 56.86,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 58.5,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "brent.session_date": {
-            "value": "2026-10-02",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "2026-10-29",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "brent.session_date_label": {
-            "value": "2 October 2026",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "29 October 2026",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "brent.price": {
-            "value": 102.25,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 115.64,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "brent.change_pct": {
-            "value": -0.06,
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": 0.28,
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "trend.petrol_verb": {
-            "value": "rose",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "fell",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "trend.diesel_verb": {
-            "value": "rose",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "fell",
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "trend.brent_verb": {
             "value": "was little changed",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "snapshot_id": "approved:113ecccce95defc4"
           },
           "trend.pump_prices_phrase": {
-            "value": "both rose",
-            "snapshot_id": "approved:292368d5e1a1e7e5"
+            "value": "both fell",
+            "snapshot_id": "approved:113ecccce95defc4"
           }
         },
         "sources": {
           "brent": {
-            "observedAt": "2026-10-02T20:59:52.000Z",
+            "observedAt": "2026-10-29T20:37:06.000Z",
             "cadence": "daily",
             "maxAgeHours": 96,
             "note": "the provider observation time of the quoted price, or the settlement date of a stored settled close"
           },
           "prices": {
-            "observedAt": "2026-09-28T00:00:00Z",
+            "observedAt": "2026-10-26T00:00:00Z",
             "cadence": "weekly",
             "maxAgeHours": 288,
             "note": "DESNZ weekly pump-price observation (Monday)"
           },
           "stocks": {
-            "observedAt": "2026-09-24T00:00:00Z",
+            "observedAt": "2026-10-29T00:00:00Z",
             "cadence": "monthly",
             "maxAgeHours": 1008,
             "note": "DESNZ Energy Trends release date for the reference month (not the reference month itself)"
@@ -728,24 +732,358 @@
           "standing.uk_diesel_nl_be_supply_share_pct": "2027-07-29"
         }
       },
-      "generatedAt": "2026-10-03T16:32:53.000Z",
+      "generatedAt": "2026-10-30T09:06:38.765Z",
       "model": "claude-sonnet-4-6",
-      "presentation_edits": [
+      "review_edits": [
         {
-          "claim_id": "diesel_import_provenance_note",
+          "claim_id": "diesel_most_severe",
           "field": "text",
-          "from": "These figures are drawn from calendar 2025 DUKES data (provenance: dukes_3_7).",
-          "to": "These figures are drawn from calendar 2025 DUKES data.",
-          "reason": "Owner review 3 Oct 2026: the internal source key 'dukes_3_7' is not reader-facing; the DUKES attribution stays and provenance remains in the claim's provenance field.",
-          "applied_at": "2026-10-03T16:45:40Z"
+          "from": "with diesel the most severely stressed product at {{fuel.diesel.days}} days of cover",
+          "to": "with jet fuel the most severely stressed product at {{fuel.jet_fuel.days}} days of cover",
+          "reason": "August 2026 DESNZ data (released 29 Oct): jet fuel (22.0 days, critical) replaced diesel as the most severely rated product with the fewest days of cover; ranking.status_severity[0] and ranking.days_of_cover[0] are now jet_fuel.",
+          "applied_at": "2026-10-30T10:00:00Z"
         },
         {
-          "claim_id": "key5_diesel_import_exposure",
+          "claim_id": "diesel_most_severe",
+          "field": "facts",
+          "from": [
+            "ranking.status_severity",
+            "fuel.diesel.days"
+          ],
+          "to": [
+            "ranking.status_severity",
+            "fuel.jet_fuel.days"
+          ],
+          "reason": "August 2026 DESNZ data (released 29 Oct): jet fuel (22.0 days, critical) replaced diesel as the most severely rated product with the fewest days of cover; ranking.status_severity[0] and ranking.days_of_cover[0] are now jet_fuel.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "diesel_most_severe",
+          "field": "guards",
+          "from": [
+            {
+              "type": "ranking_equals",
+              "ranking": "status_severity",
+              "position": 0,
+              "value": "diesel"
+            }
+          ],
+          "to": [
+            {
+              "type": "ranking_equals",
+              "ranking": "status_severity",
+              "position": 0,
+              "value": "jet_fuel"
+            }
+          ],
+          "reason": "August 2026 DESNZ data (released 29 Oct): jet fuel (22.0 days, critical) replaced diesel as the most severely rated product with the fewest days of cover; ranking.status_severity[0] and ranking.days_of_cover[0] are now jet_fuel.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "diesel_critical_fewest_days",
           "field": "text",
-          "from": "Diesel import exposure remains a structural factor: NL- and BE-origin imports account for {{standing.uk_diesel_nl_be_supply_share_pct}}% of total UK road-diesel supply, based on calendar 2025 DUKES data (provenance: dukes_3_7).",
-          "to": "Diesel import exposure remains a structural factor: NL- and BE-origin imports account for {{standing.uk_diesel_nl_be_supply_share_pct}}% of total UK road-diesel supply, based on calendar 2025 DUKES data.",
-          "reason": "Owner review 3 Oct 2026: the internal source key 'dukes_3_7' is not reader-facing; the DUKES attribution stays and provenance remains in the claim's provenance field.",
-          "applied_at": "2026-10-03T16:45:40Z"
+          "from": "Diesel carries a critical status and has the fewest days of cover of any tracked product at {{fuel.diesel.days}} days, placing it at the top of both the status-severity and days-of-cover rankings.",
+          "to": "Jet fuel carries a critical status and has the fewest days of cover of any tracked product at {{fuel.jet_fuel.days}} days, placing it at the top of both the status-severity and days-of-cover rankings.",
+          "reason": "August 2026 DESNZ data (released 29 Oct): jet fuel (22.0 days, critical) replaced diesel as the most severely rated product with the fewest days of cover; ranking.status_severity[0] and ranking.days_of_cover[0] are now jet_fuel.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "diesel_critical_fewest_days",
+          "field": "facts",
+          "from": [
+            "fuel.diesel.status",
+            "fuel.diesel.days",
+            "ranking.status_severity",
+            "ranking.days_of_cover"
+          ],
+          "to": [
+            "fuel.jet_fuel.status",
+            "fuel.jet_fuel.days",
+            "ranking.status_severity",
+            "ranking.days_of_cover"
+          ],
+          "reason": "August 2026 DESNZ data (released 29 Oct): jet fuel (22.0 days, critical) replaced diesel as the most severely rated product with the fewest days of cover; ranking.status_severity[0] and ranking.days_of_cover[0] are now jet_fuel.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "diesel_critical_fewest_days",
+          "field": "guards",
+          "from": [
+            {
+              "type": "ranking_equals",
+              "ranking": "status_severity",
+              "position": 0,
+              "value": "diesel"
+            },
+            {
+              "type": "ranking_equals",
+              "ranking": "days_of_cover",
+              "position": 0,
+              "value": "diesel"
+            },
+            {
+              "type": "state_equals",
+              "key": "fuel.diesel.status",
+              "value": "critical"
+            }
+          ],
+          "to": [
+            {
+              "type": "ranking_equals",
+              "ranking": "status_severity",
+              "position": 0,
+              "value": "jet_fuel"
+            },
+            {
+              "type": "ranking_equals",
+              "ranking": "days_of_cover",
+              "position": 0,
+              "value": "jet_fuel"
+            },
+            {
+              "type": "state_equals",
+              "key": "fuel.jet_fuel.status",
+              "value": "critical"
+            }
+          ],
+          "reason": "August 2026 DESNZ data (released 29 Oct): jet fuel (22.0 days, critical) replaced diesel as the most severely rated product with the fewest days of cover; ranking.status_severity[0] and ranking.days_of_cover[0] are now jet_fuel.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "petrol_warning",
+          "field": "text",
+          "from": "Petrol is rated warning at {{fuel.petrol.days}} days, and jet fuel also carries a warning status at {{fuel.jet_fuel.days}} days.",
+          "to": "Petrol is rated watch at {{fuel.petrol.days}} days, and diesel is rated safe at {{fuel.diesel.days}} days; each rating compares a fuel with its own recent history, not with an absolute level.",
+          "reason": "August 2026 DESNZ data: petrol is rated watch and diesel safe. Status on this site is a percentile of each fuel's own history (fetch-desnz-stocks.ts percentileStatus), so the sentence says the ratings are relative, not absolute levels.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "petrol_warning",
+          "field": "facts",
+          "from": [
+            "fuel.petrol.status",
+            "fuel.petrol.days",
+            "fuel.jet_fuel.status",
+            "fuel.jet_fuel.days"
+          ],
+          "to": [
+            "fuel.petrol.status",
+            "fuel.petrol.days",
+            "fuel.diesel.status",
+            "fuel.diesel.days"
+          ],
+          "reason": "August 2026 DESNZ data: petrol is rated watch and diesel safe. Status on this site is a percentile of each fuel's own history (fetch-desnz-stocks.ts percentileStatus), so the sentence says the ratings are relative, not absolute levels.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "petrol_warning",
+          "field": "guards",
+          "from": [
+            {
+              "type": "state_equals",
+              "key": "fuel.petrol.status",
+              "value": "warning"
+            },
+            {
+              "type": "state_equals",
+              "key": "fuel.jet_fuel.status",
+              "value": "warning"
+            }
+          ],
+          "to": [
+            {
+              "type": "state_equals",
+              "key": "fuel.petrol.status",
+              "value": "watch"
+            },
+            {
+              "type": "state_equals",
+              "key": "fuel.diesel.status",
+              "value": "safe"
+            }
+          ],
+          "reason": "August 2026 DESNZ data: petrol is rated watch and diesel safe. Status on this site is a percentile of each fuel's own history (fetch-desnz-stocks.ts percentileStatus), so the sentence says the ratings are relative, not absolute levels.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "heating_oil_safe",
+          "field": "text",
+          "from": "Heating oil is the only product with a safe designation, at {{fuel.heating_oil.days}} days of cover, though its stock volume of {{fuel.heating_oil.stock_kt}} kt is the smallest of the four products; its long cover reflects low seasonal consumption relative to stock held rather than large absolute volumes.",
+          "to": "Heating oil is also rated safe, at {{fuel.heating_oil.days}} days of cover, though its stock volume of {{fuel.heating_oil.stock_kt}} kt is the smallest of the four products; its long cover reflects low seasonal consumption relative to stock held rather than large absolute volumes.",
+          "reason": "The guard still held, but 'the only product with a safe designation' became false in August 2026 when diesel was also rated safe. 'Also' follows the preceding sentence, which now names diesel as safe.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "prices_at_52w_high",
+          "field": "text",
+          "from": "Both petrol and diesel prices are within a penny a litre of their 52-week high.",
+          "to": "Both petrol and diesel prices are within 1.5p a litre of their 52-week high.",
+          "reason": "Petrol is now 1.21p below its 52-week high (diesel 0.82p), so 'within a penny' failed its threshold guard and was withheld. The tolerance is widened to 1.5p and the guard says exactly what the sentence says.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "prices_at_52w_high",
+          "field": "guards",
+          "from": [
+            {
+              "type": "threshold",
+              "fact": "prices.petrol_below_52w_high",
+              "relation": "at_or_below",
+              "value": 1,
+              "unit": "pence_per_litre"
+            },
+            {
+              "type": "threshold",
+              "fact": "prices.diesel_below_52w_high",
+              "relation": "at_or_below",
+              "value": 1,
+              "unit": "pence_per_litre"
+            }
+          ],
+          "to": [
+            {
+              "type": "threshold",
+              "fact": "prices.petrol_below_52w_high",
+              "relation": "at_or_below",
+              "value": 1.5,
+              "unit": "pence_per_litre"
+            },
+            {
+              "type": "threshold",
+              "fact": "prices.diesel_below_52w_high",
+              "relation": "at_or_below",
+              "value": 1.5,
+              "unit": "pence_per_litre"
+            }
+          ],
+          "reason": "Guard tolerance matches the rewritten sentence: 1.5 pence per litre on both facts, same threshold type and unit as before.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "key1_diesel_critical_analytical",
+          "field": "text",
+          "from": "Diesel status is critical: at {{fuel.diesel.days}} days of cover, it is the most severely rated and most tightly supplied product in the monitored basket.",
+          "to": "Jet fuel status is critical: at {{fuel.jet_fuel.days}} days of cover, it is the most severely rated and most tightly supplied product in the monitored basket.",
+          "reason": "August 2026 DESNZ data (released 29 Oct): jet fuel (22.0 days, critical) replaced diesel as the most severely rated product with the fewest days of cover; ranking.status_severity[0] and ranking.days_of_cover[0] are now jet_fuel.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "key1_diesel_critical_analytical",
+          "field": "facts",
+          "from": [
+            "fuel.diesel.status",
+            "fuel.diesel.days",
+            "ranking.status_severity",
+            "ranking.days_of_cover"
+          ],
+          "to": [
+            "fuel.jet_fuel.status",
+            "fuel.jet_fuel.days",
+            "ranking.status_severity",
+            "ranking.days_of_cover"
+          ],
+          "reason": "August 2026 DESNZ data (released 29 Oct): jet fuel (22.0 days, critical) replaced diesel as the most severely rated product with the fewest days of cover; ranking.status_severity[0] and ranking.days_of_cover[0] are now jet_fuel.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "key1_diesel_critical_analytical",
+          "field": "guards",
+          "from": [
+            {
+              "type": "state_equals",
+              "key": "fuel.diesel.status",
+              "value": "critical"
+            },
+            {
+              "type": "ranking_equals",
+              "ranking": "status_severity",
+              "position": 0,
+              "value": "diesel"
+            },
+            {
+              "type": "ranking_equals",
+              "ranking": "days_of_cover",
+              "position": 0,
+              "value": "diesel"
+            }
+          ],
+          "to": [
+            {
+              "type": "state_equals",
+              "key": "fuel.jet_fuel.status",
+              "value": "critical"
+            },
+            {
+              "type": "ranking_equals",
+              "ranking": "status_severity",
+              "position": 0,
+              "value": "jet_fuel"
+            },
+            {
+              "type": "ranking_equals",
+              "ranking": "days_of_cover",
+              "position": 0,
+              "value": "jet_fuel"
+            }
+          ],
+          "reason": "August 2026 DESNZ data (released 29 Oct): jet fuel (22.0 days, critical) replaced diesel as the most severely rated product with the fewest days of cover; ranking.status_severity[0] and ranking.days_of_cover[0] are now jet_fuel.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "key2_petrol_jet_warning",
+          "field": "text",
+          "from": "Petrol and jet fuel are both at warning status, at {{fuel.petrol.days}} and {{fuel.jet_fuel.days}} days of cover respectively.",
+          "to": "Petrol is at watch status at {{fuel.petrol.days}} days of cover, while diesel reads safe at {{fuel.diesel.days}} days against its own history.",
+          "reason": "August 2026 DESNZ data: petrol is rated watch and diesel safe. Status on this site is a percentile of each fuel's own history (fetch-desnz-stocks.ts percentileStatus), so the sentence says the ratings are relative, not absolute levels.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "key2_petrol_jet_warning",
+          "field": "facts",
+          "from": [
+            "fuel.petrol.status",
+            "fuel.jet_fuel.status",
+            "fuel.petrol.days",
+            "fuel.jet_fuel.days"
+          ],
+          "to": [
+            "fuel.petrol.status",
+            "fuel.diesel.status",
+            "fuel.petrol.days",
+            "fuel.diesel.days"
+          ],
+          "reason": "August 2026 DESNZ data: petrol is rated watch and diesel safe. Status on this site is a percentile of each fuel's own history (fetch-desnz-stocks.ts percentileStatus), so the sentence says the ratings are relative, not absolute levels.",
+          "applied_at": "2026-10-30T10:00:00Z"
+        },
+        {
+          "claim_id": "key2_petrol_jet_warning",
+          "field": "guards",
+          "from": [
+            {
+              "type": "state_equals",
+              "key": "fuel.petrol.status",
+              "value": "warning"
+            },
+            {
+              "type": "state_equals",
+              "key": "fuel.jet_fuel.status",
+              "value": "warning"
+            }
+          ],
+          "to": [
+            {
+              "type": "state_equals",
+              "key": "fuel.petrol.status",
+              "value": "watch"
+            },
+            {
+              "type": "state_equals",
+              "key": "fuel.diesel.status",
+              "value": "safe"
+            }
+          ],
+          "reason": "August 2026 DESNZ data: petrol is rated watch and diesel safe. Status on this site is a percentile of each fuel's own history (fetch-desnz-stocks.ts percentileStatus), so the sentence says the ratings are relative, not absolute levels.",
+          "applied_at": "2026-10-30T10:00:00Z"
         }
       ]
     }
