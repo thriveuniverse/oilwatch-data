@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-30T21:46:47.966Z",
+  "builtAt": "2026-11-01T11:51:31.458Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-10-30T21:41:32.405Z",
+      "lastUpdated": "2026-11-01T11:47:14.931Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-10-30T21:41:38.359Z",
+      "lastUpdated": "2026-11-01T11:47:20.552Z",
       "bulletinDate": "2026-10-26",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-26)",
@@ -2190,11 +2190,11 @@
     },
     "brent": {
       "lastUpdated": "2026-10-30T21:41:39.705Z",
-      "fetchedAt": "2026-10-30T21:41:39.705Z",
+      "fetchedAt": "2026-11-01T11:47:21.726Z",
       "observedAt": "2026-10-30T18:26:14.000Z",
       "sessionDate": "2026-10-30",
       "quoteType": "intraday",
-      "quoteStatus": "current",
+      "quoteStatus": "last-available-close",
       "provider": "Yahoo Finance (BZZ26.NYM)",
       "priceUsd": 117.7,
       "priceEur": 105.41,
@@ -2202,9 +2202,9 @@
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-10-30T00:00:00.000Z",
-      "changeUsd": 2.82,
-      "changePct": 2.45,
-      "changeAgainst": "2026-10-29",
+      "changeUsd": 0,
+      "changePct": 0,
+      "changeAgainst": null,
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZZ26.NYM)",
       "contract": "BZZ26.NYM",
@@ -2212,12 +2212,13 @@
       "contractExpiry": "2026-10-30",
       "rejectedQuotes": [
         "continuous BZ=F quoted $112.33 against BZZ26.NYM $117.70 (4.6% apart) — BZ=F has rolled into January 2027; the named contract was published"
-      ]
+      ],
+      "staleReason": "Yahoo Finance (BZF27.NYM) returned the 2026-10-30 session while the current session is 2026-11-01 — that is a previous close, not a current quote"
     }
   },
   "publication": {
-    "id": "95cb275d1177ea48@2026-10-30T21:46:47.966Z",
-    "builtAt": "2026-10-30T21:46:47.966Z",
+    "id": "95cb275d1177ea48@2026-11-01T11:51:31.458Z",
+    "builtAt": "2026-11-01T11:51:31.458Z",
     "inputHash": "95cb275d1177ea48",
     "bundles": [
       "live",
