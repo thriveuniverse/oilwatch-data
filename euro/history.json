@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-11-03T12:48:50.855Z",
+  "builtAt": "2026-11-03T22:36:22.959Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-11-03T12:44:09.665Z",
+      "lastUpdated": "2026-11-03T22:30:17.673Z",
       "periods": [
         "2025-04",
         "2025-05",
@@ -133,9 +133,9 @@
             },
             {
               "period": "2026-09",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 58.2,
+              "dieselDays": 59.9,
+              "jetDays": 52.1
             }
           ]
         },
@@ -1267,9 +1267,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": 57.8,
-              "dieselDays": 119.3,
-              "jetDays": 55.2
+              "petrolDays": 56.4,
+              "dieselDays": 113,
+              "jetDays": 44
             },
             {
               "period": "2026-09",
@@ -1357,21 +1357,21 @@
             },
             {
               "period": "2026-04",
-              "petrolDays": 68.7,
+              "petrolDays": 68.5,
               "dieselDays": 69.3,
               "jetDays": 86.4
             },
             {
               "period": "2026-05",
-              "petrolDays": 71,
-              "dieselDays": 75.3,
+              "petrolDays": 71.2,
+              "dieselDays": 75.4,
               "jetDays": 53.3
             },
             {
               "period": "2026-06",
-              "petrolDays": 61.5,
-              "dieselDays": 62,
-              "jetDays": 45.9
+              "petrolDays": 61.4,
+              "dieselDays": 62.1,
+              "jetDays": 46.1
             },
             {
               "period": "2026-07",
@@ -1495,9 +1495,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 94.1,
+              "dieselDays": 61.9,
+              "jetDays": 37.3
             },
             {
               "period": "2026-09",
@@ -1609,9 +1609,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 96,
+              "dieselDays": 105.9,
+              "jetDays": 91.9
             },
             {
               "period": "2026-09",
@@ -1723,9 +1723,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 52.9,
+              "dieselDays": 67.1,
+              "jetDays": 44.9
             },
             {
               "period": "2026-09",
@@ -1837,9 +1837,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 10,
+              "dieselDays": 87.6,
+              "jetDays": 28.8
             },
             {
               "period": "2026-09",
@@ -2065,9 +2065,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 37.9,
+              "dieselDays": 67,
+              "jetDays": 34.6
             },
             {
               "period": "2026-09",
@@ -2977,9 +2977,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 63.2,
+              "dieselDays": 80.7,
+              "jetDays": 33.1
             },
             {
               "period": "2026-09",
@@ -3193,7 +3193,7 @@
           "period": "2026-06",
           "petrolDays": 74.1,
           "dieselDays": 93.8,
-          "jetDays": 67.7
+          "jetDays": 67.8
         },
         {
           "period": "2026-07",
@@ -3204,7 +3204,7 @@
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-11-03T12:44:14.897Z",
+      "lastUpdated": "2026-11-03T22:30:22.578Z",
       "entries": [
         {
           "date": "2025-06-02",
@@ -5061,9 +5061,9 @@
     }
   },
   "publication": {
-    "id": "f7c820193a035dd9@2026-11-03T12:48:50.855Z",
-    "builtAt": "2026-11-03T12:48:50.855Z",
-    "inputHash": "f7c820193a035dd9",
+    "id": "f307b5c9929268aa@2026-11-03T22:36:22.959Z",
+    "builtAt": "2026-11-03T22:36:22.959Z",
+    "inputHash": "f307b5c9929268aa",
     "bundles": [
       "live",
       "snapshot",

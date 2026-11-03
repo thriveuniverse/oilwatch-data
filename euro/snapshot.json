@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-03T12:48:50.855Z",
+  "builtAt": "2026-11-03T22:36:22.959Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-03T12:44:07.250Z",
+      "lastUpdated": "2026-11-03T22:30:15.130Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1841,10 +1841,10 @@
                 "coverWithheld": "stock-not-reported",
                 "context": {
                   "stockPeriod": "2026-06",
-                  "stockKilotonnes": 410.695,
+                  "stockKilotonnes": 409.964,
                   "consumptionPeriod": "2026-06",
                   "consumptionKilotonnes": 200.405,
-                  "daysOfSupply": 61.5,
+                  "daysOfSupply": 61.4,
                   "monthsBefore": 1
                 }
               }
@@ -1870,10 +1870,10 @@
                 "coverWithheld": "stock-not-reported",
                 "context": {
                   "stockPeriod": "2026-06",
-                  "stockKilotonnes": 757.192,
+                  "stockKilotonnes": 758.11,
                   "consumptionPeriod": "2026-06",
                   "consumptionKilotonnes": 366.478,
-                  "daysOfSupply": 62,
+                  "daysOfSupply": 62.1,
                   "monthsBefore": 1
                 }
               }
@@ -1899,10 +1899,10 @@
                 "coverWithheld": "stock-not-reported",
                 "context": {
                   "stockPeriod": "2026-06",
-                  "stockKilotonnes": 385.478,
+                  "stockKilotonnes": 386.79,
                   "consumptionPeriod": "2026-06",
                   "consumptionKilotonnes": 251.913,
-                  "daysOfSupply": 45.9,
+                  "daysOfSupply": 46.1,
                   "monthsBefore": 1
                 }
               }
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-03T12:44:13.534Z",
+      "lastUpdated": "2026-11-03T22:30:21.290Z",
       "bulletinDate": "2026-10-26",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-26)",
@@ -2189,21 +2189,21 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-11-03T12:44:14.896Z",
-      "fetchedAt": "2026-11-03T12:44:14.896Z",
-      "observedAt": "2026-11-03T12:34:13.000Z",
+      "lastUpdated": "2026-11-03T22:30:22.576Z",
+      "fetchedAt": "2026-11-03T22:30:22.576Z",
+      "observedAt": "2026-11-03T21:59:34.000Z",
       "sessionDate": "2026-11-03",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZF27.NYM)",
-      "priceUsd": 104.97,
-      "priceEur": 93.9,
-      "eurUsd": 1.1179,
+      "priceUsd": 104.42,
+      "priceEur": 93.28,
+      "eurUsd": 1.1194,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-11-03T00:00:00.000Z",
-      "changeUsd": 0.2,
-      "changePct": 0.19,
+      "changeUsd": -0.35,
+      "changePct": -0.33,
       "changeAgainst": "2026-11-02",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZF27.NYM)",
@@ -2214,9 +2214,9 @@
     }
   },
   "publication": {
-    "id": "f7c820193a035dd9@2026-11-03T12:48:50.855Z",
-    "builtAt": "2026-11-03T12:48:50.855Z",
-    "inputHash": "f7c820193a035dd9",
+    "id": "f307b5c9929268aa@2026-11-03T22:36:22.959Z",
+    "builtAt": "2026-11-03T22:36:22.959Z",
+    "inputHash": "f307b5c9929268aa",
     "bundles": [
       "live",
       "snapshot",
