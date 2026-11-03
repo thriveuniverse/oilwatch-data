@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-03T11:55:48.982Z",
+  "builtAt": "2026-11-03T12:48:50.855Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-03T11:51:04.736Z",
+      "lastUpdated": "2026-11-03T12:44:07.250Z",
       "dataPeriod": "2026-07",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1961,7 +1961,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-03T11:51:09.371Z",
+      "lastUpdated": "2026-11-03T12:44:13.534Z",
       "bulletinDate": "2026-10-26",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-10-26)",
@@ -2189,21 +2189,21 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-11-03T11:51:10.582Z",
-      "fetchedAt": "2026-11-03T11:51:10.582Z",
-      "observedAt": "2026-11-03T11:40:06.000Z",
+      "lastUpdated": "2026-11-03T12:44:14.896Z",
+      "fetchedAt": "2026-11-03T12:44:14.896Z",
+      "observedAt": "2026-11-03T12:34:13.000Z",
       "sessionDate": "2026-11-03",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZF27.NYM)",
-      "priceUsd": 106.47,
-      "priceEur": 95.23,
-      "eurUsd": 1.1181,
+      "priceUsd": 104.97,
+      "priceEur": 93.9,
+      "eurUsd": 1.1179,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-11-03T00:00:00.000Z",
-      "changeUsd": 1.7,
-      "changePct": 1.62,
+      "changeUsd": 0.2,
+      "changePct": 0.19,
       "changeAgainst": "2026-11-02",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZF27.NYM)",
@@ -2214,9 +2214,9 @@
     }
   },
   "publication": {
-    "id": "45f1e8a035cdd184@2026-11-03T11:55:48.982Z",
-    "builtAt": "2026-11-03T11:55:48.982Z",
-    "inputHash": "45f1e8a035cdd184",
+    "id": "f7c820193a035dd9@2026-11-03T12:48:50.855Z",
+    "builtAt": "2026-11-03T12:48:50.855Z",
+    "inputHash": "f7c820193a035dd9",
     "bundles": [
       "live",
       "snapshot",
