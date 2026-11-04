@@ -2,100 +2,31 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-04T13:00:40.460Z",
+  "builtAt": "2026-11-04T22:57:03.178Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-04T12:55:49.969Z",
-      "dataPeriod": "2026-07",
-      "countriesReporting": 26,
+      "lastUpdated": "2026-11-04T22:52:11.892Z",
+      "dataPeriod": "2026-08",
+      "countriesReporting": 24,
       "countriesTotal": 27,
       "dataSource": "Eurostat: 27 monthly, 0 annual fallback",
       "countries": [
         {
-          "countryCode": "RO",
-          "countryName": "Romania",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 86,
-              "consumptionKilotonnes": 145,
-              "daysOfSupply": 17.8,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 386,
-              "consumptionKilotonnes": 575,
-              "daysOfSupply": 20.1,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 11,
-              "consumptionKilotonnes": 16,
-              "daysOfSupply": 20.6,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            }
-          ],
-          "averageDays": 19.5,
-          "overallStatus": "critical"
-        },
-        {
           "countryCode": "HR",
           "countryName": "Croatia",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 99.2,
-              "consumptionKilotonnes": 64,
-              "daysOfSupply": 46.5,
+              "stockKilotonnes": 80.6,
+              "consumptionKilotonnes": 77.8,
+              "daysOfSupply": 31.1,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -107,15 +38,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 305.8,
-              "consumptionKilotonnes": 260.7,
-              "daysOfSupply": 35.2,
+              "stockKilotonnes": 294.6,
+              "consumptionKilotonnes": 235,
+              "daysOfSupply": 37.6,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -127,15 +58,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 22.1,
-              "consumptionKilotonnes": 39.2,
-              "daysOfSupply": 16.9,
+              "stockKilotonnes": 18.3,
+              "consumptionKilotonnes": 36.3,
+              "daysOfSupply": 15.1,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -146,272 +77,65 @@
               }
             }
           ],
-          "averageDays": 32.9,
+          "averageDays": 27.9,
           "overallStatus": "critical"
         },
         {
           "countryCode": "PL",
           "countryName": "Poland",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 917.207,
-              "consumptionKilotonnes": 549.847,
-              "daysOfSupply": 50,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 3314.407,
-              "consumptionKilotonnes": 1693.8,
-              "daysOfSupply": 58.7,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 83.704,
-              "consumptionKilotonnes": 140.67,
-              "daysOfSupply": 17.9,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            }
-          ],
-          "averageDays": 42.2,
-          "overallStatus": "critical"
-        },
-        {
-          "countryCode": "LU",
-          "countryName": "Luxembourg",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 53.447,
-              "consumptionKilotonnes": 42.886,
-              "daysOfSupply": 37.4,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 190.536,
-              "consumptionKilotonnes": 93.808,
-              "daysOfSupply": 60.9,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 66.414,
-              "consumptionKilotonnes": 57.754,
-              "daysOfSupply": 34.5,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            }
-          ],
-          "averageDays": 44.3,
-          "overallStatus": "critical"
-        },
-        {
-          "countryCode": "BG",
-          "countryName": "Bulgaria",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 143.723,
-              "consumptionKilotonnes": 71.339,
-              "daysOfSupply": 60.4,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 589.923,
-              "consumptionKilotonnes": 330.116,
-              "daysOfSupply": 53.6,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 31.206,
-              "consumptionKilotonnes": 30.912,
-              "daysOfSupply": 30.3,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            }
-          ],
-          "averageDays": 48.1,
-          "overallStatus": "critical"
-        },
-        {
-          "countryCode": "IT",
-          "countryName": "Italy",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 1384.136,
-              "consumptionKilotonnes": 881.019,
-              "daysOfSupply": 47.1,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 3996.059,
-              "consumptionKilotonnes": 2130.543,
-              "daysOfSupply": 56.3,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 784.83,
-              "consumptionKilotonnes": 544.86,
+              "stockKilotonnes": 895.311,
+              "consumptionKilotonnes": 622.459,
               "daysOfSupply": 43.2,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": 3496.807,
+              "consumptionKilotonnes": 1600.81,
+              "daysOfSupply": 65.5,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": 71.666,
+              "consumptionKilotonnes": 168.411,
+              "daysOfSupply": 12.8,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -422,25 +146,25 @@
               }
             }
           ],
-          "averageDays": 48.9,
+          "averageDays": 40.5,
           "overallStatus": "critical"
         },
         {
           "countryCode": "LV",
           "countryName": "Latvia",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 3.887,
-              "consumptionKilotonnes": 15.234,
-              "daysOfSupply": 7.7,
+              "stockKilotonnes": 5.958,
+              "consumptionKilotonnes": 17.85,
+              "daysOfSupply": 10,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -452,15 +176,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 314.196,
-              "consumptionKilotonnes": 84.619,
-              "daysOfSupply": 111.4,
+              "stockKilotonnes": 308.296,
+              "consumptionKilotonnes": 105.618,
+              "daysOfSupply": 87.6,
               "mandatoryMinimumDays": 90,
-              "status": "safe",
+              "status": "watch",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -472,15 +196,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 13.152,
-              "consumptionKilotonnes": 12.004,
-              "daysOfSupply": 32.9,
+              "stockKilotonnes": 11.954,
+              "consumptionKilotonnes": 12.448,
+              "daysOfSupply": 28.8,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -491,25 +215,25 @@
               }
             }
           ],
-          "averageDays": 50.7,
+          "averageDays": 42.1,
           "overallStatus": "critical"
         },
         {
-          "countryCode": "ES",
-          "countryName": "Spain",
-          "datePeriod": "2026-07",
+          "countryCode": "LU",
+          "countryName": "Luxembourg",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 1431.089,
-              "consumptionKilotonnes": 727.162,
-              "daysOfSupply": 59,
+              "stockKilotonnes": 53.619,
+              "consumptionKilotonnes": 42.431,
+              "daysOfSupply": 37.9,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -521,15 +245,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 5205.1,
-              "consumptionKilotonnes": 2423.719,
-              "daysOfSupply": 64.4,
+              "stockKilotonnes": 192.559,
+              "consumptionKilotonnes": 86.205,
+              "daysOfSupply": 67,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -541,15 +265,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 858.051,
-              "consumptionKilotonnes": 781.945,
-              "daysOfSupply": 32.9,
+              "stockKilotonnes": 67.005,
+              "consumptionKilotonnes": 58.025,
+              "daysOfSupply": 34.6,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -560,25 +284,95 @@
               }
             }
           ],
-          "averageDays": 52.1,
+          "averageDays": 46.5,
+          "overallStatus": "critical"
+        },
+        {
+          "countryCode": "LT",
+          "countryName": "Lithuania",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": 39.4,
+              "consumptionKilotonnes": 37.5,
+              "daysOfSupply": 31.5,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": 365.7,
+              "consumptionKilotonnes": 156.4,
+              "daysOfSupply": 70.1,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": 0,
+              "consumptionKilotonnes": 10.9,
+              "daysOfSupply": null,
+              "mandatoryMinimumDays": 90,
+              "status": "unassessed",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "reported-zero",
+                "consumptionObservation": "observed",
+                "coverWithheld": "reported-zero-unresolved"
+              }
+            }
+          ],
+          "averageDays": 50.8,
           "overallStatus": "critical"
         },
         {
           "countryCode": "PT",
           "countryName": "Portugal",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 276.162,
-              "consumptionKilotonnes": 135.11,
-              "daysOfSupply": 61.3,
+              "stockKilotonnes": 240.885,
+              "consumptionKilotonnes": 136.821,
+              "daysOfSupply": 52.8,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -590,15 +384,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 1088.501,
-              "consumptionKilotonnes": 431.034,
-              "daysOfSupply": 75.8,
+              "stockKilotonnes": 1154.48,
+              "consumptionKilotonnes": 373.053,
+              "daysOfSupply": 92.8,
               "mandatoryMinimumDays": 90,
-              "status": "critical",
+              "status": "watch",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -610,15 +404,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 141.837,
-              "consumptionKilotonnes": 190.14,
-              "daysOfSupply": 22.4,
+              "stockKilotonnes": 110.499,
+              "consumptionKilotonnes": 191.151,
+              "daysOfSupply": 17.3,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -629,25 +423,25 @@
               }
             }
           ],
-          "averageDays": 53.2,
+          "averageDays": 54.3,
           "overallStatus": "critical"
         },
         {
-          "countryCode": "CZ",
-          "countryName": "Czechia",
-          "datePeriod": "2026-07",
+          "countryCode": "SK",
+          "countryName": "Slovakia",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 398,
-              "consumptionKilotonnes": 185,
-              "daysOfSupply": 64.5,
+              "stockKilotonnes": 187.193,
+              "consumptionKilotonnes": 66.465,
+              "daysOfSupply": 84.5,
               "mandatoryMinimumDays": 90,
-              "status": "critical",
+              "status": "warning",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -659,15 +453,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 926,
-              "consumptionKilotonnes": 516,
-              "daysOfSupply": 53.8,
+              "stockKilotonnes": 253.232,
+              "consumptionKilotonnes": 170.33,
+              "daysOfSupply": 44.6,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -679,15 +473,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 76,
-              "consumptionKilotonnes": 55,
-              "daysOfSupply": 41.5,
+              "stockKilotonnes": 19.078,
+              "consumptionKilotonnes": 16.932,
+              "daysOfSupply": 33.8,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -698,25 +492,25 @@
               }
             }
           ],
-          "averageDays": 53.3,
+          "averageDays": 54.3,
           "overallStatus": "critical"
         },
         {
-          "countryCode": "AT",
-          "countryName": "Austria",
-          "datePeriod": "2026-07",
+          "countryCode": "IT",
+          "countryName": "Italy",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 280.961,
-              "consumptionKilotonnes": 166.005,
-              "daysOfSupply": 50.8,
+              "stockKilotonnes": 1461.387,
+              "consumptionKilotonnes": 828.583,
+              "daysOfSupply": 52.9,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -728,15 +522,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 1041.039,
-              "consumptionKilotonnes": 526.894,
-              "daysOfSupply": 59.3,
+              "stockKilotonnes": 4231.997,
+              "consumptionKilotonnes": 1893.406,
+              "daysOfSupply": 67.1,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -748,15 +542,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 168.077,
-              "consumptionKilotonnes": 91.968,
-              "daysOfSupply": 54.8,
+              "stockKilotonnes": 812.582,
+              "consumptionKilotonnes": 542.807,
+              "daysOfSupply": 44.9,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -771,21 +565,21 @@
           "overallStatus": "critical"
         },
         {
-          "countryCode": "LT",
-          "countryName": "Lithuania",
-          "datePeriod": "2026-07",
+          "countryCode": "BG",
+          "countryName": "Bulgaria",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 39.4,
-              "consumptionKilotonnes": 32.5,
-              "daysOfSupply": 36.4,
+              "stockKilotonnes": 137.774,
+              "consumptionKilotonnes": 62.961,
+              "daysOfSupply": 65.6,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -797,15 +591,222 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 350.6,
-              "consumptionKilotonnes": 135.4,
-              "daysOfSupply": 77.7,
+              "stockKilotonnes": 608.397,
+              "consumptionKilotonnes": 252.415,
+              "daysOfSupply": 72.3,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": 29.566,
+              "consumptionKilotonnes": 30.457,
+              "daysOfSupply": 29.1,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            }
+          ],
+          "averageDays": 55.7,
+          "overallStatus": "critical"
+        },
+        {
+          "countryCode": "CZ",
+          "countryName": "Czechia",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": 396,
+              "consumptionKilotonnes": 182,
+              "daysOfSupply": 65.3,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": 948,
+              "consumptionKilotonnes": 470,
+              "daysOfSupply": 60.5,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": 75,
+              "consumptionKilotonnes": 54,
+              "daysOfSupply": 41.7,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            }
+          ],
+          "averageDays": 55.8,
+          "overallStatus": "critical"
+        },
+        {
+          "countryCode": "AT",
+          "countryName": "Austria",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": 281.494,
+              "consumptionKilotonnes": 172.209,
+              "daysOfSupply": 49,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": 1064.875,
+              "consumptionKilotonnes": 457.573,
+              "daysOfSupply": 69.8,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": 168.445,
+              "consumptionKilotonnes": 89.029,
+              "daysOfSupply": 56.8,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            }
+          ],
+          "averageDays": 58.5,
+          "overallStatus": "critical"
+        },
+        {
+          "countryCode": "ES",
+          "countryName": "Spain",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": 1502.976,
+              "consumptionKilotonnes": 713.352,
+              "daysOfSupply": 63.2,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": 5415.013,
+              "consumptionKilotonnes": 2014.141,
+              "daysOfSupply": 80.7,
               "mandatoryMinimumDays": 90,
               "status": "warning",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -817,93 +818,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 0,
-              "consumptionKilotonnes": 13.5,
-              "daysOfSupply": null,
-              "mandatoryMinimumDays": 90,
-              "status": "unassessed",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "reported-zero",
-                "consumptionObservation": "observed",
-                "coverWithheld": "reported-zero-unresolved",
-                "context": {
-                  "stockPeriod": "2025-07",
-                  "stockKilotonnes": 20.8,
-                  "consumptionPeriod": "2025-07",
-                  "consumptionKilotonnes": 11.5,
-                  "daysOfSupply": 54.3,
-                  "monthsBefore": 12
-                }
-              }
-            }
-          ],
-          "averageDays": 57.1,
-          "overallStatus": "critical"
-        },
-        {
-          "countryCode": "SK",
-          "countryName": "Slovakia",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 190.424,
-              "consumptionKilotonnes": 60.229,
-              "daysOfSupply": 94.8,
-              "mandatoryMinimumDays": 90,
-              "status": "watch",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 283.249,
-              "consumptionKilotonnes": 193.953,
-              "daysOfSupply": 43.8,
+              "stockKilotonnes": 881.55,
+              "consumptionKilotonnes": 799.013,
+              "daysOfSupply": 33.1,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 17.793,
-              "consumptionKilotonnes": 10.954,
-              "daysOfSupply": 48.7,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -914,163 +837,25 @@
               }
             }
           ],
-          "averageDays": 62.4,
-          "overallStatus": "critical"
-        },
-        {
-          "countryCode": "HU",
-          "countryName": "Hungary",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 467.3,
-              "consumptionKilotonnes": 141.8,
-              "daysOfSupply": 98.9,
-              "mandatoryMinimumDays": 90,
-              "status": "watch",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 621.8,
-              "consumptionKilotonnes": 348.4,
-              "daysOfSupply": 53.5,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 57.6,
-              "consumptionKilotonnes": 48.8,
-              "daysOfSupply": 35.4,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            }
-          ],
-          "averageDays": 62.6,
-          "overallStatus": "critical"
-        },
-        {
-          "countryCode": "FR",
-          "countryName": "France",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 2237,
-              "consumptionKilotonnes": 1162,
-              "daysOfSupply": 57.8,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 8404,
-              "consumptionKilotonnes": 2929,
-              "daysOfSupply": 86.1,
-              "mandatoryMinimumDays": 90,
-              "status": "watch",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 1422,
-              "consumptionKilotonnes": 793,
-              "daysOfSupply": 53.8,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            }
-          ],
-          "averageDays": 65.9,
+          "averageDays": 59,
           "overallStatus": "critical"
         },
         {
           "countryCode": "MT",
           "countryName": "Malta",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 11.125,
-              "consumptionKilotonnes": 10.016,
-              "daysOfSupply": 33.3,
+              "stockKilotonnes": 18.113,
+              "consumptionKilotonnes": 9.645,
+              "daysOfSupply": 56.3,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1082,15 +867,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 84.714,
-              "consumptionKilotonnes": 21.811,
-              "daysOfSupply": 116.5,
+              "stockKilotonnes": 74.228,
+              "consumptionKilotonnes": 21.816,
+              "daysOfSupply": 102.1,
               "mandatoryMinimumDays": 90,
               "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1102,15 +887,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 33.807,
-              "consumptionKilotonnes": 20.863,
-              "daysOfSupply": 48.6,
+              "stockKilotonnes": 21.183,
+              "consumptionKilotonnes": 20.615,
+              "daysOfSupply": 30.8,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1121,25 +906,94 @@
               }
             }
           ],
-          "averageDays": 66.1,
+          "averageDays": 63.1,
+          "overallStatus": "critical"
+        },
+        {
+          "countryCode": "HU",
+          "countryName": "Hungary",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": 433.4,
+              "consumptionKilotonnes": 138.2,
+              "daysOfSupply": 94.1,
+              "mandatoryMinimumDays": 90,
+              "status": "watch",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": 624.9,
+              "consumptionKilotonnes": 303.1,
+              "daysOfSupply": 61.9,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": 55.5,
+              "consumptionKilotonnes": 44.6,
+              "daysOfSupply": 37.3,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            }
+          ],
+          "averageDays": 64.4,
           "overallStatus": "critical"
         },
         {
           "countryCode": "DE",
           "countryName": "Germany",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 2669.575,
-              "consumptionKilotonnes": 1480.768,
-              "daysOfSupply": 54.1,
+              "stockKilotonnes": 2715.526,
+              "consumptionKilotonnes": 1443.293,
+              "daysOfSupply": 56.4,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1151,15 +1005,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 10099.474,
-              "consumptionKilotonnes": 2956.774,
-              "daysOfSupply": 102.5,
+              "stockKilotonnes": 10369.182,
+              "consumptionKilotonnes": 2752.519,
+              "daysOfSupply": 113,
               "mandatoryMinimumDays": 90,
               "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1171,15 +1025,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 1317.574,
-              "consumptionKilotonnes": 712.22,
-              "daysOfSupply": 55.5,
+              "stockKilotonnes": 1286.401,
+              "consumptionKilotonnes": 877.794,
+              "daysOfSupply": 44,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1190,25 +1044,25 @@
               }
             }
           ],
-          "averageDays": 70.7,
+          "averageDays": 71.1,
           "overallStatus": "critical"
         },
         {
-          "countryCode": "CY",
-          "countryName": "Cyprus",
-          "datePeriod": "2026-07",
+          "countryCode": "FR",
+          "countryName": "France",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 102.217,
-              "consumptionKilotonnes": 34.129,
-              "daysOfSupply": 89.9,
+              "stockKilotonnes": 2214,
+              "consumptionKilotonnes": 1052,
+              "daysOfSupply": 63.1,
               "mandatoryMinimumDays": 90,
-              "status": "watch",
+              "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1220,15 +1074,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 192.086,
-              "consumptionKilotonnes": 74.367,
-              "daysOfSupply": 77.5,
+              "stockKilotonnes": 8712,
+              "consumptionKilotonnes": 2382,
+              "daysOfSupply": 109.7,
               "mandatoryMinimumDays": 90,
-              "status": "warning",
+              "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1240,15 +1094,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 69.716,
-              "consumptionKilotonnes": 41.148,
-              "daysOfSupply": 50.8,
+              "stockKilotonnes": 1408,
+              "consumptionKilotonnes": 758,
+              "daysOfSupply": 55.7,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1259,94 +1113,25 @@
               }
             }
           ],
-          "averageDays": 72.7,
-          "overallStatus": "critical"
-        },
-        {
-          "countryCode": "SE",
-          "countryName": "Sweden",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 434.208,
-              "consumptionKilotonnes": 225.647,
-              "daysOfSupply": 57.7,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 1107.12,
-              "consumptionKilotonnes": 419.619,
-              "daysOfSupply": 79.2,
-              "mandatoryMinimumDays": 90,
-              "status": "warning",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 202.171,
-              "consumptionKilotonnes": 67.632,
-              "daysOfSupply": 89.7,
-              "mandatoryMinimumDays": 90,
-              "status": "watch",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            }
-          ],
-          "averageDays": 75.5,
+          "averageDays": 76.2,
           "overallStatus": "critical"
         },
         {
           "countryCode": "BE",
           "countryName": "Belgium",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 390.7,
-              "consumptionKilotonnes": 257.1,
-              "daysOfSupply": 45.6,
+              "stockKilotonnes": 372.7,
+              "consumptionKilotonnes": 243.3,
+              "daysOfSupply": 46,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1358,15 +1143,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 2355.6,
-              "consumptionKilotonnes": 591.6,
-              "daysOfSupply": 119.5,
+              "stockKilotonnes": 2154.3,
+              "consumptionKilotonnes": 519.5,
+              "daysOfSupply": 124.4,
               "mandatoryMinimumDays": 90,
               "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1378,15 +1163,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 553.6,
-              "consumptionKilotonnes": 184.8,
-              "daysOfSupply": 89.9,
+              "stockKilotonnes": 547.9,
+              "consumptionKilotonnes": 176.9,
+              "daysOfSupply": 92.9,
               "mandatoryMinimumDays": 90,
               "status": "watch",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1397,25 +1182,163 @@
               }
             }
           ],
-          "averageDays": 85,
+          "averageDays": 87.8,
+          "overallStatus": "critical"
+        },
+        {
+          "countryCode": "CY",
+          "countryName": "Cyprus",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": 125.257,
+              "consumptionKilotonnes": 29.792,
+              "daysOfSupply": 126.1,
+              "mandatoryMinimumDays": 90,
+              "status": "safe",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": 203.52,
+              "consumptionKilotonnes": 63.662,
+              "daysOfSupply": 95.9,
+              "mandatoryMinimumDays": 90,
+              "status": "watch",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": 68.181,
+              "consumptionKilotonnes": 38.775,
+              "daysOfSupply": 52.8,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            }
+          ],
+          "averageDays": 91.6,
+          "overallStatus": "critical"
+        },
+        {
+          "countryCode": "DK",
+          "countryName": "Denmark",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": 348.859,
+              "consumptionKilotonnes": 89.318,
+              "daysOfSupply": 117.2,
+              "mandatoryMinimumDays": 90,
+              "status": "safe",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": 878.16,
+              "consumptionKilotonnes": 248.773,
+              "daysOfSupply": 105.9,
+              "mandatoryMinimumDays": 90,
+              "status": "safe",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": 198.523,
+              "consumptionKilotonnes": 103.382,
+              "daysOfSupply": 57.6,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            }
+          ],
+          "averageDays": 93.6,
           "overallStatus": "critical"
         },
         {
           "countryCode": "IE",
           "countryName": "Ireland",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 233.776,
-              "consumptionKilotonnes": 80.193,
-              "daysOfSupply": 87.5,
+              "stockKilotonnes": 241.185,
+              "consumptionKilotonnes": 75.403,
+              "daysOfSupply": 96,
               "mandatoryMinimumDays": 90,
               "status": "watch",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1427,15 +1350,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 1063.885,
-              "consumptionKilotonnes": 346.288,
-              "daysOfSupply": 92.2,
+              "stockKilotonnes": 1079.961,
+              "consumptionKilotonnes": 306.053,
+              "daysOfSupply": 105.9,
               "mandatoryMinimumDays": 90,
-              "status": "watch",
+              "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1447,15 +1370,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 372.491,
-              "consumptionKilotonnes": 124.967,
-              "daysOfSupply": 89.4,
+              "stockKilotonnes": 376.622,
+              "consumptionKilotonnes": 122.889,
+              "daysOfSupply": 91.9,
               "mandatoryMinimumDays": 90,
               "status": "watch",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1466,25 +1389,25 @@
               }
             }
           ],
-          "averageDays": 89.7,
+          "averageDays": 97.9,
           "overallStatus": "watch"
         },
         {
-          "countryCode": "DK",
-          "countryName": "Denmark",
-          "datePeriod": "2026-07",
+          "countryCode": "NL",
+          "countryName": "Netherlands",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 337.11,
-              "consumptionKilotonnes": 90.521,
-              "daysOfSupply": 111.7,
+              "stockKilotonnes": 858.954,
+              "consumptionKilotonnes": 323.394,
+              "daysOfSupply": 79.7,
               "mandatoryMinimumDays": 90,
-              "status": "safe",
+              "status": "warning",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1496,15 +1419,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 849.112,
-              "consumptionKilotonnes": 216.843,
-              "daysOfSupply": 117.5,
+              "stockKilotonnes": 2471.515,
+              "consumptionKilotonnes": 362.799,
+              "daysOfSupply": 204.4,
               "mandatoryMinimumDays": 90,
               "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1516,15 +1439,15 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 228.508,
-              "consumptionKilotonnes": 105.798,
-              "daysOfSupply": 64.8,
+              "stockKilotonnes": 477.541,
+              "consumptionKilotonnes": 334.404,
+              "daysOfSupply": 42.8,
               "mandatoryMinimumDays": 90,
               "status": "critical",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1535,25 +1458,25 @@
               }
             }
           ],
-          "averageDays": 98,
+          "averageDays": 109,
           "overallStatus": "critical"
         },
         {
           "countryCode": "EE",
           "countryName": "Estonia",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 89,
-              "consumptionKilotonnes": 21,
-              "daysOfSupply": 127.1,
+              "stockKilotonnes": 82,
+              "consumptionKilotonnes": 20,
+              "daysOfSupply": 123,
               "mandatoryMinimumDays": 90,
               "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1565,15 +1488,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 277,
-              "consumptionKilotonnes": 71,
-              "daysOfSupply": 117,
+              "stockKilotonnes": 269,
+              "consumptionKilotonnes": 75,
+              "daysOfSupply": 107.6,
               "mandatoryMinimumDays": 90,
               "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1585,182 +1508,45 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 27,
-              "consumptionKilotonnes": 14,
-              "daysOfSupply": 57.9,
+              "stockKilotonnes": 24,
+              "consumptionKilotonnes": 0,
+              "daysOfSupply": null,
               "mandatoryMinimumDays": 90,
-              "status": "critical",
+              "status": "unassessed",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
                 "capped": false,
                 "policyVersion": "zero-policy-2026-09",
                 "observation": "observed",
-                "consumptionObservation": "observed"
+                "consumptionObservation": "reported-zero",
+                "coverWithheld": "consumption-reported-zero"
               }
             }
           ],
-          "averageDays": 100.7,
-          "overallStatus": "critical"
-        },
-        {
-          "countryCode": "NL",
-          "countryName": "Netherlands",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 814.813,
-              "consumptionKilotonnes": 347.777,
-              "daysOfSupply": 70.3,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 2292.326,
-              "consumptionKilotonnes": 413.121,
-              "daysOfSupply": 166.5,
-              "mandatoryMinimumDays": 90,
-              "status": "safe",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 680.376,
-              "consumptionKilotonnes": 309.641,
-              "daysOfSupply": 65.9,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            }
-          ],
-          "averageDays": 100.9,
-          "overallStatus": "critical"
-        },
-        {
-          "countryCode": "FI",
-          "countryName": "Finland",
-          "datePeriod": "2026-07",
-          "fuels": [
-            {
-              "fuelType": "petrol",
-              "stockKilotonnes": 356,
-              "consumptionKilotonnes": 121,
-              "daysOfSupply": 88.3,
-              "mandatoryMinimumDays": 90,
-              "status": "watch",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "diesel",
-              "stockKilotonnes": 2192,
-              "consumptionKilotonnes": 245,
-              "daysOfSupply": 268.4,
-              "mandatoryMinimumDays": 90,
-              "status": "safe",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            },
-            {
-              "fuelType": "jet_fuel",
-              "stockKilotonnes": 102,
-              "consumptionKilotonnes": 69,
-              "daysOfSupply": 44.3,
-              "mandatoryMinimumDays": 90,
-              "status": "critical",
-              "provenance": {
-                "stockPeriod": "2026-07",
-                "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
-                "consumptionBasis": "monthly",
-                "carriedForward": false,
-                "reportedAtDataPeriod": null,
-                "capped": false,
-                "policyVersion": "zero-policy-2026-09",
-                "observation": "observed",
-                "consumptionObservation": "observed"
-              }
-            }
-          ],
-          "averageDays": 133.7,
-          "overallStatus": "critical"
+          "averageDays": 115.3,
+          "overallStatus": "safe"
         },
         {
           "countryCode": "SI",
           "countryName": "Slovenia",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
-              "stockKilotonnes": 160,
-              "consumptionKilotonnes": 43,
-              "daysOfSupply": 111.6,
+              "stockKilotonnes": 164,
+              "consumptionKilotonnes": 49,
+              "daysOfSupply": 100.4,
               "mandatoryMinimumDays": 90,
               "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1772,15 +1558,15 @@
             },
             {
               "fuelType": "diesel",
-              "stockKilotonnes": 480,
-              "consumptionKilotonnes": 141,
-              "daysOfSupply": 102.1,
+              "stockKilotonnes": 475,
+              "consumptionKilotonnes": 130,
+              "daysOfSupply": 109.6,
               "mandatoryMinimumDays": 90,
               "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1792,45 +1578,113 @@
             },
             {
               "fuelType": "jet_fuel",
-              "stockKilotonnes": 58,
-              "consumptionKilotonnes": 4,
-              "daysOfSupply": 365,
+              "stockKilotonnes": 26,
+              "consumptionKilotonnes": 5,
+              "daysOfSupply": 156,
               "mandatoryMinimumDays": 90,
               "status": "safe",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-07",
+                "consumptionPeriod": "2026-08",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
-                "capped": true,
-                "uncappedDays": 435,
+                "capped": false,
                 "policyVersion": "zero-policy-2026-09",
                 "observation": "observed",
                 "consumptionObservation": "observed"
               }
             }
           ],
-          "averageDays": 192.9,
+          "averageDays": 122,
           "overallStatus": "safe"
+        },
+        {
+          "countryCode": "FI",
+          "countryName": "Finland",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": 429,
+              "consumptionKilotonnes": 114,
+              "daysOfSupply": 112.9,
+              "mandatoryMinimumDays": 90,
+              "status": "safe",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": 2267,
+              "consumptionKilotonnes": 259,
+              "daysOfSupply": 262.6,
+              "mandatoryMinimumDays": 90,
+              "status": "safe",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": 98,
+              "consumptionKilotonnes": 72,
+              "daysOfSupply": 40.8,
+              "mandatoryMinimumDays": 90,
+              "status": "critical",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-08",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "observed",
+                "consumptionObservation": "observed"
+              }
+            }
+          ],
+          "averageDays": 138.8,
+          "overallStatus": "critical"
         },
         {
           "countryCode": "GR",
           "countryName": "Greece",
-          "datePeriod": "2026-07",
+          "datePeriod": "2026-08",
           "fuels": [
             {
               "fuelType": "petrol",
               "stockKilotonnes": null,
-              "consumptionKilotonnes": 200.405,
+              "consumptionKilotonnes": 223.279,
               "daysOfSupply": null,
               "mandatoryMinimumDays": 90,
               "status": "unassessed",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-06",
+                "consumptionPeriod": "2026-07",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1840,11 +1694,11 @@
                 "consumptionObservation": "earlier-month",
                 "coverWithheld": "stock-not-reported",
                 "context": {
-                  "stockPeriod": "2026-06",
-                  "stockKilotonnes": 409.964,
-                  "consumptionPeriod": "2026-06",
-                  "consumptionKilotonnes": 200.405,
-                  "daysOfSupply": 61.4,
+                  "stockPeriod": "2026-07",
+                  "stockKilotonnes": 380.124,
+                  "consumptionPeriod": "2026-07",
+                  "consumptionKilotonnes": 223.279,
+                  "daysOfSupply": 51.1,
                   "monthsBefore": 1
                 }
               }
@@ -1852,14 +1706,14 @@
             {
               "fuelType": "diesel",
               "stockKilotonnes": null,
-              "consumptionKilotonnes": 366.478,
+              "consumptionKilotonnes": 365.149,
               "daysOfSupply": null,
               "mandatoryMinimumDays": 90,
               "status": "unassessed",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-06",
+                "consumptionPeriod": "2026-07",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1869,11 +1723,11 @@
                 "consumptionObservation": "earlier-month",
                 "coverWithheld": "stock-not-reported",
                 "context": {
-                  "stockPeriod": "2026-06",
-                  "stockKilotonnes": 758.11,
-                  "consumptionPeriod": "2026-06",
-                  "consumptionKilotonnes": 366.478,
-                  "daysOfSupply": 62.1,
+                  "stockPeriod": "2026-07",
+                  "stockKilotonnes": 691.599,
+                  "consumptionPeriod": "2026-07",
+                  "consumptionKilotonnes": 365.149,
+                  "daysOfSupply": 56.8,
                   "monthsBefore": 1
                 }
               }
@@ -1881,14 +1735,14 @@
             {
               "fuelType": "jet_fuel",
               "stockKilotonnes": null,
-              "consumptionKilotonnes": 251.913,
+              "consumptionKilotonnes": 286.776,
               "daysOfSupply": null,
               "mandatoryMinimumDays": 90,
               "status": "unassessed",
               "provenance": {
-                "stockPeriod": "2026-07",
+                "stockPeriod": "2026-08",
                 "stockSeries": "monthly",
-                "consumptionPeriod": "2026-06",
+                "consumptionPeriod": "2026-07",
                 "consumptionBasis": "monthly",
                 "carriedForward": false,
                 "reportedAtDataPeriod": null,
@@ -1898,11 +1752,203 @@
                 "consumptionObservation": "earlier-month",
                 "coverWithheld": "stock-not-reported",
                 "context": {
-                  "stockPeriod": "2026-06",
-                  "stockKilotonnes": 386.79,
-                  "consumptionPeriod": "2026-06",
-                  "consumptionKilotonnes": 251.913,
-                  "daysOfSupply": 46.1,
+                  "stockPeriod": "2026-07",
+                  "stockKilotonnes": 358.71,
+                  "consumptionPeriod": "2026-07",
+                  "consumptionKilotonnes": 286.776,
+                  "daysOfSupply": 37.5,
+                  "monthsBefore": 1
+                }
+              }
+            }
+          ],
+          "averageDays": null,
+          "overallStatus": "unassessed"
+        },
+        {
+          "countryCode": "RO",
+          "countryName": "Romania",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": null,
+              "consumptionKilotonnes": 145,
+              "daysOfSupply": null,
+              "mandatoryMinimumDays": 90,
+              "status": "unassessed",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-07",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "not-reported",
+                "consumptionObservation": "earlier-month",
+                "coverWithheld": "stock-not-reported",
+                "context": {
+                  "stockPeriod": "2026-07",
+                  "stockKilotonnes": 86,
+                  "consumptionPeriod": "2026-07",
+                  "consumptionKilotonnes": 145,
+                  "daysOfSupply": 17.8,
+                  "monthsBefore": 1
+                }
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": null,
+              "consumptionKilotonnes": 575,
+              "daysOfSupply": null,
+              "mandatoryMinimumDays": 90,
+              "status": "unassessed",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-07",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "not-reported",
+                "consumptionObservation": "earlier-month",
+                "coverWithheld": "stock-not-reported",
+                "context": {
+                  "stockPeriod": "2026-07",
+                  "stockKilotonnes": 386,
+                  "consumptionPeriod": "2026-07",
+                  "consumptionKilotonnes": 575,
+                  "daysOfSupply": 20.1,
+                  "monthsBefore": 1
+                }
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": null,
+              "consumptionKilotonnes": 16,
+              "daysOfSupply": null,
+              "mandatoryMinimumDays": 90,
+              "status": "unassessed",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-07",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "not-reported",
+                "consumptionObservation": "earlier-month",
+                "coverWithheld": "stock-not-reported",
+                "context": {
+                  "stockPeriod": "2026-07",
+                  "stockKilotonnes": 11,
+                  "consumptionPeriod": "2026-07",
+                  "consumptionKilotonnes": 16,
+                  "daysOfSupply": 20.6,
+                  "monthsBefore": 1
+                }
+              }
+            }
+          ],
+          "averageDays": null,
+          "overallStatus": "unassessed"
+        },
+        {
+          "countryCode": "SE",
+          "countryName": "Sweden",
+          "datePeriod": "2026-08",
+          "fuels": [
+            {
+              "fuelType": "petrol",
+              "stockKilotonnes": null,
+              "consumptionKilotonnes": 225.647,
+              "daysOfSupply": null,
+              "mandatoryMinimumDays": 90,
+              "status": "unassessed",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-07",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "not-reported",
+                "consumptionObservation": "earlier-month",
+                "coverWithheld": "stock-not-reported",
+                "context": {
+                  "stockPeriod": "2026-07",
+                  "stockKilotonnes": 434.208,
+                  "consumptionPeriod": "2026-07",
+                  "consumptionKilotonnes": 225.647,
+                  "daysOfSupply": 57.7,
+                  "monthsBefore": 1
+                }
+              }
+            },
+            {
+              "fuelType": "diesel",
+              "stockKilotonnes": null,
+              "consumptionKilotonnes": 419.619,
+              "daysOfSupply": null,
+              "mandatoryMinimumDays": 90,
+              "status": "unassessed",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-07",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "not-reported",
+                "consumptionObservation": "earlier-month",
+                "coverWithheld": "stock-not-reported",
+                "context": {
+                  "stockPeriod": "2026-07",
+                  "stockKilotonnes": 1107.12,
+                  "consumptionPeriod": "2026-07",
+                  "consumptionKilotonnes": 419.619,
+                  "daysOfSupply": 79.2,
+                  "monthsBefore": 1
+                }
+              }
+            },
+            {
+              "fuelType": "jet_fuel",
+              "stockKilotonnes": null,
+              "consumptionKilotonnes": 67.632,
+              "daysOfSupply": null,
+              "mandatoryMinimumDays": 90,
+              "status": "unassessed",
+              "provenance": {
+                "stockPeriod": "2026-08",
+                "stockSeries": "monthly",
+                "consumptionPeriod": "2026-07",
+                "consumptionBasis": "monthly",
+                "carriedForward": false,
+                "reportedAtDataPeriod": null,
+                "capped": false,
+                "policyVersion": "zero-policy-2026-09",
+                "observation": "not-reported",
+                "consumptionObservation": "earlier-month",
+                "coverWithheld": "stock-not-reported",
+                "context": {
+                  "stockPeriod": "2026-07",
+                  "stockKilotonnes": 202.171,
+                  "consumptionPeriod": "2026-07",
+                  "consumptionKilotonnes": 67.632,
+                  "daysOfSupply": 89.7,
                   "monthsBefore": 1
                 }
               }
@@ -1913,16 +1959,16 @@
         }
       ],
       "euAverage": {
-        "petrolDays": 64.1,
-        "dieselDays": 87.3,
-        "jetFuelDays": 60.3,
+        "petrolDays": 69.1,
+        "dieselDays": 96.6,
+        "jetFuelDays": 47.8,
         "overallStatus": "critical",
         "provenance": {
           "method": "unweighted-country-mean",
           "countriesIncluded": {
-            "petrol": 26,
-            "diesel": 26,
-            "jet_fuel": 25
+            "petrol": 24,
+            "diesel": 24,
+            "jet_fuel": 22
           },
           "carriedForward": {
             "petrol": 0,
@@ -1937,22 +1983,23 @@
           "capped": {
             "petrol": 0,
             "diesel": 0,
-            "jet_fuel": 1
+            "jet_fuel": 0
           },
           "notAssessable": {
-            "petrol": 1,
-            "diesel": 1,
-            "jet_fuel": 2
+            "petrol": 3,
+            "diesel": 3,
+            "jet_fuel": 5
           },
           "withheldBy": {
             "petrol": {
-              "stock-not-reported": 1
+              "stock-not-reported": 3
             },
             "diesel": {
-              "stock-not-reported": 1
+              "stock-not-reported": 3
             },
             "jet_fuel": {
-              "stock-not-reported": 1,
+              "consumption-reported-zero": 1,
+              "stock-not-reported": 3,
               "reported-zero-unresolved": 1
             }
           },
@@ -1961,152 +2008,152 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-04T12:55:56.197Z",
-      "bulletinDate": "2026-10-26",
+      "lastUpdated": "2026-11-04T22:52:16.608Z",
+      "bulletinDate": "2026-11-02",
       "bulletinDateSource": "excel-serial",
-      "dataSource": "EC Weekly Oil Bulletin (2026-10-26)",
+      "dataSource": "EC Weekly Oil Bulletin (2026-11-02)",
       "countries": [
         {
           "countryCode": "AT",
           "countryName": "Austria",
-          "petrolPrice": 1.772,
-          "dieselPrice": 2.132,
+          "petrolPrice": 1.747,
+          "dieselPrice": 2.148,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "BE",
           "countryName": "Belgium",
-          "petrolPrice": 1.953,
-          "dieselPrice": 2.375,
+          "petrolPrice": 1.914,
+          "dieselPrice": 2.398,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "BG",
           "countryName": "Bulgaria",
-          "petrolPrice": 1.625,
-          "dieselPrice": 1.89,
+          "petrolPrice": 1.605,
+          "dieselPrice": 1.893,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "HR",
           "countryName": "Croatia",
-          "petrolPrice": 1.791,
-          "dieselPrice": 2.005,
+          "petrolPrice": 1.749,
+          "dieselPrice": 2.015,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "CY",
           "countryName": "Cyprus",
-          "petrolPrice": 1.73,
-          "dieselPrice": 2.005,
+          "petrolPrice": 1.716,
+          "dieselPrice": 2.002,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "CZ",
           "countryName": "Czechia",
-          "petrolPrice": 1.798,
-          "dieselPrice": 1.95,
+          "petrolPrice": 1.765,
+          "dieselPrice": 1.981,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "DK",
           "countryName": "Denmark",
-          "petrolPrice": 2.525,
-          "dieselPrice": 2.502,
+          "petrolPrice": 2.498,
+          "dieselPrice": 2.529,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "EE",
           "countryName": "Estonia",
-          "petrolPrice": 1.887,
-          "dieselPrice": 2.101,
+          "petrolPrice": 1.863,
+          "dieselPrice": 2.113,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "FI",
           "countryName": "Finland",
-          "petrolPrice": 2.346,
-          "dieselPrice": 2.547,
+          "petrolPrice": 2.205,
+          "dieselPrice": 2.433,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "FR",
           "countryName": "France",
-          "petrolPrice": 2.181,
-          "dieselPrice": 2.352,
+          "petrolPrice": 2.158,
+          "dieselPrice": 2.371,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "DE",
           "countryName": "Germany",
-          "petrolPrice": 2.167,
-          "dieselPrice": 2.298,
+          "petrolPrice": 2.128,
+          "dieselPrice": 2.282,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "GR",
           "countryName": "Greece",
-          "petrolPrice": 2.143,
-          "dieselPrice": 2.127,
+          "petrolPrice": 2.125,
+          "dieselPrice": 2.139,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "HU",
           "countryName": "Hungary",
-          "petrolPrice": 1.754,
-          "dieselPrice": 1.93,
+          "petrolPrice": 1.75,
+          "dieselPrice": 1.978,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "IE",
           "countryName": "Ireland",
-          "petrolPrice": 1.971,
-          "dieselPrice": 2.137,
+          "petrolPrice": 1.966,
+          "dieselPrice": 2.122,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "IT",
           "countryName": "Italy",
-          "petrolPrice": 2.006,
-          "dieselPrice": 2.247,
+          "petrolPrice": 2.001,
+          "dieselPrice": 2.238,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "LV",
           "countryName": "Latvia",
-          "petrolPrice": 1.932,
-          "dieselPrice": 2.084,
+          "petrolPrice": 1.868,
+          "dieselPrice": 2.099,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "LT",
           "countryName": "Lithuania",
-          "petrolPrice": 1.927,
-          "dieselPrice": 2.222,
+          "petrolPrice": 1.87,
+          "dieselPrice": 2.223,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "LU",
           "countryName": "Luxembourg",
-          "petrolPrice": 1.746,
-          "dieselPrice": 2.054,
+          "petrolPrice": 1.759,
+          "dieselPrice": 2.11,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
@@ -2121,80 +2168,80 @@
         {
           "countryCode": "NL",
           "countryName": "Netherlands",
-          "petrolPrice": 2.313,
-          "dieselPrice": 2.469,
+          "petrolPrice": 2.284,
+          "dieselPrice": 2.468,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "PL",
           "countryName": "Poland",
-          "petrolPrice": 1.467,
-          "dieselPrice": 1.781,
+          "petrolPrice": 1.456,
+          "dieselPrice": 1.812,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "PT",
           "countryName": "Portugal",
-          "petrolPrice": 2.04,
-          "dieselPrice": 2.189,
+          "petrolPrice": 2.006,
+          "dieselPrice": 2.205,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "RO",
           "countryName": "Romania",
-          "petrolPrice": 1.886,
-          "dieselPrice": 2.037,
+          "petrolPrice": 1.881,
+          "dieselPrice": 2.071,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "SK",
           "countryName": "Slovakia",
-          "petrolPrice": 1.82,
-          "dieselPrice": 1.97,
+          "petrolPrice": 1.785,
+          "dieselPrice": 1.979,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "SI",
           "countryName": "Slovenia",
-          "petrolPrice": 1.732,
-          "dieselPrice": 1.909,
+          "petrolPrice": 1.675,
+          "dieselPrice": 1.941,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "ES",
           "countryName": "Spain",
-          "petrolPrice": 1.751,
-          "dieselPrice": 1.888,
+          "petrolPrice": 1.73,
+          "dieselPrice": 1.898,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "SE",
           "countryName": "Sweden",
-          "petrolPrice": 1.56,
-          "dieselPrice": 2.037,
+          "petrolPrice": 1.555,
+          "dieselPrice": 2.061,
           "petrolChangePct": null,
           "dieselChangePct": null
         }
       ],
       "euAverage": {
-        "petrolPrice": 1.895,
-        "dieselPrice": 2.091
+        "petrolPrice": 1.867,
+        "dieselPrice": 2.101
       }
     },
     "brent": {
       "lastUpdated": "2026-11-04T12:55:57.595Z",
-      "fetchedAt": "2026-11-04T12:55:57.595Z",
+      "fetchedAt": "2026-11-04T22:52:17.561Z",
       "observedAt": "2026-11-04T12:45:50.000Z",
       "sessionDate": "2026-11-04",
       "quoteType": "intraday",
-      "quoteStatus": "current",
+      "quoteStatus": "last-available-close",
       "provider": "Yahoo Finance (BZF27.NYM)",
       "priceUsd": 102.1,
       "priceEur": 90.62,
@@ -2202,21 +2249,22 @@
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-11-04T00:00:00.000Z",
-      "changeUsd": -1.5,
-      "changePct": -1.45,
-      "changeAgainst": "2026-11-03",
+      "changeUsd": 0,
+      "changePct": 0,
+      "changeAgainst": null,
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZF27.NYM)",
       "contract": "BZF27.NYM",
       "contractLabel": "January 2027",
       "contractExpiry": "2026-11-30",
-      "rejectedQuotes": []
+      "rejectedQuotes": [],
+      "staleReason": "uncorroborated -8.7% move from Yahoo Finance (BZF27.NYM)"
     }
   },
   "publication": {
-    "id": "c513d93fc4f3d9ab@2026-11-04T13:00:40.460Z",
-    "builtAt": "2026-11-04T13:00:40.460Z",
-    "inputHash": "c513d93fc4f3d9ab",
+    "id": "2191501994c820bb@2026-11-04T22:57:03.178Z",
+    "builtAt": "2026-11-04T22:57:03.178Z",
+    "inputHash": "2191501994c820bb",
     "bundles": [
       "live",
       "snapshot",

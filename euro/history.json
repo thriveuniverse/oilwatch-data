@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-11-04T13:00:40.460Z",
+  "builtAt": "2026-11-04T22:57:03.178Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-11-04T12:55:52.373Z",
+      "lastUpdated": "2026-11-04T22:52:13.484Z",
       "periods": [
         "2025-04",
         "2025-05",
@@ -22,7 +22,8 @@
         "2026-04",
         "2026-05",
         "2026-06",
-        "2026-07"
+        "2026-07",
+        "2026-08"
       ],
       "countries": [
         {
@@ -1375,9 +1376,9 @@
             },
             {
               "period": "2026-07",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 51.1,
+              "dieselDays": 56.8,
+              "jetDays": 37.5
             },
             {
               "period": "2026-08",
@@ -2179,9 +2180,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 56.3,
+              "dieselDays": 102.1,
+              "jetDays": 30.8
             },
             {
               "period": "2026-09",
@@ -2293,9 +2294,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 79.7,
+              "dieselDays": 204.4,
+              "jetDays": 42.8
             },
             {
               "period": "2026-09",
@@ -2407,9 +2408,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 43.2,
+              "dieselDays": 65.5,
+              "jetDays": 12.8
             },
             {
               "period": "2026-09",
@@ -2521,9 +2522,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 52.8,
+              "dieselDays": 92.8,
+              "jetDays": 17.3
             },
             {
               "period": "2026-09",
@@ -2749,9 +2750,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 84.5,
+              "dieselDays": 44.6,
+              "jetDays": 33.8
             },
             {
               "period": "2026-09",
@@ -2863,9 +2864,9 @@
             },
             {
               "period": "2026-08",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 100.4,
+              "dieselDays": 109.6,
+              "jetDays": 156
             },
             {
               "period": "2026-09",
@@ -3197,9 +3198,15 @@
         },
         {
           "period": "2026-07",
-          "petrolDays": 64.1,
-          "dieselDays": 87.3,
-          "jetDays": 60.3
+          "petrolDays": 63.7,
+          "dieselDays": 86.2,
+          "jetDays": 59.4
+        },
+        {
+          "period": "2026-08",
+          "petrolDays": 69.1,
+          "dieselDays": 96.6,
+          "jetDays": 47.8
         }
       ]
     },
@@ -5062,9 +5069,9 @@
     }
   },
   "publication": {
-    "id": "c513d93fc4f3d9ab@2026-11-04T13:00:40.460Z",
-    "builtAt": "2026-11-04T13:00:40.460Z",
-    "inputHash": "c513d93fc4f3d9ab",
+    "id": "2191501994c820bb@2026-11-04T22:57:03.178Z",
+    "builtAt": "2026-11-04T22:57:03.178Z",
+    "inputHash": "2191501994c820bb",
     "bundles": [
       "live",
       "snapshot",
