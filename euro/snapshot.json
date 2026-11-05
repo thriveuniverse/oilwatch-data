@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-04T22:57:03.178Z",
+  "builtAt": "2026-11-05T13:11:06.882Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-04T22:52:11.892Z",
+      "lastUpdated": "2026-11-05T13:05:58.774Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 24,
       "countriesTotal": 27,
@@ -2008,7 +2008,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-04T22:52:16.608Z",
+      "lastUpdated": "2026-11-05T13:06:04.755Z",
       "bulletinDate": "2026-11-02",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-02)",
@@ -2236,35 +2236,34 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-11-04T12:55:57.595Z",
-      "fetchedAt": "2026-11-04T22:52:17.561Z",
-      "observedAt": "2026-11-04T12:45:50.000Z",
-      "sessionDate": "2026-11-04",
+      "lastUpdated": "2026-11-05T13:06:06.331Z",
+      "fetchedAt": "2026-11-05T13:06:06.331Z",
+      "observedAt": "2026-11-05T12:55:58.000Z",
+      "sessionDate": "2026-11-05",
       "quoteType": "intraday",
-      "quoteStatus": "last-available-close",
+      "quoteStatus": "current",
       "provider": "Yahoo Finance (BZF27.NYM)",
-      "priceUsd": 102.1,
-      "priceEur": 90.62,
-      "eurUsd": 1.1266,
+      "priceUsd": 96.86,
+      "priceEur": 86.26,
+      "eurUsd": 1.1228,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-11-04T00:00:00.000Z",
-      "changeUsd": 0,
-      "changePct": 0,
-      "changeAgainst": null,
+      "fxObservedAt": "2026-11-05T00:00:00.000Z",
+      "changeUsd": 2.24,
+      "changePct": 2.37,
+      "changeAgainst": "2026-11-04",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZF27.NYM)",
       "contract": "BZF27.NYM",
       "contractLabel": "January 2027",
       "contractExpiry": "2026-11-30",
-      "rejectedQuotes": [],
-      "staleReason": "uncorroborated -8.7% move from Yahoo Finance (BZF27.NYM)"
+      "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "2191501994c820bb@2026-11-04T22:57:03.178Z",
-    "builtAt": "2026-11-04T22:57:03.178Z",
-    "inputHash": "2191501994c820bb",
+    "id": "e8daf66da02f9781@2026-11-05T13:11:06.882Z",
+    "builtAt": "2026-11-05T13:11:06.882Z",
+    "inputHash": "e8daf66da02f9781",
     "bundles": [
       "live",
       "snapshot",
