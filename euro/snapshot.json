@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-05T22:10:44.138Z",
+  "builtAt": "2026-11-05T22:54:27.069Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-05T22:06:03.797Z",
+      "lastUpdated": "2026-11-05T22:50:12.169Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 24,
       "countriesTotal": 27,
@@ -2008,7 +2008,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-05T22:06:08.217Z",
+      "lastUpdated": "2026-11-05T22:50:16.540Z",
       "bulletinDate": "2026-11-02",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-02)",
@@ -2237,7 +2237,7 @@
     },
     "brent": {
       "lastUpdated": "2026-11-05T13:06:06.331Z",
-      "fetchedAt": "2026-11-05T22:06:09.350Z",
+      "fetchedAt": "2026-11-05T22:50:17.819Z",
       "observedAt": "2026-11-05T12:55:58.000Z",
       "sessionDate": "2026-11-05",
       "quoteType": "intraday",
@@ -2258,12 +2258,12 @@
       "contractLabel": "January 2027",
       "contractExpiry": "2026-11-30",
       "rejectedQuotes": [],
-      "staleReason": "uncorroborated 4.8% move from Yahoo Finance (BZF27.NYM)"
+      "staleReason": "uncorroborated 4.9% move from Yahoo Finance (BZF27.NYM)"
     }
   },
   "publication": {
-    "id": "e8daf66da02f9781@2026-11-05T22:10:44.138Z",
-    "builtAt": "2026-11-05T22:10:44.138Z",
+    "id": "e8daf66da02f9781@2026-11-05T22:54:27.069Z",
+    "builtAt": "2026-11-05T22:54:27.069Z",
     "inputHash": "e8daf66da02f9781",
     "bundles": [
       "live",
