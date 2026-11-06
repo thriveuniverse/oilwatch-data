@@ -2,13 +2,13 @@
   "bundle": "analysis",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-10-30T12:10:50.451Z",
+  "builtAt": "2026-11-06T08:57:49.931Z",
   "resources": {
     "analysis.structured": {
       "fixture_kind": "live_capable",
       "record": {
-        "snapshot_id": "approved:1423ed1e0193172b",
-        "effective_vintage": "2026-07",
+        "snapshot_id": "approved:e8daf66da02f9781",
+        "effective_vintage": "2026-08",
         "overallStatus": "critical",
         "blocks": [
           {
@@ -18,13 +18,24 @@
                 "type": "claim",
                 "claim": {
                   "id": "sl1",
-                  "kind": "fact",
-                  "text": "EU fuel reserves in {{vintage.data_period_label}} are under severe strain across all three products, with the overall dataset rated {{state.overall}}.",
+                  "kind": "analytical",
+                  "text": "EU fuel reserves in {{vintage.data_period_label}} are under severe strain in petrol and jet fuel, with the overall dataset rated {{state.overall}}.",
                   "facts": [
                     "vintage.data_period_label",
                     "state.overall"
                   ],
-                  "guards": [],
+                  "guards": [
+                    {
+                      "type": "state_equals",
+                      "key": "eu.petrol.status",
+                      "value": "critical"
+                    },
+                    {
+                      "type": "state_equals",
+                      "key": "eu.jet_fuel.status",
+                      "value": "critical"
+                    }
+                  ],
                   "provenance": [
                     "eurostat_reserve_cover"
                   ],
@@ -194,7 +205,7 @@
                 "claim": {
                   "id": "a8",
                   "kind": "analytical",
-                  "text": "yet still below the {{reference.days}}-day reference line.",
+                  "text": "and above the {{reference.days}}-day reference line.",
                   "facts": [
                     "eu.diesel.days",
                     "reference.days"
@@ -203,7 +214,7 @@
                     {
                       "type": "range",
                       "fact": "eu.diesel.days",
-                      "relation": "below",
+                      "relation": "above",
                       "bound": "reference.days"
                     }
                   ],
@@ -329,7 +340,7 @@
                     {
                       "type": "ranking_equals",
                       "ranking": "countries_by_average_days",
-                      "position": 2,
+                      "position": 1,
                       "value": "PL"
                     }
                   ],
@@ -433,7 +444,7 @@
                 "claim": {
                   "id": "k3a",
                   "kind": "analytical",
-                  "text": "Croatia holds the least cover among assessable figures",
+                  "text": "Poland holds the least cover among assessable figures",
                   "facts": [
                     "ranking.jet_fuel.countries_by_days"
                   ],
@@ -442,7 +453,7 @@
                       "type": "ranking_equals",
                       "ranking": "jet_fuel.countries_by_days",
                       "position": 0,
-                      "value": "HR"
+                      "value": "PL"
                     }
                   ],
                   "provenance": [
@@ -482,7 +493,7 @@
                 "claim": {
                   "id": "k4",
                   "kind": "analytical",
-                  "text": "Romania holds the lowest average cover across fuels in {{vintage.data_period_label}}, sitting at position one in the cross-fuel ranking.",
+                  "text": "Croatia holds the lowest average cover across fuels among assessable countries in {{vintage.data_period_label}}, sitting at position one in the cross-fuel ranking.",
                   "facts": [
                     "ranking.countries_by_average_days",
                     "vintage.data_period_label"
@@ -492,7 +503,7 @@
                       "type": "ranking_equals",
                       "ranking": "countries_by_average_days",
                       "position": 0,
-                      "value": "RO"
+                      "value": "HR"
                     }
                   ],
                   "provenance": [
@@ -511,7 +522,7 @@
                 "claim": {
                   "id": "k5a",
                   "kind": "analytical",
-                  "text": "Finland is the second-most expensive petrol market this bulletin period",
+                  "text": "The Netherlands is the second-most expensive petrol market this bulletin period",
                   "facts": [
                     "ranking.petrol_price"
                   ],
@@ -520,7 +531,7 @@
                       "type": "ranking_equals",
                       "ranking": "petrol_price",
                       "position": 1,
-                      "value": "FI"
+                      "value": "NL"
                     }
                   ],
                   "provenance": [
@@ -563,1464 +574,1462 @@
         "retired": []
       },
       "snapshot": {
-        "id": "approved:1423ed1e0193172b",
-        "builtAt": "2026-10-30T08:51:48.497Z",
+        "id": "approved:e8daf66da02f9781",
+        "builtAt": "2026-11-06T08:13:17.510Z",
         "facts": {
           "vintage.data_period": {
-            "value": "2026-07",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "2026-08",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "vintage.data_period_label": {
-            "value": "July 2026",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "August 2026",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "vintage.lag_months": {
             "value": 3,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "reference.days": {
             "value": 90,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "state.overall": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "eu.petrol.days": {
-            "value": 64.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 69.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "eu.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "eu.diesel.days": {
-            "value": 87.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 96.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "eu.diesel.status": {
             "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "eu.jet_fuel.days": {
-            "value": 60.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 47.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "eu.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.countries.total": {
             "value": 27,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.countries.reporting": {
-            "value": 26,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 24,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.countries.assessable": {
-            "value": 26,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 24,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.countries.partially_assessable": {
-            "value": 1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.countries.withheld_only": {
-            "value": 1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 3,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.petrol.total": {
             "value": 27,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.petrol.assessable": {
-            "value": 26,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 24,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.petrol.withheld": {
-            "value": 1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 3,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.petrol.below_reference": {
-            "value": 21,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 17,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.petrol.critical": {
-            "value": 18,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 15,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "ranking.petrol.countries_by_days": {
             "value": [
               "LV",
-              "RO",
-              "MT",
+              "HR",
               "LT",
               "LU",
-              "BE",
-              "HR",
-              "IT",
               "PL",
+              "BE",
               "AT",
+              "PT",
+              "IT",
+              "MT",
               "DE",
-              "SE",
               "FR",
               "ES",
-              "BG",
-              "PT",
               "CZ",
+              "BG",
               "NL",
-              "IE",
-              "FI",
-              "CY",
               "SK",
               "HU",
+              "IE",
               "SI",
+              "FI",
               "DK",
-              "EE"
+              "EE",
+              "CY"
             ],
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.petrol.days": {
-            "value": 17.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.petrol.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.petrol.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.petrol.days": {
-            "value": 46.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 31.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.petrol.days": {
-            "value": 50,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 43.2,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.petrol.days": {
-            "value": 37.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.petrol.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.petrol.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.petrol.days": {
-            "value": 60.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.petrol.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.petrol.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.petrol.days": {
-            "value": 47.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.petrol.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.petrol.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.petrol.days": {
-            "value": 7.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 10,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.petrol.days": {
-            "value": 59,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.LU.petrol.days": {
+            "value": 37.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.petrol.status": {
+          "country.LU.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.petrol.withheld_reason": {
+          "country.LU.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.petrol.days": {
-            "value": 61.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.petrol.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.petrol.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.petrol.days": {
-            "value": 64.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.petrol.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.petrol.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.petrol.days": {
-            "value": 50.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.petrol.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.petrol.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.petrol.days": {
-            "value": 36.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 31.5,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.petrol.days": {
+            "value": 52.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.petrol.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.petrol.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.petrol.days": {
-            "value": 94.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 84.5,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.petrol.status": {
-            "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "warning",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.petrol.days": {
-            "value": 98.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IT.petrol.days": {
+            "value": 52.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.petrol.status": {
-            "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.HU.petrol.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.FR.petrol.days": {
-            "value": 57.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.FR.petrol.status": {
+          "country.IT.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FR.petrol.withheld_reason": {
+          "country.IT.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.BG.petrol.days": {
+            "value": 65.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.BG.petrol.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.BG.petrol.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.petrol.days": {
+            "value": 65.3,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.petrol.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.petrol.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.petrol.days": {
+            "value": 49,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.petrol.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.petrol.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.petrol.days": {
+            "value": 63.2,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.petrol.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.petrol.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.petrol.days": {
-            "value": 33.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 56.3,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.petrol.days": {
+            "value": 94.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.petrol.status": {
+            "value": "watch",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.petrol.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.petrol.days": {
-            "value": 54.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 56.4,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.petrol.days": {
-            "value": 89.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.FR.petrol.days": {
+            "value": 63.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.petrol.status": {
-            "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CY.petrol.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.petrol.days": {
-            "value": 57.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.petrol.status": {
+          "country.FR.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.SE.petrol.withheld_reason": {
+          "country.FR.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.petrol.days": {
-            "value": 45.6,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 46,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.petrol.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.petrol.days": {
-            "value": 87.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.CY.petrol.days": {
+            "value": 126.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.petrol.status": {
-            "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.CY.petrol.status": {
+            "value": "safe",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.petrol.withheld_reason": {
+          "country.CY.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.petrol.days": {
-            "value": 111.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 117.2,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.petrol.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.petrol.days": {
-            "value": 127.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IE.petrol.days": {
+            "value": 96,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.petrol.status": {
-            "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IE.petrol.status": {
+            "value": "watch",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.petrol.withheld_reason": {
+          "country.IE.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.petrol.days": {
-            "value": 70.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 79.7,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.petrol.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "warning",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FI.petrol.days": {
-            "value": 88.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.EE.petrol.days": {
+            "value": 123,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FI.petrol.status": {
-            "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.EE.petrol.status": {
+            "value": "safe",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FI.petrol.withheld_reason": {
+          "country.EE.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.petrol.days": {
-            "value": 111.6,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 100.4,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.petrol.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.petrol.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.petrol.days": {
+            "value": 112.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.petrol.status": {
+            "value": "safe",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.petrol.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.petrol.days": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.petrol.status": {
             "value": "unassessed",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.petrol.withheld_reason": {
             "value": "stock-not-reported",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.petrol.days": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.petrol.status": {
+            "value": "unassessed",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.petrol.withheld_reason": {
+            "value": "stock-not-reported",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.petrol.days": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.petrol.status": {
+            "value": "unassessed",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.petrol.withheld_reason": {
+            "value": "stock-not-reported",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.diesel.total": {
             "value": 27,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.diesel.assessable": {
-            "value": 26,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 24,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.diesel.withheld": {
-            "value": 1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 3,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.diesel.below_reference": {
-            "value": 16,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 12,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.diesel.critical": {
-            "value": 12,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 10,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "ranking.diesel.countries_by_days": {
             "value": [
-              "RO",
               "HR",
               "SK",
-              "HU",
-              "BG",
               "CZ",
-              "IT",
+              "HU",
               "PL",
-              "AT",
               "LU",
+              "IT",
+              "AT",
+              "LT",
+              "BG",
               "ES",
+              "LV",
               "PT",
               "CY",
-              "LT",
-              "SE",
-              "FR",
-              "IE",
-              "SI",
-              "DE",
-              "LV",
               "MT",
-              "EE",
               "DK",
+              "IE",
+              "EE",
+              "SI",
+              "FR",
+              "DE",
               "BE",
               "NL",
               "FI"
             ],
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.diesel.days": {
-            "value": 20.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.diesel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.diesel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.diesel.days": {
-            "value": 35.2,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 37.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.diesel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.diesel.days": {
-            "value": 58.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 65.5,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.diesel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.diesel.days": {
-            "value": 60.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.diesel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.diesel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.diesel.days": {
-            "value": 53.6,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.diesel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.diesel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.diesel.days": {
-            "value": 56.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.diesel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.diesel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.diesel.days": {
-            "value": 111.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 87.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.diesel.status": {
-            "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "watch",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.diesel.days": {
-            "value": 64.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.LU.diesel.days": {
+            "value": 67,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.diesel.status": {
+          "country.LU.diesel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.diesel.withheld_reason": {
+          "country.LU.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.diesel.days": {
-            "value": 75.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.diesel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.diesel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.diesel.days": {
-            "value": 53.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.diesel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.diesel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.diesel.days": {
-            "value": 59.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.diesel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.diesel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.diesel.days": {
-            "value": 77.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 70.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.diesel.status": {
-            "value": "warning",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.diesel.days": {
+            "value": 92.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.diesel.status": {
+            "value": "watch",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.diesel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.diesel.days": {
-            "value": 43.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 44.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.diesel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.diesel.days": {
-            "value": 53.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IT.diesel.days": {
+            "value": 67.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.diesel.status": {
+          "country.IT.diesel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.diesel.withheld_reason": {
+          "country.IT.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FR.diesel.days": {
-            "value": 86.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.BG.diesel.days": {
+            "value": 72.3,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FR.diesel.status": {
-            "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.BG.diesel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FR.diesel.withheld_reason": {
+          "country.BG.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.diesel.days": {
+            "value": 60.5,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.diesel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.diesel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.diesel.days": {
+            "value": 69.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.diesel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.diesel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.diesel.days": {
+            "value": 80.7,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.diesel.status": {
+            "value": "warning",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.diesel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.diesel.days": {
-            "value": 116.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 102.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.diesel.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.diesel.days": {
+            "value": 61.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.diesel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.diesel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.diesel.days": {
-            "value": 102.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 113,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.diesel.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.diesel.days": {
-            "value": 77.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.FR.diesel.days": {
+            "value": 109.7,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.diesel.status": {
-            "value": "warning",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.FR.diesel.status": {
+            "value": "safe",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.diesel.withheld_reason": {
+          "country.FR.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.diesel.days": {
-            "value": 79.2,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.diesel.status": {
-            "value": "warning",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.diesel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.diesel.days": {
-            "value": 119.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 124.4,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.diesel.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.diesel.days": {
-            "value": 92.2,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.CY.diesel.days": {
+            "value": 95.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.diesel.status": {
+          "country.CY.diesel.status": {
             "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.diesel.withheld_reason": {
+          "country.CY.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.diesel.days": {
-            "value": 117.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 105.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.diesel.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.diesel.days": {
-            "value": 117,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IE.diesel.days": {
+            "value": 105.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.diesel.status": {
+          "country.IE.diesel.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.diesel.withheld_reason": {
+          "country.IE.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.diesel.days": {
-            "value": 166.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 204.4,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.diesel.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FI.diesel.days": {
-            "value": 268.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.EE.diesel.days": {
+            "value": 107.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FI.diesel.status": {
+          "country.EE.diesel.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FI.diesel.withheld_reason": {
+          "country.EE.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.diesel.days": {
-            "value": 102.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 109.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.diesel.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.diesel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.diesel.days": {
+            "value": 262.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.diesel.status": {
+            "value": "safe",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.diesel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.diesel.days": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.diesel.status": {
             "value": "unassessed",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.diesel.withheld_reason": {
             "value": "stock-not-reported",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.diesel.days": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.diesel.status": {
+            "value": "unassessed",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.diesel.withheld_reason": {
+            "value": "stock-not-reported",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.diesel.days": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.diesel.status": {
+            "value": "unassessed",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.diesel.withheld_reason": {
+            "value": "stock-not-reported",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.jet_fuel.total": {
             "value": 27,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.jet_fuel.assessable": {
-            "value": 25,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 22,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.jet_fuel.withheld": {
-            "value": 2,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 5,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.jet_fuel.below_reference": {
-            "value": 24,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 19,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.jet_fuel.critical": {
-            "value": 21,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 19,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "ranking.jet_fuel.countries_by_days": {
             "value": [
-              "HR",
               "PL",
-              "RO",
+              "HR",
               "PT",
-              "BG",
-              "ES",
               "LV",
+              "BG",
+              "MT",
+              "ES",
+              "SK",
               "LU",
               "HU",
-              "CZ",
-              "IT",
               "FI",
-              "MT",
-              "SK",
+              "CZ",
+              "NL",
+              "DE",
+              "IT",
               "CY",
               "FR",
               "AT",
-              "DE",
-              "EE",
               "DK",
-              "NL",
               "IE",
-              "SE",
               "BE",
               "SI"
             ],
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.jet_fuel.days": {
-            "value": 20.6,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.jet_fuel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.jet_fuel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.jet_fuel.days": {
-            "value": 16.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 15.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.jet_fuel.days": {
-            "value": 17.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 12.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.jet_fuel.days": {
-            "value": 34.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.jet_fuel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.jet_fuel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.jet_fuel.days": {
-            "value": 30.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.jet_fuel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.jet_fuel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.jet_fuel.days": {
-            "value": 43.2,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.jet_fuel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.jet_fuel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.jet_fuel.days": {
-            "value": 32.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 28.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.jet_fuel.days": {
-            "value": 32.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.LU.jet_fuel.days": {
+            "value": 34.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.jet_fuel.status": {
+          "country.LU.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.jet_fuel.withheld_reason": {
+          "country.LU.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.jet_fuel.days": {
-            "value": 22.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.jet_fuel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.jet_fuel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.jet_fuel.days": {
-            "value": 41.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.jet_fuel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.jet_fuel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.jet_fuel.days": {
-            "value": 54.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.jet_fuel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.jet_fuel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.jet_fuel.days": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.jet_fuel.status": {
             "value": "unassessed",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.jet_fuel.withheld_reason": {
             "value": "reported-zero-unresolved",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.jet_fuel.days": {
+            "value": 17.3,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.jet_fuel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.jet_fuel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.jet_fuel.days": {
-            "value": 48.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 33.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.jet_fuel.days": {
-            "value": 35.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IT.jet_fuel.days": {
+            "value": 44.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.jet_fuel.status": {
+          "country.IT.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.jet_fuel.withheld_reason": {
+          "country.IT.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FR.jet_fuel.days": {
-            "value": 53.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.BG.jet_fuel.days": {
+            "value": 29.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FR.jet_fuel.status": {
+          "country.BG.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FR.jet_fuel.withheld_reason": {
+          "country.BG.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.jet_fuel.days": {
+            "value": 41.7,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.jet_fuel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.jet_fuel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.jet_fuel.days": {
+            "value": 56.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.jet_fuel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.jet_fuel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.jet_fuel.days": {
+            "value": 33.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.jet_fuel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.jet_fuel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.jet_fuel.days": {
-            "value": 48.6,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 30.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.jet_fuel.days": {
+            "value": 37.3,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.jet_fuel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.jet_fuel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.jet_fuel.days": {
-            "value": 55.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 44,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.jet_fuel.days": {
-            "value": 50.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.FR.jet_fuel.days": {
+            "value": 55.7,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.jet_fuel.status": {
+          "country.FR.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.jet_fuel.withheld_reason": {
+          "country.FR.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.jet_fuel.days": {
-            "value": 89.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.jet_fuel.status": {
-            "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.jet_fuel.withheld_reason": {
-            "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.jet_fuel.days": {
-            "value": 89.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 92.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.jet_fuel.status": {
             "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.jet_fuel.days": {
-            "value": 89.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.CY.jet_fuel.days": {
+            "value": 52.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.jet_fuel.status": {
-            "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.CY.jet_fuel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.jet_fuel.withheld_reason": {
+          "country.CY.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.jet_fuel.days": {
-            "value": 64.8,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 57.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.jet_fuel.days": {
-            "value": 57.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IE.jet_fuel.days": {
+            "value": 91.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.jet_fuel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IE.jet_fuel.status": {
+            "value": "watch",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.jet_fuel.withheld_reason": {
+          "country.IE.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.jet_fuel.days": {
-            "value": 65.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 42.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.jet_fuel.status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FI.jet_fuel.days": {
-            "value": 44.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.FI.jet_fuel.status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.FI.jet_fuel.withheld_reason": {
+          "country.EE.jet_fuel.days": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.EE.jet_fuel.status": {
+            "value": "unassessed",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.EE.jet_fuel.withheld_reason": {
+            "value": "consumption-reported-zero",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.jet_fuel.days": {
-            "value": 365,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 156,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.jet_fuel.status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.jet_fuel.withheld_reason": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.jet_fuel.days": {
+            "value": 40.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.jet_fuel.status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.jet_fuel.withheld_reason": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.jet_fuel.days": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.jet_fuel.status": {
             "value": "unassessed",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.jet_fuel.withheld_reason": {
             "value": "stock-not-reported",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.jet_fuel.days": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.jet_fuel.status": {
+            "value": "unassessed",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.jet_fuel.withheld_reason": {
+            "value": "stock-not-reported",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.jet_fuel.days": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.jet_fuel.status": {
+            "value": "unassessed",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.jet_fuel.withheld_reason": {
+            "value": "stock-not-reported",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "withheld.count": {
-            "value": 4,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 11,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "withheld.list": {
             "value": [
               "GR petrol (stock not reported)",
+              "RO petrol (stock not reported)",
+              "SE petrol (stock not reported)",
               "GR diesel (stock not reported)",
+              "RO diesel (stock not reported)",
+              "SE diesel (stock not reported)",
               "LT jet fuel (reported zero, unresolved — policy)",
-              "GR jet fuel (stock not reported)"
+              "EE jet fuel (consumption reported zero — undefined)",
+              "GR jet fuel (stock not reported)",
+              "RO jet fuel (stock not reported)",
+              "SE jet fuel (stock not reported)"
             ],
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.any_fuel.below_reference": {
-            "value": 25,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 21,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.any_fuel.critical": {
-            "value": 24,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.average_days": {
-            "value": 19.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.RO.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 21,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.average_days": {
-            "value": 32.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 27.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.HR.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.average_days": {
-            "value": 42.2,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 40.5,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.PL.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.average_days": {
-            "value": 44.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.LU.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.average_days": {
-            "value": 48.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.BG.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.average_days": {
-            "value": 48.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.IT.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.average_days": {
-            "value": 50.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 42.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LV.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.average_days": {
-            "value": 52.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.LU.average_days": {
+            "value": 46.5,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.ES.overall_status": {
+          "country.LU.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.average_days": {
-            "value": 53.2,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.PT.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.average_days": {
-            "value": 53.3,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.CZ.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.average_days": {
-            "value": 55,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.AT.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.average_days": {
-            "value": 57.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 50.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.LT.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.average_days": {
+            "value": 54.3,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.PT.overall_status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.average_days": {
-            "value": 62.4,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 54.3,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SK.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.average_days": {
-            "value": 62.6,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IT.average_days": {
+            "value": 55,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.HU.overall_status": {
+          "country.IT.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FR.average_days": {
-            "value": 65.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.BG.average_days": {
+            "value": 55.7,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FR.overall_status": {
+          "country.BG.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.average_days": {
+            "value": 55.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.CZ.overall_status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.average_days": {
+            "value": 58.5,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.AT.overall_status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.average_days": {
+            "value": 59,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.ES.overall_status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.average_days": {
-            "value": 66.1,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 63.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.MT.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.average_days": {
+            "value": 64.4,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.HU.overall_status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.average_days": {
-            "value": 70.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 71.1,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DE.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.average_days": {
-            "value": 72.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.FR.average_days": {
+            "value": 76.2,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.CY.overall_status": {
+          "country.FR.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.average_days": {
-            "value": 75.5,
-            "snapshot_id": "approved:1423ed1e0193172b"
-          },
-          "country.SE.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.average_days": {
-            "value": 85,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 87.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.BE.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.average_days": {
-            "value": 89.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.CY.average_days": {
+            "value": 91.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.IE.overall_status": {
-            "value": "watch",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.CY.overall_status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.average_days": {
-            "value": 98,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 93.6,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.DK.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.average_days": {
-            "value": 100.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IE.average_days": {
+            "value": 97.9,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.EE.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.IE.overall_status": {
+            "value": "watch",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.average_days": {
-            "value": 100.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 109,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.NL.overall_status": {
             "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FI.average_days": {
-            "value": 133.7,
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.EE.average_days": {
+            "value": 115.3,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
-          "country.FI.overall_status": {
-            "value": "critical",
-            "snapshot_id": "approved:1423ed1e0193172b"
+          "country.EE.overall_status": {
+            "value": "safe",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.average_days": {
-            "value": 192.9,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 122,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.SI.overall_status": {
             "value": "safe",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.average_days": {
+            "value": 138.8,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.FI.overall_status": {
+            "value": "critical",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.average_days": {
             "value": null,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "country.GR.overall_status": {
             "value": "unassessed",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.average_days": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.RO.overall_status": {
+            "value": "unassessed",
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.average_days": {
+            "value": null,
+            "snapshot_id": "approved:e8daf66da02f9781"
+          },
+          "country.SE.overall_status": {
+            "value": "unassessed",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "ranking.countries_by_average_days": {
             "value": [
-              "RO",
               "HR",
               "PL",
-              "LU",
-              "BG",
-              "IT",
               "LV",
-              "ES",
+              "LU",
+              "LT",
               "PT",
+              "SK",
+              "IT",
+              "BG",
               "CZ",
               "AT",
-              "LT",
-              "SK",
-              "HU",
-              "FR",
+              "ES",
               "MT",
+              "HU",
               "DE",
-              "CY",
-              "SE",
+              "FR",
               "BE",
-              "IE",
+              "CY",
               "DK",
-              "EE",
+              "IE",
               "NL",
-              "FI",
-              "SI"
+              "EE",
+              "SI",
+              "FI"
             ],
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "ranking.eu_days_of_cover": {
             "value": [
@@ -2028,7 +2037,7 @@
               "petrol",
               "diesel"
             ],
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "ranking.eu_status_severity": {
             "value": [
@@ -2036,249 +2045,249 @@
               "petrol",
               "diesel"
             ],
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "ranking.eu_unassessed": {
             "value": [],
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.bulletin_date": {
-            "value": "2026-10-26",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "2026-11-02",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.bulletin_date_label": {
-            "value": "26 October 2026",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "2 November 2026",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.eu.petrol": {
-            "value": 1.895,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.867,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.eu.diesel": {
-            "value": 2.091,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.101,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.AT.petrol": {
-            "value": 1.772,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.747,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.AT.diesel": {
-            "value": 2.132,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.148,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.BE.petrol": {
-            "value": 1.953,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.914,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.BE.diesel": {
-            "value": 2.375,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.398,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.BG.petrol": {
-            "value": 1.625,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.605,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.BG.diesel": {
-            "value": 1.89,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.893,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.HR.petrol": {
-            "value": 1.791,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.749,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.HR.diesel": {
-            "value": 2.005,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.015,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.CY.petrol": {
-            "value": 1.73,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.716,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.CY.diesel": {
-            "value": 2.005,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.002,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.CZ.petrol": {
-            "value": 1.798,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.765,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.CZ.diesel": {
-            "value": 1.95,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.981,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.DK.petrol": {
-            "value": 2.525,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.498,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.DK.diesel": {
-            "value": 2.502,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.529,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.EE.petrol": {
-            "value": 1.887,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.863,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.EE.diesel": {
-            "value": 2.101,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.113,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.FI.petrol": {
-            "value": 2.346,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.205,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.FI.diesel": {
-            "value": 2.547,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.433,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.FR.petrol": {
-            "value": 2.181,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.158,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.FR.diesel": {
-            "value": 2.352,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.371,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.DE.petrol": {
-            "value": 2.167,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.128,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.DE.diesel": {
-            "value": 2.298,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.282,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.GR.petrol": {
-            "value": 2.143,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.125,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.GR.diesel": {
-            "value": 2.127,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.139,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.HU.petrol": {
-            "value": 1.754,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.75,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.HU.diesel": {
-            "value": 1.93,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.978,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.IE.petrol": {
-            "value": 1.971,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.966,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.IE.diesel": {
-            "value": 2.137,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.122,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.IT.petrol": {
-            "value": 2.006,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.001,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.IT.diesel": {
-            "value": 2.247,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.238,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.LV.petrol": {
-            "value": 1.932,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.868,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.LV.diesel": {
-            "value": 2.084,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.099,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.LT.petrol": {
-            "value": 1.927,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.87,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.LT.diesel": {
-            "value": 2.222,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.223,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.LU.petrol": {
-            "value": 1.746,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.759,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.LU.diesel": {
-            "value": 2.054,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.11,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.MT.petrol": {
             "value": 1.34,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.MT.diesel": {
             "value": 1.21,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.NL.petrol": {
-            "value": 2.313,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.284,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.NL.diesel": {
-            "value": 2.469,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.468,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.PL.petrol": {
-            "value": 1.467,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.456,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.PL.diesel": {
-            "value": 1.781,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.812,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.PT.petrol": {
-            "value": 2.04,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.006,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.PT.diesel": {
-            "value": 2.189,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.205,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.RO.petrol": {
-            "value": 1.886,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.881,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.RO.diesel": {
-            "value": 2.037,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.071,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.SK.petrol": {
-            "value": 1.82,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.785,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.SK.diesel": {
-            "value": 1.97,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.979,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.SI.petrol": {
-            "value": 1.732,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.675,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.SI.diesel": {
-            "value": 1.909,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.941,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.ES.petrol": {
-            "value": 1.751,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.73,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.ES.diesel": {
-            "value": 1.888,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.898,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.SE.petrol": {
-            "value": 1.56,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 1.555,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "prices.country.SE.diesel": {
-            "value": 2.037,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 2.061,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "ranking.petrol_price": {
             "value": [
               "DK",
-              "FI",
               "NL",
+              "FI",
               "FR",
               "DE",
               "GR",
@@ -2286,147 +2295,147 @@
               "IT",
               "IE",
               "BE",
-              "LV",
-              "LT",
-              "EE",
               "RO",
+              "LT",
+              "LV",
+              "EE",
               "SK",
               "CZ",
+              "LU",
+              "HU",
               "HR",
               "AT",
-              "HU",
               "ES",
-              "LU",
-              "SI",
               "CY",
+              "SI",
               "BG",
               "SE",
               "PL",
               "MT"
             ],
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.petrol_price.reporting": {
             "value": 27,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "ranking.diesel_price": {
             "value": [
-              "FI",
               "DK",
               "NL",
+              "FI",
               "BE",
               "FR",
               "DE",
               "IT",
               "LT",
               "PT",
-              "IE",
               "AT",
               "GR",
+              "IE",
               "EE",
-              "LV",
               "LU",
+              "LV",
               "RO",
               "SE",
-              "CY",
               "HR",
-              "SK",
+              "CY",
               "CZ",
+              "SK",
               "HU",
               "SI",
-              "BG",
               "ES",
+              "BG",
               "PL",
               "MT"
             ],
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "count.diesel_price.reporting": {
             "value": 27,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.quote_status": {
-            "value": "current",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "last-available-close",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.quote_type": {
             "value": "intraday",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.provider": {
-            "value": "Yahoo Finance (BZZ26.NYM)",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "Yahoo Finance (BZF27.NYM)",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.session_date": {
-            "value": "2026-10-29",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "2026-11-05",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.session_date_label": {
-            "value": "29 October 2026",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "5 November 2026",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.observed_at": {
-            "value": "2026-10-29T20:37:06.000Z",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "2026-11-05T12:55:58.000Z",
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.price_usd": {
-            "value": 115.64,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 96.86,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.price_eur": {
-            "value": 103.43,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 86.26,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.fx_status": {
             "value": "observed",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.change_usd": {
-            "value": 0.32,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 0,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "brent.change_pct": {
-            "value": 0.28,
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": 0,
+            "snapshot_id": "approved:e8daf66da02f9781"
           },
           "trend.brent_verb": {
-            "value": "rose",
-            "snapshot_id": "approved:1423ed1e0193172b"
+            "value": "was unchanged",
+            "snapshot_id": "approved:e8daf66da02f9781"
           }
         },
         "sources": {
           "stocks": {
-            "observedAt": "2026-07-01T00:00:00Z",
+            "observedAt": "2026-08-01T00:00:00Z",
             "cadence": "monthly",
             "maxAgeHours": 4416,
             "basis": "observation period (dataPeriod) — the first instant of the month the figures describe; NOT a publication date",
             "note": "stale once the observation month lags the present by more than 5 calendar months (lib/data-contract.ts FRESHNESS.stocks); Eurostat's release date is not in the payload and is not used"
           },
           "prices": {
-            "observedAt": "2026-10-26T00:00:00Z",
+            "observedAt": "2026-11-02T00:00:00Z",
             "cadence": "weekly",
             "maxAgeHours": 240,
             "basis": "bulletinDate — the EC Weekly Oil Bulletin's reference date for the week (bulletinDateSource: excel-serial); NOT its publication date",
             "note": "stale after 10 days (FRESHNESS.prices)"
           },
           "brent": {
-            "observedAt": "2026-10-29T20:37:06.000Z",
+            "observedAt": "2026-11-05T12:55:58.000Z",
             "cadence": "daily",
             "maxAgeHours": 96,
             "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
-            "note": "stale after 4 days (FRESHNESS.brent); quoteStatus current, provider Yahoo Finance (BZZ26.NYM)"
+            "note": "stale after 4 days (FRESHNESS.brent); quoteStatus last-available-close, provider Yahoo Finance (BZF27.NYM)"
           }
         }
       },
-      "generatedAt": "2026-10-30T08:51:48.497Z",
+      "generatedAt": "2026-11-06T08:13:17.510Z",
       "model": "claude-sonnet-4-6"
     }
   },
   "publication": {
-    "id": "0c20340d3d2e6d9c@2026-10-30T12:10:50.451Z",
-    "builtAt": "2026-10-30T12:10:50.451Z",
-    "inputHash": "0c20340d3d2e6d9c",
+    "id": "e8daf66da02f9781@2026-11-06T08:57:49.931Z",
+    "builtAt": "2026-11-06T08:57:49.931Z",
+    "inputHash": "e8daf66da02f9781",
     "bundles": [
       "live",
       "snapshot",
