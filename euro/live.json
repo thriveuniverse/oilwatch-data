@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-06T22:30:54.432Z",
+  "builtAt": "2026-11-07T11:43:46.598Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-11-06T22:30:54.432Z",
-      "inputHash": "d5e2d1305b99db41",
+      "builtAt": "2026-11-07T11:43:46.598Z",
+      "inputHash": "6c71b5360a86fa0d",
       "effectiveVintage": "2026-08",
       "factCount": 413,
       "sources": {
@@ -611,24 +611,24 @@
         ],
         "count.diesel_price.reporting": 27,
         "brent.quote_status": "current",
-        "brent.quote_type": "intraday",
+        "brent.quote_type": "settled",
         "brent.provider": "Yahoo Finance (BZF27.NYM)",
         "brent.session_date": "2026-11-06",
         "brent.session_date_label": "6 November 2026",
         "brent.observed_at": "2026-11-06T21:59:44.000Z",
-        "brent.price_usd": 97.76,
-        "brent.price_eur": 87.73,
+        "brent.price_usd": 98.32,
+        "brent.price_eur": 87.56,
         "brent.fx_status": "observed",
-        "brent.change_usd": -0.53,
-        "brent.change_pct": -0.54,
-        "trend.brent_verb": "fell"
+        "brent.change_usd": 0.03,
+        "brent.change_pct": 0.03,
+        "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "d5e2d1305b99db41@2026-11-06T22:30:54.432Z",
-    "builtAt": "2026-11-06T22:30:54.432Z",
-    "inputHash": "d5e2d1305b99db41",
+    "id": "6c71b5360a86fa0d@2026-11-07T11:43:46.598Z",
+    "builtAt": "2026-11-07T11:43:46.598Z",
+    "inputHash": "6c71b5360a86fa0d",
     "bundles": [
       "live",
       "snapshot",

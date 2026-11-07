@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-06T22:30:54.432Z",
+  "builtAt": "2026-11-07T11:43:46.598Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-06T22:22:28.327Z",
+      "lastUpdated": "2026-11-07T11:40:05.845Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1954,7 +1954,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-06T22:22:34.631Z",
+      "lastUpdated": "2026-11-07T11:40:10.258Z",
       "bulletinDate": "2026-11-02",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-02)",
@@ -2182,21 +2182,21 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-11-06T22:22:35.829Z",
-      "fetchedAt": "2026-11-06T22:22:35.829Z",
+      "lastUpdated": "2026-11-07T11:40:11.475Z",
+      "fetchedAt": "2026-11-07T11:40:11.475Z",
       "observedAt": "2026-11-06T21:59:44.000Z",
       "sessionDate": "2026-11-06",
-      "quoteType": "intraday",
+      "quoteType": "settled",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZF27.NYM)",
-      "priceUsd": 97.76,
-      "priceEur": 87.73,
-      "eurUsd": 1.1143,
+      "priceUsd": 98.32,
+      "priceEur": 87.56,
+      "eurUsd": 1.1228,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-11-06T00:00:00.000Z",
-      "changeUsd": -0.53,
-      "changePct": -0.54,
+      "changeUsd": 0.03,
+      "changePct": 0.03,
       "changeAgainst": "2026-11-05",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZF27.NYM)",
@@ -2207,9 +2207,9 @@
     }
   },
   "publication": {
-    "id": "d5e2d1305b99db41@2026-11-06T22:30:54.432Z",
-    "builtAt": "2026-11-06T22:30:54.432Z",
-    "inputHash": "d5e2d1305b99db41",
+    "id": "6c71b5360a86fa0d@2026-11-07T11:43:46.598Z",
+    "builtAt": "2026-11-07T11:43:46.598Z",
+    "inputHash": "6c71b5360a86fa0d",
     "bundles": [
       "live",
       "snapshot",
