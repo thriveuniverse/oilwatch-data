@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-08T11:56:42.717Z",
+  "builtAt": "2026-11-08T21:24:20.636Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-08T11:52:45.934Z",
+      "lastUpdated": "2026-11-08T21:21:24.271Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1954,7 +1954,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-08T11:52:50.823Z",
+      "lastUpdated": "2026-11-08T21:21:28.650Z",
       "bulletinDate": "2026-11-02",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-02)",
@@ -2183,7 +2183,7 @@
     },
     "brent": {
       "lastUpdated": "2026-11-07T21:05:02.355Z",
-      "fetchedAt": "2026-11-08T11:52:51.966Z",
+      "fetchedAt": "2026-11-08T21:21:29.753Z",
       "observedAt": "2026-11-06T21:59:44.000Z",
       "sessionDate": "2026-11-06",
       "quoteType": "settled",
@@ -2208,8 +2208,8 @@
     }
   },
   "publication": {
-    "id": "6c71b5360a86fa0d@2026-11-08T11:56:42.717Z",
-    "builtAt": "2026-11-08T11:56:42.717Z",
+    "id": "6c71b5360a86fa0d@2026-11-08T21:24:20.636Z",
+    "builtAt": "2026-11-08T21:24:20.636Z",
     "inputHash": "6c71b5360a86fa0d",
     "bundles": [
       "live",
