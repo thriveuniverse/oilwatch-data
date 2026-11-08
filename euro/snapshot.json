@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-07T21:07:43.894Z",
+  "builtAt": "2026-11-08T11:56:42.717Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-07T21:04:57.755Z",
+      "lastUpdated": "2026-11-08T11:52:45.934Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1954,7 +1954,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-07T21:05:01.508Z",
+      "lastUpdated": "2026-11-08T11:52:50.823Z",
       "bulletinDate": "2026-11-02",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-02)",
@@ -2183,11 +2183,11 @@
     },
     "brent": {
       "lastUpdated": "2026-11-07T21:05:02.355Z",
-      "fetchedAt": "2026-11-07T21:05:02.355Z",
+      "fetchedAt": "2026-11-08T11:52:51.966Z",
       "observedAt": "2026-11-06T21:59:44.000Z",
       "sessionDate": "2026-11-06",
       "quoteType": "settled",
-      "quoteStatus": "current",
+      "quoteStatus": "last-available-close",
       "provider": "Yahoo Finance (BZF27.NYM)",
       "priceUsd": 98.32,
       "priceEur": 87.56,
@@ -2203,12 +2203,13 @@
       "contract": "BZF27.NYM",
       "contractLabel": "January 2027",
       "contractExpiry": "2026-11-30",
-      "rejectedQuotes": []
+      "rejectedQuotes": [],
+      "staleReason": "Yahoo Finance (BZF27.NYM) returned the 2026-11-06 session while the current session is 2026-11-08 — that is a previous close, not a current quote"
     }
   },
   "publication": {
-    "id": "6c71b5360a86fa0d@2026-11-07T21:07:43.894Z",
-    "builtAt": "2026-11-07T21:07:43.894Z",
+    "id": "6c71b5360a86fa0d@2026-11-08T11:56:42.717Z",
+    "builtAt": "2026-11-08T11:56:42.717Z",
     "inputHash": "6c71b5360a86fa0d",
     "bundles": [
       "live",
