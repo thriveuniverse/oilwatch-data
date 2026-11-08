@@ -1,10 +1,10 @@
 {
   "bundle": "market-history-live",
   "revalidate": 3600,
-  "builtAt": "2026-11-08T11:52:19.493Z",
+  "builtAt": "2026-11-08T21:23:21.221Z",
   "resources": {
     "bunker-history": {
-      "lastUpdated": "2026-11-08T11:51:05.743Z",
+      "lastUpdated": "2026-11-08T21:22:11.834Z",
       "entries": [
         {
           "date": "2026-04-17",
