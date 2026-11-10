@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-11-10T13:28:39.676Z",
+  "builtAt": "2026-11-10T22:34:40.407Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-11-10T13:24:43.711Z",
+      "lastUpdated": "2026-11-10T22:31:05.937Z",
       "periods": [
         "2025-04",
         "2025-05",
@@ -248,9 +248,9 @@
             },
             {
               "period": "2026-09",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 51.7,
+              "dieselDays": 96.5,
+              "jetDays": 84.2
             }
           ]
         },
@@ -1047,7 +1047,7 @@
             {
               "period": "2026-09",
               "petrolDays": 109.9,
-              "dieselDays": 224.6,
+              "dieselDays": 223.7,
               "jetDays": 37.4
             }
           ]
@@ -3211,7 +3211,7 @@
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-11-10T13:24:48.496Z",
+      "lastUpdated": "2026-11-10T22:31:10.089Z",
       "entries": [
         {
           "date": "2025-06-09",
@@ -5073,9 +5073,9 @@
     }
   },
   "publication": {
-    "id": "ce9d37e1e1919ddc@2026-11-10T13:28:39.676Z",
-    "builtAt": "2026-11-10T13:28:39.676Z",
-    "inputHash": "ce9d37e1e1919ddc",
+    "id": "c33e5deae7a554c1@2026-11-10T22:34:40.407Z",
+    "builtAt": "2026-11-10T22:34:40.407Z",
+    "inputHash": "c33e5deae7a554c1",
     "bundles": [
       "live",
       "snapshot",
