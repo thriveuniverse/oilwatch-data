@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-09T13:53:17.958Z",
+  "builtAt": "2026-11-10T00:56:10.281Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-09T13:48:17.534Z",
+      "lastUpdated": "2026-11-10T00:51:11.562Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1954,7 +1954,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-09T13:48:23.663Z",
+      "lastUpdated": "2026-11-10T00:51:17.356Z",
       "bulletinDate": "2026-11-02",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-02)",
@@ -2183,35 +2183,36 @@
     },
     "brent": {
       "lastUpdated": "2026-11-09T13:48:24.990Z",
-      "fetchedAt": "2026-11-09T13:48:24.990Z",
-      "observedAt": "2026-11-09T13:38:23.000Z",
-      "sessionDate": "2026-11-09",
-      "quoteType": "intraday",
-      "quoteStatus": "current",
-      "provider": "Yahoo Finance (BZF27.NYM)",
-      "priceUsd": 94.24,
-      "priceEur": 84.17,
+      "fetchedAt": "2026-11-10T00:51:18.969Z",
+      "observedAt": null,
+      "sessionDate": "2026-11-06",
+      "quoteType": "settled",
+      "quoteStatus": "last-available-close",
+      "provider": "brent-history.json (stored settled close)",
+      "priceUsd": 98.32,
+      "priceEur": 87.81,
       "eurUsd": 1.1197,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-11-09T13:47:31.000Z",
-      "changeUsd": -4.08,
-      "changePct": -4.15,
-      "changeAgainst": "2026-11-06",
+      "changeUsd": 0.03,
+      "changePct": 0.03,
+      "changeAgainst": "2026-11-05",
       "rolledFrom": null,
-      "dataSource": "Yahoo Finance (BZF27.NYM)",
+      "dataSource": "brent-history.json (stored settled close)",
       "contract": "BZF27.NYM",
       "contractLabel": "January 2027",
       "contractExpiry": "2026-11-30",
       "rejectedQuotes": [
         "-4.1% move on Yahoo Finance (BZF27.NYM) confirmed by WTI"
-      ]
+      ],
+      "staleReason": "Yahoo Finance (BZF27.NYM) returned a 2026-11-10 session ahead of the current 2026-11-09; the retained observation ($94.24) was itself -4.1% from the last settled close, so it was discarded in favour of the 2026-11-06 settled close, changed +$0.03 against 2026-11-05"
     }
   },
   "publication": {
-    "id": "4d3b1f81f3a93823@2026-11-09T13:53:17.958Z",
-    "builtAt": "2026-11-09T13:53:17.958Z",
-    "inputHash": "4d3b1f81f3a93823",
+    "id": "6c71b5360a86fa0d@2026-11-10T00:56:10.281Z",
+    "builtAt": "2026-11-10T00:56:10.281Z",
+    "inputHash": "6c71b5360a86fa0d",
     "bundles": [
       "live",
       "snapshot",
