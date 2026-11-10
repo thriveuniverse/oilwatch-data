@@ -1,10 +1,10 @@
 {
   "bundle": "market-history-live",
   "revalidate": 3600,
-  "builtAt": "2026-11-10T13:25:30.702Z",
+  "builtAt": "2026-11-10T21:51:38.305Z",
   "resources": {
     "bunker-history": {
-      "lastUpdated": "2026-11-10T13:24:01.970Z",
+      "lastUpdated": "2026-11-10T21:50:07.687Z",
       "entries": [
         {
           "date": "2026-04-17",
@@ -3256,18 +3256,18 @@
         },
         {
           "date": "2026-11-10",
-          "brentBasis": 89.89,
+          "brentBasis": 92.11,
           "rotterdam": {
-            "vlsfo": 594,
-            "mgo": 714
-          },
-          "fujairah": {
             "vlsfo": 609,
             "mgo": 729
           },
+          "fujairah": {
+            "vlsfo": 624,
+            "mgo": 744
+          },
           "singapore": {
-            "vlsfo": 602,
-            "mgo": 724
+            "vlsfo": 617,
+            "mgo": 739
           }
         }
       ],
