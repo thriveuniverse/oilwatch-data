@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-11T12:42:12.234Z",
+  "builtAt": "2026-11-11T23:46:43.866Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-11T12:38:45.405Z",
+      "lastUpdated": "2026-11-11T23:42:20.535Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1954,32 +1954,32 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-11T12:38:48.932Z",
-      "bulletinDate": "2026-11-02",
+      "lastUpdated": "2026-11-11T23:42:26.587Z",
+      "bulletinDate": "2026-11-09",
       "bulletinDateSource": "excel-serial",
-      "dataSource": "EC Weekly Oil Bulletin (2026-11-02)",
+      "dataSource": "EC Weekly Oil Bulletin (2026-11-09)",
       "countries": [
         {
           "countryCode": "AT",
           "countryName": "Austria",
-          "petrolPrice": 1.747,
-          "dieselPrice": 2.148,
+          "petrolPrice": 1.67,
+          "dieselPrice": 2.087,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "BE",
           "countryName": "Belgium",
-          "petrolPrice": 1.914,
-          "dieselPrice": 2.398,
+          "petrolPrice": 1.844,
+          "dieselPrice": 2.357,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "BG",
           "countryName": "Bulgaria",
-          "petrolPrice": 1.605,
-          "dieselPrice": 1.893,
+          "petrolPrice": 1.582,
+          "dieselPrice": 1.896,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
@@ -1987,119 +1987,119 @@
           "countryCode": "HR",
           "countryName": "Croatia",
           "petrolPrice": 1.749,
-          "dieselPrice": 2.015,
+          "dieselPrice": 2.025,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "CY",
           "countryName": "Cyprus",
-          "petrolPrice": 1.716,
-          "dieselPrice": 2.002,
+          "petrolPrice": 1.699,
+          "dieselPrice": 2,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "CZ",
           "countryName": "Czechia",
-          "petrolPrice": 1.765,
-          "dieselPrice": 1.981,
+          "petrolPrice": 1.653,
+          "dieselPrice": 1.899,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "DK",
           "countryName": "Denmark",
-          "petrolPrice": 2.498,
-          "dieselPrice": 2.529,
+          "petrolPrice": 2.391,
+          "dieselPrice": 2.435,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "EE",
           "countryName": "Estonia",
-          "petrolPrice": 1.863,
-          "dieselPrice": 2.113,
+          "petrolPrice": 1.805,
+          "dieselPrice": 2.084,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "FI",
           "countryName": "Finland",
-          "petrolPrice": 2.205,
-          "dieselPrice": 2.433,
+          "petrolPrice": 2.144,
+          "dieselPrice": 2.485,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "FR",
           "countryName": "France",
-          "petrolPrice": 2.158,
-          "dieselPrice": 2.371,
+          "petrolPrice": 2.088,
+          "dieselPrice": 2.178,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "DE",
           "countryName": "Germany",
-          "petrolPrice": 2.128,
-          "dieselPrice": 2.282,
+          "petrolPrice": 2.067,
+          "dieselPrice": 2.253,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "GR",
           "countryName": "Greece",
-          "petrolPrice": 2.125,
-          "dieselPrice": 2.139,
+          "petrolPrice": 2.042,
+          "dieselPrice": 2.099,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "HU",
           "countryName": "Hungary",
-          "petrolPrice": 1.75,
-          "dieselPrice": 1.978,
+          "petrolPrice": 1.673,
+          "dieselPrice": 1.985,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "IE",
           "countryName": "Ireland",
-          "petrolPrice": 1.966,
-          "dieselPrice": 2.122,
+          "petrolPrice": 1.958,
+          "dieselPrice": 2.119,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "IT",
           "countryName": "Italy",
-          "petrolPrice": 2.001,
-          "dieselPrice": 2.238,
+          "petrolPrice": 1.995,
+          "dieselPrice": 2.218,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "LV",
           "countryName": "Latvia",
-          "petrolPrice": 1.868,
-          "dieselPrice": 2.099,
+          "petrolPrice": 1.846,
+          "dieselPrice": 2.083,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "LT",
           "countryName": "Lithuania",
-          "petrolPrice": 1.87,
-          "dieselPrice": 2.223,
+          "petrolPrice": 1.843,
+          "dieselPrice": 2.225,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "LU",
           "countryName": "Luxembourg",
-          "petrolPrice": 1.759,
-          "dieselPrice": 2.11,
+          "petrolPrice": 1.627,
+          "dieselPrice": 1.987,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
@@ -2114,48 +2114,48 @@
         {
           "countryCode": "NL",
           "countryName": "Netherlands",
-          "petrolPrice": 2.284,
-          "dieselPrice": 2.468,
+          "petrolPrice": 2.196,
+          "dieselPrice": 2.361,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "PL",
           "countryName": "Poland",
-          "petrolPrice": 1.456,
-          "dieselPrice": 1.812,
+          "petrolPrice": 1.384,
+          "dieselPrice": 1.753,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "PT",
           "countryName": "Portugal",
-          "petrolPrice": 2.006,
-          "dieselPrice": 2.205,
+          "petrolPrice": 1.922,
+          "dieselPrice": 2.135,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "RO",
           "countryName": "Romania",
-          "petrolPrice": 1.881,
-          "dieselPrice": 2.071,
+          "petrolPrice": 1.844,
+          "dieselPrice": 2.033,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "SK",
           "countryName": "Slovakia",
-          "petrolPrice": 1.785,
-          "dieselPrice": 1.979,
+          "petrolPrice": 1.691,
+          "dieselPrice": 1.965,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
         {
           "countryCode": "SI",
           "countryName": "Slovenia",
-          "petrolPrice": 1.675,
-          "dieselPrice": 1.941,
+          "petrolPrice": 1.634,
+          "dieselPrice": 1.95,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
@@ -2170,33 +2170,33 @@
         {
           "countryCode": "SE",
           "countryName": "Sweden",
-          "petrolPrice": 1.555,
-          "dieselPrice": 2.061,
+          "petrolPrice": 1.437,
+          "dieselPrice": 1.954,
           "petrolChangePct": null,
           "dieselChangePct": null
         }
       ],
       "euAverage": {
-        "petrolPrice": 1.867,
-        "dieselPrice": 2.101
+        "petrolPrice": 1.809,
+        "dieselPrice": 2.062
       }
     },
     "brent": {
-      "lastUpdated": "2026-11-11T12:38:49.964Z",
-      "fetchedAt": "2026-11-11T12:38:49.964Z",
-      "observedAt": "2026-11-11T12:28:28.000Z",
+      "lastUpdated": "2026-11-11T23:42:27.762Z",
+      "fetchedAt": "2026-11-11T23:42:27.762Z",
+      "observedAt": "2026-11-11T23:24:52.000Z",
       "sessionDate": "2026-11-11",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZF27.NYM)",
-      "priceUsd": 93.29,
-      "priceEur": 83.76,
-      "eurUsd": 1.1138,
+      "priceUsd": 92.43,
+      "priceEur": 83.29,
+      "eurUsd": 1.1098,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-11-11T00:00:00.000Z",
-      "changeUsd": 1.8,
-      "changePct": 1.97,
+      "changeUsd": 0.94,
+      "changePct": 1.03,
       "changeAgainst": "2026-11-10",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZF27.NYM)",
@@ -2207,9 +2207,9 @@
     }
   },
   "publication": {
-    "id": "1ee68404eefeca4a@2026-11-11T12:42:12.234Z",
-    "builtAt": "2026-11-11T12:42:12.234Z",
-    "inputHash": "1ee68404eefeca4a",
+    "id": "0b92d3f97aa28889@2026-11-11T23:46:43.866Z",
+    "builtAt": "2026-11-11T23:46:43.866Z",
+    "inputHash": "0b92d3f97aa28889",
     "bundles": [
       "live",
       "snapshot",
