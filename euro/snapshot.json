@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-12T22:55:04.571Z",
+  "builtAt": "2026-11-13T13:04:04.512Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-12T22:51:21.199Z",
+      "lastUpdated": "2026-11-13T13:00:12.885Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1954,7 +1954,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-12T22:51:26.933Z",
+      "lastUpdated": "2026-11-13T13:00:17.883Z",
       "bulletinDate": "2026-11-09",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-09)",
@@ -2182,22 +2182,22 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-11-12T22:51:27.879Z",
-      "fetchedAt": "2026-11-12T22:51:27.879Z",
-      "observedAt": "2026-11-12T21:59:56.000Z",
-      "sessionDate": "2026-11-12",
+      "lastUpdated": "2026-11-13T13:00:19.502Z",
+      "fetchedAt": "2026-11-13T13:00:19.502Z",
+      "observedAt": "2026-11-13T12:50:11.000Z",
+      "sessionDate": "2026-11-13",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZF27.NYM)",
-      "priceUsd": 95.77,
-      "priceEur": 86.6,
-      "eurUsd": 1.1058,
+      "priceUsd": 96.1,
+      "priceEur": 86.94,
+      "eurUsd": 1.1053,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
-      "fxObservedAt": "2026-11-12T00:00:00.000Z",
-      "changeUsd": 3.01,
-      "changePct": 3.24,
-      "changeAgainst": "2026-11-11",
+      "fxObservedAt": "2026-11-13T00:00:00.000Z",
+      "changeUsd": 0.28,
+      "changePct": 0.29,
+      "changeAgainst": "2026-11-12",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZF27.NYM)",
       "contract": "BZF27.NYM",
@@ -2207,9 +2207,9 @@
     }
   },
   "publication": {
-    "id": "b4f32170241fe7b3@2026-11-12T22:55:04.571Z",
-    "builtAt": "2026-11-12T22:55:04.571Z",
-    "inputHash": "b4f32170241fe7b3",
+    "id": "03a16fb51b787e7e@2026-11-13T13:04:04.512Z",
+    "builtAt": "2026-11-13T13:04:04.512Z",
+    "inputHash": "03a16fb51b787e7e",
     "bundles": [
       "live",
       "snapshot",
