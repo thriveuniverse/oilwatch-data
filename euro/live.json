@@ -2,10 +2,10 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-16T13:40:04.021Z",
+  "builtAt": "2026-11-17T01:11:39.987Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-11-16T13:40:04.021Z",
+      "builtAt": "2026-11-17T01:11:39.987Z",
       "inputHash": "f59d68bb01881a5a",
       "effectiveVintage": "2026-08",
       "factCount": 413,
@@ -29,7 +29,7 @@
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
-          "note": "stale after 4 days (FRESHNESS.brent); quoteStatus current, provider Yahoo Finance (BZF27.NYM)"
+          "note": "stale after 4 days (FRESHNESS.brent); quoteStatus last-available-close, provider Yahoo Finance (BZF27.NYM)"
         }
       },
       "facts": {
@@ -610,7 +610,7 @@
           "MT"
         ],
         "count.diesel_price.reporting": 27,
-        "brent.quote_status": "current",
+        "brent.quote_status": "last-available-close",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZF27.NYM)",
         "brent.session_date": "2026-11-16",
@@ -619,15 +619,15 @@
         "brent.price_usd": 94.52,
         "brent.price_eur": 85.8,
         "brent.fx_status": "observed",
-        "brent.change_usd": -1.32,
-        "brent.change_pct": -1.38,
-        "trend.brent_verb": "fell"
+        "brent.change_usd": 0,
+        "brent.change_pct": 0,
+        "trend.brent_verb": "was unchanged"
       }
     }
   },
   "publication": {
-    "id": "f59d68bb01881a5a@2026-11-16T13:40:04.021Z",
-    "builtAt": "2026-11-16T13:40:04.021Z",
+    "id": "f59d68bb01881a5a@2026-11-17T01:11:39.987Z",
+    "builtAt": "2026-11-17T01:11:39.987Z",
     "inputHash": "f59d68bb01881a5a",
     "bundles": [
       "live",
