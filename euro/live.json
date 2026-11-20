@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-20T12:43:22.179Z",
+  "builtAt": "2026-11-20T14:02:09.728Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-11-20T12:43:22.179Z",
-      "inputHash": "e239c5b257e292c9",
+      "builtAt": "2026-11-20T14:02:09.728Z",
+      "inputHash": "1e07f6ce1f240242",
       "effectiveVintage": "2026-08",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-11-19T23:37:00.000Z",
+          "observedAt": "2026-11-20T13:47:02.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -613,27 +613,26 @@
         "brent.quote_status": "current",
         "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZF27.NYM)",
-        "brent.session_date": "2026-11-19",
-        "brent.session_date_label": "19 November 2026",
-        "brent.observed_at": "2026-11-19T23:37:00.000Z",
-        "brent.price_usd": 92.4,
-        "brent.price_eur": 84.2,
+        "brent.session_date": "2026-11-20",
+        "brent.session_date_label": "20 November 2026",
+        "brent.observed_at": "2026-11-20T13:47:02.000Z",
+        "brent.price_usd": 91.44,
+        "brent.price_eur": 83.16,
         "brent.fx_status": "observed",
-        "brent.change_usd": 0.45,
-        "brent.change_pct": 0.49,
-        "trend.brent_verb": "rose"
+        "brent.change_usd": -0.54,
+        "brent.change_pct": -0.59,
+        "trend.brent_verb": "fell"
       }
     }
   },
   "publication": {
-    "id": "e239c5b257e292c9@2026-11-20T12:43:22.179Z",
-    "builtAt": "2026-11-20T12:43:22.179Z",
-    "inputHash": "e239c5b257e292c9",
+    "id": "1e07f6ce1f240242@2026-11-20T14:02:09.728Z",
+    "builtAt": "2026-11-20T14:02:09.728Z",
+    "inputHash": "1e07f6ce1f240242",
     "bundles": [
       "live",
       "snapshot",
-      "history",
-      "analysis"
+      "history"
     ]
   }
 }

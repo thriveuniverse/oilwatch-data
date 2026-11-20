@@ -1,30 +1,29 @@
 {
   "prefix": "euro",
   "publication": {
-    "id": "e239c5b257e292c9@2026-11-20T12:43:22.179Z",
-    "builtAt": "2026-11-20T12:43:22.179Z",
-    "inputHash": "e239c5b257e292c9",
+    "id": "1e07f6ce1f240242@2026-11-20T14:02:09.728Z",
+    "builtAt": "2026-11-20T14:02:09.728Z",
+    "inputHash": "1e07f6ce1f240242",
     "bundles": [
       "live",
       "snapshot",
-      "history",
-      "analysis"
+      "history"
     ]
   },
   "bundles": {
     "live": {
-      "contentHash": "6a55d8f797f2789123990077a1e8a12b59d38cbbeddc6aac4481a58a88afb1a7",
-      "fileSha256": "1eacf3d8d910c05dcdee1369cf81bb10dd7445c1bec07d5c7acd96c69129ca93",
-      "bytes": 23434,
+      "contentHash": "1a9e5b72f2a34ecef8afdbe61ef20a89ec659066ed37930a781fc2709fff875f",
+      "fileSha256": "8c0acb283a6d1b9492c735c89a8e2063f9203249bb6bd44fff0c6804cb8fd14b",
+      "bytes": 23420,
       "resources": [
         "analysis-facts"
       ],
       "revalidate": 900
     },
     "snapshot": {
-      "contentHash": "8e22d3ab8ef16a60f2e54497bebf99c2ee80f28a0878afff57e39190fe8092cc",
-      "fileSha256": "14d8a00cb0b41c107fd1867390270ea3e9daa226295d483d38dc1897848be1fa",
-      "bytes": 78197,
+      "contentHash": "8f3f5fe5008ac56ad61f0895a4b4b05a009bcea0a6d395fa3ac1a0be5f8aa753",
+      "fileSha256": "e16cbfa2fac367386d962ed12e2a8d0fdd07d3418d149f0fe43830cecc74eaf9",
+      "bytes": 78183,
       "resources": [
         "stocks",
         "prices",
@@ -33,23 +32,14 @@
       "revalidate": 900
     },
     "history": {
-      "contentHash": "1d43589fe0d580124f7cf445987be9a4241b9a49125f592cc29adad9434f5589",
-      "fileSha256": "097557efefa3fff7b842c4d96b31dd585ef88734026f25dbd95d7bc068c36a71",
-      "bytes": 126775,
+      "contentHash": "058fc5a909f637e17acf4882f184b24c32b8520ba13e5a7223f5f9ec5401523b",
+      "fileSha256": "a0adb60eca55922d0209a745c01d048d739fb17de01c3222e43ecd86d165d790",
+      "bytes": 126793,
       "resources": [
         "history",
         "brent-history"
       ],
       "revalidate": 86400
-    },
-    "analysis": {
-      "contentHash": "7d7d23da7b9a401db5d011bbc8d7f24eb40e4e4dbac1d6fb50c7d71a53fbacca",
-      "fileSha256": "7ef5c37cc9e44571ef4fc26c337278e1a5b2482494c40e4ae139eae59bbe3c50",
-      "bytes": 82153,
-      "resources": [
-        "analysis.structured"
-      ],
-      "revalidate": 900
     }
   }
 }
