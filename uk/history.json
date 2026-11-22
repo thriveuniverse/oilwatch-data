@@ -1,7 +1,7 @@
 {
   "bundle": "history",
   "revalidate": 86400,
-  "builtAt": "2026-11-22T17:15:00.356Z",
+  "builtAt": "2026-11-22T22:49:03.027Z",
   "resources": {
     "brent-history": {
       "lastUpdated": "2026-11-21T16:50:18.039Z",
@@ -1877,7 +1877,7 @@
       "sourceUrl": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=D",
       "unit": "USD per barrel",
       "frequency": "daily",
-      "lastUpdated": "2026-11-22T17:13:54.668Z",
+      "lastUpdated": "2026-11-22T22:47:44.718Z",
       "firstDate": "1987-05-20",
       "lastDate": "2026-11-17",
       "count": 9132,
