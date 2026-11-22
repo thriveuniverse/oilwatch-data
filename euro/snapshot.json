@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-21T22:25:11.011Z",
+  "builtAt": "2026-11-22T13:19:20.443Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-21T22:21:46.426Z",
+      "lastUpdated": "2026-11-22T13:15:42.443Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1954,7 +1954,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-21T22:21:50.696Z",
+      "lastUpdated": "2026-11-22T13:15:47.980Z",
       "bulletinDate": "2026-11-16",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-16)",
@@ -2183,7 +2183,7 @@
     },
     "brent": {
       "lastUpdated": "2026-11-21T16:52:08.628Z",
-      "fetchedAt": "2026-11-21T22:21:51.666Z",
+      "fetchedAt": "2026-11-22T13:15:48.844Z",
       "observedAt": "2026-11-20T21:59:30.000Z",
       "sessionDate": "2026-11-20",
       "quoteType": "settled",
@@ -2204,12 +2204,12 @@
       "contractLabel": "January 2027",
       "contractExpiry": "2026-11-30",
       "rejectedQuotes": [],
-      "staleReason": "Yahoo Finance (BZF27.NYM) quote is 24.4h old, beyond the 24h limit"
+      "staleReason": "Yahoo Finance (BZF27.NYM) returned the 2026-11-20 session while the current session is 2026-11-22 — that is a previous close, not a current quote"
     }
   },
   "publication": {
-    "id": "684a34b7a01eda83@2026-11-21T22:25:11.011Z",
-    "builtAt": "2026-11-21T22:25:11.011Z",
+    "id": "684a34b7a01eda83@2026-11-22T13:19:20.443Z",
+    "builtAt": "2026-11-22T13:19:20.443Z",
     "inputHash": "684a34b7a01eda83",
     "bundles": [
       "live",
