@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-24T03:35:48.770Z",
+  "builtAt": "2026-11-24T15:50:00.207Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-11-24T03:35:48.770Z",
-      "inputHash": "30b5140cfb377918",
+      "builtAt": "2026-11-24T15:50:00.207Z",
+      "inputHash": "0cf6c9cfcd4c8093",
       "effectiveVintage": "2026-08",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-11-23T00:00:00Z",
+          "observedAt": "2026-11-24T15:34:41.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -611,24 +611,24 @@
         ],
         "count.diesel_price.reporting": 27,
         "brent.quote_status": "current",
-        "brent.quote_type": "settled",
+        "brent.quote_type": "intraday",
         "brent.provider": "Yahoo Finance (BZF27.NYM)",
-        "brent.session_date": "2026-11-23",
-        "brent.session_date_label": "23 November 2026",
-        "brent.observed_at": "2026-11-23T00:00:00Z",
-        "brent.price_usd": 89.37,
-        "brent.price_eur": 81.89,
+        "brent.session_date": "2026-11-24",
+        "brent.session_date_label": "24 November 2026",
+        "brent.observed_at": "2026-11-24T15:34:41.000Z",
+        "brent.price_usd": 90.03,
+        "brent.price_eur": 82.12,
         "brent.fx_status": "observed",
-        "brent.change_usd": -3.2,
-        "brent.change_pct": -3.46,
-        "trend.brent_verb": "fell"
+        "brent.change_usd": 0.66,
+        "brent.change_pct": 0.74,
+        "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "30b5140cfb377918@2026-11-24T03:35:48.770Z",
-    "builtAt": "2026-11-24T03:35:48.770Z",
-    "inputHash": "30b5140cfb377918",
+    "id": "0cf6c9cfcd4c8093@2026-11-24T15:50:00.207Z",
+    "builtAt": "2026-11-24T15:50:00.207Z",
+    "inputHash": "0cf6c9cfcd4c8093",
     "bundles": [
       "live",
       "snapshot",
