@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-25T15:33:32.917Z",
+  "builtAt": "2026-11-25T19:31:06.363Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-11-25T15:33:32.917Z",
-      "inputHash": "6963da7d55f52e46",
+      "builtAt": "2026-11-25T19:31:06.363Z",
+      "inputHash": "8b5f4d76ffd62500",
       "effectiveVintage": "2026-08",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-11-25T15:18:59.000Z",
+          "observedAt": "2026-11-25T19:16:59.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -494,8 +494,8 @@
         "ranking.eu_unassessed": [],
         "prices.bulletin_date": "2026-11-23",
         "prices.bulletin_date_label": "23 November 2026",
-        "prices.eu.petrol": 1.712,
-        "prices.eu.diesel": 1.971,
+        "prices.eu.petrol": 1.71,
+        "prices.eu.diesel": 1.969,
         "prices.country.AT.petrol": 1.57,
         "prices.country.AT.diesel": 1.986,
         "prices.country.BE.petrol": 1.723,
@@ -534,8 +534,8 @@
         "prices.country.LU.diesel": 1.904,
         "prices.country.MT.petrol": 1.34,
         "prices.country.MT.diesel": 1.21,
-        "prices.country.NL.petrol": 2.149,
-        "prices.country.NL.diesel": 2.274,
+        "prices.country.NL.petrol": 2.104,
+        "prices.country.NL.diesel": 2.22,
         "prices.country.PL.petrol": 1.308,
         "prices.country.PL.diesel": 1.626,
         "prices.country.PT.petrol": 1.856,
@@ -615,20 +615,20 @@
         "brent.provider": "Yahoo Finance (BZF27.NYM)",
         "brent.session_date": "2026-11-25",
         "brent.session_date_label": "25 November 2026",
-        "brent.observed_at": "2026-11-25T15:18:59.000Z",
-        "brent.price_usd": 93.37,
-        "brent.price_eur": 85.33,
+        "brent.observed_at": "2026-11-25T19:16:59.000Z",
+        "brent.price_usd": 94.03,
+        "brent.price_eur": 85.57,
         "brent.fx_status": "observed",
-        "brent.change_usd": 1.97,
-        "brent.change_pct": 2.16,
+        "brent.change_usd": 2.63,
+        "brent.change_pct": 2.88,
         "trend.brent_verb": "rose"
       }
     }
   },
   "publication": {
-    "id": "6963da7d55f52e46@2026-11-25T15:33:32.917Z",
-    "builtAt": "2026-11-25T15:33:32.917Z",
-    "inputHash": "6963da7d55f52e46",
+    "id": "8b5f4d76ffd62500@2026-11-25T19:31:06.363Z",
+    "builtAt": "2026-11-25T19:31:06.363Z",
+    "inputHash": "8b5f4d76ffd62500",
     "bundles": [
       "live",
       "snapshot",

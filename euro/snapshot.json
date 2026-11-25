@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-25T15:33:32.917Z",
+  "builtAt": "2026-11-25T19:31:06.363Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-25T15:29:08.490Z",
+      "lastUpdated": "2026-11-25T19:27:11.827Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 26,
       "countriesTotal": 27,
@@ -1954,7 +1954,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-25T15:29:14.404Z",
+      "lastUpdated": "2026-11-25T19:27:18.075Z",
       "bulletinDate": "2026-11-23",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-23)",
@@ -2114,8 +2114,8 @@
         {
           "countryCode": "NL",
           "countryName": "Netherlands",
-          "petrolPrice": 2.149,
-          "dieselPrice": 2.274,
+          "petrolPrice": 2.104,
+          "dieselPrice": 2.22,
           "petrolChangePct": null,
           "dieselChangePct": null
         },
@@ -2177,26 +2177,26 @@
         }
       ],
       "euAverage": {
-        "petrolPrice": 1.712,
-        "dieselPrice": 1.971
+        "petrolPrice": 1.71,
+        "dieselPrice": 1.969
       }
     },
     "brent": {
-      "lastUpdated": "2026-11-25T15:29:15.594Z",
-      "fetchedAt": "2026-11-25T15:29:15.594Z",
-      "observedAt": "2026-11-25T15:18:59.000Z",
+      "lastUpdated": "2026-11-25T19:27:19.327Z",
+      "fetchedAt": "2026-11-25T19:27:19.327Z",
+      "observedAt": "2026-11-25T19:16:59.000Z",
       "sessionDate": "2026-11-25",
       "quoteType": "intraday",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZF27.NYM)",
-      "priceUsd": 93.37,
-      "priceEur": 85.33,
-      "eurUsd": 1.0942,
+      "priceUsd": 94.03,
+      "priceEur": 85.57,
+      "eurUsd": 1.0989,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-11-25T00:00:00.000Z",
-      "changeUsd": 1.97,
-      "changePct": 2.16,
+      "changeUsd": 2.63,
+      "changePct": 2.88,
       "changeAgainst": "2026-11-24",
       "rolledFrom": null,
       "dataSource": "Yahoo Finance (BZF27.NYM)",
@@ -2204,14 +2204,14 @@
       "contractLabel": "January 2027",
       "contractExpiry": "2026-11-30",
       "rejectedQuotes": [
-        "continuous BZ=F quoted $89.89 against BZF27.NYM $93.37 (3.7% apart) — BZ=F has rolled into February 2027; the named contract was published"
+        "continuous BZ=F quoted $90.23 against BZF27.NYM $94.03 (4.0% apart) — BZ=F has rolled into February 2027; the named contract was published"
       ]
     }
   },
   "publication": {
-    "id": "6963da7d55f52e46@2026-11-25T15:33:32.917Z",
-    "builtAt": "2026-11-25T15:33:32.917Z",
-    "inputHash": "6963da7d55f52e46",
+    "id": "8b5f4d76ffd62500@2026-11-25T19:31:06.363Z",
+    "builtAt": "2026-11-25T19:31:06.363Z",
+    "inputHash": "8b5f4d76ffd62500",
     "bundles": [
       "live",
       "snapshot",
