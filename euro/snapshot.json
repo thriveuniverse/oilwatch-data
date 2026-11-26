@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-26T15:05:02.650Z",
+  "builtAt": "2026-11-26T19:12:42.558Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-26T15:01:27.673Z",
+      "lastUpdated": "2026-11-26T19:09:56.195Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 27,
       "countriesTotal": 27,
@@ -1922,7 +1922,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-26T15:01:32.339Z",
+      "lastUpdated": "2026-11-26T19:10:00.169Z",
       "bulletinDate": "2026-11-23",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-23)",
@@ -2150,16 +2150,16 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-11-26T15:01:33.356Z",
-      "fetchedAt": "2026-11-26T15:01:33.356Z",
+      "lastUpdated": "2026-11-26T19:10:01.270Z",
+      "fetchedAt": "2026-11-26T19:10:01.270Z",
       "observedAt": null,
       "sessionDate": "2026-11-25",
       "quoteType": "settled",
       "quoteStatus": "current",
       "provider": "Yahoo Finance (BZF27.NYM)",
       "priceUsd": 94.61,
-      "priceEur": 86.14,
-      "eurUsd": 1.0983,
+      "priceEur": 86.22,
+      "eurUsd": 1.0973,
       "fxStatus": "observed",
       "fxSource": "Yahoo Finance (EURUSD=X)",
       "fxObservedAt": "2026-11-26T00:00:00.000Z",
@@ -2172,13 +2172,13 @@
       "contractLabel": "January 2027",
       "contractExpiry": "2026-11-30",
       "rejectedQuotes": [
-        "continuous BZ=F quoted $91.39 against BZF27.NYM $96.08 (4.9% apart) — BZ=F has rolled into February 2027; the named contract was published"
+        "continuous BZ=F quoted $91.66 against BZF27.NYM $96.12 (4.6% apart) — BZ=F has rolled into February 2027; the named contract was published"
       ]
     }
   },
   "publication": {
-    "id": "c4e0f498a4cf6590@2026-11-26T15:05:02.650Z",
-    "builtAt": "2026-11-26T15:05:02.650Z",
+    "id": "c4e0f498a4cf6590@2026-11-26T19:12:42.558Z",
+    "builtAt": "2026-11-26T19:12:42.558Z",
     "inputHash": "c4e0f498a4cf6590",
     "bundles": [
       "live",

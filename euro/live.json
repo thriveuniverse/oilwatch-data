@@ -2,10 +2,10 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-26T15:05:02.650Z",
+  "builtAt": "2026-11-26T19:12:42.558Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-11-26T15:05:02.650Z",
+      "builtAt": "2026-11-26T19:12:42.558Z",
       "inputHash": "c4e0f498a4cf6590",
       "effectiveVintage": "2026-08",
       "factCount": 413,
@@ -618,7 +618,7 @@
         "brent.session_date_label": "25 November 2026",
         "brent.observed_at": "2026-11-25T00:00:00Z",
         "brent.price_usd": 94.61,
-        "brent.price_eur": 86.14,
+        "brent.price_eur": 86.22,
         "brent.fx_status": "observed",
         "brent.change_usd": 3.21,
         "brent.change_pct": 3.51,
@@ -627,8 +627,8 @@
     }
   },
   "publication": {
-    "id": "c4e0f498a4cf6590@2026-11-26T15:05:02.650Z",
-    "builtAt": "2026-11-26T15:05:02.650Z",
+    "id": "c4e0f498a4cf6590@2026-11-26T19:12:42.558Z",
+    "builtAt": "2026-11-26T19:12:42.558Z",
     "inputHash": "c4e0f498a4cf6590",
     "bundles": [
       "live",
