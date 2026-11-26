@@ -2,7 +2,7 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-11-26T01:12:42.460Z",
+  "builtAt": "2026-11-26T10:42:44.182Z",
   "resources": {
     "history": {
       "lastUpdated": "2026-11-26T01:09:10.423Z",
@@ -5078,13 +5078,14 @@
     }
   },
   "publication": {
-    "id": "fa4fb92f4ff7bb9a@2026-11-26T01:12:42.460Z",
-    "builtAt": "2026-11-26T01:12:42.460Z",
+    "id": "fa4fb92f4ff7bb9a@2026-11-26T10:42:44.182Z",
+    "builtAt": "2026-11-26T10:42:44.182Z",
     "inputHash": "fa4fb92f4ff7bb9a",
     "bundles": [
       "live",
       "snapshot",
-      "history"
+      "history",
+      "analysis"
     ]
   }
 }
