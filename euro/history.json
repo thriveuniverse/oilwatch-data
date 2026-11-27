@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-11-27T12:08:27.847Z",
+  "builtAt": "2026-11-27T15:00:40.154Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-11-27T01:09:02.661Z",
+      "lastUpdated": "2026-11-27T14:56:27.408Z",
       "periods": [
         "2025-05",
         "2025-06",
@@ -1381,9 +1381,9 @@
             },
             {
               "period": "2026-09",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 71.5,
+              "dieselDays": 75.1,
+              "jetDays": 39
             },
             {
               "period": "2026-10",
@@ -2977,9 +2977,9 @@
             },
             {
               "period": "2026-09",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 72,
+              "dieselDays": 69.6,
+              "jetDays": 33
             },
             {
               "period": "2026-10",
@@ -3204,7 +3204,7 @@
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-11-26T19:10:01.279Z",
+      "lastUpdated": "2026-11-27T14:56:33.416Z",
       "entries": [
         {
           "date": "2025-06-26",
@@ -5078,14 +5078,13 @@
     }
   },
   "publication": {
-    "id": "c4e0f498a4cf6590@2026-11-27T12:08:27.847Z",
-    "builtAt": "2026-11-27T12:08:27.847Z",
-    "inputHash": "c4e0f498a4cf6590",
+    "id": "113260e3bc8c4d6a@2026-11-27T15:00:40.154Z",
+    "builtAt": "2026-11-27T15:00:40.154Z",
+    "inputHash": "113260e3bc8c4d6a",
     "bundles": [
       "live",
       "snapshot",
-      "history",
-      "analysis"
+      "history"
     ]
   }
 }
