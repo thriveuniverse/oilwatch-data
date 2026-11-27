@@ -2,11 +2,11 @@
   "bundle": "live",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-27T15:00:40.154Z",
+  "builtAt": "2026-11-27T19:08:53.254Z",
   "resources": {
     "analysis-facts": {
-      "builtAt": "2026-11-27T15:00:40.154Z",
-      "inputHash": "113260e3bc8c4d6a",
+      "builtAt": "2026-11-27T19:08:53.254Z",
+      "inputHash": "6964e7f6e22a33e9",
       "effectiveVintage": "2026-08",
       "factCount": 413,
       "sources": {
@@ -25,7 +25,7 @@
           "note": "stale after 10 days (FRESHNESS.prices)"
         },
         "brent": {
-          "observedAt": "2026-11-27T14:46:26.000Z",
+          "observedAt": "2026-11-27T18:43:23.000Z",
           "cadence": "daily",
           "maxAgeHours": 96,
           "basis": "observedAt on the provider's clock (sessionDate when the provider gives no instant); null when the quote is unavailable",
@@ -612,24 +612,24 @@
         ],
         "count.diesel_price.reporting": 27,
         "brent.quote_status": "current",
-        "brent.quote_type": "intraday",
+        "brent.quote_type": "settled",
         "brent.provider": "Yahoo Finance (BZF27.NYM)",
         "brent.session_date": "2026-11-27",
         "brent.session_date_label": "27 November 2026",
-        "brent.observed_at": "2026-11-27T14:46:26.000Z",
-        "brent.price_usd": 95.26,
-        "brent.price_eur": 86.94,
+        "brent.observed_at": "2026-11-27T18:43:23.000Z",
+        "brent.price_usd": 94.55,
+        "brent.price_eur": 86.46,
         "brent.fx_status": "observed",
-        "brent.change_usd": 0.65,
-        "brent.change_pct": 0.69,
-        "trend.brent_verb": "rose"
+        "brent.change_usd": -0.06,
+        "brent.change_pct": -0.06,
+        "trend.brent_verb": "fell"
       }
     }
   },
   "publication": {
-    "id": "113260e3bc8c4d6a@2026-11-27T15:00:40.154Z",
-    "builtAt": "2026-11-27T15:00:40.154Z",
-    "inputHash": "113260e3bc8c4d6a",
+    "id": "6964e7f6e22a33e9@2026-11-27T19:08:53.254Z",
+    "builtAt": "2026-11-27T19:08:53.254Z",
+    "inputHash": "6964e7f6e22a33e9",
     "bundles": [
       "live",
       "snapshot",
