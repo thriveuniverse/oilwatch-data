@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-27T00:42:41.591Z",
+  "builtAt": "2026-11-27T01:13:05.792Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-27T00:39:05.654Z",
+      "lastUpdated": "2026-11-27T01:09:00.062Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 27,
       "countriesTotal": 27,
@@ -1922,7 +1922,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-27T00:39:10.957Z",
+      "lastUpdated": "2026-11-27T01:09:06.656Z",
       "bulletinDate": "2026-11-23",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-23)",
@@ -2151,7 +2151,7 @@
     },
     "brent": {
       "lastUpdated": "2026-11-26T19:10:01.270Z",
-      "fetchedAt": "2026-11-27T00:39:11.797Z",
+      "fetchedAt": "2026-11-27T01:09:07.693Z",
       "observedAt": null,
       "sessionDate": "2026-11-25",
       "quoteType": "settled",
@@ -2174,12 +2174,12 @@
       "rejectedQuotes": [
         "continuous BZ=F quoted $91.66 against BZF27.NYM $96.12 (4.6% apart) — BZ=F has rolled into February 2027; the named contract was published"
       ],
-      "staleReason": "Yahoo Finance (BZF27.NYM) quote is 24.7h old, beyond the 24h limit"
+      "staleReason": "Yahoo Finance (BZF27.NYM) quote is 25.2h old, beyond the 24h limit"
     }
   },
   "publication": {
-    "id": "c4e0f498a4cf6590@2026-11-27T00:42:41.591Z",
-    "builtAt": "2026-11-27T00:42:41.591Z",
+    "id": "c4e0f498a4cf6590@2026-11-27T01:13:05.792Z",
+    "builtAt": "2026-11-27T01:13:05.792Z",
     "inputHash": "c4e0f498a4cf6590",
     "bundles": [
       "live",
