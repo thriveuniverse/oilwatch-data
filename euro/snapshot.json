@@ -2,10 +2,10 @@
   "bundle": "snapshot",
   "prefix": "euro",
   "revalidate": 900,
-  "builtAt": "2026-11-28T00:44:15.205Z",
+  "builtAt": "2026-11-28T14:09:36.547Z",
   "resources": {
     "stocks": {
-      "lastUpdated": "2026-11-28T00:40:38.240Z",
+      "lastUpdated": "2026-11-28T14:05:27.439Z",
       "dataPeriod": "2026-08",
       "countriesReporting": 27,
       "countriesTotal": 27,
@@ -1922,7 +1922,7 @@
       }
     },
     "prices": {
-      "lastUpdated": "2026-11-28T00:40:43.090Z",
+      "lastUpdated": "2026-11-28T14:05:33.128Z",
       "bulletinDate": "2026-11-23",
       "bulletinDateSource": "excel-serial",
       "dataSource": "EC Weekly Oil Bulletin (2026-11-23)",
@@ -2150,8 +2150,8 @@
       }
     },
     "brent": {
-      "lastUpdated": "2026-11-28T00:40:44.205Z",
-      "fetchedAt": "2026-11-28T00:40:44.205Z",
+      "lastUpdated": "2026-11-28T14:05:34.383Z",
+      "fetchedAt": "2026-11-28T14:05:34.383Z",
       "observedAt": "2026-11-27T19:29:56.000Z",
       "sessionDate": "2026-11-27",
       "quoteType": "settled",
@@ -2171,14 +2171,12 @@
       "contract": "BZF27.NYM",
       "contractLabel": "January 2027",
       "contractExpiry": "2026-11-30",
-      "rejectedQuotes": [
-        "continuous BZ=F quoted $90.84 against BZF27.NYM $95.44 (4.8% apart) — BZ=F has rolled into February 2027; the named contract was published"
-      ]
+      "rejectedQuotes": []
     }
   },
   "publication": {
-    "id": "6964e7f6e22a33e9@2026-11-28T00:44:15.205Z",
-    "builtAt": "2026-11-28T00:44:15.205Z",
+    "id": "6964e7f6e22a33e9@2026-11-28T14:09:36.547Z",
+    "builtAt": "2026-11-28T14:09:36.547Z",
     "inputHash": "6964e7f6e22a33e9",
     "bundles": [
       "live",
