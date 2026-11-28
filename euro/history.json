@@ -2,10 +2,10 @@
   "bundle": "history",
   "prefix": "euro",
   "revalidate": 86400,
-  "builtAt": "2026-11-27T19:08:53.254Z",
+  "builtAt": "2026-11-28T00:44:15.205Z",
   "resources": {
     "history": {
-      "lastUpdated": "2026-11-27T19:05:15.869Z",
+      "lastUpdated": "2026-11-28T00:40:39.921Z",
       "periods": [
         "2025-05",
         "2025-06",
@@ -1495,9 +1495,9 @@
             },
             {
               "period": "2026-09",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 98.1,
+              "dieselDays": 57.1,
+              "jetDays": 37.5
             },
             {
               "period": "2026-10",
@@ -1609,9 +1609,9 @@
             },
             {
               "period": "2026-09",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 67.3,
+              "dieselDays": 103.7,
+              "jetDays": 107.7
             },
             {
               "period": "2026-10",
@@ -1723,9 +1723,9 @@
             },
             {
               "period": "2026-09",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 53,
+              "dieselDays": 66.9,
+              "jetDays": 45.6
             },
             {
               "period": "2026-10",
@@ -1837,9 +1837,9 @@
             },
             {
               "period": "2026-09",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 10.9,
+              "dieselDays": 103.6,
+              "jetDays": 26.1
             },
             {
               "period": "2026-10",
@@ -2065,9 +2065,9 @@
             },
             {
               "period": "2026-09",
-              "petrolDays": null,
-              "dieselDays": null,
-              "jetDays": null
+              "petrolDays": 37.7,
+              "dieselDays": 57.5,
+              "jetDays": 36.2
             },
             {
               "period": "2026-10",
@@ -3204,7 +3204,7 @@
       ]
     },
     "brent-history": {
-      "lastUpdated": "2026-11-27T19:05:21.210Z",
+      "lastUpdated": "2026-11-28T00:40:44.207Z",
       "entries": [
         {
           "date": "2025-06-27",
@@ -5079,8 +5079,8 @@
     }
   },
   "publication": {
-    "id": "6964e7f6e22a33e9@2026-11-27T19:08:53.254Z",
-    "builtAt": "2026-11-27T19:08:53.254Z",
+    "id": "6964e7f6e22a33e9@2026-11-28T00:44:15.205Z",
+    "builtAt": "2026-11-28T00:44:15.205Z",
     "inputHash": "6964e7f6e22a33e9",
     "bundles": [
       "live",
